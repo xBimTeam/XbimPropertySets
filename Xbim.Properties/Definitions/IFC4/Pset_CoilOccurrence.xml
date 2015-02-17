@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PropertySetDef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd">
+	<Name>Pset_CoilOccurrence</Name>
+	<Definition>Coil occurrence attributes attached to an instance of IfcCoil.</Definition>
+	<IfcVersion version="2x4" />
+	<ApplicableClasses>
+		<ClassName>IfcCoil</ClassName>
+	</ApplicableClasses>
+	<ApplicableTypeValue>IfcCoil</ApplicableTypeValue>
+	<PropertyDefs>
+		<PropertyDef ifdguid="789cd000d1c911e1800000215ad4efdf">
+			<Name>HasSoundAttenuation</Name>
+			<Definition>TRUE if the coil has sound attenuation, FALSE if it does not.</Definition>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcBoolean" />
+				</TypePropertySingleValue>
+			</PropertyType>
+			<NameAliases>
+				<NameAlias lang="fr-FR">PossedeCorrectionAcoustique</NameAlias>
+			</NameAliases>
+			<DefinitionAliases>
+				<DefinitionAlias lang="fr-FR">VRAI si la batterie possède une correction acoustique, FAUX si ce n'est pas le cas.</DefinitionAlias>
+			</DefinitionAliases>
+		</PropertyDef>
+	</PropertyDefs>
+	<PsetDefinitionAliases />
+</PropertySetDef>

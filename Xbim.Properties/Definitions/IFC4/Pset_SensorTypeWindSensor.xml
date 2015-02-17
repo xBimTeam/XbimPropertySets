@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PropertySetDef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd">
+	<Name>Pset_SensorTypeWindSensor</Name>
+	<Definition>A device that senses or detects wind speed and direction. HISTORY: Added in IFC4.</Definition>
+	<IfcVersion version="2x4" />
+	<ApplicableClasses>
+		<ClassName>IfcSensor/WINDSENSOR</ClassName>
+	</ApplicableClasses>
+	<ApplicableTypeValue>IfcSensor/WINDSENSOR</ApplicableTypeValue>
+	<PropertyDefs>
+		<PropertyDef ifdguid="a2c0b300d20611e1800000215ad4efdf">
+			<Name>WindSensorType</Name>
+			<Definition>Enumeration that Identifies the types of wind sensors that can be specified.</Definition>
+			<PropertyType>
+				<TypePropertyEnumeratedValue>
+					<EnumList name="PEnum_WindSensorType">
+						<EnumItem>CUP</EnumItem>
+						<EnumItem>WINDMILL</EnumItem>
+						<EnumItem>HOTWIRE</EnumItem>
+						<EnumItem>LASERDOPPLER</EnumItem>
+						<EnumItem>SONIC</EnumItem>
+						<EnumItem>PLATE</EnumItem>
+						<EnumItem>TUBE</EnumItem>
+						<EnumItem>OTHER</EnumItem>
+						<EnumItem>NOTKNOWN</EnumItem>
+						<EnumItem>UNSET</EnumItem>
+					</EnumList>
+				</TypePropertyEnumeratedValue>
+			</PropertyType>
+			<NameAliases>
+				<NameAlias lang="ja-JP">風センサータイプ</NameAlias>
+				<NameAlias lang="ko-KR">바람 센서 타입</NameAlias>
+			</NameAliases>
+			<DefinitionAliases>
+				<DefinitionAlias lang="ja-JP">明示された風センサーのタイプを識別する一覧。</DefinitionAlias>
+				<DefinitionAlias lang="ko-KR">명시된 바람 센서 유형을 식별하는 목록.</DefinitionAlias>
+			</DefinitionAliases>
+		</PropertyDef>
+		<PropertyDef ifdguid="b66c1980d20611e1800000215ad4efdf">
+			<Name>SetPointSpeed</Name>
+			<Definition>The wind speed value to be sensed. Use IfcPropertyBoundedValue.SetPointValue to set the set point value.</Definition>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcLinearVelocityMeasure" />
+				</TypePropertySingleValue>
+			</PropertyType>
+			<NameAliases>
+				<NameAlias lang="ja-JP">風速設定値</NameAlias>
+				<NameAlias lang="ko-KR">풍속 설정</NameAlias>
+			</NameAliases>
+			<DefinitionAliases>
+				<DefinitionAlias lang="ja-JP">感知される風速。
+セットポイント値を置くために、IfcPropertyBoundedValue.SetPointValueを使用する。</DefinitionAlias>
+				<DefinitionAlias lang="ko-KR">감지되는 바람. 세트 포인트 값을 넣으려면, IfcPropertyBoundedValue.SetPointValue를 사용하십시오.</DefinitionAlias>
+			</DefinitionAliases>
+		</PropertyDef>
+	</PropertyDefs>
+	<PsetDefinitionAliases>
+		<PsetDefinitionAlias lang="ja-JP">風速を感知または検出するデバイス。</PsetDefinitionAlias>
+	</PsetDefinitionAliases>
+</PropertySetDef>

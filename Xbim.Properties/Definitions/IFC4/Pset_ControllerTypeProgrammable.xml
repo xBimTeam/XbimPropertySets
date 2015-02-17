@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PropertySetDef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd">
+	<Name>Pset_ControllerTypeProgrammable</Name>
+	<Definition>Properties for Discrete Digital Control (DDC) or programmable logic controllers.  HISTORY: Added in IFC4.</Definition>
+	<IfcVersion version="2x4" />
+	<ApplicableClasses>
+		<ClassName>IfcController/PROGRAMMABLE</ClassName>
+	</ApplicableClasses>
+	<ApplicableTypeValue>IfcController/PROGRAMMABLE</ApplicableTypeValue>
+	<PropertyDefs>
+		<PropertyDef ifdguid="a126c900d1cd11e1800000215ad4efdf">
+			<Name>ControlType</Name>
+			<Definition>The type of discrete digital controller: 
+
+PRIMARY: Controller has built-in communication interface for PC connection, may manage secondary controllers.
+SECONDARY: Controller communicates with primary controller and its own managed devices.</Definition>
+			<PropertyType>
+				<TypePropertyEnumeratedValue>
+					<EnumList name="PEnum_ControllerTypeProgrammable">
+						<EnumItem>PRIMARY</EnumItem>
+						<EnumItem>SECONDARY</EnumItem>
+						<EnumItem>OTHER</EnumItem>
+						<EnumItem>NOTKNOWN</EnumItem>
+						<EnumItem>UNSET</EnumItem>
+					</EnumList>
+				</TypePropertyEnumeratedValue>
+			</PropertyType>
+			<NameAliases />
+			<DefinitionAliases />
+		</PropertyDef>
+		<PropertyDef ifdguid="ab48c780d1cd11e1800000215ad4efdf">
+			<Name>FirmwareVersion</Name>
+			<Definition>Indicates version of device firmware according to device manufacturer.</Definition>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcLabel" />
+				</TypePropertySingleValue>
+			</PropertyType>
+			<NameAliases>
+				<NameAlias lang="ko-KR">펌웨어 버전</NameAlias>
+			</NameAliases>
+			<DefinitionAliases>
+				<DefinitionAlias lang="ko-KR">컨트롤러 펌웨어 버전</DefinitionAlias>
+			</DefinitionAliases>
+		</PropertyDef>
+		<PropertyDef ifdguid="b0a61200d1cd11e1800000215ad4efdf">
+			<Name>SoftwareVersion</Name>
+			<Definition>Indicates version of application software according to systems integrator.</Definition>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcLabel" />
+				</TypePropertySingleValue>
+			</PropertyType>
+			<NameAliases>
+				<NameAlias lang="ko-KR">소프트웨어 버전</NameAlias>
+			</NameAliases>
+			<DefinitionAliases>
+				<DefinitionAlias lang="ko-KR">컨트롤러 소프트웨어 버전</DefinitionAlias>
+			</DefinitionAliases>
+		</PropertyDef>
+		<PropertyDef ifdguid="5a95c146e11d4ab09a7b5dbaa356881c">
+			<Name>Application</Name>
+			<Definition>Indicates application of controller.</Definition>
+			<PropertyType>
+				<TypePropertyEnumeratedValue>
+					<EnumList name="PEnum_ControllerApplication">
+						<EnumItem>ModemController</EnumItem>
+						<EnumItem>TelephoneDirectory</EnumItem>
+						<EnumItem>FanCoilUnitController</EnumItem>
+						<EnumItem>RoofTopUnitController</EnumItem>
+						<EnumItem>UnitVentilatorController</EnumItem>
+						<EnumItem>SpaceConfortController</EnumItem>
+						<EnumItem>VAV</EnumItem>
+						<EnumItem>PumpController</EnumItem>
+						<EnumItem>BoilerController</EnumItem>
+						<EnumItem>DischargeAirController</EnumItem>
+						<EnumItem>OccupancyController</EnumItem>
+						<EnumItem>ConstantLightController</EnumItem>
+						<EnumItem>SceneController</EnumItem>
+						<EnumItem>PartitionWallController</EnumItem>
+						<EnumItem>RealTimeKeeper</EnumItem>
+						<EnumItem>RealTimeBasedScheduler</EnumItem>
+						<EnumItem>LightingPanelController</EnumItem>
+						<EnumItem>SunblindController</EnumItem>
+						<EnumItem>OTHER</EnumItem>
+						<EnumItem>NOTKNOWN</EnumItem>
+						<EnumItem>UNSET</EnumItem>
+					</EnumList>
+				</TypePropertyEnumeratedValue>
+			</PropertyType>
+			<NameAliases />
+			<DefinitionAliases />
+		</PropertyDef>
+	</PropertyDefs>
+	<PsetDefinitionAliases />
+</PropertySetDef>

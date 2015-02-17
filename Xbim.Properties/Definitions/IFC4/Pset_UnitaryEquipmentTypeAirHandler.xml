@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PropertySetDef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd">
+	<Name>Pset_UnitaryEquipmentTypeAirHandler</Name>
+	<Definition>Air handler unitary equipment type attributes.
+Note that these attributes were formerly Pset_AirHandler prior to IFC2x2.</Definition>
+	<IfcVersion version="2x4" />
+	<ApplicableClasses>
+		<ClassName>IfcUnitaryEquipment/AIRHANDLER</ClassName>
+	</ApplicableClasses>
+	<ApplicableTypeValue>IfcUnitaryEquipment/AIRHANDLER</ApplicableTypeValue>
+	<PropertyDefs>
+		<PropertyDef ifdguid="adce1000d21311e1800000215ad4efdf">
+			<Name>AirHandlerConstruction</Name>
+			<Definition>Enumeration defining how the air handler might be fabricated.</Definition>
+			<PropertyType>
+				<TypePropertyEnumeratedValue>
+					<EnumList name="PEnum_AirHandlerConstruction">
+						<EnumItem>MANUFACTUREDITEM</EnumItem>
+						<EnumItem>CONSTRUCTEDONSITE</EnumItem>
+						<EnumItem>OTHER</EnumItem>
+						<EnumItem>NOTKNOWN</EnumItem>
+						<EnumItem>UNSET</EnumItem>
+					</EnumList>
+				</TypePropertyEnumeratedValue>
+			</PropertyType>
+			<NameAliases>
+				<NameAlias lang="ja-JP">空調機製造</NameAlias>
+			</NameAliases>
+			<DefinitionAliases>
+				<DefinitionAlias lang="ja-JP">空調機の組立方法の定義の列挙</DefinitionAlias>
+			</DefinitionAliases>
+		</PropertyDef>
+		<PropertyDef ifdguid="baeaff00d21311e1800000215ad4efdf">
+			<Name>AirHandlerFanCoilArrangement</Name>
+			<Definition>Enumeration defining the arrangement of the supply air fan and the cooling coil.</Definition>
+			<PropertyType>
+				<TypePropertyEnumeratedValue>
+					<EnumList name="PEnum_AirHandlerFanCoilArrangement">
+						<EnumItem>BLOWTHROUGH</EnumItem>
+						<EnumItem>DRAWTHROUGH</EnumItem>
+						<EnumItem>OTHER</EnumItem>
+						<EnumItem>NOTKNOWN</EnumItem>
+						<EnumItem>UNSET</EnumItem>
+					</EnumList>
+				</TypePropertyEnumeratedValue>
+			</PropertyType>
+			<NameAliases>
+				<NameAlias lang="ja-JP">空調機ファン・コイル配列</NameAlias>
+			</NameAliases>
+			<DefinitionAliases>
+				<DefinitionAlias lang="ja-JP">給気ファンと冷却コイルの配置の定義列挙</DefinitionAlias>
+			</DefinitionAliases>
+		</PropertyDef>
+		<PropertyDef ifdguid="c6d6c100d21311e1800000215ad4efdf">
+			<Name>DualDeck</Name>
+			<Definition>Does the AirHandler have a dual deck? TRUE = Yes, FALSE = No.</Definition>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcBoolean" />
+				</TypePropertySingleValue>
+			</PropertyType>
+			<NameAliases>
+				<NameAlias lang="ja-JP">2層</NameAlias>
+			</NameAliases>
+			<DefinitionAliases>
+				<DefinitionAlias lang="ja-JP">空調機は2層になっているか
+TRUE=はい、FALSE=Iいいえ</DefinitionAlias>
+			</DefinitionAliases>
+		</PropertyDef>
+	</PropertyDefs>
+	<PsetDefinitionAliases>
+		<PsetDefinitionAlias lang="ja-JP">エアハンドリングユニットのプロパティ属性設定。</PsetDefinitionAlias>
+	</PsetDefinitionAliases>
+</PropertySetDef>

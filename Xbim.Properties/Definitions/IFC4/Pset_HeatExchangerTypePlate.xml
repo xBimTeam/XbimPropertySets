@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PropertySetDef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd">
+	<Name>Pset_HeatExchangerTypePlate</Name>
+	<Definition>Plate heat exchanger type common attributes.</Definition>
+	<IfcVersion version="2x4" />
+	<ApplicableClasses>
+		<ClassName>IfcHeatExchanger/PLATE</ClassName>
+	</ApplicableClasses>
+	<ApplicableTypeValue>IfcHeatExchanger/PLATE</ApplicableTypeValue>
+	<PropertyDefs>
+		<PropertyDef ifdguid="8a8e6b00d1e911e1800000215ad4efdf">
+			<Name>NumberOfPlates</Name>
+			<Definition>Number of plates used by the plate heat exchanger.</Definition>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcInteger" />
+				</TypePropertySingleValue>
+			</PropertyType>
+			<NameAliases>
+				<NameAlias lang="ja-JP">プレート数</NameAlias>
+			</NameAliases>
+			<DefinitionAliases>
+				<DefinitionAlias lang="ja-JP">プレート式熱交換器に使われているプレート数</DefinitionAlias>
+			</DefinitionAliases>
+		</PropertyDef>
+	</PropertyDefs>
+	<PsetDefinitionAliases />
+</PropertySetDef>

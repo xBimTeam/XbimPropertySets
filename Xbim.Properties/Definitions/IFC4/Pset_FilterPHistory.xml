@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PropertySetDef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd">
+	<Name>Pset_FilterPHistory</Name>
+	<Definition>Filter performance history attributes.</Definition>
+	<IfcVersion version="2x4" />
+	<ApplicableClasses>
+		<ClassName>IfcFilter</ClassName>
+	</ApplicableClasses>
+	<ApplicableTypeValue>IfcFilter</ApplicableTypeValue>
+	<PropertyDefs>
+		<PropertyDef ifdguid="35505a80d1e511e1800000215ad4efdf">
+			<Name>CountedEfficiency</Name>
+			<Definition>Filter efficiency based the particle counts concentration before and after filter against particles with certain size distribution.</Definition>
+			<PropertyType>
+				<TypePropertyReferenceValue reftype="IfcTimeSeries">
+					<DataType type="IfcReal" />
+				</TypePropertyReferenceValue>
+			</PropertyType>
+			<NameAliases />
+			<DefinitionAliases />
+		</PropertyDef>
+		<PropertyDef ifdguid="397c7800d1e511e1800000215ad4efdf">
+			<Name>WeightedEfficiency</Name>
+			<Definition>Filter efficiency based the particle weight concentration before and after filter against particles with certain size distribution.</Definition>
+			<PropertyType>
+				<TypePropertyReferenceValue reftype="IfcTimeSeries">
+					<DataType type="IfcReal" />
+				</TypePropertyReferenceValue>
+			</PropertyType>
+			<NameAliases />
+			<DefinitionAliases />
+		</PropertyDef>
+		<PropertyDef ifdguid="3c776880d1e511e1800000215ad4efdf">
+			<Name>ParticleMassHolding</Name>
+			<Definition>Mass of particle holding in the filter.</Definition>
+			<PropertyType>
+				<TypePropertyReferenceValue reftype="IfcTimeSeries">
+					<DataType type="IfcMassMeasure" />
+				</TypePropertyReferenceValue>
+			</PropertyType>
+			<NameAliases />
+			<DefinitionAliases />
+		</PropertyDef>
+	</PropertyDefs>
+	<PsetDefinitionAliases />
+</PropertySetDef>

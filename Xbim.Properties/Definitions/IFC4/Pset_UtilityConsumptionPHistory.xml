@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PropertySetDef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd">
+	<Name>Pset_UtilityConsumptionPHistory</Name>
+	<Definition>Consumption of utility resources, typically applied to the IfcBuilding instance, used to identify how much was consumed on I.e., a monthly basis.</Definition>
+	<IfcVersion version="2x4" />
+	<ApplicableClasses>
+		<ClassName>IfcBuilding</ClassName>
+	</ApplicableClasses>
+	<ApplicableTypeValue>IfcBuilding</ApplicableTypeValue>
+	<PropertyDefs>
+		<PropertyDef ifdguid="eec62480d21311e1800000215ad4efdf">
+			<Name>Heat</Name>
+			<Definition>The amount of heat energy consumed during the period specified in the time series.</Definition>
+			<PropertyType>
+				<TypePropertyReferenceValue reftype="IfcTimeSeries">
+					<DataType type="IfcEnergyMeasure" />
+				</TypePropertyReferenceValue>
+			</PropertyType>
+			<NameAliases>
+				<NameAlias lang="ko-KR">열 소비량</NameAlias>
+			</NameAliases>
+			<DefinitionAliases>
+				<DefinitionAlias lang="ko-KR">특정 기간 동안의 열 소비.</DefinitionAlias>
+			</DefinitionAliases>
+		</PropertyDef>
+		<PropertyDef ifdguid="f1c11500d21311e1800000215ad4efdf">
+			<Name>Electricity</Name>
+			<Definition>The amount of electricity consumed during the period specified in the time series.</Definition>
+			<PropertyType>
+				<TypePropertyReferenceValue reftype="IfcTimeSeries">
+					<DataType type="IfcEnergyMeasure" />
+				</TypePropertyReferenceValue>
+			</PropertyType>
+			<NameAliases>
+				<NameAlias lang="ko-KR">전력 소비량</NameAlias>
+			</NameAliases>
+			<DefinitionAliases>
+				<DefinitionAlias lang="ko-KR">특정 기간 동안의 전력 소비.</DefinitionAlias>
+			</DefinitionAliases>
+		</PropertyDef>
+		<PropertyDef ifdguid="f4bc0580d21311e1800000215ad4efdf">
+			<Name>Water</Name>
+			<Definition>The amount of water consumed during the period specified in the time series.</Definition>
+			<PropertyType>
+				<TypePropertyReferenceValue reftype="IfcTimeSeries">
+					<DataType type="IfcVolumeMeasure" />
+				</TypePropertyReferenceValue>
+			</PropertyType>
+			<NameAliases>
+				<NameAlias lang="ko-KR">물소비</NameAlias>
+			</NameAliases>
+			<DefinitionAliases>
+				<DefinitionAlias lang="ko-KR">특정 기간 동안 물 소비.</DefinitionAlias>
+			</DefinitionAliases>
+		</PropertyDef>
+		<PropertyDef ifdguid="f7b6f600d21311e1800000215ad4efdf">
+			<Name>Fuel</Name>
+			<Definition>The amount of fuel consumed during the period specified in the time series.</Definition>
+			<PropertyType>
+				<TypePropertyReferenceValue reftype="IfcTimeSeries">
+					<DataType type="IfcVolumeMeasure" />
+				</TypePropertyReferenceValue>
+			</PropertyType>
+			<NameAliases>
+				<NameAlias lang="ko-KR">연료 소비량</NameAlias>
+			</NameAliases>
+			<DefinitionAliases>
+				<DefinitionAlias lang="ko-KR">특정 기간 동안의 연료 소비.</DefinitionAlias>
+			</DefinitionAliases>
+		</PropertyDef>
+		<PropertyDef ifdguid="fab1e680d21311e1800000215ad4efdf">
+			<Name>Steam</Name>
+			<Definition>The amount of steam consumed during the period specified in the time series.</Definition>
+			<PropertyType>
+				<TypePropertyReferenceValue reftype="IfcTimeSeries">
+					<DataType type="IfcMassMeasure" />
+				</TypePropertyReferenceValue>
+			</PropertyType>
+			<NameAliases>
+				<NameAlias lang="ko-KR">증기소비량</NameAlias>
+			</NameAliases>
+			<DefinitionAliases>
+				<DefinitionAlias lang="ko-KR">특정 기간 동안 증기 소비.</DefinitionAlias>
+			</DefinitionAliases>
+		</PropertyDef>
+	</PropertyDefs>
+	<PsetDefinitionAliases />
+</PropertySetDef>

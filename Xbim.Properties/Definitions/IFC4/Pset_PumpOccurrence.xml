@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PropertySetDef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd">
+	<Name>Pset_PumpOccurrence</Name>
+	<Definition>Pump occurrence attributes attached to an instance of IfcPump.</Definition>
+	<IfcVersion version="2x4" />
+	<ApplicableClasses>
+		<ClassName>IfcPump</ClassName>
+	</ApplicableClasses>
+	<ApplicableTypeValue>IfcPump</ApplicableTypeValue>
+	<PropertyDefs>
+		<PropertyDef ifdguid="7dc84200d1fe11e1800000215ad4efdf">
+			<Name>ImpellerDiameter</Name>
+			<Definition>Diameter of pump impeller - used to scale performance of geometrically similar pumps.</Definition>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcPositiveLengthMeasure" />
+				</TypePropertySingleValue>
+			</PropertyType>
+			<NameAliases>
+				<NameAlias lang="ja-JP">羽根直径</NameAlias>
+			</NameAliases>
+			<DefinitionAliases>
+				<DefinitionAlias lang="ja-JP">幾何学的に似たポンプの性能を予測するのに使われる。</DefinitionAlias>
+			</DefinitionAliases>
+		</PropertyDef>
+		<PropertyDef ifdguid="8587e680d1fe11e1800000215ad4efdf">
+			<Name>BaseType</Name>
+			<Definition>Defines general types of pump bases.
+
+FRAME: Frame. 
+BASE: Base. 
+NONE: There is no pump base, such as an inline pump. 
+OTHER: Other type of pump base.</Definition>
+			<PropertyType>
+				<TypePropertyEnumeratedValue>
+					<EnumList name="PEnum_PumpBaseType">
+						<EnumItem>FRAME</EnumItem>
+						<EnumItem>BASE</EnumItem>
+						<EnumItem>NONE</EnumItem>
+						<EnumItem>OTHER</EnumItem>
+						<EnumItem>NOTKNOWN</EnumItem>
+						<EnumItem>UNSET</EnumItem>
+					</EnumList>
+				</TypePropertyEnumeratedValue>
+			</PropertyType>
+			<NameAliases>
+				<NameAlias lang="ja-JP">基礎タイプ</NameAlias>
+			</NameAliases>
+			<DefinitionAliases>
+				<DefinitionAlias lang="ja-JP">ポンプ基礎の一般的な型を定義する(フレーム、(コンクリ)基礎、なし、その他)</DefinitionAlias>
+			</DefinitionAliases>
+		</PropertyDef>
+		<PropertyDef ifdguid="92a4d580d1fe11e1800000215ad4efdf">
+			<Name>DriveConnectionType</Name>
+			<Definition>The way the pump drive mechanism is connected to the pump.
+
+DIRECTDRIVE: Direct drive. 
+BELTDRIVE: Belt drive. 
+COUPLING: Coupling. 
+OTHER: Other type of drive connection.</Definition>
+			<PropertyType>
+				<TypePropertyEnumeratedValue>
+					<EnumList name="PEnum_PumpDriveConnectionType">
+						<EnumItem>DIRECTDRIVE</EnumItem>
+						<EnumItem>BELTDRIVE</EnumItem>
+						<EnumItem>COUPLING</EnumItem>
+						<EnumItem>OTHER</EnumItem>
+						<EnumItem>NOTKNOWN</EnumItem>
+						<EnumItem>UNSET</EnumItem>
+					</EnumList>
+				</TypePropertyEnumeratedValue>
+			</PropertyType>
+			<NameAliases>
+				<NameAlias lang="ja-JP">駆動接続タイプ</NameAlias>
+			</NameAliases>
+			<DefinitionAliases>
+				<DefinitionAlias lang="ja-JP">ポンプの動力機械がポンプに接続される方法(直動、ベルト、カップリング、その他)</DefinitionAlias>
+			</DefinitionAliases>
+		</PropertyDef>
+	</PropertyDefs>
+	<PsetDefinitionAliases />
+</PropertySetDef>

@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PropertySetDef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd">
+	<Name>Pset_DoorWindowShadingType</Name>
+	<Definition>Properties common to the definition of the shading component of occurrences of IfcDoor and IfcWindow, used for static (simplified) shading calculations.</Definition>
+	<IfcVersion version="2x4" />
+	<ApplicableClasses>
+		<ClassName>IfcDoor</ClassName>
+		<ClassName> IfcWindow</ClassName>
+	</ApplicableClasses>
+	<ApplicableTypeValue>IfcDoor, IfcWindow</ApplicableTypeValue>
+	<PropertyDefs>
+		<PropertyDef ifdguid="a8ee6980d1dd11e1800000215ad4efdf">
+			<Name>ShadingCoefficient</Name>
+			<Definition>Reduction of the Solar Heat Gain Coefficient (SHGC) value (equal to the g-value in Europe) of the glazing by applying a shading device. Commonly known as Fc (or previously z-Value). The total Radiation Transmittance g&lt;total&gt; = g * Fc. The reduction coefficient is given as a unitless value between 0 and 1; the lower the shading coefficient (SC) the less solar heat it transmits.</Definition>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcNormalisedRatioMeasure" />
+				</TypePropertySingleValue>
+			</PropertyType>
+			<NameAliases>
+				<NameAlias lang="fr-FR">FacteurSolaire</NameAlias>
+				<NameAlias lang="zh-CN">折减系数</NameAlias>
+				<NameAlias lang="de-DE">German-name-0</NameAlias>
+			</NameAliases>
+			<DefinitionAliases>
+				<DefinitionAlias lang="fr-FR">Réduction du coefficient de transmission énergétique solaire du vitrage (SHGC, noté g en Europe) du fait de l'application d'un pare-soleil. Communément appelé Fc (ou précédemment Valeur-z). Coefficient de transmission du rayonnement total g&lt;total&gt; = g * Fc. Le coefficient de réduction est adimensionnel et sa valeur est comprise entre 0 et 1 ; plus la valeur de SC est petite, plus faible est la transmission d'énergie solaire.</DefinitionAlias>
+				<DefinitionAlias lang="zh-CN">采用遮阳设备后玻璃的太阳能得热系数（SHGC值，在欧洲等于g值）的折减，又称为Fc（或z值）。总辐射透射率
+g&lt;total&gt; = g*Fc。
+折减系数为一个大于0小于1的无单位数，该值越小表示传递的太阳热量越小。</DefinitionAlias>
+				<DefinitionAlias lang="de-DE">German-description-0</DefinitionAlias>
+			</DefinitionAliases>
+		</PropertyDef>
+		<PropertyDef ifdguid="adb31d80d1dd11e1800000215ad4efdf">
+			<Name>ExternalShadingCoefficient</Name>
+			<Definition>Radiation transmission coefficient of the outside shading device. It is a value without unit.</Definition>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcPositiveRatioMeasure" />
+				</TypePropertySingleValue>
+			</PropertyType>
+			<NameAliases>
+				<NameAlias lang="fr-FR">CoefficientMasqueExterieur</NameAlias>
+				<NameAlias lang="zh-CN">外部遮阳系数</NameAlias>
+				<NameAlias lang="de-DE">German-name-1</NameAlias>
+			</NameAliases>
+			<DefinitionAliases>
+				<DefinitionAlias lang="fr-FR">Coefficient de transmission du rayonnement de la protection solaire extérieure. Valeur adimensionnelle.</DefinitionAlias>
+				<DefinitionAlias lang="zh-CN">外部遮阳设备的辐射透射系数。无单位。</DefinitionAlias>
+				<DefinitionAlias lang="de-DE">German-description-1</DefinitionAlias>
+			</DefinitionAliases>
+		</PropertyDef>
+		<PropertyDef ifdguid="b277d180d1dd11e1800000215ad4efdf">
+			<Name>InternalShadingCoefficient</Name>
+			<Definition>Radiation transmission coefficient of the inside shading device, symbol "b-value". It is a value without unit.</Definition>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcPositiveRatioMeasure" />
+				</TypePropertySingleValue>
+			</PropertyType>
+			<NameAliases>
+				<NameAlias lang="fr-FR">CoefficientMasqueInterieur</NameAlias>
+				<NameAlias lang="zh-CN">内部遮阳系数</NameAlias>
+				<NameAlias lang="de-DE">German-name-2</NameAlias>
+			</NameAliases>
+			<DefinitionAliases>
+				<DefinitionAlias lang="fr-FR">Coefficient de transmission du rayonnement de la protection solaire intérieure, symbole "Valeur-b". Valeur adimensionnelle.</DefinitionAlias>
+				<DefinitionAlias lang="zh-CN">内部遮阳设备的辐射透射系数，符号为b值。无单位。</DefinitionAlias>
+				<DefinitionAlias lang="de-DE">German-description-2</DefinitionAlias>
+			</DefinitionAliases>
+		</PropertyDef>
+		<PropertyDef ifdguid="b6a3ef00d1dd11e1800000215ad4efdf">
+			<Name>InsetShadingCoefficient</Name>
+			<Definition>Radiation transmission coefficient of the shading device inside the glazing, symbol "b-value". It is a value without unit.</Definition>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcPositiveRatioMeasure" />
+				</TypePropertySingleValue>
+			</PropertyType>
+			<NameAliases>
+				<NameAlias lang="fr-FR">CoefficientMasqueIntegre</NameAlias>
+				<NameAlias lang="zh-CN">内嵌遮阳系数</NameAlias>
+				<NameAlias lang="de-DE">German-name-3</NameAlias>
+			</NameAliases>
+			<DefinitionAliases>
+				<DefinitionAlias lang="fr-FR">Coefficient de transmission du rayonnement de la protection solaire intégrée au vitrage, symbole "Valeur-b". Valeur adimensionnelle.</DefinitionAlias>
+				<DefinitionAlias lang="zh-CN">玻璃内嵌的遮阳设备的辐射透射系数，符号为b值。无单位。</DefinitionAlias>
+				<DefinitionAlias lang="de-DE">German-description-3</DefinitionAlias>
+			</DefinitionAliases>
+		</PropertyDef>
+	</PropertyDefs>
+	<PsetDefinitionAliases>
+		<PsetDefinitionAlias lang="fr-FR">Définition de l'IAI : propriétés communes à la définition de l'élément de protection solaire des instances des classes IfcDoor et IfcWindow, utilisées pour des calculs statiques (simplifiés) de protection solaire.</PsetDefinitionAlias>
+		<PsetDefinitionAlias lang="zh-CN">IfcDoor和IfcWindow实例的遮阳构件定义中通用的属性，用于静态（简化）遮阳计算。</PsetDefinitionAlias>
+	</PsetDefinitionAliases>
+</PropertySetDef>

@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PropertySetDef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd">
+	<Name>Pset_SanitaryTerminalTypeSanitaryFountain</Name>
+	<Definition>Asanitary terminal that provides a low pressure jet of water for a specific purpose (IAI). HISTORY: In IFC4, Material property removed. Use materials capabilities from IfcMaterialsResource schema. Datatype of color changed to IfcLabel (still a string value).</Definition>
+	<IfcVersion version="2x4" />
+	<ApplicableClasses>
+		<ClassName>IfcSanitaryTerminal/SANITARYFOUNTAIN</ClassName>
+	</ApplicableClasses>
+	<ApplicableTypeValue>IfcSanitaryTerminal/SANITARYFOUNTAIN</ApplicableTypeValue>
+	<PropertyDefs>
+		<PropertyDef ifdguid="bb2ece80d20211e1800000215ad4efdf">
+			<Name>FountainType</Name>
+			<Definition>Selection of the type of fountain from the enumerated list of types where:-
+
+DrinkingWater: 	Sanitary appliance that provides a low pressure jet of drinking water.
+Eyewash: 	Waste water appliance, usually installed in work places where there is a risk of injury to eyes by solid particles or dangerous liquids, with which the user can wash the eyes without touching them.</Definition>
+			<PropertyType>
+				<TypePropertyEnumeratedValue>
+					<EnumList name="PEnum_FountainType">
+						<EnumItem>DRINKINGWATER</EnumItem>
+						<EnumItem>EYEWASH</EnumItem>
+						<EnumItem>OTHER</EnumItem>
+						<EnumItem>NOTKNOWN</EnumItem>
+						<EnumItem>UNSET</EnumItem>
+					</EnumList>
+				</TypePropertyEnumeratedValue>
+			</PropertyType>
+			<NameAliases>
+				<NameAlias lang="ja-JP">噴水タイプ</NameAlias>
+			</NameAliases>
+			<DefinitionAliases>
+				<DefinitionAlias lang="ja-JP">噴水タイプの選択：
+
+・飲用水：飲用水を低圧で供給するための衛生器具
+・洗眼器：廃水器具で、通常は個体の粒子か危険な液体による眼への障害の危険がある作業場所に設置され、使用者はそれらに触れずに目を洗うことができる。</DefinitionAlias>
+			</DefinitionAliases>
+		</PropertyDef>
+		<PropertyDef ifdguid="c7b32700d20211e1800000215ad4efdf">
+			<Name>Mounting</Name>
+			<Definition>Selection of the form of mounting of the fountain from the enumerated list of mountings where:-
+
+BackToWall: 	A pedestal mounted sanitary terminal that fits flush to the wall at the rear to cover its service connections.
+Pedestal: 	A floor mounted sanitary terminal that has an integral base
+.
+CounterTop: 	A sanitary terminal that is installed into a horizontal surface that is installed into a horizontal surface. Note: When applied to a wash hand basin, the term more normally used is ‘vanity’. See also Wash Hand Basin Type specification.
+WallHung: 	A sanitary terminal cantilevered clear of the floor.</Definition>
+			<PropertyType>
+				<TypePropertyEnumeratedValue>
+					<EnumList name="PEnum_SanitaryMounting">
+						<EnumItem>BACKTOWALL</EnumItem>
+						<EnumItem>PEDESTAL</EnumItem>
+						<EnumItem>COUNTERTOP</EnumItem>
+						<EnumItem>WALLHUNG</EnumItem>
+						<EnumItem>OTHER</EnumItem>
+						<EnumItem>NOTKNOWN</EnumItem>
+						<EnumItem>UNSET</EnumItem>
+					</EnumList>
+				</TypePropertyEnumeratedValue>
+			</PropertyType>
+			<NameAliases>
+				<NameAlias lang="ja-JP">設置</NameAlias>
+			</NameAliases>
+			<DefinitionAliases>
+				<DefinitionAlias lang="ja-JP">設置場所の選択：
+
+・床置き壁排出：接続口の後部に出水口を合わせること。
+・台：床置きの衛生器具には基礎があること。
+・調理台：衛生器具の表層が水平に設置されていること。※手洗い台として設置された場合「化粧台」として扱うこと。また、洗面台種類の規格表を参照のこと。
+・壁掛け型：衛生器具は片側固定がされ床から離れていること。</DefinitionAlias>
+			</DefinitionAliases>
+		</PropertyDef>
+		<PropertyDef ifdguid="d7327000d20211e1800000215ad4efdf">
+			<Name>NominalLength</Name>
+			<Definition>Nominal or quoted length of the object.</Definition>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcPositiveLengthMeasure" />
+				</TypePropertySingleValue>
+			</PropertyType>
+			<NameAliases>
+				<NameAlias lang="ja-JP">長さ</NameAlias>
+			</NameAliases>
+			<DefinitionAliases>
+				<DefinitionAlias lang="ja-JP">要素の長さ。</DefinitionAlias>
+			</DefinitionAliases>
+		</PropertyDef>
+		<PropertyDef ifdguid="df8aab00d20211e1800000215ad4efdf">
+			<Name>NominalWidth</Name>
+			<Definition>Nominal or quoted width of the object.</Definition>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcPositiveLengthMeasure" />
+				</TypePropertySingleValue>
+			</PropertyType>
+			<NameAliases>
+				<NameAlias lang="ja-JP">幅</NameAlias>
+			</NameAliases>
+			<DefinitionAliases>
+				<DefinitionAlias lang="ja-JP">要素の幅。</DefinitionAlias>
+			</DefinitionAliases>
+		</PropertyDef>
+		<PropertyDef ifdguid="e87b7c80d20211e1800000215ad4efdf">
+			<Name>NominalDepth</Name>
+			<Definition>Nominal or quoted depth of the object.</Definition>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcPositiveLengthMeasure" />
+				</TypePropertySingleValue>
+			</PropertyType>
+			<NameAliases>
+				<NameAlias lang="ja-JP">深さ</NameAlias>
+			</NameAliases>
+			<DefinitionAliases>
+				<DefinitionAlias lang="ja-JP">要素の深さ。</DefinitionAlias>
+			</DefinitionAliases>
+		</PropertyDef>
+		<PropertyDef ifdguid="f0d3b780d20211e1800000215ad4efdf">
+			<Name>Color</Name>
+			<Definition>Color selection for this object.</Definition>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcLabel" />
+				</TypePropertySingleValue>
+			</PropertyType>
+			<NameAliases>
+				<NameAlias lang="ja-JP">色</NameAlias>
+			</NameAliases>
+			<DefinitionAliases>
+				<DefinitionAlias lang="ja-JP">要素の色。</DefinitionAlias>
+			</DefinitionAliases>
+		</PropertyDef>
+		<PropertyDef ifdguid="f8935c00d20211e1800000215ad4efdf">
+			<Name>DrainSize</Name>
+			<Definition>The size of the drain outlet connection from the object.</Definition>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcPositiveLengthMeasure" />
+				</TypePropertySingleValue>
+			</PropertyType>
+			<NameAliases>
+				<NameAlias lang="ja-JP">下水管サイズ</NameAlias>
+			</NameAliases>
+			<DefinitionAliases>
+				<DefinitionAlias lang="ja-JP">要素から排水溝への下水管サイズ。</DefinitionAlias>
+			</DefinitionAliases>
+		</PropertyDef>
+	</PropertyDefs>
+	<PsetDefinitionAliases>
+		<PsetDefinitionAlias lang="ja-JP">特定の使用用途の水を低圧で供給する衛生機器
+背景：IFC4で、要素のプロパティーは排除されています。IfcMaterialsResourceのタイプを使ってください。
+色のデータ形式は文字列としてIfcLabelに変更されています。</PsetDefinitionAlias>
+	</PsetDefinitionAliases>
+</PropertySetDef>

@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PropertySetDef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd">
+	<Name>Pset_OpeningElementCommon</Name>
+	<Definition>Properties common to the definition of all instances of IfcOpeningElement.</Definition>
+	<IfcVersion version="2x4" />
+	<ApplicableClasses>
+		<ClassName>IfcOpeningElement</ClassName>
+	</ApplicableClasses>
+	<ApplicableTypeValue>IfcOpeningElement</ApplicableTypeValue>
+	<PropertyDefs>
+		<PropertyDef ifdguid="a72ea100d1f111e1800000215ad4efdf">
+			<Name>Reference</Name>
+			<Definition>Reference ID for this specified type in this project (e.g. type 'A-1'). Used to store the non-classification driven internal construction type.</Definition>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcIdentifier" />
+				</TypePropertySingleValue>
+			</PropertyType>
+			<NameAliases>
+				<NameAlias lang="de-DE">Referenz ID</NameAlias>
+				<NameAlias lang="fr-FR">Reference</NameAlias>
+				<NameAlias lang="ja-JP">参照記号</NameAlias>
+				<NameAlias lang="ko-KR">참조ID</NameAlias>
+			</NameAliases>
+			<DefinitionAliases>
+				<DefinitionAlias lang="de-DE">Wird verwendet, wenn keine allgemein anerkanntes Klassifizierungssystem angewandt wird.</DefinitionAlias>
+				<DefinitionAlias lang="fr-FR">Référence à l'identifiant d'un type spécifié dans le contexte du projet (exemple : "type A1"). Utilisé pour enregistrer un type sans recourir à une classification.</DefinitionAlias>
+				<DefinitionAlias lang="ja-JP">このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。</DefinitionAlias>
+				<DefinitionAlias lang="ko-KR">프로젝트의 참조 ID (예 : A-1). 분류 코드가 아닌 내부에서 사용되는 프로젝트 형식으로 사용됩니다.</DefinitionAlias>
+			</DefinitionAliases>
+		</PropertyDef>
+		<PropertyDef ifdguid="ad248200d1f111e1800000215ad4efdf">
+			<Name>Status</Name>
+			<Definition>Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as "New" - element designed as new addition, "Existing" - element exists and remains, "Demolish" - element existed but is to be demolished,  "Temporary" - element will exists only temporary (like a temporary support structure).</Definition>
+			<PropertyType>
+				<TypePropertyEnumeratedValue>
+					<EnumList name="PEnum_ElementStatus">
+						<EnumItem>NEW</EnumItem>
+						<EnumItem>EXISTING</EnumItem>
+						<EnumItem>DEMOLISH</EnumItem>
+						<EnumItem>TEMPORARY</EnumItem>
+						<EnumItem>OTHER</EnumItem>
+						<EnumItem>NOTKNOWN</EnumItem>
+						<EnumItem>UNSET</EnumItem>
+					</EnumList>
+				</TypePropertyEnumeratedValue>
+			</PropertyType>
+			<NameAliases>
+				<NameAlias lang="de-DE">Status</NameAlias>
+				<NameAlias lang="ja-JP">状態</NameAlias>
+				<NameAlias lang="fr-FR">Statut</NameAlias>
+			</NameAliases>
+			<DefinitionAliases>
+				<DefinitionAlias lang="de-DE">Status bzw. Phase des Bauteils insbesondere beim Bauen im Bestand. "Neu" (new) neues Bauteil als Ergänzung, "Bestand" (existing) bestehendes Bauteil, dass erhalten bleibt, "Abbruch" (demolish) Bauteil, das abgebrochen wird, "Temporär" (temporary) Bauteil und andere Bauelemente, die vorübergehend eingebaut werden (wie Abstützungen, etc.)</DefinitionAlias>
+				<DefinitionAlias lang="ja-JP">要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。</DefinitionAlias>
+				<DefinitionAlias lang="fr-FR">Statut de l'élément, principalement utilisé dans les projets de rénovation et de réhabilitation. Le statut a pour valeur NOUVEAU pour un nouvel élément, EXISTANT pour un élément existant qui est conservé, DEMOLI pour un élément existant à démolir et TEMPORAIRE pour un élément temporaire (comme une structure support provisoire).</DefinitionAlias>
+			</DefinitionAliases>
+		</PropertyDef>
+		<PropertyDef ifdguid="bada0780d1f111e1800000215ad4efdf">
+			<Name>Purpose</Name>
+			<Definition>Indication of the purpose for that opening, e.g. 'ventilation', 'access', etc.</Definition>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcLabel" />
+				</TypePropertySingleValue>
+			</PropertyType>
+			<NameAliases>
+				<NameAlias lang="ja-JP">目的</NameAlias>
+				<NameAlias lang="fr-FR">Motif</NameAlias>
+			</NameAliases>
+			<DefinitionAliases>
+				<DefinitionAlias lang="ja-JP">開口の目的を示す文字列。例："ventilation"（換気）、"access"（通行）など。</DefinitionAlias>
+				<DefinitionAlias lang="fr-FR">Indication du motif de l'ouverture (ventilation, accès, etc.).</DefinitionAlias>
+			</DefinitionAliases>
+		</PropertyDef>
+		<PropertyDef ifdguid="c0cfe880d1f111e1800000215ad4efdf">
+			<Name>FireExit</Name>
+			<Definition>Indication whether this object is designed to serve as an exit in the case of fire (TRUE) or not (FALSE).
+Here whether the space (in case of e.g., a corridor) is designed to serve as an exit space, e.g., for fire escape purposes.</Definition>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcBoolean" />
+				</TypePropertySingleValue>
+			</PropertyType>
+			<NameAliases>
+				<NameAlias lang="ja-JP">非常口区分</NameAlias>
+				<NameAlias lang="fr-FR">Sortie de secours</NameAlias>
+			</NameAliases>
+			<DefinitionAliases>
+				<DefinitionAlias lang="ja-JP">このオブジェクト（開口）が火災の場合に出口として使われるように設計されているかどうかを示すブーリアン値。(TRUE)はい、(FALSE)いいえ。
+ここに、空間(例えば廊下)は、例えば火災避難目的のために出口空間として使われるよう設計されているかどうか。</DefinitionAlias>
+				<DefinitionAlias lang="fr-FR">Indique si cet objet est conçu pour servir de sortie en cas d'incendie (VRAI) ou non (FAUX).</DefinitionAlias>
+			</DefinitionAliases>
+		</PropertyDef>
+		<PropertyDef ifdguid="c7f6f680d1f111e1800000215ad4efdf">
+			<Name>ProtectedOpening</Name>
+			<Definition>Indication whether the opening is considered to be protected under fire safety considerations. If (TRUE) it counts as a protected opening under the applicable building code, (FALSE) otherwise.</Definition>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcBoolean" />
+				</TypePropertySingleValue>
+			</PropertyType>
+			<NameAliases>
+				<NameAlias lang="ja-JP">保護</NameAlias>
+				<NameAlias lang="fr-FR">Ouverture avec protection incendie</NameAlias>
+			</NameAliases>
+			<DefinitionAliases>
+				<DefinitionAlias lang="ja-JP">開港が安全性を考慮した保護機能があるかどうかを示すブーリアン値。適用される建築基準などにより保護されている場合(TRUE)、そうではない場合(FALSE）となる。</DefinitionAlias>
+				<DefinitionAlias lang="fr-FR">Indique si l'ouverture fait l'objet d'une protection incendie. Si (VRAI) elle est considérée comme une ouverture avec protection conformément à la règlementation applicable, (FAUX) sinon.</DefinitionAlias>
+			</DefinitionAliases>
+		</PropertyDef>
+	</PropertyDefs>
+	<PsetDefinitionAliases>
+		<PsetDefinitionAlias lang="de-DE">Property Set Definition in German</PsetDefinitionAlias>
+		<PsetDefinitionAlias lang="fr-FR">Définition de l'IAI : propriétés communes à la définition de toutes les occurrences de la classe IfcOpeningElement</PsetDefinitionAlias>
+		<PsetDefinitionAlias lang="ja-JP">IfcOpeningElementに関する共通プロパティセット定義。</PsetDefinitionAlias>
+	</PsetDefinitionAliases>
+</PropertySetDef>

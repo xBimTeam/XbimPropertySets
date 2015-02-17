@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PropertySetDef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd">
+	<Name>Pset_ManufacturerOccurrence</Name>
+	<Definition>Defines properties of individual instances of manufactured products that may be given by the manufacturer.
+HISTORY: IFC 2x4: AssemblyPlace property added. This property does not need to be asserted if Pset_ManufacturerTypeInformation is allocated to the type and the AssemblyPlace property is asserted there.</Definition>
+	<IfcVersion version="2x4" />
+	<ApplicableClasses>
+		<ClassName>IfcElement</ClassName>
+	</ApplicableClasses>
+	<ApplicableTypeValue>IfcElement</ApplicableTypeValue>
+	<PropertyDefs>
+		<PropertyDef ifdguid="4bade480d1ec11e1800000215ad4efdf">
+			<Name>AcquisitionDate</Name>
+			<Definition>The date that the manufactured item was purchased.</Definition>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcDate" />
+				</TypePropertySingleValue>
+			</PropertyType>
+			<NameAliases />
+			<DefinitionAliases />
+		</PropertyDef>
+		<PropertyDef ifdguid="510b2f00d1ec11e1800000215ad4efdf">
+			<Name>BarCode</Name>
+			<Definition>The identity of the bar code given to an occurrence of the product.</Definition>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcIdentifier" />
+				</TypePropertySingleValue>
+			</PropertyType>
+			<NameAliases />
+			<DefinitionAliases />
+		</PropertyDef>
+		<PropertyDef ifdguid="56687980d1ec11e1800000215ad4efdf">
+			<Name>SerialNumber</Name>
+			<Definition>The serial number assigned to an occurrence of a product.</Definition>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcIdentifier" />
+				</TypePropertySingleValue>
+			</PropertyType>
+			<NameAliases />
+			<DefinitionAliases />
+		</PropertyDef>
+		<PropertyDef ifdguid="5c5e5a80d1ec11e1800000215ad4efdf">
+			<Name>BatchReference</Name>
+			<Definition>The identity of the batch reference from which an occurrence of a product is taken.</Definition>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcIdentifier" />
+				</TypePropertySingleValue>
+			</PropertyType>
+			<NameAliases />
+			<DefinitionAliases />
+		</PropertyDef>
+		<PropertyDef ifdguid="62543b80d1ec11e1800000215ad4efdf">
+			<Name>AssemblyPlace</Name>
+			<Definition>Enumeration defining where the assembly is intended to take place, either in a factory, other offsite location or on the building site.</Definition>
+			<PropertyType>
+				<TypePropertyEnumeratedValue>
+					<EnumList name="PEnum_AssemblyPlace">
+						<EnumItem>FACTORY</EnumItem>
+						<EnumItem>OFFSITE</EnumItem>
+						<EnumItem>SITE</EnumItem>
+						<EnumItem>OTHER</EnumItem>
+						<EnumItem>NOTKNOWN</EnumItem>
+						<EnumItem>UNSET</EnumItem>
+					</EnumList>
+				</TypePropertyEnumeratedValue>
+			</PropertyType>
+			<NameAliases />
+			<DefinitionAliases />
+		</PropertyDef>
+	</PropertyDefs>
+	<PsetDefinitionAliases />
+</PropertySetDef>

@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PropertySetDef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd">
+	<Name>Pset_AirTerminalOccurrence</Name>
+	<Definition>Air terminal occurrence attributes attached to an instance of IfcAirTerminal.</Definition>
+	<IfcVersion version="2x4" />
+	<ApplicableClasses>
+		<ClassName>IfcAirTerminal</ClassName>
+	</ApplicableClasses>
+	<ApplicableTypeValue>IfcAirTerminal</ApplicableTypeValue>
+	<PropertyDefs>
+		<PropertyDef ifdguid="00311180d1bf11e1800000215ad4efdf">
+			<Name>AirflowType</Name>
+			<Definition>Enumeration defining the functional type of air flow through the terminal.</Definition>
+			<PropertyType>
+				<TypePropertyEnumeratedValue>
+					<EnumList name="PEnum_AirTerminalAirflowType">
+						<EnumItem>SUPPLYAIR</EnumItem>
+						<EnumItem>RETURNAIR</EnumItem>
+						<EnumItem>EXHAUSTAIR</EnumItem>
+						<EnumItem>OTHER</EnumItem>
+						<EnumItem>NOTKNOWN</EnumItem>
+						<EnumItem>UNSET</EnumItem>
+					</EnumList>
+				</TypePropertyEnumeratedValue>
+			</PropertyType>
+			<NameAliases>
+				<NameAlias lang="ja-JP">エアフロータイプ</NameAlias>
+				<NameAlias lang="fr-FR">Type de débit d'air</NameAlias>
+			</NameAliases>
+			<DefinitionAliases>
+				<DefinitionAlias lang="ja-JP">ターミナルを通過する気流の機能タイプ（給気、還気、排気他）</DefinitionAlias>
+				<DefinitionAlias lang="fr-FR">Enumération définissant le type fonctionnel de débit à travers le terminal</DefinitionAlias>
+			</DefinitionAliases>
+		</PropertyDef>
+		<PropertyDef ifdguid="89dd48d1b3184f2599c12f06ce904666">
+			<Name>AirFlowRate</Name>
+			<Definition>The actual airflow rate as designed.</Definition>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcVolumetricFlowRateMeasure" />
+				</TypePropertySingleValue>
+			</PropertyType>
+			<NameAliases />
+			<DefinitionAliases />
+		</PropertyDef>
+		<PropertyDef ifdguid="0fb05a80d1bf11e1800000215ad4efdf">
+			<Name>Location</Name>
+			<Definition>Location  (a single type of diffuser can be used for multiple locations); high means close to ceiling.</Definition>
+			<PropertyType>
+				<TypePropertyEnumeratedValue>
+					<EnumList name="PEnum_AirTerminalLocation">
+						<EnumItem>SIDEWALLHIGH</EnumItem>
+						<EnumItem>SIDEWALLLOW</EnumItem>
+						<EnumItem>CEILINGPERIMETER</EnumItem>
+						<EnumItem>CEILINGINTERIOR</EnumItem>
+						<EnumItem>FLOOR</EnumItem>
+						<EnumItem>SILL</EnumItem>
+						<EnumItem>OTHER</EnumItem>
+						<EnumItem>NOTKNOWN</EnumItem>
+						<EnumItem>UNSET</EnumItem>
+					</EnumList>
+				</TypePropertyEnumeratedValue>
+			</PropertyType>
+			<NameAliases>
+				<NameAlias lang="ja-JP">位置</NameAlias>
+				<NameAlias lang="fr-FR">Emplacement</NameAlias>
+			</NameAliases>
+			<DefinitionAliases>
+				<DefinitionAlias lang="ja-JP">制気口の取り付け位置（壁面高所・低部、天井ぺり、天井中央、床、床下他）</DefinitionAlias>
+				<DefinitionAlias lang="fr-FR">Emplacement (un seul type de diffuseur peut être utilisé pour des emplaments multiples); Haut signifie proche du plafond.</DefinitionAlias>
+			</DefinitionAliases>
+		</PropertyDef>
+	</PropertyDefs>
+	<PsetDefinitionAliases>
+		<PsetDefinitionAlias lang="ja-JP">IfcAirTerminalのインスタンスの属性を設定。</PsetDefinitionAlias>
+	</PsetDefinitionAliases>
+</PropertySetDef>

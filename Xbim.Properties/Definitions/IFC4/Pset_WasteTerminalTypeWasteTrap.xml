@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PropertySetDef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd">
+	<Name>Pset_WasteTerminalTypeWasteTrap</Name>
+	<Definition>Pipe fitting, set adjacent to a sanitary terminal, that retains liquid to prevent the passage of foul air.</Definition>
+	<IfcVersion version="2x4" />
+	<ApplicableClasses>
+		<ClassName>IfcWasteTerminal/WASTETRAP</ClassName>
+	</ApplicableClasses>
+	<ApplicableTypeValue>IfcWasteTerminal/WASTETRAP</ApplicableTypeValue>
+	<PropertyDefs>
+		<PropertyDef ifdguid="83cb1c80d21811e1800000215ad4efdf">
+			<Name>WasteTrapType</Name>
+			<Definition>Identifies the predefined types of trap from which the type required may be set.</Definition>
+			<PropertyType>
+				<TypePropertyEnumeratedValue>
+					<EnumList name="PEnum_TrapType">
+						<EnumItem>NONE</EnumItem>
+						<EnumItem>P_TRAP</EnumItem>
+						<EnumItem>Q_TRAP</EnumItem>
+						<EnumItem>S_TRAP</EnumItem>
+						<EnumItem>OTHER</EnumItem>
+						<EnumItem>NOTKNOWN</EnumItem>
+						<EnumItem>UNSET</EnumItem>
+					</EnumList>
+				</TypePropertyEnumeratedValue>
+			</PropertyType>
+			<NameAliases>
+				<NameAlias lang="ja-JP">廃棄物防臭弁種類</NameAlias>
+			</NameAliases>
+			<DefinitionAliases>
+				<DefinitionAlias lang="ja-JP">必要とされるタイプがセットされる防臭弁の定義されたタイプを確認してください。</DefinitionAlias>
+			</DefinitionAliases>
+		</PropertyDef>
+		<PropertyDef ifdguid="904f7500d21811e1800000215ad4efdf">
+			<Name>OutletConnectionSize</Name>
+			<Definition>Size of the outlet connection from the object.</Definition>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcPositiveLengthMeasure" />
+				</TypePropertySingleValue>
+			</PropertyType>
+			<NameAliases>
+				<NameAlias lang="ja-JP">排出口接続口サイズ</NameAlias>
+			</NameAliases>
+			<DefinitionAliases>
+				<DefinitionAlias lang="ja-JP">要素からの接続口サイズ。</DefinitionAlias>
+			</DefinitionAliases>
+		</PropertyDef>
+		<PropertyDef ifdguid="980f1980d21811e1800000215ad4efdf">
+			<Name>InletConnectionSize</Name>
+			<Definition>Size of the inlet connection(s), where used, of the inlet connections.
+
+Note that all inlet connections are assumed to be the same size.</Definition>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcPositiveLengthMeasure" />
+				</TypePropertySingleValue>
+			</PropertyType>
+			<NameAliases>
+				<NameAlias lang="ja-JP">吸気口接続口サイズ</NameAlias>
+			</NameAliases>
+			<DefinitionAliases>
+				<DefinitionAlias lang="ja-JP">吸気口接続口のサイズ。
+
+注意：同サイズの吸気口接続口がないものとします。</DefinitionAlias>
+			</DefinitionAliases>
+		</PropertyDef>
+	</PropertyDefs>
+	<PsetDefinitionAliases>
+		<PsetDefinitionAlias lang="ja-JP">液体を溜めて汚れた空気の通過を防ぐよう衛生機器に隣接して設置させた配管。</PsetDefinitionAlias>
+	</PsetDefinitionAliases>
+</PropertySetDef>

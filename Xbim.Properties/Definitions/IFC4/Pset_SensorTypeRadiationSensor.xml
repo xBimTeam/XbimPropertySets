@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PropertySetDef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd">
+	<Name>Pset_SensorTypeRadiationSensor</Name>
+	<Definition>A device that senses or detects radiation. HISTORY: Added in IFC4.</Definition>
+	<IfcVersion version="2x4" />
+	<ApplicableClasses>
+		<ClassName>IfcSensor/RADIATIONSENSOR</ClassName>
+	</ApplicableClasses>
+	<ApplicableTypeValue>IfcSensor/RADIATIONSENSOR</ApplicableTypeValue>
+	<PropertyDefs>
+		<PropertyDef ifdguid="3cd42b80d20611e1800000215ad4efdf">
+			<Name>SetPointRadiation</Name>
+			<Definition>The radiation power value to be sensed. Use IfcPropertyBoundedValue.SetPointValue to set the set point value.</Definition>
+			<PropertyType>
+				<TypePropertyBoundedValue>
+					<DataType type="IfcPowerMeasure" />
+				</TypePropertyBoundedValue>
+			</PropertyType>
+			<NameAliases>
+				<NameAlias lang="ja-JP">放射線設定値</NameAlias>
+				<NameAlias lang="ko-KR">방사선 설정</NameAlias>
+			</NameAliases>
+			<DefinitionAliases>
+				<DefinitionAlias lang="ja-JP">感知される放射線量。
+セットポイント値を置くために、IfcPropertyBoundedValue.SetPointValueを使用する。</DefinitionAlias>
+				<DefinitionAlias lang="ko-KR">감지되는 방사선. 세트 포인트 값을 넣으려면, IfcPropertyBoundedValue.SetPointValue를 사용하십시오.</DefinitionAlias>
+			</DefinitionAliases>
+		</PropertyDef>
+	</PropertyDefs>
+	<PsetDefinitionAliases>
+		<PsetDefinitionAlias lang="ja-JP">放射線を感知または検出するデバイス。</PsetDefinitionAlias>
+	</PsetDefinitionAliases>
+</PropertySetDef>

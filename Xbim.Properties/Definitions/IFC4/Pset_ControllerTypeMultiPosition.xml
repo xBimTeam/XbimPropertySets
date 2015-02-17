@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PropertySetDef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd">
+	<Name>Pset_ControllerTypeMultiPosition</Name>
+	<Definition>Properties for discrete inputs, outputs, and values within a programmable logic controller. HISTORY: New in IFC4, replaces Pset_MultiStateInput and Pset_MultiStateOutput.</Definition>
+	<IfcVersion version="2x4" />
+	<ApplicableClasses>
+		<ClassName>IfcController/MULTIPOSITION</ClassName>
+	</ApplicableClasses>
+	<ApplicableTypeValue>IfcController/MULTIPOSITION</ApplicableTypeValue>
+	<PropertyDefs>
+		<PropertyDef ifdguid="7e94b000d1cd11e1800000215ad4efdf">
+			<Name>ControlType</Name>
+			<Definition>The type of signal modification effected and applicable ports:
+
+INPUT: Controller element is a dedicated input.
+OUTPUT: Controller element is a dedicated output.
+VARIABLE: Controller element is an in-memory variable.</Definition>
+			<PropertyType>
+				<TypePropertyEnumeratedValue>
+					<EnumList name="PEnum_ControllerMultiPositionType">
+						<EnumItem>INPUT</EnumItem>
+						<EnumItem>OUTPUT</EnumItem>
+						<EnumItem>VARIABLE</EnumItem>
+						<EnumItem>OTHER</EnumItem>
+						<EnumItem>NOTKNOWN</EnumItem>
+						<EnumItem>UNSET</EnumItem>
+					</EnumList>
+				</TypePropertyEnumeratedValue>
+			</PropertyType>
+			<NameAliases />
+			<DefinitionAliases />
+		</PropertyDef>
+		<PropertyDef ifdguid="89e7db80d1cd11e1800000215ad4efdf">
+			<Name>Labels</Name>
+			<Definition>Table mapping values to labels, where each entry corresponds to an integer within the ValueRange.</Definition>
+			<PropertyType>
+				<TypePropertyTableValue />
+			</PropertyType>
+			<NameAliases />
+			<DefinitionAliases />
+		</PropertyDef>
+		<PropertyDef ifdguid="910ee980d1cd11e1800000215ad4efdf">
+			<Name>Range</Name>
+			<Definition>The physical range of values supported by the device.</Definition>
+			<PropertyType>
+				<TypePropertyBoundedValue>
+					<DataType type="IfcInteger" />
+				</TypePropertyBoundedValue>
+			</PropertyType>
+			<NameAliases />
+			<DefinitionAliases />
+		</PropertyDef>
+		<PropertyDef ifdguid="95d39d80d1cd11e1800000215ad4efdf">
+			<Name>Value</Name>
+			<Definition>The expected range and default value.  The LowerLimitValue and UpperLimitValue must fall within the physical Range.</Definition>
+			<PropertyType>
+				<TypePropertyBoundedValue>
+					<DataType type="IfcInteger" />
+				</TypePropertyBoundedValue>
+			</PropertyType>
+			<NameAliases />
+			<DefinitionAliases />
+		</PropertyDef>
+	</PropertyDefs>
+	<PsetDefinitionAliases />
+</PropertySetDef>

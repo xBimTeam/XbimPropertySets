@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PropertySetDef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd">
+	<Name>Pset_MaterialWoodBasedPanel</Name>
+	<Definition>This is a collection of mechanical properties related to wood-based materials for panel-like products like plywood or OSB. The propositions given above for wood-based beam materials with respect to anisotropy, strength graduation according to element sizes (especially panel thickness) apply accordingly.</Definition>
+	<IfcVersion version="2x4" />
+	<ApplicableClasses>
+		<ClassName>IfcMaterial/Wood</ClassName>
+	</ApplicableClasses>
+	<ApplicableTypeValue>IfcMaterial/Wood</ApplicableTypeValue>
+	<PropertyDefs>
+		<PropertyDef ifdguid="75b4d600d1ef11e1800000215ad4efdf">
+			<Name>ApplicableStructuralDesignMethod</Name>
+			<Definition>Determines whether mechanical material properties are applicable to 'ASD' = allowable stress design (working stress design), 'LSD' = limit state design, or 'LRFD' = load and resistance factor design.</Definition>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcLabel" />
+				</TypePropertySingleValue>
+			</PropertyType>
+			<NameAliases />
+			<DefinitionAliases />
+		</PropertyDef>
+		<PropertyDef ifdguid="7b122080d1ef11e1800000215ad4efdf">
+			<Name>InPlane</Name>
+			<Definition>Mechanical properties with respect to in-plane load, i.e. for function as a membrane.</Definition>
+			<PropertyType />
+			<NameAliases />
+			<DefinitionAliases />
+		</PropertyDef>
+		<PropertyDef ifdguid="e52ac580d1ef11e1800000215ad4efdf">
+			<Name>OutOfPlane</Name>
+			<Definition>Mechanical properties with respect to out-of-plane load, i.e. for function as a plate; tension zone of unbalanced layups is stressed in tension.</Definition>
+			<PropertyType />
+			<NameAliases />
+			<DefinitionAliases />
+		</PropertyDef>
+		<PropertyDef ifdguid="510d2e00d1f011e1800000215ad4efdf">
+			<Name>OutOfPlaneNegative</Name>
+			<Definition>Mechanical properties with respect to out-of-plane load i.e. for function as a plate; compression zone of unbalanced layups is stressed in tension.</Definition>
+			<PropertyType />
+			<NameAliases />
+			<DefinitionAliases />
+		</PropertyDef>
+	</PropertyDefs>
+	<PsetDefinitionAliases />
+</PropertySetDef>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- QTO: Quantity Take Off Definition XSD, ver. 20110818 -->
+<!-- edited by Yoshinobu Adachi, buildingSMART Model Support Group -->
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="QtoSetDef">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="IfcVersion">
+					<xs:complexType>
+						<xs:attribute name="version" type="xs:string" use="required"/>
+						<xs:attribute name="schema" type="xs:string" use="required"/>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Name" type="xs:string"/>
+				<xs:element name="Definition" type="xs:string"/>
+				<xs:element name="MethodOfMeasurement"/>
+				<xs:element name="ApplicableClasses">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element maxOccurs="unbounded" minOccurs="0" name="ClassName" type="xs:string"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="ApplicableTypeValue"/>
+				<xs:element name="QtoDefs">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element maxOccurs="unbounded" name="QtoDef">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element maxOccurs="1" minOccurs="0" name="NameAliases">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element maxOccurs="unbounded" minOccurs="0" name="NameAlias">
+														<xs:complexType>
+															<xs:simpleContent>
+																<xs:extension base="xs:string">
+																	<xs:attribute name="lang" type="xs:string" use="required"/>
+																</xs:extension>
+															</xs:simpleContent>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element maxOccurs="1" minOccurs="0" name="DefinitionAliases">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element maxOccurs="unbounded" minOccurs="0" name="DefinitionAlias">
+														<xs:complexType>
+															<xs:simpleContent>
+																<xs:extension base="xs:string">
+																	<xs:attribute name="lang" type="xs:string" use="required"/>
+																</xs:extension>
+															</xs:simpleContent>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="Name" type="xs:string"/>
+										<xs:element name="QtoType">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:enumeration value="IfcQuantityLength"/>
+													<xs:enumeration value="IfcQuantityArea"/>
+													<xs:enumeration value="IfcQuantityVolume"/>
+													<xs:enumeration value="IfcQuantityCount"/>
+													<xs:enumeration value="IfcQuantityTime"/>
+													<xs:enumeration value="IfcQuantityWeight"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="Definition" type="xs:string"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element minOccurs="0" name="QtoDefinitionAliases" nillable="false">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element maxOccurs="unbounded" minOccurs="0" name="QtoDefinitionAlias">
+								<xs:complexType>
+									<xs:simpleContent>
+										<xs:extension base="xs:string">
+											<xs:attribute name="lang" type="xs:string" use="required"/>
+										</xs:extension>
+									</xs:simpleContent>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

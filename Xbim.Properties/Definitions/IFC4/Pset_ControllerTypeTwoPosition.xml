@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PropertySetDef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd">
+	<Name>Pset_ControllerTypeTwoPosition</Name>
+	<Definition>Properties for signal handling for an analog controller taking disparate valued multiple inputs and creating a single valued binary output. HISTORY: In IFC4, extended properties to replace Pset_BinaryInput and Pset_BinaryOutput.</Definition>
+	<IfcVersion version="2x4" />
+	<ApplicableClasses>
+		<ClassName>IfcController/TWOPOSITION</ClassName>
+	</ApplicableClasses>
+	<ApplicableTypeValue>IfcController/TWOPOSITION</ApplicableTypeValue>
+	<PropertyDefs>
+		<PropertyDef ifdguid="02e73300d1ce11e1800000215ad4efdf">
+			<Name>ControlType</Name>
+			<Definition>The type of signal modification effected and applicable ports:
+
+LOWERLIMITSWITCH: Single analog input is read and if less than Value.LowerBound then True is written to the output value.
+UPPERLIMITSWITCH: Single analog input is read and if more than Value.UpperBound then True is written to the output value.
+LOWERBANDSWITCH: Single analog input is read and if less than Value.LowerBound+BandWidth then True is written to the output value.
+UPPERBANDSWITCH: Single analog input is read and if more than Value.UpperBound-BandWidth then True is written to the output value.
+NOT: Single binary input is read and the opposite value is written to the output value.
+AND: Two binary inputs are read and if both are True then True is written to the output value.
+OR: Two binary inputs are read and if either is True then True is written to the output value.
+XOR: Two binary inputs are read and if one is true then True is written to the output value.
+CALENDAR: No inputs; the current time is compared with an IfcWorkCalendar to which the IfcController is assigned and True is written if active.
+INPUT: Controller element is a dedicated input.
+OUTPUT: Controller element is a dedicated output.
+VARIABLE: Controller element is an in-memory variable.</Definition>
+			<PropertyType>
+				<TypePropertyEnumeratedValue>
+					<EnumList name="PEnum_ControllerTwoPositionType">
+						<EnumItem>NOT</EnumItem>
+						<EnumItem>AND</EnumItem>
+						<EnumItem>OR</EnumItem>
+						<EnumItem>XOR</EnumItem>
+						<EnumItem>LOWERLIMITSWITCH</EnumItem>
+						<EnumItem>UPPERLIMITSWITCH</EnumItem>
+						<EnumItem>LOWERBANDSWITCH</EnumItem>
+						<EnumItem>UPPERBANDSWITCH</EnumItem>
+						<EnumItem>AVERAGE</EnumItem>
+						<EnumItem>CALENDAR</EnumItem>
+						<EnumItem>INPUT</EnumItem>
+						<EnumItem>OUTPUT</EnumItem>
+						<EnumItem>VARIABLE</EnumItem>
+						<EnumItem>OTHER</EnumItem>
+						<EnumItem>NOTKNOWN</EnumItem>
+						<EnumItem>UNSET</EnumItem>
+					</EnumList>
+				</TypePropertyEnumeratedValue>
+			</PropertyType>
+			<NameAliases>
+				<NameAlias lang="ko-KR">TWOPOSITION 유형</NameAlias>
+			</NameAliases>
+			<DefinitionAliases>
+				<DefinitionAlias lang="ko-KR">신호 변경 유형 리미트 스위치가 범위를 Pset_ControllerTypeValue 값을 묶여 속성에 의해 결정 하한 : if (Value.LowerBound&gt; Input) output = TRUE 상한 : if (Value.UpperBound &lt;Input) output = TRUE 하한 + 불감대 : if (Value.LowerBound + BandWidth&gt; Input) output = TRUE 최대 - 불감대 : if (Value.UpperBound - BandWidth &lt;Input) output = TRUE 논리 부정 : output = NOT (input) 논리적 : output = AND (input1, input2) 논리합 : output = OR (input, input2) 배타적 논리합 : output = XOR (input, input2) 달력 : output = TRUE ※ 컨트롤러에 입력없이하고 IfcWorkCalendar 컨트롤러가 할당되어 현재 시간인 경우</DefinitionAlias>
+			</DefinitionAliases>
+		</PropertyDef>
+		<PropertyDef ifdguid="201c0180d1ce11e1800000215ad4efdf">
+			<Name>Labels</Name>
+			<Definition>Table mapping values to labels, where such labels indicate the meanings of True and False, such as 'Open' and 'Closed'</Definition>
+			<PropertyType>
+				<TypePropertyTableValue />
+			</PropertyType>
+			<NameAliases />
+			<DefinitionAliases />
+		</PropertyDef>
+		<PropertyDef ifdguid="27dba600d1ce11e1800000215ad4efdf">
+			<Name>Polarity</Name>
+			<Definition>True indicates normal polarity; False indicates reverse polarity.</Definition>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcBoolean" />
+				</TypePropertySingleValue>
+			</PropertyType>
+			<NameAliases />
+			<DefinitionAliases />
+		</PropertyDef>
+		<PropertyDef ifdguid="2d38f080d1ce11e1800000215ad4efdf">
+			<Name>Value</Name>
+			<Definition>The default value such as normally-closed or normally-open.</Definition>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcBoolean" />
+				</TypePropertySingleValue>
+			</PropertyType>
+			<NameAliases />
+			<DefinitionAliases />
+		</PropertyDef>
+	</PropertyDefs>
+	<PsetDefinitionAliases />
+</PropertySetDef>

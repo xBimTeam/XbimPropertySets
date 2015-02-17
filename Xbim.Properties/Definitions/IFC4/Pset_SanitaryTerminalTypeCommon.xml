@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PropertySetDef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd">
+	<Name>Pset_SanitaryTerminalTypeCommon</Name>
+	<Definition>Common properties for sanitary terminals.</Definition>
+	<IfcVersion version="2x4" />
+	<ApplicableClasses>
+		<ClassName>IfcSanitaryTerminal</ClassName>
+	</ApplicableClasses>
+	<ApplicableTypeValue>IfcSanitaryTerminal</ApplicableTypeValue>
+	<PropertyDefs>
+		<PropertyDef ifdguid="aeaa7600d20211e1800000215ad4efdf">
+			<Name>Reference</Name>
+			<Definition>Reference ID for this specified type in this project (e.g. type 'A-1'), provided, if there is no classification reference to a recognized classification system used.</Definition>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcIdentifier" />
+				</TypePropertySingleValue>
+			</PropertyType>
+			<NameAliases>
+				<NameAlias lang="ja-JP">参照記号</NameAlias>
+			</NameAliases>
+			<DefinitionAliases>
+				<DefinitionAlias lang="ja-JP">使用される認識分類システムで分類基準がない場合、プロジェクトで指定された型（タイプ'Ａ-1'など）で提供されるレファレンスID。</DefinitionAlias>
+			</DefinitionAliases>
+		</PropertyDef>
+	</PropertyDefs>
+	<PsetDefinitionAliases>
+		<PsetDefinitionAlias lang="ja-JP">衛生器具の共通プロパティを設定。</PsetDefinitionAlias>
+	</PsetDefinitionAliases>
+</PropertySetDef>

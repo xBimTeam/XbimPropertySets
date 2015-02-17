@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PropertySetDef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd">
+	<Name>Pset_AudioVisualApplianceTypeReceiver</Name>
+	<Definition>An audio-visual receiver is a device that switches audio and/or video from multiple sources, including external sources connected from ports and internal aggregated sources.  HISTORY: Added in IFC4.</Definition>
+	<IfcVersion version="2x4" />
+	<ApplicableClasses>
+		<ClassName>IfcAudioVisualAppliance/RECEIVER</ClassName>
+	</ApplicableClasses>
+	<ApplicableTypeValue>IfcAudioVisualAppliance/RECEIVER</ApplicableTypeValue>
+	<PropertyDefs>
+		<PropertyDef ifdguid="6a4bb580d1c311e1800000215ad4efdf">
+			<Name>ReceiverType</Name>
+			<Definition>Indicates the type of receiver.</Definition>
+			<PropertyType>
+				<TypePropertyEnumeratedValue>
+					<EnumList name="PEnum_AudioVisualReceiverType">
+						<EnumItem>AUDIO</EnumItem>
+						<EnumItem>AUDIOVIDEO</EnumItem>
+						<EnumItem>OTHER</EnumItem>
+						<EnumItem>NOTKNOWN</EnumItem>
+						<EnumItem>UNSET.</EnumItem>
+					</EnumList>
+				</TypePropertyEnumeratedValue>
+			</PropertyType>
+			<NameAliases>
+				<NameAlias lang="ja-JP">受信機形式</NameAlias>
+				<NameAlias lang="ko-KR">수신기 형식</NameAlias>
+			</NameAliases>
+			<DefinitionAliases>
+				<DefinitionAlias lang="ja-JP">受信機の形式を示す。</DefinitionAlias>
+				<DefinitionAlias lang="ko-KR">수신기의 형식을 보여준다.</DefinitionAlias>
+			</DefinitionAliases>
+		</PropertyDef>
+		<PropertyDef ifdguid="7a639500d1c311e1800000215ad4efdf">
+			<Name>AudioAmplification</Name>
+			<Definition>Indicates audio amplification frequency ranges.</Definition>
+			<PropertyType>
+				<TypePropertyTableValue />
+			</PropertyType>
+			<NameAliases>
+				<NameAlias lang="ja-JP">オーディオアンプ</NameAlias>
+				<NameAlias lang="ko-KR">오디오 앰프</NameAlias>
+			</NameAliases>
+			<DefinitionAliases>
+				<DefinitionAlias lang="ja-JP">再生周波数帯域を示す。</DefinitionAlias>
+				<DefinitionAlias lang="ko-KR">재생 주파수 대역을 나타낸다.</DefinitionAlias>
+			</DefinitionAliases>
+		</PropertyDef>
+		<PropertyDef ifdguid="83546680d1c311e1800000215ad4efdf">
+			<Name>AudioMode</Name>
+			<Definition>Indicates audio sound modes and corresponding labels, if applicable.</Definition>
+			<PropertyType>
+				<TypePropertyTableValue />
+			</PropertyType>
+			<NameAliases>
+				<NameAlias lang="ja-JP">オーディオモード</NameAlias>
+				<NameAlias lang="ko-KR">오디오 모드</NameAlias>
+			</NameAliases>
+			<DefinitionAliases>
+				<DefinitionAlias lang="ja-JP">オーディオサウンドモードの設定。</DefinitionAlias>
+				<DefinitionAlias lang="ko-KR">오디오 사운드 모드 설정.</DefinitionAlias>
+			</DefinitionAliases>
+		</PropertyDef>
+	</PropertyDefs>
+	<PsetDefinitionAliases>
+		<PsetDefinitionAlias lang="ja-JP">内部や外部に接続された音源を含む複数の情報から、音響と映像信号を切り替える装置。</PsetDefinitionAlias>
+	</PsetDefinitionAliases>
+</PropertySetDef>

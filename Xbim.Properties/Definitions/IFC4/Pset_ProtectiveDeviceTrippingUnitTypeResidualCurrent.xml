@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PropertySetDef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd">
+	<Name>Pset_ProtectiveDeviceTrippingUnitTypeResidualCurrent</Name>
+	<Definition>Information on tripping units that are activated by residual current.</Definition>
+	<IfcVersion version="2x4" />
+	<ApplicableClasses>
+		<ClassName>IfcProtectiveDeviceTrippingUnit/RESIDUALCURRENT</ClassName>
+	</ApplicableClasses>
+	<ApplicableTypeValue>IfcProtectiveDeviceTrippingUnit/RESIDUALCURRENT</ApplicableTypeValue>
+	<PropertyDefs>
+		<PropertyDef ifdguid="cb43af80d1fc11e1800000215ad4efdf">
+			<Name>TrippingUnitReleaseCurrent</Name>
+			<Definition>The value of tripping or residual current for which the device has the possibility to be equipped. The values are given in mA.</Definition>
+			<PropertyType>
+				<TypePropertyEnumeratedValue>
+					<EnumList name="PEnum_TrippingUnitReleaseCurrent">
+						<EnumItem>10</EnumItem>
+						<EnumItem>30</EnumItem>
+						<EnumItem>100</EnumItem>
+						<EnumItem>300</EnumItem>
+						<EnumItem>500</EnumItem>
+						<EnumItem>1000</EnumItem>
+						<EnumItem>OTHER</EnumItem>
+						<EnumItem>NOTKNOWN</EnumItem>
+						<EnumItem>UNSET</EnumItem>
+					</EnumList>
+				</TypePropertyEnumeratedValue>
+			</PropertyType>
+			<NameAliases>
+				<NameAlias lang="ja-JP">定格感度電流</NameAlias>
+				<NameAlias lang="ko-KR">정격 감도 전류</NameAlias>
+			</NameAliases>
+			<DefinitionAliases>
+				<DefinitionAlias lang="ja-JP">漏電ブレーカの感度電流値（mA）。</DefinitionAlias>
+				<DefinitionAlias lang="ko-KR">누전 차단기의 감도 전류 (mA).</DefinitionAlias>
+			</DefinitionAliases>
+		</PropertyDef>
+	</PropertyDefs>
+	<PsetDefinitionAliases>
+		<PsetDefinitionAlias lang="ja-JP">漏電電流で遮断するトリップ装置の情報。</PsetDefinitionAlias>
+	</PsetDefinitionAliases>
+</PropertySetDef>

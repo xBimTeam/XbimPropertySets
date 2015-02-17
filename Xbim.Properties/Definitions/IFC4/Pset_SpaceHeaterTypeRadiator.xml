@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PropertySetDef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd">
+	<Name>Pset_SpaceHeaterTypeRadiator</Name>
+	<Definition>Space heater type radiator attributes.</Definition>
+	<IfcVersion version="2x4" />
+	<ApplicableClasses>
+		<ClassName>IfcSpaceHeater/RADIATOR</ClassName>
+	</ApplicableClasses>
+	<ApplicableTypeValue>IfcSpaceHeater/RADIATOR</ApplicableTypeValue>
+	<PropertyDefs>
+		<PropertyDef ifdguid="9179a580d20a11e1800000215ad4efdf">
+			<Name>RadiatorType</Name>
+			<Definition>Indicates the type of radiator.</Definition>
+			<PropertyType>
+				<TypePropertyEnumeratedValue>
+					<EnumList name="PEnum_SpaceHeaterRadiatorType">
+						<EnumItem>FINNEDTUBE</EnumItem>
+						<EnumItem>PANEL</EnumItem>
+						<EnumItem>SECTIONAL</EnumItem>
+						<EnumItem>TUBULAR</EnumItem>
+						<EnumItem>OTHER</EnumItem>
+						<EnumItem>NOTKNOWN</EnumItem>
+						<EnumItem>UNSET</EnumItem>
+					</EnumList>
+				</TypePropertyEnumeratedValue>
+			</PropertyType>
+			<NameAliases>
+				<NameAlias lang="ja-JP">ラジエータータイプ</NameAlias>
+			</NameAliases>
+			<DefinitionAliases>
+				<DefinitionAlias lang="ja-JP">ラジエーターの種類</DefinitionAlias>
+			</DefinitionAliases>
+		</PropertyDef>
+		<PropertyDef ifdguid="a0f8ee80d20a11e1800000215ad4efdf">
+			<Name>TubingLength</Name>
+			<Definition>Water tube length inside the component.</Definition>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcPositiveLengthMeasure" />
+				</TypePropertySingleValue>
+			</PropertyType>
+			<NameAliases>
+				<NameAlias lang="ja-JP">チューブの長さ</NameAlias>
+			</NameAliases>
+			<DefinitionAliases>
+				<DefinitionAlias lang="ja-JP">構成要素における水管の長さ</DefinitionAlias>
+			</DefinitionAliases>
+		</PropertyDef>
+		<PropertyDef ifdguid="a9512980d20a11e1800000215ad4efdf">
+			<Name>WaterContent</Name>
+			<Definition>Weight of water content within the heater.</Definition>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcMassMeasure" />
+				</TypePropertySingleValue>
+			</PropertyType>
+			<NameAliases>
+				<NameAlias lang="ja-JP">水含量</NameAlias>
+			</NameAliases>
+			<DefinitionAliases>
+				<DefinitionAlias lang="ja-JP">ヒーター内部の水分の重み</DefinitionAlias>
+			</DefinitionAliases>
+		</PropertyDef>
+	</PropertyDefs>
+	<PsetDefinitionAliases>
+		<PsetDefinitionAlias lang="ja-JP">暖房用ヒーターラジエーター属性</PsetDefinitionAlias>
+	</PsetDefinitionAliases>
+</PropertySetDef>

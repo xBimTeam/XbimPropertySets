@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PropertySetDef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd">
+	<Name>Pset_FanCentrifugal</Name>
+	<Definition>Centrifugal fan occurrence attributes attached to an instance of IfcFan.</Definition>
+	<IfcVersion version="2x4" />
+	<ApplicableClasses>
+		<ClassName>IfcFan/CENTRIFUGAL</ClassName>
+	</ApplicableClasses>
+	<ApplicableTypeValue>IfcFan/CENTRIFUGAL</ApplicableTypeValue>
+	<PropertyDefs>
+		<PropertyDef ifdguid="7cd5e700d1e311e1800000215ad4efdf">
+			<Name>DischargePosition</Name>
+			<Definition>Centrifugal fan discharge position.
+
+TOPHORIZONTAL: Top horizontal discharge. 
+TOPANGULARDOWN: Top angular down discharge. 
+DOWNBLAST: Downblast discharge. 
+BOTTOMANGULARDOWN: Bottom angular down discharge. 
+BOTTOMHORIZONTAL: Bottom horizontal discharge. 
+BOTTOMANGULARUP: Bottom angular up discharge. 
+UPBLAST: Upblast discharge. 
+TOPANGULARUP: Top angular up discharge. 
+OTHER: Other type of fan arrangement.</Definition>
+			<PropertyType>
+				<TypePropertyEnumeratedValue>
+					<EnumList name="PEnum_CentrifugalFanDischargePosition">
+						<EnumItem>TOPHORIZONTAL</EnumItem>
+						<EnumItem>TOPANGULARDOWN</EnumItem>
+						<EnumItem>TOPANGULARUP</EnumItem>
+						<EnumItem>DOWNBLAST</EnumItem>
+						<EnumItem>BOTTOMANGULARDOWN</EnumItem>
+						<EnumItem>BOTTOMHORIZONTAL</EnumItem>
+						<EnumItem>BOTTOMANGULARUP</EnumItem>
+						<EnumItem>UPBLAST</EnumItem>
+						<EnumItem>OTHER</EnumItem>
+						<EnumItem>NOTKNOWN</EnumItem>
+						<EnumItem>UNSET</EnumItem>
+					</EnumList>
+				</TypePropertyEnumeratedValue>
+			</PropertyType>
+			<NameAliases>
+				<NameAlias lang="ja-JP">吐出位置</NameAlias>
+			</NameAliases>
+			<DefinitionAliases>
+				<DefinitionAlias lang="ja-JP">遠心送風機の吐出位置
+TOPHORIZONTAL: 上部水平 
+TOPANGULARDOWN: 上部角度付き下向き 
+DOWNBLAST: 下向き
+BOTTOMANGULARDOWN: 下部角度付き下向き
+BOTTOMHORIZONTAL: 下部水平
+BOTTOMANGULARUP: 下部角度付き上向き
+UPBLAST: 上向き
+TOPANGULARUP: 上部角度付き上向き. 
+OTHER: その他</DefinitionAlias>
+			</DefinitionAliases>
+		</PropertyDef>
+		<PropertyDef ifdguid="94ad6b00d1e311e1800000215ad4efdf">
+			<Name>DirectionOfRotation</Name>
+			<Definition>The direction of the centrifugal fan wheel rotation when viewed from the drive side of the fan.
+
+CLOCKWISE: Clockwise. 
+COUNTERCLOCKWISE: Counter-clockwise. 
+OTHER: Other type of fan rotation.</Definition>
+			<PropertyType>
+				<TypePropertyEnumeratedValue>
+					<EnumList name="PEnum_CentrifugalFanRotation">
+						<EnumItem>CLOCKWISE</EnumItem>
+						<EnumItem>COUNTERCLOCKWISE</EnumItem>
+						<EnumItem>OTHER</EnumItem>
+						<EnumItem>NOTKNOWN</EnumItem>
+						<EnumItem>UNSET</EnumItem>
+					</EnumList>
+				</TypePropertyEnumeratedValue>
+			</PropertyType>
+			<NameAliases>
+				<NameAlias lang="ja-JP">角度方向</NameAlias>
+			</NameAliases>
+			<DefinitionAliases>
+				<DefinitionAlias lang="ja-JP">ファンの駆動側から見たホイール回転方向
+CLOCKWISE　　時計回り
+ COUNTERCLOCKWISE　反時計回り
+ OTHER　その他</DefinitionAlias>
+			</DefinitionAliases>
+		</PropertyDef>
+		<PropertyDef ifdguid="a262f080d1e311e1800000215ad4efdf">
+			<Name>Arrangement</Name>
+			<Definition>Defines the fan and motor drive arrangement as defined by AMCA.
+
+ARRANGEMENT1: Arrangement 1. 
+ARRANGEMENT2: Arrangement 2. 
+ARRANGEMENT3: Arrangement 3. 
+ARRANGEMENT4: Arrangement 4. 
+ARRANGEMENT7: Arrangement 7. 
+ARRANGEMENT8: Arrangement 8. 
+ARRANGEMENT9: Arrangement 9. 
+ARRANGEMENT10: Arrangement 10. 
+OTHER: Other type of fan drive arrangement.</Definition>
+			<PropertyType>
+				<TypePropertyEnumeratedValue>
+					<EnumList name="PEnum_CentrifugalFanArrangement">
+						<EnumItem>ARRANGEMENT1</EnumItem>
+						<EnumItem>ARRANGEMENT2</EnumItem>
+						<EnumItem>ARRANGEMENT3</EnumItem>
+						<EnumItem>ARRANGEMENT4</EnumItem>
+						<EnumItem>ARRANGEMENT7</EnumItem>
+						<EnumItem>ARRANGEMENT8</EnumItem>
+						<EnumItem>ARRANGEMENT9</EnumItem>
+						<EnumItem>ARRANGEMENT10</EnumItem>
+						<EnumItem>OTHER</EnumItem>
+						<EnumItem>NOTKNOWN</EnumItem>
+						<EnumItem>UNSET</EnumItem>
+					</EnumList>
+				</TypePropertyEnumeratedValue>
+			</PropertyType>
+			<NameAliases>
+				<NameAlias lang="ja-JP">配置</NameAlias>
+			</NameAliases>
+			<DefinitionAliases>
+				<DefinitionAlias lang="ja-JP">ファンとモーターの配置（AMCAによる定義）
+ARRANGEMENT1, ARRANGEMENT2, ARRANGEMENT3, ARRANGEMENT4, ARRANGEMENT7, ARRANGEMENT8, ARRANGEMENT9, ARRANGEMENT10, OTHER, NOTKNOWN, UNSET</DefinitionAlias>
+			</DefinitionAliases>
+		</PropertyDef>
+	</PropertyDefs>
+	<PsetDefinitionAliases>
+		<PsetDefinitionAlias lang="ja-JP">IfcFanの値に付け加えられた遠心送風機の属性</PsetDefinitionAlias>
+	</PsetDefinitionAliases>
+</PropertySetDef>

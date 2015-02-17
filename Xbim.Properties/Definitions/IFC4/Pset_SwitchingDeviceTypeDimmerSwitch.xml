@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PropertySetDef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd">
+	<Name>Pset_SwitchingDeviceTypeDimmerSwitch</Name>
+	<Definition>A dimmer switch is a switch that adjusts electrical power through a variable position level action.  HISTORY: Added in IFC4.</Definition>
+	<IfcVersion version="2x4" />
+	<ApplicableClasses>
+		<ClassName>IfcSwitchingDevice/DIMMERSWITCH</ClassName>
+	</ApplicableClasses>
+	<ApplicableTypeValue>IfcSwitchingDevice/DIMMERSWITCH</ApplicableTypeValue>
+	<PropertyDefs>
+		<PropertyDef ifdguid="11edd580d20e11e1800000215ad4efdf">
+			<Name>DimmerType</Name>
+			<Definition>A list of the available types of dimmer switch from which that required may be selected.</Definition>
+			<PropertyType>
+				<TypePropertyEnumeratedValue>
+					<EnumList name="PEnum_SwitchingDeviceDimmerSwitchType">
+						<EnumItem>ROCKER</EnumItem>
+						<EnumItem>SELECTOR</EnumItem>
+						<EnumItem>TWIST</EnumItem>
+						<EnumItem>OTHER</EnumItem>
+						<EnumItem>NOTKNOWN</EnumItem>
+						<EnumItem>UNSET</EnumItem>
+					</EnumList>
+				</TypePropertyEnumeratedValue>
+			</PropertyType>
+			<NameAliases>
+				<NameAlias lang="ja-JP">ディマータイプ</NameAlias>
+				<NameAlias lang="ko-KR">조광기 유형</NameAlias>
+			</NameAliases>
+			<DefinitionAliases>
+				<DefinitionAlias lang="ja-JP">選択が必要となる、ディマースイッチの一覧リスト。</DefinitionAlias>
+				<DefinitionAlias lang="ko-KR">선택이 필요한 조광기 스위치 목록</DefinitionAlias>
+			</DefinitionAliases>
+		</PropertyDef>
+	</PropertyDefs>
+	<PsetDefinitionAliases>
+		<PsetDefinitionAlias lang="ja-JP">各レベルの動作で電力を調整するディマースイッチ。
+履歴：IFC2ｘ４へ追加。</PsetDefinitionAlias>
+	</PsetDefinitionAliases>
+</PropertySetDef>

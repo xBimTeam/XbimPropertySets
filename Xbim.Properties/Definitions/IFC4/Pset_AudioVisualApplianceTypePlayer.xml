@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PropertySetDef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd">
+	<Name>Pset_AudioVisualApplianceTypePlayer</Name>
+	<Definition>An audio-visual player is a device that plays stored media into a stream of audio and/or video, such as camera footage in security systems, background audio in retail areas, or media presentations in conference rooms or theatres.  HISTORY: Added in IFC4.</Definition>
+	<IfcVersion version="2x4" />
+	<ApplicableClasses>
+		<ClassName>IfcAudioVisualAppliance/PLAYER</ClassName>
+	</ApplicableClasses>
+	<ApplicableTypeValue>IfcAudioVisualAppliance/PLAYER</ApplicableTypeValue>
+	<PropertyDefs>
+		<PropertyDef ifdguid="04f7c480d1c311e1800000215ad4efdf">
+			<Name>PlayerType</Name>
+			<Definition>Indicates the type of player.</Definition>
+			<PropertyType>
+				<TypePropertyEnumeratedValue>
+					<EnumList name="PEnum_AudioVisualPlayerType">
+						<EnumItem>AUDIO</EnumItem>
+						<EnumItem>VIDEO</EnumItem>
+						<EnumItem>OTHER</EnumItem>
+						<EnumItem>NOTKNOWN</EnumItem>
+						<EnumItem>UNSET.</EnumItem>
+					</EnumList>
+				</TypePropertyEnumeratedValue>
+			</PropertyType>
+			<NameAliases>
+				<NameAlias lang="ja-JP">プレイヤー形式</NameAlias>
+				<NameAlias lang="ko-KR">플레이어 형식</NameAlias>
+			</NameAliases>
+			<DefinitionAliases>
+				<DefinitionAlias lang="ja-JP">再生可能な形式を示す。</DefinitionAlias>
+				<DefinitionAlias lang="ko-KR">재생 가능한 형식을 보여준다.</DefinitionAlias>
+			</DefinitionAliases>
+		</PropertyDef>
+		<PropertyDef ifdguid="1214b380d1c311e1800000215ad4efdf">
+			<Name>PlayerMediaEject</Name>
+			<Definition>Indicates whether the media can be ejected from the player (if physical media).</Definition>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcBoolean" />
+				</TypePropertySingleValue>
+			</PropertyType>
+			<NameAliases>
+				<NameAlias lang="ja-JP">メディア取り出し可否</NameAlias>
+				<NameAlias lang="ko-KR">미디어 꺼내기 여부</NameAlias>
+			</NameAliases>
+			<DefinitionAliases>
+				<DefinitionAlias lang="ja-JP">メディアを取り出すことができるかどうかを示す。</DefinitionAlias>
+				<DefinitionAlias lang="ko-KR">미디어를 꺼낼 수 있는지 여부를 나타낸다.</DefinitionAlias>
+			</DefinitionAliases>
+		</PropertyDef>
+		<PropertyDef ifdguid="18a32b00d1c311e1800000215ad4efdf">
+			<Name>PlayerMediaFormat</Name>
+			<Definition>Indicates supported media formats.</Definition>
+			<PropertyType>
+				<TypePropertyTableValue />
+			</PropertyType>
+			<NameAliases>
+				<NameAlias lang="ja-JP">メディアフォーマット</NameAlias>
+				<NameAlias lang="ko-KR">미디어 포맷</NameAlias>
+			</NameAliases>
+			<DefinitionAliases>
+				<DefinitionAlias lang="ja-JP">サポートされているメディアのフォーマットを示す。</DefinitionAlias>
+				<DefinitionAlias lang="ko-KR">지원되는 미디어 형식을 보여준다.</DefinitionAlias>
+			</DefinitionAliases>
+		</PropertyDef>
+	</PropertyDefs>
+	<PsetDefinitionAliases>
+		<PsetDefinitionAlias lang="ja-JP">セキュリティーシステムのカメラや店舗などのBGMシステム、または劇場や会議室ないのプレゼンテーションシステムのような収容された音響映像信号を表示・放送する装置。</PsetDefinitionAlias>
+	</PsetDefinitionAliases>
+</PropertySetDef>

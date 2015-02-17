@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PropertySetDef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd">
+	<Name>Pset_ElementComponentCommon</Name>
+	<Definition>Set of common properties of component elements (especially discrete accessories, but also fasteners, reinforcement elements, or other types of components).</Definition>
+	<IfcVersion version="2x4" />
+	<ApplicableClasses>
+		<ClassName>IfcElementComponent</ClassName>
+	</ApplicableClasses>
+	<ApplicableTypeValue>IfcElementComponent</ApplicableTypeValue>
+	<PropertyDefs>
+		<PropertyDef ifdguid="7525c67c0faa44ba995f99d07b72dd31">
+			<Name>Reference</Name>
+			<Definition>Reference ID for this specified type in this project (e.g. type 'A-1'), Also referred to as "construction type". It should be provided as an alternative to the name of the "object type", if the software does not support object types.</Definition>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcIdentifier" />
+				</TypePropertySingleValue>
+			</PropertyType>
+			<NameAliases>
+				<NameAlias lang="ja-JP">参照記号</NameAlias>
+			</NameAliases>
+			<DefinitionAliases>
+				<DefinitionAlias lang="ja-JP">具体的な参照ID（例えば、“WWS/VS1/400/001”はWWS系統、VS1/400サブシステム001番部品）。</DefinitionAlias>
+			</DefinitionAliases>
+		</PropertyDef>
+		<PropertyDef ifdguid="56f08e40f4ec44468b85b83294b65e5f">
+			<Name>Status</Name>
+			<Definition>Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as "New" - element designed as new addition, "Existing" - element exists and remains, "Demolish" - element existed but is to be demolished,  "Temporary" - element will exists only temporary (like a temporary support structure).</Definition>
+			<PropertyType>
+				<TypePropertyEnumeratedValue>
+					<EnumList name="PEnum_ElementStatus">
+						<EnumItem>NEW</EnumItem>
+						<EnumItem>EXISTING</EnumItem>
+						<EnumItem>DEMOLISH</EnumItem>
+						<EnumItem>TEMPORARY</EnumItem>
+						<EnumItem>OTHER</EnumItem>
+						<EnumItem>NOTKNOWN</EnumItem>
+						<EnumItem>UNSET</EnumItem>
+					</EnumList>
+				</TypePropertyEnumeratedValue>
+			</PropertyType>
+			<NameAliases>
+				<NameAlias lang="ja-JP">状態</NameAlias>
+			</NameAliases>
+			<DefinitionAliases>
+				<DefinitionAlias lang="ja-JP">要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。</DefinitionAlias>
+			</DefinitionAliases>
+		</PropertyDef>
+		<PropertyDef ifdguid="292f5db4336e4b319ebdd91a1ab594ab">
+			<Name>DeliveryType</Name>
+			<Definition>Determines how the accessory will be delivered to the site.</Definition>
+			<PropertyType>
+				<TypePropertyEnumeratedValue>
+					<EnumList name="PEnum_ElementComponentDeliveryType">
+						<EnumItem>CAST_IN_PLACE</EnumItem>
+						<EnumItem>WELDED_TO_STRUCTURE</EnumItem>
+						<EnumItem>LOOSE</EnumItem>
+						<EnumItem>
+ATTACHED_FOR_DELIVERY</EnumItem>
+						<EnumItem>PRECAST</EnumItem>
+						<EnumItem>NOTDEFINED</EnumItem>
+					</EnumList>
+				</TypePropertyEnumeratedValue>
+			</PropertyType>
+			<NameAliases />
+			<DefinitionAliases />
+		</PropertyDef>
+		<PropertyDef ifdguid="f7b199ec69184e05b9a8d4dc3a89f6d7">
+			<Name>CorrosionTreatment</Name>
+			<Definition>Determines corrosion treatment for metal components. This property is provided if the requirement needs to be expressed (a) independently of a material specification and (b) as a mere requirements statement rather than a workshop design/ processing feature.</Definition>
+			<PropertyType>
+				<TypePropertyEnumeratedValue>
+					<EnumList name="PEnum_ElementComponentCorrosionTreatment">
+						<EnumItem>PAINTED</EnumItem>
+						<EnumItem>EPOXYCOATED</EnumItem>
+						<EnumItem>GALVANISED</EnumItem>
+						<EnumItem>
+STAINLESS</EnumItem>
+						<EnumItem>NONE</EnumItem>
+						<EnumItem>NOTDEFINED</EnumItem>
+					</EnumList>
+				</TypePropertyEnumeratedValue>
+			</PropertyType>
+			<NameAliases />
+			<DefinitionAliases />
+		</PropertyDef>
+	</PropertyDefs>
+	<PsetDefinitionAliases />
+</PropertySetDef>
