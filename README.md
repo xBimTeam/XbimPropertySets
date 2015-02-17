@@ -1,7 +1,5 @@
 Subproject of https://github.com/xBimTeam/xBimToolkit
 
-Relates to Nuget Package Xbim.Essentials
-
 # XBIM - the eXtensible Building Information Modelling (BIM) Toolkit
 
 ## What is it?
@@ -15,9 +13,12 @@ bi-directional translation between IFC and COBie formats
 
 ## Getting Started
 
-You will need Visual Studio 2010 SP1 or newer to compile the Solution. To compile the SceneJSWebViewer sample
-project you will require ASP.NET MVC 3.0 to be installed. All solutions target .NET 4.0. The 4.0 Client profile
-may be supported for some projects.
+This package is independent so you can use it standalone. It implements buildingSMART data model for description of property and quantity sets. It also contains these definitions
+taken from buildingSMART as a resources so you can just take it and instantiate all predefined property sets for IFC2x3 or IFC4. It is as simple as this:
+
+    var defs = new Definitions<PropertySetDef>(Version.IFC4);
+    defs.LoadAllDefault();
+    var prop = defs["Pset_ActionRequest"]["RequestSourceName"] as PropertyDef;
 
 
 Xbim is a software library, and is currently deployed with a number of sample applications to demonstrate its capabilities
