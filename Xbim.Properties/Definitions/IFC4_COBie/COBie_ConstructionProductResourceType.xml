@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<PropertySetDef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+                ifdguid="85ef6c6b34cf49058eba131e9e99549e" xmlns="http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd">
+  <IfcVersion version="IFC4" />
+  <Name>COBie_ConstructionProductResourceType</Name>
+  <Applicability>PSET_TYPEDRIVENONLY</Applicability>
+  <ApplicableClasses>
+    <ClassName>IfcConstructionProductResourceType</ClassName>
+  </ApplicableClasses>
+  <ApplicableTypeValue>IfcConstructionProductResourceType</ApplicableTypeValue>
+  <PropertyDefs>
+    <PropertyDef ifdguid="ddc883e00ed441f080075292313f3942">
+      <Name>Category</Name>
+      <PropertyType>
+        <TypePropertyEnumeratedValue>
+          <EnumList name="PEnum_ConstructionProductResourceTypeCategory">
+            <EnumItem>Part</EnumItem>
+            <EnumItem>PartSet</EnumItem>
+            <EnumItem>Lubricant</EnumItem>
+            <EnumItem>Other</EnumItem>
+            <EnumItem>Spare</EnumItem>
+            <EnumItem>SpareSet</EnumItem>
+          </EnumList>
+        </TypePropertyEnumeratedValue>
+      </PropertyType>
+      <NameAliases />
+      <DefinitionAliases />
+    </PropertyDef>
+    <PropertyDef ifdguid="6ba8944e3ac041b1804467540724db87">
+      <Name>SetNumber</Name>
+      <PropertyType>
+        <TypePropertySingleValue>
+          <DataType />
+        </TypePropertySingleValue>
+      </PropertyType>
+      <NameAliases />
+      <DefinitionAliases />
+    </PropertyDef>
+    <PropertyDef ifdguid="ab1bdfddafa54c90965c95a9f7d63a3a">
+      <Name>PartNumber</Name>
+      <PropertyType>
+        <TypePropertySingleValue>
+          <DataType />
+        </TypePropertySingleValue>
+      </PropertyType>
+      <NameAliases />
+      <DefinitionAliases />
+    </PropertyDef>
+  </PropertyDefs>
+  <PsetDefinitionAliases />
+</PropertySetDef>

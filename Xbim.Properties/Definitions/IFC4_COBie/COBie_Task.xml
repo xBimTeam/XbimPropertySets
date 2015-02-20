@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<PropertySetDef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+                ifdguid="a42d038a72a64fc0b347723692c84984" xmlns="http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd">
+  <IfcVersion version="IFC4" />
+  <Name>COBie_Task</Name>
+  <Applicability>PSET_OCCURRENCEDRIVEN</Applicability>
+  <ApplicableClasses>
+    <ClassName>IfcTask</ClassName>
+  </ApplicableClasses>
+  <ApplicableTypeValue>IfcTask</ApplicableTypeValue>
+  <PropertyDefs>
+    <PropertyDef ifdguid="d9f04682135244e2a734e3cf3b084bd4">
+      <Name>Category</Name>
+      <PropertyType>
+        <TypePropertyEnumeratedValue>
+          <EnumList name="PEnum_TaskCategory">
+            <EnumItem>Adjustment</EnumItem>
+            <EnumItem>Calibration</EnumItem>
+            <EnumItem>Emergency</EnumItem>
+            <EnumItem>Inspection</EnumItem>
+            <EnumItem>Operation</EnumItem>
+            <EnumItem>PM</EnumItem>
+            <EnumItem>Safety</EnumItem>
+            <EnumItem>ShutDown</EnumItem>
+            <EnumItem>StartUp</EnumItem>
+            <EnumItem>Testing</EnumItem>
+            <EnumItem>Trouble</EnumItem>
+          </EnumList>
+        </TypePropertyEnumeratedValue>
+      </PropertyType>
+      <NameAliases />
+      <DefinitionAliases />
+    </PropertyDef>
+    <PropertyDef ifdguid="1955730d35f047b5a6c3d19aae6bf167">
+      <Name>Status</Name>
+      <PropertyType>
+        <TypePropertyEnumeratedValue>
+          <EnumList name="PEnum_TaskStatus">
+            <EnumItem>Not Yet Started</EnumItem>
+            <EnumItem>Started</EnumItem>
+            <EnumItem>Completed</EnumItem>
+          </EnumList>
+        </TypePropertyEnumeratedValue>
+      </PropertyType>
+      <NameAliases />
+      <DefinitionAliases />
+    </PropertyDef>
+  </PropertyDefs>
+  <PsetDefinitionAliases />
+</PropertySetDef>

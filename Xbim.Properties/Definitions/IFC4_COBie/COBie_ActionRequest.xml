@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<PropertySetDef 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+	ifdguid="682854416e034c9eb2e1fa6a85adfd78" 
+	xmlns="http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd">
+
+  <IfcVersion version="IFC4" />
+  <Name>COBie_ActionRequest</Name>
+  <Applicability>PSET_OCCURRENCEDRIVEN</Applicability>
+  <ApplicableClasses>
+    <ClassName>IfcActionRequest</ClassName>
+  </ApplicableClasses>
+  <ApplicableTypeValue>IfcActionRequest</ApplicableTypeValue>
+  <PropertyDefs>
+    <PropertyDef ifdguid="dc7037977c2c4db9b4623e87e9a337f8">
+      <Name>Type</Name>
+      <PropertyType>
+        <TypePropertyEnumeratedValue>
+          <EnumList name="PEnum_ActionRequestType">
+            <EnumItem>Change</EnumItem>
+            <EnumItem>Claim</EnumItem>
+            <EnumItem>Coordination</EnumItem>
+            <EnumItem>Environmental</EnumItem>
+            <EnumItem>Function</EnumItem>
+            <EnumItem>IndoorAirQuality</EnumItem>
+            <EnumItem>Installation</EnumItem>
+            <EnumItem>RFI</EnumItem>
+            <EnumItem>Safety</EnumItem>
+            <EnumItem>Specification</EnumItem>
+          </EnumList>
+        </TypePropertyEnumeratedValue>
+      </PropertyType>
+      <NameAliases />
+      <DefinitionAliases />
+    </PropertyDef>
+    <PropertyDef ifdguid="88b96e79a9214586a9a1b251c7270a84">
+      <Name>Risk</Name>
+      <PropertyType>
+        <TypePropertyEnumeratedValue>
+          <EnumList name="PEnum_ActionRequestRisk">
+            <EnumItem>Very High</EnumItem>
+            <EnumItem>High</EnumItem>
+            <EnumItem>Moderate</EnumItem>
+            <EnumItem>Low</EnumItem>
+            <EnumItem>Unknown</EnumItem>
+          </EnumList>
+        </TypePropertyEnumeratedValue>
+      </PropertyType>
+      <NameAliases />
+      <DefinitionAliases />
+    </PropertyDef>
+    <PropertyDef ifdguid="7a6f18280bae4bfca67c18ac08223f4d">
+      <Name>Chance</Name>
+      <PropertyType>
+        <TypePropertyEnumeratedValue>
+          <EnumList name="PEnum_ActionRequestChance">
+            <EnumItem>Has Occurred</EnumItem>
+            <EnumItem>High</EnumItem>
+            <EnumItem>Moderate</EnumItem>
+            <EnumItem>Low</EnumItem>
+            <EnumItem>Unknown</EnumItem>
+          </EnumList>
+        </TypePropertyEnumeratedValue>
+      </PropertyType>
+      <NameAliases />
+      <DefinitionAliases />
+    </PropertyDef>
+    <PropertyDef ifdguid="dd017b9536a64bba8bdfd0ff22e24719">
+      <Name>Impact</Name>
+      <PropertyType>
+        <TypePropertyEnumeratedValue>
+          <EnumList name="PEnum_ActionRequestImpact">
+            <EnumItem>Very High</EnumItem>
+            <EnumItem>High</EnumItem>
+            <EnumItem>Moderate</EnumItem>
+            <EnumItem>Low</EnumItem>
+            <EnumItem>Unknown</EnumItem>
+          </EnumList>
+        </TypePropertyEnumeratedValue>
+      </PropertyType>
+      <NameAliases />
+      <DefinitionAliases />
+    </PropertyDef>
+  </PropertyDefs>
+  <PsetDefinitionAliases />
+</PropertySetDef>

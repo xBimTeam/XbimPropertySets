@@ -64,6 +64,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>IFC2x3_Defitinion_files.resx</DependentUpon>
     </Compile>
+    <Compile Include="Definitions\IFC4_COBie_Definition_files.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>IFC4_COBie_Definition_files.resx</DependentUpon>
+    </Compile>
     <Compile Include="Definitions\IFC4_Definition_files.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -838,6 +843,14 @@
     <Content Include="Definitions\IFC4\Pset_WindowCommon.xml" />
     <Content Include="Definitions\IFC4\Pset_WorkControlCommon.xml" />
     <Content Include="Definitions\IFC4\Pset_ZoneCommon.xml" />
+    <Content Include="Definitions\IFC4_COBie\COBie_ActionRequest.xml" />
+    <Content Include="Definitions\IFC4_COBie\COBie_ConstructionProductResource.xml" />
+    <Content Include="Definitions\IFC4_COBie\COBie_ConstructionProductResourceType.xml" />
+    <Content Include="Definitions\IFC4_COBie\COBie_ElementType.xml" />
+    <Content Include="Definitions\IFC4_COBie\COBie_Task.xml" />
+    <Content Include="Definitions\IFC4_COBie\Pset_ActionRequest.xml" />
+    <Content Include="Definitions\IFC4_COBie\Pset_ManufacturerOccurrence.xml" />
+    <Content Include="Definitions\IFC4_COBie\Pset_ManufacturerTypeInformation.xml" />
     <Content Include="Definitions\IFC4_QTO\Qto_ActuatorBaseQuantities.xml" />
     <Content Include="Definitions\IFC4_QTO\Qto_AirTerminalBaseQuantities.xml" />
     <Content Include="Definitions\IFC4_QTO\Qto_AirTerminalBoxTypeBaseQuantities.xml" />
@@ -935,6 +948,10 @@
     <EmbeddedResource Include="Definitions\IFC2x3_Defitinion_files.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>IFC2x3_Defitinion_files.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Definitions\IFC4_COBie_Definition_files.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>IFC4_COBie_Definition_files.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Definitions\IFC4_Definition_files.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>

@@ -1,0 +1,190 @@
+<?xml version="1.0"?>
+<PropertySetDef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+                ifdguid="5579fe03628e464c9a8e2d049a1eb6bb" xmlns="http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd">
+  <IfcVersion version="IFC4" />
+  <Name>COBie_ElementType</Name>
+  <Applicability>QTO_TYPEDRIVENONLY</Applicability>
+  <ApplicableClasses>
+    <ClassName>IfcElementType</ClassName>
+  </ApplicableClasses>
+  <ApplicableTypeValue>IfcElementType</ApplicableTypeValue>
+  <PropertyDefs>
+    <PropertyDef ifdguid="e50cb15f3a7544a7834756e54d32391b">
+      <Name>AssetType</Name>
+      <Definition>A classification of the asset contained within one row. If allowable values are not specified by contract, the default values are: “Fixed” and “Movable”.  </Definition>
+      <PropertyType>
+        <TypePropertyEnumeratedValue>
+          <EnumList name="PEnum_AssetType">
+            <EnumItem>Fixed</EnumItem>
+            <EnumItem>Moveable</EnumItem>
+          </EnumList>
+        </TypePropertyEnumeratedValue>
+      </PropertyType>
+      <NameAliases />
+      <DefinitionAliases />
+    </PropertyDef>
+    <PropertyDef ifdguid="c78f1d3365864e17b4ef26803ef2663d">
+      <Name>ReplacementCost</Name>
+      <Definition>During construction and handover phase: the manufacturer’s suggested retail price for this type.  During planning and design phase: not applicable.</Definition>
+      <PropertyType>
+        <TypePropertySingleValue>
+          <DataType type="IfcMonetaryMeasure" />
+        </TypePropertySingleValue>
+      </PropertyType>
+      <NameAliases />
+      <DefinitionAliases />
+    </PropertyDef>
+    <PropertyDef ifdguid="fb6733f9777f476ab758f33223362fd4">
+      <Name>NominalLength</Name>
+      <Definition>an approximate measure of the bounding box surrounding the product type. </Definition>
+      <PropertyType>
+        <TypePropertySingleValue>
+          <DataType type="IfcPositiveLengthMeasure" />
+        </TypePropertySingleValue>
+      </PropertyType>
+      <NameAliases />
+      <DefinitionAliases />
+    </PropertyDef>
+    <PropertyDef ifdguid="699e8ae5c78e4506aeb5e419b6843d01">
+      <Name>NominalWidth</Name>
+      <Definition>an approximate measure of the bounding box surrounding the product type. </Definition>
+      <PropertyType>
+        <TypePropertySingleValue>
+          <DataType type="IfcPositiveLengthMeasure" />
+        </TypePropertySingleValue>
+      </PropertyType>
+      <NameAliases />
+      <DefinitionAliases />
+    </PropertyDef>
+    <PropertyDef ifdguid="992f9c56a41f4f699d801aa56acae0be">
+      <Name>NominalHeight</Name>
+      <Definition>an approximate measure of the bounding box surrounding the product type. </Definition>
+      <PropertyType>
+        <TypePropertySingleValue>
+          <DataType type="IfcPositiveLengthMeasure" />
+        </TypePropertySingleValue>
+      </PropertyType>
+      <NameAliases />
+      <DefinitionAliases />
+    </PropertyDef>
+    <PropertyDef ifdguid="b1e723a0898a438794e7e23dc38938db">
+      <Name>Shape</Name>
+      <Definition>During planning and design phase: specific constraints that should be/have been considered during the specification process.  During construction and handover phase: the text description of associated information found on a product manufacturers product data sheet.</Definition>
+      <PropertyType>
+        <TypePropertySingleValue>
+          <DataType />
+        </TypePropertySingleValue>
+      </PropertyType>
+      <NameAliases />
+      <DefinitionAliases />
+    </PropertyDef>
+    <PropertyDef ifdguid="7dcf7d82ff2f4a488e68eeb3862bc87a">
+      <Name>Size</Name>
+      <Definition>During planning and design phase: specific constraints that should be/have been considered during the specification process.  During construction and handover phase: the text description of associated information found on a product manufacturers product data sheet.</Definition>
+      <PropertyType>
+        <TypePropertySingleValue>
+          <DataType />
+        </TypePropertySingleValue>
+      </PropertyType>
+      <NameAliases />
+      <DefinitionAliases />
+    </PropertyDef>
+    <PropertyDef ifdguid="35cc3b9fd3a847dc8379e4d6ff147ba7">
+      <Name>Color</Name>
+      <Definition>During planning and design phase: specific constraints that should be/have been considered during the specification process.  During construction and handover phase: the text description of associated information found on a product manufacturers product data sheet.</Definition>
+      <PropertyType>
+        <TypePropertySingleValue>
+          <DataType />
+        </TypePropertySingleValue>
+      </PropertyType>
+      <NameAliases />
+      <DefinitionAliases />
+    </PropertyDef>
+    <PropertyDef ifdguid="1353eebb76c34fd6b92e5cdf48973def">
+      <Name>Finish</Name>
+      <Definition>During planning and design phase: specific constraints that should be/have been considered during the specification process.  During construction and handover phase: the text description of associated information found on a product manufacturers product data sheet.</Definition>
+      <PropertyType>
+        <TypePropertySingleValue>
+          <DataType />
+        </TypePropertySingleValue>
+      </PropertyType>
+      <NameAliases />
+      <DefinitionAliases />
+    </PropertyDef>
+    <PropertyDef ifdguid="0d529b65b4b94965a96a20cc614c58fc">
+      <Name>Features</Name>
+      <Definition>During planning and design phase: specific constraints that should be/have been considered during the specification process.  During construction and handover phase: the text description of associated information found on a product manufacturers product data sheet.</Definition>
+      <PropertyType>
+        <TypePropertySingleValue>
+          <DataType type="IfcText" />
+        </TypePropertySingleValue>
+      </PropertyType>
+      <NameAliases />
+      <DefinitionAliases />
+    </PropertyDef>
+    <PropertyDef ifdguid="7eb6af5aab9746ad9e977b14cfe899bc">
+      <Name>AccessibilityPerformance</Name>
+      <Definition>During planning and design phase: specific constraints that should be/have been considered during the specification process.  During construction and handover phase: the text description of associated information found on a product manufacturers product data sheet.</Definition>
+      <PropertyType>
+        <TypePropertySingleValue>
+          <DataType type="IfcLabel" />
+        </TypePropertySingleValue>
+      </PropertyType>
+      <NameAliases />
+      <DefinitionAliases />
+    </PropertyDef>
+    <PropertyDef ifdguid="8db11509220546048b59cbc7a3d42dfc">
+      <Name>CodePerformance</Name>
+      <Definition>During planning and design phase: specific constraints that should be/have been considered during the specification process.  During construction and handover phase: the text description of associated information found on a product manufacturers product data sheet.</Definition>
+      <PropertyType>
+        <TypePropertySingleValue>
+          <DataType type="IfcLabel" />
+        </TypePropertySingleValue>
+      </PropertyType>
+      <NameAliases />
+      <DefinitionAliases />
+    </PropertyDef>
+    <PropertyDef ifdguid="d7e1f11bbdf6408b8299b0d01f4bb912">
+      <Name>SustainabilityPerformance</Name>
+      <Definition>During planning and design phase: specific constraints that should be/have been considered during the specification process.  During construction and handover phase: the text description of associated information found on a product manufacturers product data sheet.</Definition>
+      <PropertyType>
+        <TypePropertySingleValue>
+          <DataType type="IfcLabel" />
+        </TypePropertySingleValue>
+      </PropertyType>
+      <NameAliases />
+      <DefinitionAliases />
+    </PropertyDef>
+    <PropertyDef ifdguid="dfcc22ead3db4aa4a65a0ee5fd4e531d">
+      <Name>Grade</Name>
+      <PropertyType>
+        <TypePropertySingleValue>
+          <DataType />
+        </TypePropertySingleValue>
+      </PropertyType>
+      <NameAliases />
+      <DefinitionAliases />
+    </PropertyDef>
+    <PropertyDef ifdguid="b8bc974da87e42c9ac36f6172890b5e3">
+      <Name>Material</Name>
+      <PropertyType>
+        <TypePropertySingleValue>
+          <DataType />
+        </TypePropertySingleValue>
+      </PropertyType>
+      <NameAliases />
+      <DefinitionAliases />
+    </PropertyDef>
+    <PropertyDef ifdguid="d5301537df8345b3b01bceb1ff0e4e89">
+      <Name>Constituents</Name>
+      <PropertyType>
+        <TypePropertySingleValue>
+          <DataType type="IfcText" />
+        </TypePropertySingleValue>
+      </PropertyType>
+      <NameAliases />
+      <DefinitionAliases />
+    </PropertyDef>
+  </PropertyDefs>
+  <PsetDefinitionAliases />
+</PropertySetDef>

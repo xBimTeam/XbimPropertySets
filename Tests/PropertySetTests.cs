@@ -78,6 +78,8 @@ namespace Xbim.Properties.Tests
 
 
             var directory = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
+            directory = Path.Combine(directory, "test_prop_defs");
+            if (!Directory.Exists(directory)) Directory.CreateDirectory(directory);
             pSetsDef.SaveToDirectory(directory);
 
             var defs2 = new Definitions<PropertySetDef>(Version.IFC4);
@@ -125,6 +127,13 @@ namespace Xbim.Properties.Tests
             defs.LoadAllDefault();
             var prop = defs["Pset_ActionRequest"]["RequestSourceName"] as PropertyDef;
             Assert.IsNotNull(prop);
+        }
+
+        [TestMethod]
+        public void LoadCOBiePropertySets()
+        {
+            var definitions = new Definitions<PropertySetDef>(Version.IFC4);
+            definitions.LoadIFC4COBie();
         }
     }
 }

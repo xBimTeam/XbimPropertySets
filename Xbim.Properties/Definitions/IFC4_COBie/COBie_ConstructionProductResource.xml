@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<PropertySetDef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ifdguid="c287f5f0094c446aa4be37ce4276d299" xmlns="http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd">
+  <IfcVersion version="IFC4" />
+  <Name>COBie_ConstructionProductResource</Name>
+  <Applicability>PSET_OCCURRENCEDRIVEN</Applicability>
+  <ApplicableClasses>
+    <ClassName>IfcConstructionProductResource</ClassName>
+  </ApplicableClasses>
+  <ApplicableTypeValue>IfcConstructionProductResource</ApplicableTypeValue>
+  <PropertyDefs>
+    <PropertyDef ifdguid="82bf61c742384133b6c34e5aa9f6d7ef">
+      <Name>Category</Name>
+      <PropertyType>
+        <TypePropertyEnumeratedValue>
+          <EnumList name="PEnum_ConstructionProductResourceCategory">
+            <EnumItem>Labor</EnumItem>
+            <EnumItem>Material</EnumItem>
+            <EnumItem>Tools</EnumItem>
+            <EnumItem>Training</EnumItem>
+          </EnumList>
+        </TypePropertyEnumeratedValue>
+      </PropertyType>
+      <NameAliases />
+      <DefinitionAliases />
+    </PropertyDef>
+  </PropertyDefs>
+  <PsetDefinitionAliases />
+</PropertySetDef>
