@@ -135,5 +135,12 @@ namespace Xbim.Properties.Tests
             var definitions = new Definitions<PropertySetDef>(Version.IFC4);
             definitions.LoadIFC4COBie();
         }
+
+        [TestMethod]
+        public void LoadIFC4AndCOBiePropertySets()
+        {
+            var definitions = new Definitions<PropertySetDef>(Version.IFC4);
+            definitions.LoadIFC4AndCOBie();
+        }
     }
 }

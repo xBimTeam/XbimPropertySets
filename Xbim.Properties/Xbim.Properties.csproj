@@ -64,6 +64,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>IFC2x3_Defitinion_files.resx</DependentUpon>
     </Compile>
+    <Compile Include="Definitions\IFC4_and_COBie_Definition_files.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>IFC4_and_COBie_Definition_files.resx</DependentUpon>
+    </Compile>
     <Compile Include="Definitions\IFC4_COBie_Definition_files.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -948,6 +953,10 @@
     <EmbeddedResource Include="Definitions\IFC2x3_Defitinion_files.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>IFC2x3_Defitinion_files.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Definitions\IFC4_and_COBie_Definition_files.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>IFC4_and_COBie_Definition_files.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Definitions\IFC4_COBie_Definition_files.resx">
       <Generator>ResXFileCodeGenerator</Generator>
