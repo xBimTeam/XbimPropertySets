@@ -58,18 +58,6 @@
     <Compile Include="PropertySetTests.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Xbim.Common\Xbim.Common.csproj">
-      <Project>{6745f5ac-af3c-4372-81aa-a75e7b1fa03b}</Project>
-      <Name>Xbim.Common</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Xbim.Ifc2x3\Xbim.Ifc2x3.csproj">
-      <Project>{5d4c907d-1293-4e5f-9642-d0862ae4741c}</Project>
-      <Name>Xbim.Ifc2x3</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Xbim.ModelGeometry.Scene\Xbim.ModelGeometry.Scene.csproj">
-      <Project>{3d9d37de-a254-4433-b172-7590cbd84c69}</Project>
-      <Name>Xbim.ModelGeometry.Scene</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Xbim.Properties\Xbim.Properties.csproj">
       <Project>{651cbc27-a553-4df1-8d23-be6d6daa90ec}</Project>
       <Name>Xbim.Properties</Name>
