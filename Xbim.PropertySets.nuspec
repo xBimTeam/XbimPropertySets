@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
     <metadata>
         <id>Xbim.PropertySets</id>
-        <version>1.0.2</version>
+        <version>1.0.3</version>
         <title>xBIM PropertySets</title>
         <authors>xBIM team</authors>
         <owners>Martin Cerny</owners>
@@ -28,9 +28,9 @@
 	</dependencies> 
     </metadata>
     <files>
-      <file src="Output\Release\Xbim.Properties.dll" target="lib\net45\Xbim.Properties.dll" />
-      <file src="Output\Release\Xbim.Properties.xml" target="lib\net45\Xbim.Properties.xml" />
-      <file src="Output\Release\Xbim.Properties.pdb" target="lib\net45\Xbim.Properties.pdb" />
+      <file src="Output\Release\Xbim.Properties.dll" target="lib\net40\Xbim.Properties.dll" />
+      <file src="Output\Release\Xbim.Properties.xml" target="lib\net40\Xbim.Properties.xml" />
+      <file src="Output\Release\Xbim.Properties.pdb" target="lib\net40\Xbim.Properties.pdb" />
     </files>
 	
 </package>
