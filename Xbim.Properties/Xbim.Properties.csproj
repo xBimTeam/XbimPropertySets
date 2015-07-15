@@ -45,6 +45,12 @@
   <PropertyGroup>
     <StartupObject />
   </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>XbimOpenSourceKeyFile.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -120,6 +126,7 @@
     <None Include="Schema\QTO_IFC4.xsd">
       <SubType>Designer</SubType>
     </None>
+    <None Include="XbimOpenSourceKeyFile.snk" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
