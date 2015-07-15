@@ -21,7 +21,9 @@
           The xBIM project provides packages to convert IFC models to COBie spreadsheets in both UK and US cultures as well as a range of 3D viewing controls for use with Windows forms, WPF, WEBGL and OpenGL platforms.
           IOS and Android versions are under development.</description>
         <summary>The .Net toolkit for developing BIM applications based on the IFC standard. Essential support for the Ifc data model</summary>
-        <releaseNotes>Added support for IFC4 COBie property sets. Fixed version of definition files are part built in an assembly as a resource.</releaseNotes>
+        <releaseNotes>
+          Now targeting .Net platform v40 and producing signed dll.
+        </releaseNotes>
         <language>en-GB</language>
         <tags>BIM, IFC, IfcXml, IfcZip, COBie, .Net, C#, BuildingSmart</tags>
 	<dependencies>
@@ -32,5 +34,4 @@
       <file src="Output\Release\Xbim.Properties.xml" target="lib\net40\Xbim.Properties.xml" />
       <file src="Output\Release\Xbim.Properties.pdb" target="lib\net40\Xbim.Properties.pdb" />
     </files>
-	
 </package>
