@@ -1,5 +1,11 @@
 Subproject of https://github.com/xBimTeam/xBimToolkit
 
+Relates to Nuget Package Xbim.PropertySets
+
+Build Status (master branch): [ ![Build Status](http://xbimbuilds.cloudapp.net/app/rest/builds/buildType:(id:Xbim_XbimPropertySets_XbimPropertySets),branch:(name:master)/statusIcon "Build Status") ](http://xbimbuilds.cloudapp.net/project.html?projectId=Xbim_XbimPropertySets&tab=projectOverview "Build Status")
+
+Build Status (develop branch): [ ![Build Status](http://xbimbuilds.cloudapp.net/app/rest/builds/buildType:(id:Xbim_XbimPropertySets_XbimPropertySets),branch:(name:develop)/statusIcon "Build Status") ](http://xbimbuilds.cloudapp.net/project.html?projectId=Xbim_XbimPropertySets&tab=projectOverview "Build Status")
+
 # XBIM - the eXtensible Building Information Modelling (BIM) Toolkit
 
 ## What is it?
