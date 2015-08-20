@@ -8,19 +8,6 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("Xbim.Properties")]
 [assembly: AssemblyDescription("")]
 
-// taken from shared configuration in other solutions
-#if DEBUG
-[assembly: AssemblyConfiguration("Debug")]
-#else
-[assembly: AssemblyConfiguration("Release")]
-#endif
-
-[assembly: AssemblyCompany("Lockley Consulting")]
-[assembly: AssemblyProduct("Xbim Library")]
-[assembly: AssemblyCopyright("Copyright © Lockley Consulting 2007-201")]
-[assembly: AssemblyTrademark("Xbim")]
-[assembly: AssemblyCulture("")]
-
 // Setting ComVisible to false makes the types in this assembly not visible 
 // to COM components.  If you need to access a type in this assembly from 
 // COM, set the ComVisible attribute to true on that type.

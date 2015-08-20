@@ -65,6 +65,9 @@
     <Compile Include="..\SharedFileVersionInfo.cs">
       <Link>Properties\SharedFileVersionInfo.cs</Link>
     </Compile>
+	<Compile Include="..\SharedAssemblyInfo.cs">
+      <Link>Properties\SharedAssemblyInfo.cs</Link>
+    </Compile>
     <Compile Include="ApplicableClass.cs" />
     <Compile Include="ConstantDef.cs" />
     <Compile Include="DataType.cs" />
