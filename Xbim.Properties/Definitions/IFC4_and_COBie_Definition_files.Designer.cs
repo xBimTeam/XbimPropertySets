@@ -22,24 +22,24 @@ namespace Xbim.Properties.Definitions {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public class IFC4_Definition_files {
+    internal class IFC4_and_COBie_Definition_files {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal IFC4_Definition_files() {
+        internal IFC4_and_COBie_Definition_files() {
         }
         
         /// <summary>
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        public static global::System.Resources.ResourceManager ResourceManager {
+        internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Xbim.Properties.Definitions.IFC4_Definition_files", typeof(IFC4_Definition_files).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Xbim.Properties.Definitions.IFC4_and_COBie_Definition_files", typeof(IFC4_and_COBie_Definition_files).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -51,12 +51,105 @@ namespace Xbim.Properties.Definitions {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        public static global::System.Globalization.CultureInfo Culture {
+        internal static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
             set {
                 resourceCulture = value;
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot;?&gt;
+        ///&lt;PropertySetDef 
+        ///	xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; 
+        ///	xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; 
+        ///	ifdguid=&quot;682854416e034c9eb2e1fa6a85adfd78&quot; 
+        ///	xmlns=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///
+        ///  &lt;IfcVersion version=&quot;IFC4&quot; /&gt;
+        ///  &lt;Name&gt;COBie_ActionRequest&lt;/Name&gt;
+        ///  &lt;Applicability&gt;PSET_OCCURRENCEDRIVEN&lt;/Applicability&gt;
+        ///  &lt;ApplicableClasses&gt;
+        ///    &lt;ClassName&gt;IfcActionRequest&lt;/ClassName&gt;
+        ///  &lt;/ApplicableClasses&gt;
+        ///  &lt;ApplicableTypeValue&gt;IfcActionRequest [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string COBie_ActionRequest {
+            get {
+                return ResourceManager.GetString("COBie_ActionRequest", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot;?&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; ifdguid=&quot;c287f5f0094c446aa4be37ce4276d299&quot; xmlns=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4&quot; /&gt;
+        ///  &lt;Name&gt;COBie_ConstructionProductResource&lt;/Name&gt;
+        ///  &lt;Applicability&gt;PSET_OCCURRENCEDRIVEN&lt;/Applicability&gt;
+        ///  &lt;ApplicableClasses&gt;
+        ///    &lt;ClassName&gt;IfcConstructionProductResource&lt;/ClassName&gt;
+        ///  &lt;/ApplicableClasses&gt;
+        ///  &lt;ApplicableTypeValue&gt;If [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string COBie_ConstructionProductResource {
+            get {
+                return ResourceManager.GetString("COBie_ConstructionProductResource", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot;?&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; 
+        ///                ifdguid=&quot;85ef6c6b34cf49058eba131e9e99549e&quot; xmlns=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4&quot; /&gt;
+        ///  &lt;Name&gt;COBie_ConstructionProductResourceType&lt;/Name&gt;
+        ///  &lt;Applicability&gt;PSET_TYPEDRIVENONLY&lt;/Applicability&gt;
+        ///  &lt;ApplicableClasses&gt;
+        ///    &lt;ClassName&gt;IfcConstructionProductResourceType&lt;/ClassName&gt;
+        ///  &lt;/ApplicableClasses&gt;
+        ///  [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string COBie_ConstructionProductResourceType {
+            get {
+                return ResourceManager.GetString("COBie_ConstructionProductResourceType", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot;?&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; 
+        ///                ifdguid=&quot;5579fe03628e464c9a8e2d049a1eb6bb&quot; xmlns=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4&quot; /&gt;
+        ///  &lt;Name&gt;COBie_ElementType&lt;/Name&gt;
+        ///  &lt;Applicability&gt;QTO_TYPEDRIVENONLY&lt;/Applicability&gt;
+        ///  &lt;ApplicableClasses&gt;
+        ///    &lt;ClassName&gt;IfcElementType&lt;/ClassName&gt;
+        ///  &lt;/ApplicableClasses&gt;
+        ///  &lt;ApplicableTypeValue&gt;IfcElementType&lt;/App [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string COBie_ElementType {
+            get {
+                return ResourceManager.GetString("COBie_ElementType", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot;?&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; 
+        ///                ifdguid=&quot;a42d038a72a64fc0b347723692c84984&quot; xmlns=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4&quot; /&gt;
+        ///  &lt;Name&gt;COBie_Task&lt;/Name&gt;
+        ///  &lt;Applicability&gt;PSET_OCCURRENCEDRIVEN&lt;/Applicability&gt;
+        ///  &lt;ApplicableClasses&gt;
+        ///    &lt;ClassName&gt;IfcTask&lt;/ClassName&gt;
+        ///  &lt;/ApplicableClasses&gt;
+        ///  &lt;ApplicableTypeValue&gt;IfcTask&lt;/ApplicableTypeValue&gt;        /// [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string COBie_Task {
+            get {
+                return ResourceManager.GetString("COBie_Task", resourceCulture);
             }
         }
         
@@ -72,7 +165,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableClasses&gt;
         ///		&lt;ClassName&gt;IfcActionRequest&lt;/Class [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ActionRequest {
+        internal static string Pset_ActionRequest {
             get {
                 return ResourceManager.GetString("Pset_ActionRequest", resourceCulture);
             }
@@ -84,7 +177,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Name&gt;Pset_ActorCommon&lt;/Name&gt;
         ///	&lt;Definition&gt;A property set that enables further classification of actors, including the ability to give a number of actors to be designated as a population, the number being specified as a property to be dealt with as a single value rather than having to aggregat [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ActorCommon {
+        internal static string Pset_ActorCommon {
             get {
                 return ResourceManager.GetString("Pset_ActorCommon", resourceCulture);
             }
@@ -102,7 +195,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableTypeValue&gt;IfcActuator&lt;/ApplicableTypeValue&gt;
         /// [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ActuatorPHistory {
+        internal static string Pset_ActuatorPHistory {
             get {
                 return ResourceManager.GetString("Pset_ActuatorPHistory", resourceCulture);
             }
@@ -121,7 +214,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;PropertyDefs&gt;
         ///		&lt;Proper [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ActuatorTypeCommon {
+        internal static string Pset_ActuatorTypeCommon {
             get {
                 return ResourceManager.GetString("Pset_ActuatorTypeCommon", resourceCulture);
             }
@@ -138,7 +231,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcActuator/ [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ActuatorTypeElectricActuator {
+        internal static string Pset_ActuatorTypeElectricActuator {
             get {
                 return ResourceManager.GetString("Pset_ActuatorTypeElectricActuator", resourceCulture);
             }
@@ -155,7 +248,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcActuat [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ActuatorTypeHydraulicActuator {
+        internal static string Pset_ActuatorTypeHydraulicActuator {
             get {
                 return ResourceManager.GetString("Pset_ActuatorTypeHydraulicActuator", resourceCulture);
             }
@@ -173,7 +266,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeV [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ActuatorTypeLinearActuation {
+        internal static string Pset_ActuatorTypeLinearActuation {
             get {
                 return ResourceManager.GetString("Pset_ActuatorTypeLinearActuation", resourceCulture);
             }
@@ -190,7 +283,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcActuato [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ActuatorTypePneumaticActuator {
+        internal static string Pset_ActuatorTypePneumaticActuator {
             get {
                 return ResourceManager.GetString("Pset_ActuatorTypePneumaticActuator", resourceCulture);
             }
@@ -208,7 +301,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;App [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ActuatorTypeRotationalActuation {
+        internal static string Pset_ActuatorTypeRotationalActuation {
             get {
                 return ResourceManager.GetString("Pset_ActuatorTypeRotationalActuation", resourceCulture);
             }
@@ -225,7 +318,7 @@ namespace Xbim.Properties.Definitions {
         ///		&lt;ClassName&gt;IfcZone&lt;/ClassName&gt;
         ///		&lt;Cla [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_AirSideSystemInformation {
+        internal static string Pset_AirSideSystemInformation {
             get {
                 return ResourceManager.GetString("Pset_AirSideSystemInformation", resourceCulture);
             }
@@ -242,7 +335,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcAirTerminalBox&lt;/ApplicableTypeVa [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_AirTerminalBoxPHistory {
+        internal static string Pset_AirTerminalBoxPHistory {
             get {
                 return ResourceManager.GetString("Pset_AirTerminalBoxPHistory", resourceCulture);
             }
@@ -260,7 +353,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableTypeValue&gt;IfcAirTerminalBox&lt;/ApplicableTypeValue&gt;
         /// [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_AirTerminalBoxTypeCommon {
+        internal static string Pset_AirTerminalBoxTypeCommon {
             get {
                 return ResourceManager.GetString("Pset_AirTerminalBoxTypeCommon", resourceCulture);
             }
@@ -277,7 +370,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcAirTerm [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_AirTerminalOccurrence {
+        internal static string Pset_AirTerminalOccurrence {
             get {
                 return ResourceManager.GetString("Pset_AirTerminalOccurrence", resourceCulture);
             }
@@ -295,7 +388,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableTypeValue&gt;IfcAirTerminal&lt;/ApplicableTypeValue&gt;
         /// [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_AirTerminalPHistory {
+        internal static string Pset_AirTerminalPHistory {
             get {
                 return ResourceManager.GetString("Pset_AirTerminalPHistory", resourceCulture);
             }
@@ -312,7 +405,7 @@ namespace Xbim.Properties.Definitions {
         ///		&lt;ClassName&gt;IfcAirTerminal&lt;/ClassName&gt;
         ///	&lt;/Applic [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_AirTerminalTypeCommon {
+        internal static string Pset_AirTerminalTypeCommon {
             get {
                 return ResourceManager.GetString("Pset_AirTerminalTypeCommon", resourceCulture);
             }
@@ -329,7 +422,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcAirTo [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_AirToAirHeatRecoveryPHistory {
+        internal static string Pset_AirToAirHeatRecoveryPHistory {
             get {
                 return ResourceManager.GetString("Pset_AirToAirHeatRecoveryPHistory", resourceCulture);
             }
@@ -346,7 +439,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcAirToAirHeatRecove [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_AirToAirHeatRecoveryTypeCommon {
+        internal static string Pset_AirToAirHeatRecoveryTypeCommon {
             get {
                 return ResourceManager.GetString("Pset_AirToAirHeatRecoveryTypeCommon", resourceCulture);
             }
@@ -364,7 +457,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableTypeValue&gt;IfcAlarm&lt;/ApplicableTypeValue&gt;
         ///	&lt;Pro [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_AlarmPHistory {
+        internal static string Pset_AlarmPHistory {
             get {
                 return ResourceManager.GetString("Pset_AlarmPHistory", resourceCulture);
             }
@@ -382,7 +475,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableTypeValue&gt;IfcAlarm&lt;/ApplicableTypeValue&gt;
         ///	&lt;PropertyDef [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_AlarmTypeCommon {
+        internal static string Pset_AlarmTypeCommon {
             get {
                 return ResourceManager.GetString("Pset_AlarmTypeCommon", resourceCulture);
             }
@@ -399,7 +492,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableT [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_AnnotationContourLine {
+        internal static string Pset_AnnotationContourLine {
             get {
                 return ResourceManager.GetString("Pset_AnnotationContourLine", resourceCulture);
             }
@@ -411,7 +504,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Name&gt;Pset_AnnotationLineOfSight&lt;/Name&gt;
         ///	&lt;Definition&gt;Specifies the properties of the line of sight at a point of connection between two elements. Typically used to define the line of sight visibility at the junction between two roads (particularly between an access road and a public road).&lt;/De [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_AnnotationLineOfSight {
+        internal static string Pset_AnnotationLineOfSight {
             get {
                 return ResourceManager.GetString("Pset_AnnotationLineOfSight", resourceCulture);
             }
@@ -427,7 +520,7 @@ namespace Xbim.Properties.Definitions {
         ///		&lt;ClassName&gt;IfcAnnotation/SurveyArea&lt;/ClassName&gt;
         ///	&lt;/Applica [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_AnnotationSurveyArea {
+        internal static string Pset_AnnotationSurveyArea {
             get {
                 return ResourceManager.GetString("Pset_AnnotationSurveyArea", resourceCulture);
             }
@@ -444,7 +537,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;Applic [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_Asset {
+        internal static string Pset_Asset {
             get {
                 return ResourceManager.GetString("Pset_Asset", resourceCulture);
             }
@@ -459,7 +552,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableClasses&gt;
         ///		&lt;ClassName&gt;IfcAu [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_AudioVisualAppliancePHistory {
+        internal static string Pset_AudioVisualAppliancePHistory {
             get {
                 return ResourceManager.GetString("Pset_AudioVisualAppliancePHistory", resourceCulture);
             }
@@ -474,7 +567,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableClasses&gt;
         ///		&lt;ClassName&gt;IfcAudioVisual [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_AudioVisualApplianceTypeAmplifier {
+        internal static string Pset_AudioVisualApplianceTypeAmplifier {
             get {
                 return ResourceManager.GetString("Pset_AudioVisualApplianceTypeAmplifier", resourceCulture);
             }
@@ -490,7 +583,7 @@ namespace Xbim.Properties.Definitions {
         ///		&lt;ClassName&gt;IfcAudioVisualAppliance/CAMERA&lt;/ClassName&gt;
         ///	&lt;/Ap [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_AudioVisualApplianceTypeCamera {
+        internal static string Pset_AudioVisualApplianceTypeCamera {
             get {
                 return ResourceManager.GetString("Pset_AudioVisualApplianceTypeCamera", resourceCulture);
             }
@@ -506,7 +599,7 @@ namespace Xbim.Properties.Definitions {
         ///		&lt;ClassName&gt;IfcAudioVisualAppliance&lt;/ClassName&gt;
         ///	&lt;/Appl [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_AudioVisualApplianceTypeCommon {
+        internal static string Pset_AudioVisualApplianceTypeCommon {
             get {
                 return ResourceManager.GetString("Pset_AudioVisualApplianceTypeCommon", resourceCulture);
             }
@@ -522,7 +615,7 @@ namespace Xbim.Properties.Definitions {
         ///		&lt;ClassName&gt;IfcAudioVisualAppliance/DISPLAY&lt;/ClassName&gt;
         ///	&lt;/Applicab [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_AudioVisualApplianceTypeDisplay {
+        internal static string Pset_AudioVisualApplianceTypeDisplay {
             get {
                 return ResourceManager.GetString("Pset_AudioVisualApplianceTypeDisplay", resourceCulture);
             }
@@ -534,7 +627,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Name&gt;Pset_AudioVisualApplianceTypePlayer&lt;/Name&gt;
         ///	&lt;Definition&gt;An audio-visual player is a device that plays stored media into a stream of audio and/or video, such as camera footage in security systems, background audio in retail areas, or media presentations in conference rooms or theatres.  H [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_AudioVisualApplianceTypePlayer {
+        internal static string Pset_AudioVisualApplianceTypePlayer {
             get {
                 return ResourceManager.GetString("Pset_AudioVisualApplianceTypePlayer", resourceCulture);
             }
@@ -550,7 +643,7 @@ namespace Xbim.Properties.Definitions {
         ///		&lt;ClassName&gt;IfcAudioVisualAppliance/PROJECTOR&lt;/ClassName&gt;
         ///	&lt;/Ap [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_AudioVisualApplianceTypeProjector {
+        internal static string Pset_AudioVisualApplianceTypeProjector {
             get {
                 return ResourceManager.GetString("Pset_AudioVisualApplianceTypeProjector", resourceCulture);
             }
@@ -563,7 +656,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Definition&gt;An audio-visual receiver is a device that switches audio and/or video from multiple sources, including external sources connected from ports and internal aggregated sources.  HISTORY: Added in IFC4.&lt;/Definition&gt;
         ///	&lt;IfcVersion vers [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_AudioVisualApplianceTypeReceiver {
+        internal static string Pset_AudioVisualApplianceTypeReceiver {
             get {
                 return ResourceManager.GetString("Pset_AudioVisualApplianceTypeReceiver", resourceCulture);
             }
@@ -578,7 +671,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableClasses&gt;
         ///		&lt;ClassName&gt;IfcAudioVisualAppliance/SPEAKER&lt;/C [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_AudioVisualApplianceTypeSpeaker {
+        internal static string Pset_AudioVisualApplianceTypeSpeaker {
             get {
                 return ResourceManager.GetString("Pset_AudioVisualApplianceTypeSpeaker", resourceCulture);
             }
@@ -593,7 +686,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableClasses&gt;
         ///		&lt;ClassName&gt;IfcAudioVisualAppliance/TUNER&lt;/ [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_AudioVisualApplianceTypeTuner {
+        internal static string Pset_AudioVisualApplianceTypeTuner {
             get {
                 return ResourceManager.GetString("Pset_AudioVisualApplianceTypeTuner", resourceCulture);
             }
@@ -610,7 +703,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcBeam&lt;/ApplicableTypeVal [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_BeamCommon {
+        internal static string Pset_BeamCommon {
             get {
                 return ResourceManager.GetString("Pset_BeamCommon", resourceCulture);
             }
@@ -623,7 +716,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Definition&gt;Boiler performance history common attributes.
         ///WaterQuality attribute deleted in IFC2x2 Pset Addendum: Use IfcWaterProperties instead. CombustionProductsMaximulLoad and CombustionProductsPartialLoad attributes deleted in IFC2x2 Pset Addendum: Use I [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_BoilerPHistory {
+        internal static string Pset_BoilerPHistory {
             get {
                 return ResourceManager.GetString("Pset_BoilerPHistory", resourceCulture);
             }
@@ -636,7 +729,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Definition&gt;Boiler type common attributes.
         ///SoundLevel attribute deleted in IFC2x2 Pset Addendum: Use IfcSoundProperties instead. PrimaryEnergySource and AuxiliaryEnergySource attributes deleted in IFC2x2 Pset Addendum: Use IfcEnergyProperties, IfcFuelProper [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_BoilerTypeCommon {
+        internal static string Pset_BoilerTypeCommon {
             get {
                 return ResourceManager.GetString("Pset_BoilerTypeCommon", resourceCulture);
             }
@@ -655,7 +748,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;PropertyDefs&gt;
         /// [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_BoilerTypeSteam {
+        internal static string Pset_BoilerTypeSteam {
             get {
                 return ResourceManager.GetString("Pset_BoilerTypeSteam", resourceCulture);
             }
@@ -674,7 +767,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;PropertyDefs&gt;
         /// [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_BoilerTypeWater {
+        internal static string Pset_BoilerTypeWater {
             get {
                 return ResourceManager.GetString("Pset_BoilerTypeWater", resourceCulture);
             }
@@ -686,7 +779,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Name&gt;Pset_BuildingCommon&lt;/Name&gt;
         ///	&lt;Definition&gt;Properties common to the definition of all instances of IfcBuilding. Please note that several building attributes are handled directly at the IfcBuilding instance, the building number (or short name) by IfcBuilding.Name, the building name (or long  [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_BuildingCommon {
+        internal static string Pset_BuildingCommon {
             get {
                 return ResourceManager.GetString("Pset_BuildingCommon", resourceCulture);
             }
@@ -703,7 +796,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTyp [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_BuildingElementProxyCommon {
+        internal static string Pset_BuildingElementProxyCommon {
             get {
                 return ResourceManager.GetString("Pset_BuildingElementProxyCommon", resourceCulture);
             }
@@ -715,7 +808,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Name&gt;Pset_BuildingElementProxyProvisionForVoid&lt;/Name&gt;
         ///	&lt;Definition&gt;Properties common to the definition of a provision for void as a special type of an instance of IfcBuildingElementProxy. A provision for void is a spatial provision that might be resolved into a void in a building element. The [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_BuildingElementProxyProvisionForVoid {
+        internal static string Pset_BuildingElementProxyProvisionForVoid {
             get {
                 return ResourceManager.GetString("Pset_BuildingElementProxyProvisionForVoid", resourceCulture);
             }
@@ -727,7 +820,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Name&gt;Pset_BuildingStoreyCommon&lt;/Name&gt;
         ///	&lt;Definition&gt;Properties common to the definition of all instances of IfcBuildingStorey. Please note that several building attributes are handled directly at the IfcBuildingStorey instance, the building storey number (or short name) by IfcBuildingStorey.Na [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_BuildingStoreyCommon {
+        internal static string Pset_BuildingStoreyCommon {
             get {
                 return ResourceManager.GetString("Pset_BuildingStoreyCommon", resourceCulture);
             }
@@ -744,7 +837,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcBuildingSystem&lt;/Applicable [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_BuildingSystemCommon {
+        internal static string Pset_BuildingSystemCommon {
             get {
                 return ResourceManager.GetString("Pset_BuildingSystemCommon", resourceCulture);
             }
@@ -761,7 +854,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTy [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_BuildingUse {
+        internal static string Pset_BuildingUse {
             get {
                 return ResourceManager.GetString("Pset_BuildingUse", resourceCulture);
             }
@@ -773,7 +866,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Name&gt;Pset_BuildingUseAdjacent&lt;/Name&gt;
         ///	&lt;Definition&gt;Provides information on adjacent buildings and their uses to enable their impact on the building of interest to be determined. Note that for each instance of the property set used, where there is an existence of risk, there will be an instance [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_BuildingUseAdjacent {
+        internal static string Pset_BuildingUseAdjacent {
             get {
                 return ResourceManager.GetString("Pset_BuildingUseAdjacent", resourceCulture);
             }
@@ -792,7 +885,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;PropertyDefs&gt;
         ///		&lt;PropertyDe [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_BurnerTypeCommon {
+        internal static string Pset_BurnerTypeCommon {
             get {
                 return ResourceManager.GetString("Pset_BurnerTypeCommon", resourceCulture);
             }
@@ -809,7 +902,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;I [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_CableCarrierFittingTypeCommon {
+        internal static string Pset_CableCarrierFittingTypeCommon {
             get {
                 return ResourceManager.GetString("Pset_CableCarrierFittingTypeCommon", resourceCulture);
             }
@@ -825,7 +918,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableClasses&gt;
         ///		 [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_CableCarrierSegmentTypeCableLadderSegment {
+        internal static string Pset_CableCarrierSegmentTypeCableLadderSegment {
             get {
                 return ResourceManager.GetString("Pset_CableCarrierSegmentTypeCableLadderSegment", resourceCulture);
             }
@@ -841,7 +934,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableClasses&gt;
         ///		&lt;ClassName&gt;If [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_CableCarrierSegmentTypeCableTraySegment {
+        internal static string Pset_CableCarrierSegmentTypeCableTraySegment {
             get {
                 return ResourceManager.GetString("Pset_CableCarrierSegmentTypeCableTraySegment", resourceCulture);
             }
@@ -856,7 +949,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;IfcVersion version=&quot;2x4&quot; /&gt;
         ///	&lt;Applicab [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_CableCarrierSegmentTypeCableTrunkingSegment {
+        internal static string Pset_CableCarrierSegmentTypeCableTrunkingSegment {
             get {
                 return ResourceManager.GetString("Pset_CableCarrierSegmentTypeCableTrunkingSegment", resourceCulture);
             }
@@ -873,7 +966,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;I [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_CableCarrierSegmentTypeCommon {
+        internal static string Pset_CableCarrierSegmentTypeCommon {
             get {
                 return ResourceManager.GetString("Pset_CableCarrierSegmentTypeCommon", resourceCulture);
             }
@@ -889,7 +982,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableClasses&gt;
         ///		&lt;ClassName [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_CableCarrierSegmentTypeConduitSegment {
+        internal static string Pset_CableCarrierSegmentTypeConduitSegment {
             get {
                 return ResourceManager.GetString("Pset_CableCarrierSegmentTypeConduitSegment", resourceCulture);
             }
@@ -906,7 +999,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcCableFitting&lt;/Applic [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_CableFittingTypeCommon {
+        internal static string Pset_CableFittingTypeCommon {
             get {
                 return ResourceManager.GetString("Pset_CableFittingTypeCommon", resourceCulture);
             }
@@ -918,7 +1011,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Name&gt;Pset_CableSegmentOccurrence&lt;/Name&gt;
         ///	&lt;Definition&gt;Properties for the occurrence of an electrical cable, core or conductor that conforms to a type as specified by an appropriate type definition within IFC. NOTE: Maximum allowed voltage drop should be derived from the property within Pset_El [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_CableSegmentOccurrence {
+        internal static string Pset_CableSegmentOccurrence {
             get {
                 return ResourceManager.GetString("Pset_CableSegmentOccurrence", resourceCulture);
             }
@@ -935,7 +1028,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcCableSegment/BUS [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_CableSegmentTypeBusBarSegment {
+        internal static string Pset_CableSegmentTypeBusBarSegment {
             get {
                 return ResourceManager.GetString("Pset_CableSegmentTypeBusBarSegment", resourceCulture);
             }
@@ -947,7 +1040,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Name&gt;Pset_CableSegmentTypeCableSegment&lt;/Name&gt;
         ///	&lt;Definition&gt;Electrical cable with a specific purpose to lead electric current within a circuit or any other electric construction. Includes all types of electric cables, mainly several electrical segments wrapped together, e.g. cable, tube, busba [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_CableSegmentTypeCableSegment {
+        internal static string Pset_CableSegmentTypeCableSegment {
             get {
                 return ResourceManager.GetString("Pset_CableSegmentTypeCableSegment", resourceCulture);
             }
@@ -964,7 +1057,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcCableSegment&lt;/Applicab [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_CableSegmentTypeCommon {
+        internal static string Pset_CableSegmentTypeCommon {
             get {
                 return ResourceManager.GetString("Pset_CableSegmentTypeCommon", resourceCulture);
             }
@@ -976,7 +1069,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Name&gt;Pset_CableSegmentTypeConductorSegment&lt;/Name&gt;
         ///	&lt;Definition&gt;An electrical conductor is a single linear element with the specific purpose to lead electric current. The core of one lead is normally single wired or multiwired which are intertwined. According to IEC 60050: IEV 195-01-07, a con [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_CableSegmentTypeConductorSegment {
+        internal static string Pset_CableSegmentTypeConductorSegment {
             get {
                 return ResourceManager.GetString("Pset_CableSegmentTypeConductorSegment", resourceCulture);
             }
@@ -993,7 +1086,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;Applicabl [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_CableSegmentTypeCoreSegment {
+        internal static string Pset_CableSegmentTypeCoreSegment {
             get {
                 return ResourceManager.GetString("Pset_CableSegmentTypeCoreSegment", resourceCulture);
             }
@@ -1012,7 +1105,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;PropertyDefs&gt;
         ///		&lt;Prop [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ChillerPHistory {
+        internal static string Pset_ChillerPHistory {
             get {
                 return ResourceManager.GetString("Pset_ChillerPHistory", resourceCulture);
             }
@@ -1031,7 +1124,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;PropertyDefs&gt;
         ///		&lt;PropertyDe [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ChillerTypeCommon {
+        internal static string Pset_ChillerTypeCommon {
             get {
                 return ResourceManager.GetString("Pset_ChillerTypeCommon", resourceCulture);
             }
@@ -1048,7 +1141,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcChimney&lt;/Appl [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ChimneyCommon {
+        internal static string Pset_ChimneyCommon {
             get {
                 return ResourceManager.GetString("Pset_ChimneyCommon", resourceCulture);
             }
@@ -1066,7 +1159,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableTypeValue&gt;IfcCoil&lt;/ApplicableTypeValue&gt;
         ///	&lt;Proper [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_CoilOccurrence {
+        internal static string Pset_CoilOccurrence {
             get {
                 return ResourceManager.GetString("Pset_CoilOccurrence", resourceCulture);
             }
@@ -1084,7 +1177,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         /// [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_CoilPHistory {
+        internal static string Pset_CoilPHistory {
             get {
                 return ResourceManager.GetString("Pset_CoilPHistory", resourceCulture);
             }
@@ -1103,7 +1196,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;PropertyDefs&gt;
         ///		&lt;PropertyDef ifdguid=&quot;9 [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_CoilTypeCommon {
+        internal static string Pset_CoilTypeCommon {
             get {
                 return ResourceManager.GetString("Pset_CoilTypeCommon", resourceCulture);
             }
@@ -1122,7 +1215,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;PropertyDefs&gt;
         ///		&lt;PropertyDef ifdgui [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_CoilTypeHydronic {
+        internal static string Pset_CoilTypeHydronic {
             get {
                 return ResourceManager.GetString("Pset_CoilTypeHydronic", resourceCulture);
             }
@@ -1139,7 +1232,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcColumn&lt;/Applicabl [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ColumnCommon {
+        internal static string Pset_ColumnCommon {
             get {
                 return ResourceManager.GetString("Pset_ColumnCommon", resourceCulture);
             }
@@ -1154,7 +1247,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableClasses&gt;
         ///		&lt;ClassName&gt;IfcCommunicationsAppliance&lt;/Cl [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_CommunicationsAppliancePHistory {
+        internal static string Pset_CommunicationsAppliancePHistory {
             get {
                 return ResourceManager.GetString("Pset_CommunicationsAppliancePHistory", resourceCulture);
             }
@@ -1171,7 +1264,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;Applicable [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_CommunicationsApplianceTypeCommon {
+        internal static string Pset_CommunicationsApplianceTypeCommon {
             get {
                 return ResourceManager.GetString("Pset_CommunicationsApplianceTypeCommon", resourceCulture);
             }
@@ -1189,7 +1282,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableTypeValue&gt;IfcCompressor&lt;/ApplicableTypeValue&gt;
         ///	&lt;PropertyDe [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_CompressorPHistory {
+        internal static string Pset_CompressorPHistory {
             get {
                 return ResourceManager.GetString("Pset_CompressorPHistory", resourceCulture);
             }
@@ -1208,7 +1301,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;PropertyDefs&gt;
         ///	 [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_CompressorTypeCommon {
+        internal static string Pset_CompressorTypeCommon {
             get {
                 return ResourceManager.GetString("Pset_CompressorTypeCommon", resourceCulture);
             }
@@ -1220,7 +1313,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Name&gt;Pset_ConcreteElementGeneral&lt;/Name&gt;
         ///	&lt;Definition&gt;General properties common to different types of concrete elements, including reinforced concrete elements. The property set can be used by a number of subtypes of IfcBuildingElement, indicated that such element is designed or constructed us [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ConcreteElementGeneral {
+        internal static string Pset_ConcreteElementGeneral {
             get {
                 return ResourceManager.GetString("Pset_ConcreteElementGeneral", resourceCulture);
             }
@@ -1238,7 +1331,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableTypeValue&gt;IfcCondenser&lt;/ApplicableTypeValue&gt;
         ///	&lt;PropertyDefs&gt;        /// [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_CondenserPHistory {
+        internal static string Pset_CondenserPHistory {
             get {
                 return ResourceManager.GetString("Pset_CondenserPHistory", resourceCulture);
             }
@@ -1257,7 +1350,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;PropertyDefs&gt;
         ///		&lt;Pr [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_CondenserTypeCommon {
+        internal static string Pset_CondenserTypeCommon {
             get {
                 return ResourceManager.GetString("Pset_CondenserTypeCommon", resourceCulture);
             }
@@ -1274,7 +1367,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcElement&lt;/ApplicableTyp [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_Condition {
+        internal static string Pset_Condition {
             get {
                 return ResourceManager.GetString("Pset_Condition", resourceCulture);
             }
@@ -1291,7 +1384,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcConstructionResource&lt;/Appli [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ConstructionResource {
+        internal static string Pset_ConstructionResource {
             get {
                 return ResourceManager.GetString("Pset_ConstructionResource", resourceCulture);
             }
@@ -1308,7 +1401,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcController&lt;/Applica [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ControllerPHistory {
+        internal static string Pset_ControllerPHistory {
             get {
                 return ResourceManager.GetString("Pset_ControllerPHistory", resourceCulture);
             }
@@ -1327,7 +1420,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;PropertyDefs&gt;
         ///	 [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ControllerTypeCommon {
+        internal static string Pset_ControllerTypeCommon {
             get {
                 return ResourceManager.GetString("Pset_ControllerTypeCommon", resourceCulture);
             }
@@ -1339,7 +1432,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Name&gt;Pset_ControllerTypeFloating&lt;/Name&gt;
         ///	&lt;Definition&gt;Properties for signal handling for an analog controller taking disparate valued multiple inputs and creating a single valued output.  HISTORY: IFC4 adapted from Pset_ControllerTypeCommon and applicable predefined type made specific to FLOAT [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ControllerTypeFloating {
+        internal static string Pset_ControllerTypeFloating {
             get {
                 return ResourceManager.GetString("Pset_ControllerTypeFloating", resourceCulture);
             }
@@ -1353,7 +1446,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;IfcVersion version=&quot;2x4&quot; /&gt;
         ///	&lt;ApplicableClasses [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ControllerTypeMultiPosition {
+        internal static string Pset_ControllerTypeMultiPosition {
             get {
                 return ResourceManager.GetString("Pset_ControllerTypeMultiPosition", resourceCulture);
             }
@@ -1369,7 +1462,7 @@ namespace Xbim.Properties.Definitions {
         ///		&lt;ClassName&gt;IfcController/PROGRAMMABLE&lt;/ClassName&gt;
         ///	&lt;/Applica [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ControllerTypeProgrammable {
+        internal static string Pset_ControllerTypeProgrammable {
             get {
                 return ResourceManager.GetString("Pset_ControllerTypeProgrammable", resourceCulture);
             }
@@ -1381,7 +1474,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Name&gt;Pset_ControllerTypeProportional&lt;/Name&gt;
         ///	&lt;Definition&gt;Properties for signal handling for an proportional controller taking setpoint and feedback inputs and creating a single valued output. HISTORY: In IFC4, SignalFactor1, SignalFactor2 and SignalFactor3 changed to ProportionalConstant, Int [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ControllerTypeProportional {
+        internal static string Pset_ControllerTypeProportional {
             get {
                 return ResourceManager.GetString("Pset_ControllerTypeProportional", resourceCulture);
             }
@@ -1393,7 +1486,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Name&gt;Pset_ControllerTypeTwoPosition&lt;/Name&gt;
         ///	&lt;Definition&gt;Properties for signal handling for an analog controller taking disparate valued multiple inputs and creating a single valued binary output. HISTORY: In IFC4, extended properties to replace Pset_BinaryInput and Pset_BinaryOutput.&lt;/Definit [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ControllerTypeTwoPosition {
+        internal static string Pset_ControllerTypeTwoPosition {
             get {
                 return ResourceManager.GetString("Pset_ControllerTypeTwoPosition", resourceCulture);
             }
@@ -1410,7 +1503,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcCooledBeam&lt; [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_CooledBeamPHistory {
+        internal static string Pset_CooledBeamPHistory {
             get {
                 return ResourceManager.GetString("Pset_CooledBeamPHistory", resourceCulture);
             }
@@ -1427,7 +1520,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcCooledBeam/ACTIVE&lt; [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_CooledBeamPHistoryActive {
+        internal static string Pset_CooledBeamPHistoryActive {
             get {
                 return ResourceManager.GetString("Pset_CooledBeamPHistoryActive", resourceCulture);
             }
@@ -1444,7 +1537,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcCooledBeam/ACTIVE&lt;/Applicable [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_CooledBeamTypeActive {
+        internal static string Pset_CooledBeamTypeActive {
             get {
                 return ResourceManager.GetString("Pset_CooledBeamTypeActive", resourceCulture);
             }
@@ -1460,7 +1553,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableClasses&gt;
         ///		&lt;ClassName&gt;IfcCooledBeam&lt;/ClassNa [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_CooledBeamTypeCommon {
+        internal static string Pset_CooledBeamTypeCommon {
             get {
                 return ResourceManager.GetString("Pset_CooledBeamTypeCommon", resourceCulture);
             }
@@ -1478,7 +1571,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableTypeValue&gt;IfcCoolingTower&lt;/ApplicableTypeValue&gt;
         ///	&lt;P [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_CoolingTowerPHistory {
+        internal static string Pset_CoolingTowerPHistory {
             get {
                 return ResourceManager.GetString("Pset_CoolingTowerPHistory", resourceCulture);
             }
@@ -1495,7 +1588,7 @@ namespace Xbim.Properties.Definitions {
         ///		&lt;ClassName&gt;IfcCoolingTower&lt;/ClassName&gt;
         ///	&lt;/ApplicableClasses&gt; [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_CoolingTowerTypeCommon {
+        internal static string Pset_CoolingTowerTypeCommon {
             get {
                 return ResourceManager.GetString("Pset_CoolingTowerTypeCommon", resourceCulture);
             }
@@ -1511,7 +1604,7 @@ namespace Xbim.Properties.Definitions {
         ///		&lt;ClassName&gt;IfcCovering/CEILING&lt;/ClassName&gt;
         ///	&lt;/Applica [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_CoveringCeiling {
+        internal static string Pset_CoveringCeiling {
             get {
                 return ResourceManager.GetString("Pset_CoveringCeiling", resourceCulture);
             }
@@ -1528,7 +1621,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcCovering&lt;/Ap [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_CoveringCommon {
+        internal static string Pset_CoveringCommon {
             get {
                 return ResourceManager.GetString("Pset_CoveringCommon", resourceCulture);
             }
@@ -1544,7 +1637,7 @@ namespace Xbim.Properties.Definitions {
         ///		&lt;ClassName&gt;IfcCovering/FLOORING&lt;/ClassName&gt;
         ///		&lt;Clas [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_CoveringFlooring {
+        internal static string Pset_CoveringFlooring {
             get {
                 return ResourceManager.GetString("Pset_CoveringFlooring", resourceCulture);
             }
@@ -1561,7 +1654,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcCurtainWall&lt;/Ap [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_CurtainWallCommon {
+        internal static string Pset_CurtainWallCommon {
             get {
                 return ResourceManager.GetString("Pset_CurtainWallCommon", resourceCulture);
             }
@@ -1578,7 +1671,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcDamper&lt;/ApplicableTypeValue&gt;        /// [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_DamperOccurrence {
+        internal static string Pset_DamperOccurrence {
             get {
                 return ResourceManager.GetString("Pset_DamperOccurrence", resourceCulture);
             }
@@ -1597,7 +1690,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;PropertyDefs&gt;
         ///		&lt;Property [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_DamperPHistory {
+        internal static string Pset_DamperPHistory {
             get {
                 return ResourceManager.GetString("Pset_DamperPHistory", resourceCulture);
             }
@@ -1616,7 +1709,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;PropertyDefs&gt;
         ///		&lt;PropertyDef if [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_DamperTypeCommon {
+        internal static string Pset_DamperTypeCommon {
             get {
                 return ResourceManager.GetString("Pset_DamperTypeCommon", resourceCulture);
             }
@@ -1632,7 +1725,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableClasses&gt;
         ///		&lt;ClassName&gt;IfcDamper/CONTROLDAMPER&lt;/Cla [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_DamperTypeControlDamper {
+        internal static string Pset_DamperTypeControlDamper {
             get {
                 return ResourceManager.GetString("Pset_DamperTypeControlDamper", resourceCulture);
             }
@@ -1649,7 +1742,7 @@ namespace Xbim.Properties.Definitions {
         ///		&lt;ClassName&gt;IfcDamper/FIREDAMPER&lt;/ClassName&gt;
         ///	&lt;/App [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_DamperTypeFireDamper {
+        internal static string Pset_DamperTypeFireDamper {
             get {
                 return ResourceManager.GetString("Pset_DamperTypeFireDamper", resourceCulture);
             }
@@ -1667,7 +1760,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;Applica [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_DamperTypeFireSmokeDamper {
+        internal static string Pset_DamperTypeFireSmokeDamper {
             get {
                 return ResourceManager.GetString("Pset_DamperTypeFireSmokeDamper", resourceCulture);
             }
@@ -1684,7 +1777,7 @@ namespace Xbim.Properties.Definitions {
         ///		&lt;ClassName&gt;IfcDamper/SMOKEDAMPER&lt;/ClassName&gt;
         ///	 [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_DamperTypeSmokeDamper {
+        internal static string Pset_DamperTypeSmokeDamper {
             get {
                 return ResourceManager.GetString("Pset_DamperTypeSmokeDamper", resourceCulture);
             }
@@ -1701,7 +1794,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcDiscre [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_DiscreteAccessoryColumnShoe {
+        internal static string Pset_DiscreteAccessoryColumnShoe {
             get {
                 return ResourceManager.GetString("Pset_DiscreteAccessoryColumnShoe", resourceCulture);
             }
@@ -1718,7 +1811,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;App [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_DiscreteAccessoryCornerFixingPlate {
+        internal static string Pset_DiscreteAccessoryCornerFixingPlate {
             get {
                 return ResourceManager.GetString("Pset_DiscreteAccessoryCornerFixingPlate", resourceCulture);
             }
@@ -1733,7 +1826,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableClasses&gt;
         ///		&lt;ClassName&gt;IfcDiscreteAccessory/Diagonal  [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_DiscreteAccessoryDiagonalTrussConnector {
+        internal static string Pset_DiscreteAccessoryDiagonalTrussConnector {
             get {
                 return ResourceManager.GetString("Pset_DiscreteAccessoryDiagonalTrussConnector", resourceCulture);
             }
@@ -1750,7 +1843,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcDiscret [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_DiscreteAccessoryEdgeFixingPlate {
+        internal static string Pset_DiscreteAccessoryEdgeFixingPlate {
             get {
                 return ResourceManager.GetString("Pset_DiscreteAccessoryEdgeFixingPlate", resourceCulture);
             }
@@ -1767,7 +1860,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcDiscreteAccessory/Fi [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_DiscreteAccessoryFixingSocket {
+        internal static string Pset_DiscreteAccessoryFixingSocket {
             get {
                 return ResourceManager.GetString("Pset_DiscreteAccessoryFixingSocket", resourceCulture);
             }
@@ -1782,7 +1875,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableClasses&gt;
         ///		&lt;ClassName&gt;IfcDiscreteAcces [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_DiscreteAccessoryLadderTrussConnector {
+        internal static string Pset_DiscreteAccessoryLadderTrussConnector {
             get {
                 return ResourceManager.GetString("Pset_DiscreteAccessoryLadderTrussConnector", resourceCulture);
             }
@@ -1798,7 +1891,7 @@ namespace Xbim.Properties.Definitions {
         ///		&lt;ClassName&gt;IfcDiscreteAccessory/Standard fixing plate&lt;/ClassName&gt;
         ///	&lt;/ApplicableClasses&gt;        /// [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_DiscreteAccessoryStandardFixingPlate {
+        internal static string Pset_DiscreteAccessoryStandardFixingPlate {
             get {
                 return ResourceManager.GetString("Pset_DiscreteAccessoryStandardFixingPlate", resourceCulture);
             }
@@ -1815,7 +1908,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTy [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_DiscreteAccessoryWireLoop {
+        internal static string Pset_DiscreteAccessoryWireLoop {
             get {
                 return ResourceManager.GetString("Pset_DiscreteAccessoryWireLoop", resourceCulture);
             }
@@ -1832,7 +1925,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableT [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_DistributionChamberElementCommon {
+        internal static string Pset_DistributionChamberElementCommon {
             get {
                 return ResourceManager.GetString("Pset_DistributionChamberElementCommon", resourceCulture);
             }
@@ -1848,7 +1941,7 @@ namespace Xbim.Properties.Definitions {
         ///		&lt;ClassName&gt;IfcDistributionChamberElement/FORMEDDUCT&lt;/ClassName&gt;
         ///	&lt;/ApplicableClasses [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_DistributionChamberElementTypeFormedDuct {
+        internal static string Pset_DistributionChamberElementTypeFormedDuct {
             get {
                 return ResourceManager.GetString("Pset_DistributionChamberElementTypeFormedDuct", resourceCulture);
             }
@@ -1863,7 +1956,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableClasses&gt;
         ///		&lt;ClassName&gt;IfcDistributionChamberEl [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_DistributionChamberElementTypeInspectionChamber {
+        internal static string Pset_DistributionChamberElementTypeInspectionChamber {
             get {
                 return ResourceManager.GetString("Pset_DistributionChamberElementTypeInspectionChamber", resourceCulture);
             }
@@ -1878,7 +1971,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableClasses&gt;
         ///		&lt;ClassName&gt;IfcDistri [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_DistributionChamberElementTypeInspectionPit {
+        internal static string Pset_DistributionChamberElementTypeInspectionPit {
             get {
                 return ResourceManager.GetString("Pset_DistributionChamberElementTypeInspectionPit", resourceCulture);
             }
@@ -1893,7 +1986,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableClasses&gt;
         ///		&lt;ClassName&gt;IfcDistributionChamberElement/M [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_DistributionChamberElementTypeManhole {
+        internal static string Pset_DistributionChamberElementTypeManhole {
             get {
                 return ResourceManager.GetString("Pset_DistributionChamberElementTypeManhole", resourceCulture);
             }
@@ -1909,7 +2002,7 @@ namespace Xbim.Properties.Definitions {
         ///		&lt;ClassName&gt;IfcDistributionChamberElement/METERCHAMBER&lt;/ClassName&gt;
         ///	&lt;/Applic [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_DistributionChamberElementTypeMeterChamber {
+        internal static string Pset_DistributionChamberElementTypeMeterChamber {
             get {
                 return ResourceManager.GetString("Pset_DistributionChamberElementTypeMeterChamber", resourceCulture);
             }
@@ -1925,7 +2018,7 @@ namespace Xbim.Properties.Definitions {
         ///		&lt;ClassName&gt;IfcDistributionChamberElement/SUMP&lt;/ClassName&gt;
         ///	&lt;/ApplicableClasses [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_DistributionChamberElementTypeSump {
+        internal static string Pset_DistributionChamberElementTypeSump {
             get {
                 return ResourceManager.GetString("Pset_DistributionChamberElementTypeSump", resourceCulture);
             }
@@ -1942,7 +2035,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTy [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_DistributionChamberElementTypeTrench {
+        internal static string Pset_DistributionChamberElementTypeTrench {
             get {
                 return ResourceManager.GetString("Pset_DistributionChamberElementTypeTrench", resourceCulture);
             }
@@ -1959,7 +2052,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcDist [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_DistributionChamberElementTypeValveChamber {
+        internal static string Pset_DistributionChamberElementTypeValveChamber {
             get {
                 return ResourceManager.GetString("Pset_DistributionChamberElementTypeValveChamber", resourceCulture);
             }
@@ -1976,7 +2069,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcDistributionP [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_DistributionPortCommon {
+        internal static string Pset_DistributionPortCommon {
             get {
                 return ResourceManager.GetString("Pset_DistributionPortCommon", resourceCulture);
             }
@@ -1991,7 +2084,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableClasses&gt;
         ///		&lt;ClassName&gt;IfcDistributionPort/ELE [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_DistributionPortPHistoryCable {
+        internal static string Pset_DistributionPortPHistoryCable {
             get {
                 return ResourceManager.GetString("Pset_DistributionPortPHistoryCable", resourceCulture);
             }
@@ -2004,7 +2097,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Definition&gt;Fluid flow performance history attached to an instance of IfcPerformanceHistory assigned to IfcDistributionPort.  This replaces the deprecated IfcFluidFlowProperties for performance values.&lt;/Definition&gt;
         ///	&lt;IfcVersion version=&quot;2x4&quot; /&gt;        /// [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_DistributionPortPHistoryDuct {
+        internal static string Pset_DistributionPortPHistoryDuct {
             get {
                 return ResourceManager.GetString("Pset_DistributionPortPHistoryDuct", resourceCulture);
             }
@@ -2019,7 +2112,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableClasses&gt;
         ///		&lt;ClassName&gt;IfcDistributionPort/GAS&lt;/Clas [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_DistributionPortPHistoryPipe {
+        internal static string Pset_DistributionPortPHistoryPipe {
             get {
                 return ResourceManager.GetString("Pset_DistributionPortPHistoryPipe", resourceCulture);
             }
@@ -2036,7 +2129,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;Applica [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_DistributionPortTypeCable {
+        internal static string Pset_DistributionPortTypeCable {
             get {
                 return ResourceManager.GetString("Pset_DistributionPortTypeCable", resourceCulture);
             }
@@ -2053,7 +2146,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;Appl [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_DistributionPortTypeDuct {
+        internal static string Pset_DistributionPortTypeDuct {
             get {
                 return ResourceManager.GetString("Pset_DistributionPortTypeDuct", resourceCulture);
             }
@@ -2070,7 +2163,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableT [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_DistributionPortTypePipe {
+        internal static string Pset_DistributionPortTypePipe {
             get {
                 return ResourceManager.GetString("Pset_DistributionPortTypePipe", resourceCulture);
             }
@@ -2087,7 +2180,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;Applic [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_DistributionSystemCommon {
+        internal static string Pset_DistributionSystemCommon {
             get {
                 return ResourceManager.GetString("Pset_DistributionSystemCommon", resourceCulture);
             }
@@ -2104,7 +2197,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcDistributionSystem/EL [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_DistributionSystemTypeElectrical {
+        internal static string Pset_DistributionSystemTypeElectrical {
             get {
                 return ResourceManager.GetString("Pset_DistributionSystemTypeElectrical", resourceCulture);
             }
@@ -2118,7 +2211,7 @@ namespace Xbim.Properties.Definitions {
         ///HISTORY: New property set in IFC Release 2.0.  Renamed from Pset_DuctDesignCriteria in IFC4.&lt;/Definition&gt;
         ///	&lt;IfcVersi [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_DistributionSystemTypeVentilation {
+        internal static string Pset_DistributionSystemTypeVentilation {
             get {
                 return ResourceManager.GetString("Pset_DistributionSystemTypeVentilation", resourceCulture);
             }
@@ -2136,7 +2229,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableTypeValue&gt;IfcDoor&lt;/ApplicableTypeValue&gt;
         ///	&lt;Proper [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_DoorCommon {
+        internal static string Pset_DoorCommon {
             get {
                 return ResourceManager.GetString("Pset_DoorCommon", resourceCulture);
             }
@@ -2151,7 +2244,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableClasses&gt;
         ///		&lt;ClassName&gt;IfcDoor&lt;/ClassN [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_DoorWindowGlazingType {
+        internal static string Pset_DoorWindowGlazingType {
             get {
                 return ResourceManager.GetString("Pset_DoorWindowGlazingType", resourceCulture);
             }
@@ -2166,7 +2259,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableClasses&gt;
         ///		&lt;ClassName&gt;IfcDoor&lt; [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_DoorWindowShadingType {
+        internal static string Pset_DoorWindowShadingType {
             get {
                 return ResourceManager.GetString("Pset_DoorWindowShadingType", resourceCulture);
             }
@@ -2184,7 +2277,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableTypeValue&gt;IfcDuctFitting&lt;/ApplicableTypeValue&gt;
         ///	&lt;PropertyDefs [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_DuctFittingOccurrence {
+        internal static string Pset_DuctFittingOccurrence {
             get {
                 return ResourceManager.GetString("Pset_DuctFittingOccurrence", resourceCulture);
             }
@@ -2202,7 +2295,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableTypeValue&gt;IfcDuctFitting&lt;/ApplicableTypeValue&gt;
         /// [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_DuctFittingPHistory {
+        internal static string Pset_DuctFittingPHistory {
             get {
                 return ResourceManager.GetString("Pset_DuctFittingPHistory", resourceCulture);
             }
@@ -2220,7 +2313,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableTypeValue&gt;IfcDuctFitting&lt;/ApplicableTypeValue&gt;
         ///	&lt;PropertyDef [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_DuctFittingTypeCommon {
+        internal static string Pset_DuctFittingTypeCommon {
             get {
                 return ResourceManager.GetString("Pset_DuctFittingTypeCommon", resourceCulture);
             }
@@ -2237,7 +2330,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcDuctSeg [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_DuctSegmentOccurrence {
+        internal static string Pset_DuctSegmentOccurrence {
             get {
                 return ResourceManager.GetString("Pset_DuctSegmentOccurrence", resourceCulture);
             }
@@ -2255,7 +2348,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableTypeValue&gt;IfcDuctSegment&lt;/ApplicableTypeValue&gt;
         /// [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_DuctSegmentPHistory {
+        internal static string Pset_DuctSegmentPHistory {
             get {
                 return ResourceManager.GetString("Pset_DuctSegmentPHistory", resourceCulture);
             }
@@ -2273,7 +2366,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableTypeValue&gt;IfcDuctSegment&lt;/ApplicableTypeValue&gt;
         ///	&lt;PropertyDef [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_DuctSegmentTypeCommon {
+        internal static string Pset_DuctSegmentTypeCommon {
             get {
                 return ResourceManager.GetString("Pset_DuctSegmentTypeCommon", resourceCulture);
             }
@@ -2290,7 +2383,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcDuctSilencer&lt;/ApplicableTypeValu [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_DuctSilencerPHistory {
+        internal static string Pset_DuctSilencerPHistory {
             get {
                 return ResourceManager.GetString("Pset_DuctSilencerPHistory", resourceCulture);
             }
@@ -2306,7 +2399,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableClasses&gt;
         ///		&lt;ClassName&gt;IfcDuctSil [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_DuctSilencerTypeCommon {
+        internal static string Pset_DuctSilencerTypeCommon {
             get {
                 return ResourceManager.GetString("Pset_DuctSilencerTypeCommon", resourceCulture);
             }
@@ -2323,7 +2416,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;I [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ElectricalDeviceCommon {
+        internal static string Pset_ElectricalDeviceCommon {
             get {
                 return ResourceManager.GetString("Pset_ElectricalDeviceCommon", resourceCulture);
             }
@@ -2339,7 +2432,7 @@ namespace Xbim.Properties.Definitions {
         ///		&lt;ClassName&gt;IfcElectricAppliance&lt;/ClassName&gt;
         ///	&lt;/ApplicableClas [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ElectricAppliancePHistory {
+        internal static string Pset_ElectricAppliancePHistory {
             get {
                 return ResourceManager.GetString("Pset_ElectricAppliancePHistory", resourceCulture);
             }
@@ -2356,7 +2449,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcElect [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ElectricApplianceTypeCommon {
+        internal static string Pset_ElectricApplianceTypeCommon {
             get {
                 return ResourceManager.GetString("Pset_ElectricApplianceTypeCommon", resourceCulture);
             }
@@ -2373,7 +2466,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableT [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ElectricApplianceTypeDishwasher {
+        internal static string Pset_ElectricApplianceTypeDishwasher {
             get {
                 return ResourceManager.GetString("Pset_ElectricApplianceTypeDishwasher", resourceCulture);
             }
@@ -2390,7 +2483,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         /// [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ElectricApplianceTypeElectricCooker {
+        internal static string Pset_ElectricApplianceTypeElectricCooker {
             get {
                 return ResourceManager.GetString("Pset_ElectricApplianceTypeElectricCooker", resourceCulture);
             }
@@ -2407,7 +2500,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;Appli [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ElectricDistributionBoardOccurrence {
+        internal static string Pset_ElectricDistributionBoardOccurrence {
             get {
                 return ResourceManager.GetString("Pset_ElectricDistributionBoardOccurrence", resourceCulture);
             }
@@ -2424,7 +2517,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeVa [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ElectricDistributionBoardTypeCommon {
+        internal static string Pset_ElectricDistributionBoardTypeCommon {
             get {
                 return ResourceManager.GetString("Pset_ElectricDistributionBoardTypeCommon", resourceCulture);
             }
@@ -2436,7 +2529,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Name&gt;Pset_ElectricFlowStorageDeviceTypeCommon&lt;/Name&gt;
         ///	&lt;Definition&gt;The characteristics of the supply associated with an electrical device occurrence acting as a source of supply to an electrical distribution system NOTE: Properties within this property set should ONLY be used in circumstances  [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ElectricFlowStorageDeviceTypeCommon {
+        internal static string Pset_ElectricFlowStorageDeviceTypeCommon {
             get {
                 return ResourceManager.GetString("Pset_ElectricFlowStorageDeviceTypeCommon", resourceCulture);
             }
@@ -2452,7 +2545,7 @@ namespace Xbim.Properties.Definitions {
         ///		&lt;ClassName&gt;IfcElectricGenerator&lt;/ClassName&gt;
         ///	&lt;/Applica [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ElectricGeneratorTypeCommon {
+        internal static string Pset_ElectricGeneratorTypeCommon {
             get {
                 return ResourceManager.GetString("Pset_ElectricGeneratorTypeCommon", resourceCulture);
             }
@@ -2464,7 +2557,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Name&gt;Pset_ElectricMotorTypeCommon&lt;/Name&gt;
         ///	&lt;Definition&gt;Defines a particular type of engine that is a machine for converting electrical energy into mechanical energy. Note that in cases where a close coupled or monobloc pump or close coupled fan is being driven by the motor, the motor may itsel [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ElectricMotorTypeCommon {
+        internal static string Pset_ElectricMotorTypeCommon {
             get {
                 return ResourceManager.GetString("Pset_ElectricMotorTypeCommon", resourceCulture);
             }
@@ -2481,7 +2574,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableType [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ElectricTimeControlTypeCommon {
+        internal static string Pset_ElectricTimeControlTypeCommon {
             get {
                 return ResourceManager.GetString("Pset_ElectricTimeControlTypeCommon", resourceCulture);
             }
@@ -2496,7 +2589,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableClasses&gt;
         ///		&lt;ClassName&gt;IfcE [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ElementComponentCommon {
+        internal static string Pset_ElementComponentCommon {
             get {
                 return ResourceManager.GetString("Pset_ElementComponentCommon", resourceCulture);
             }
@@ -2515,7 +2608,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;PropertyDefs&gt;
         ///		&lt;PropertyDef if [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_EngineTypeCommon {
+        internal static string Pset_EngineTypeCommon {
             get {
                 return ResourceManager.GetString("Pset_EngineTypeCommon", resourceCulture);
             }
@@ -2527,7 +2620,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Name&gt;Pset_EnvironmentalImpactIndicators&lt;/Name&gt;
         ///	&lt;Definition&gt;Environmental impact indicators are related to a given “functional unit” (ISO 14040 concept). An example of functional unit is a &quot;Double glazing window with PVC frame&quot; and the unit to consider is &quot;one square meter of opening elements [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_EnvironmentalImpactIndicators {
+        internal static string Pset_EnvironmentalImpactIndicators {
             get {
                 return ResourceManager.GetString("Pset_EnvironmentalImpactIndicators", resourceCulture);
             }
@@ -2540,7 +2633,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Definition&gt;The following properties capture environmental impact values of an element. They correspond to the indicators defined into Pset_EnvironmentalImpactIndicators. 
         ///Environmental impact values are obtained multiplying indicator value per uni [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_EnvironmentalImpactValues {
+        internal static string Pset_EnvironmentalImpactValues {
             get {
                 return ResourceManager.GetString("Pset_EnvironmentalImpactValues", resourceCulture);
             }
@@ -2557,7 +2650,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcEvaporativeCooler&lt;/Appli [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_EvaporativeCoolerPHistory {
+        internal static string Pset_EvaporativeCoolerPHistory {
             get {
                 return ResourceManager.GetString("Pset_EvaporativeCoolerPHistory", resourceCulture);
             }
@@ -2571,7 +2664,7 @@ namespace Xbim.Properties.Definitions {
         ///Sound attribute deleted in IFC2x2 Pset Addendum: Use IfcSoundProperties instead. WaterRequirement attribute unit type modified in IFC2x2 Pset Addendum.&lt;/Definition&gt;
         ///	&lt;IfcVersion version=&quot;2x4 [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_EvaporativeCoolerTypeCommon {
+        internal static string Pset_EvaporativeCoolerTypeCommon {
             get {
                 return ResourceManager.GetString("Pset_EvaporativeCoolerTypeCommon", resourceCulture);
             }
@@ -2589,7 +2682,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableTypeValue&gt;IfcEvaporator&lt;/ApplicableTypeValue&gt;
         ///	&lt;PropertyDe [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_EvaporatorPHistory {
+        internal static string Pset_EvaporatorPHistory {
             get {
                 return ResourceManager.GetString("Pset_EvaporatorPHistory", resourceCulture);
             }
@@ -2608,7 +2701,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;PropertyDefs&gt;
         ///	 [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_EvaporatorTypeCommon {
+        internal static string Pset_EvaporatorTypeCommon {
             get {
                 return ResourceManager.GetString("Pset_EvaporatorTypeCommon", resourceCulture);
             }
@@ -2625,7 +2718,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcFan/CENTRIFUGAL [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_FanCentrifugal {
+        internal static string Pset_FanCentrifugal {
             get {
                 return ResourceManager.GetString("Pset_FanCentrifugal", resourceCulture);
             }
@@ -2643,7 +2736,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableTypeValue&gt;IfcFan&lt;/ApplicableTypeValue&gt;
         ///	&lt;PropertyDef [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_FanOccurrence {
+        internal static string Pset_FanOccurrence {
             get {
                 return ResourceManager.GetString("Pset_FanOccurrence", resourceCulture);
             }
@@ -2661,7 +2754,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;Applicab [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_FanPHistory {
+        internal static string Pset_FanPHistory {
             get {
                 return ResourceManager.GetString("Pset_FanPHistory", resourceCulture);
             }
@@ -2680,7 +2773,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;PropertyDefs&gt;
         ///		&lt;PropertyDef ifdguid=&quot;43ea4 [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_FanTypeCommon {
+        internal static string Pset_FanTypeCommon {
             get {
                 return ResourceManager.GetString("Pset_FanTypeCommon", resourceCulture);
             }
@@ -2698,7 +2791,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableTypeValue&gt;IfcFastener/WELD&lt;/ApplicableTypeValue&gt;
         ///	&lt;PropertyDef [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_FastenerWeld {
+        internal static string Pset_FastenerWeld {
             get {
                 return ResourceManager.GetString("Pset_FastenerWeld", resourceCulture);
             }
@@ -2717,7 +2810,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;PropertyDefs&gt;
         ///		&lt;Property [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_FilterPHistory {
+        internal static string Pset_FilterPHistory {
             get {
                 return ResourceManager.GetString("Pset_FilterPHistory", resourceCulture);
             }
@@ -2734,7 +2827,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcFilter/AIRPARTICLEFILTER&lt;/App [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_FilterTypeAirParticleFilter {
+        internal static string Pset_FilterTypeAirParticleFilter {
             get {
                 return ResourceManager.GetString("Pset_FilterTypeAirParticleFilter", resourceCulture);
             }
@@ -2753,7 +2846,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;PropertyDefs&gt;
         ///		&lt;PropertyDef if [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_FilterTypeCommon {
+        internal static string Pset_FilterTypeCommon {
             get {
                 return ResourceManager.GetString("Pset_FilterTypeCommon", resourceCulture);
             }
@@ -2770,7 +2863,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcFilter/COMPRESSEDAIRFIL [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_FilterTypeCompressedAirFilter {
+        internal static string Pset_FilterTypeCompressedAirFilter {
             get {
                 return ResourceManager.GetString("Pset_FilterTypeCompressedAirFilter", resourceCulture);
             }
@@ -2788,7 +2881,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableTypeValue&gt;IfcFilter/WATERFILTER&lt;/ApplicableTypeValue&gt;
         ///	&lt;Prop [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_FilterTypeWaterFilter {
+        internal static string Pset_FilterTypeWaterFilter {
             get {
                 return ResourceManager.GetString("Pset_FilterTypeWaterFilter", resourceCulture);
             }
@@ -2803,7 +2896,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableClasses&gt;
         ///		&lt;ClassName&gt;IfcFireSuppressionTerminal/BREECHINGINLE [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_FireSuppressionTerminalTypeBreechingInlet {
+        internal static string Pset_FireSuppressionTerminalTypeBreechingInlet {
             get {
                 return ResourceManager.GetString("Pset_FireSuppressionTerminalTypeBreechingInlet", resourceCulture);
             }
@@ -2820,7 +2913,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcFireSuppres [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_FireSuppressionTerminalTypeCommon {
+        internal static string Pset_FireSuppressionTerminalTypeCommon {
             get {
                 return ResourceManager.GetString("Pset_FireSuppressionTerminalTypeCommon", resourceCulture);
             }
@@ -2836,7 +2929,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;IfcVersion version=&quot;2x4&quot; /&gt;
         ///	&lt;Applicable [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_FireSuppressionTerminalTypeFireHydrant {
+        internal static string Pset_FireSuppressionTerminalTypeFireHydrant {
             get {
                 return ResourceManager.GetString("Pset_FireSuppressionTerminalTypeFireHydrant", resourceCulture);
             }
@@ -2851,7 +2944,7 @@ namespace Xbim.Properties.Definitions {
         ///Note that the service provided by the hose (water/foam) is determined by the context of the system onto which the hose reel is connected.&lt;/Definition&gt;
         ///	 [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_FireSuppressionTerminalTypeHoseReel {
+        internal static string Pset_FireSuppressionTerminalTypeHoseReel {
             get {
                 return ResourceManager.GetString("Pset_FireSuppressionTerminalTypeHoseReel", resourceCulture);
             }
@@ -2867,7 +2960,7 @@ namespace Xbim.Properties.Definitions {
         ///		&lt;ClassName&gt;IfcFireSuppressionTerminal/SPRINKLER&lt;/ClassName&gt;
         ///	&lt;/Applica [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_FireSuppressionTerminalTypeSprinkler {
+        internal static string Pset_FireSuppressionTerminalTypeSprinkler {
             get {
                 return ResourceManager.GetString("Pset_FireSuppressionTerminalTypeSprinkler", resourceCulture);
             }
@@ -2884,7 +2977,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcFlowIn [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_FlowInstrumentPHistory {
+        internal static string Pset_FlowInstrumentPHistory {
             get {
                 return ResourceManager.GetString("Pset_FlowInstrumentPHistory", resourceCulture);
             }
@@ -2901,7 +2994,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcFlowInstrument [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_FlowInstrumentTypeCommon {
+        internal static string Pset_FlowInstrumentTypeCommon {
             get {
                 return ResourceManager.GetString("Pset_FlowInstrumentTypeCommon", resourceCulture);
             }
@@ -2916,7 +3009,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableClasses&gt;
         ///		&lt;ClassName&gt;IfcFlowInstrument/PRESSUREGAUGE&lt;/ClassName&gt; [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_FlowInstrumentTypePressureGauge {
+        internal static string Pset_FlowInstrumentTypePressureGauge {
             get {
                 return ResourceManager.GetString("Pset_FlowInstrumentTypePressureGauge", resourceCulture);
             }
@@ -2933,7 +3026,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt; [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_FlowInstrumentTypeThermometer {
+        internal static string Pset_FlowInstrumentTypeThermometer {
             get {
                 return ResourceManager.GetString("Pset_FlowInstrumentTypeThermometer", resourceCulture);
             }
@@ -2951,7 +3044,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableTypeValue&gt;IfcFlowMeter&lt;/ApplicableTypeValue&gt;
         ///	&lt;PropertyDefs&gt; [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_FlowMeterOccurrence {
+        internal static string Pset_FlowMeterOccurrence {
             get {
                 return ResourceManager.GetString("Pset_FlowMeterOccurrence", resourceCulture);
             }
@@ -2970,7 +3063,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;PropertyDefs&gt;
         /// [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_FlowMeterTypeCommon {
+        internal static string Pset_FlowMeterTypeCommon {
             get {
                 return ResourceManager.GetString("Pset_FlowMeterTypeCommon", resourceCulture);
             }
@@ -2987,7 +3080,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;Applicable [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_FlowMeterTypeEnergyMeter {
+        internal static string Pset_FlowMeterTypeEnergyMeter {
             get {
                 return ResourceManager.GetString("Pset_FlowMeterTypeEnergyMeter", resourceCulture);
             }
@@ -3002,7 +3095,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableClasses&gt;
         ///		&lt;ClassName&gt;IfcFlowMeter/GASMETER&lt;/ClassName&gt;        /// [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_FlowMeterTypeGasMeter {
+        internal static string Pset_FlowMeterTypeGasMeter {
             get {
                 return ResourceManager.GetString("Pset_FlowMeterTypeGasMeter", resourceCulture);
             }
@@ -3017,7 +3110,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableClasses&gt;
         ///		&lt;ClassName&gt;IfcFlowMeter/OILMETER&lt;/ClassName&gt;        /// [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_FlowMeterTypeOilMeter {
+        internal static string Pset_FlowMeterTypeOilMeter {
             get {
                 return ResourceManager.GetString("Pset_FlowMeterTypeOilMeter", resourceCulture);
             }
@@ -3032,7 +3125,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableClasses&gt;
         ///		&lt;ClassName&gt;IfcFlowMeter/WATERMETER&lt;/Class [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_FlowMeterTypeWaterMeter {
+        internal static string Pset_FlowMeterTypeWaterMeter {
             get {
                 return ResourceManager.GetString("Pset_FlowMeterTypeWaterMeter", resourceCulture);
             }
@@ -3049,7 +3142,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcFooting&lt;/ApplicableTypeValu [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_FootingCommon {
+        internal static string Pset_FootingCommon {
             get {
                 return ResourceManager.GetString("Pset_FootingCommon", resourceCulture);
             }
@@ -3065,7 +3158,7 @@ namespace Xbim.Properties.Definitions {
         ///		&lt;ClassName&gt;IfcFurniture/CHAIR&lt;/ClassName&gt;
         ///	&lt;/Applica [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_FurnitureTypeChair {
+        internal static string Pset_FurnitureTypeChair {
             get {
                 return ResourceManager.GetString("Pset_FurnitureTypeChair", resourceCulture);
             }
@@ -3078,7 +3171,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Definition&gt;Common properties for all types of furniture such as chair, desk, table, and file cabinet. HISTORY: First issued in IFC Release R1.5. Renamed from Pset_FurnitureCommon. IFC 2x4: &apos;IsBuiltIn&apos; property added&lt;/Definition&gt;
         ///	&lt;IfcVersion version=&quot;2x [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_FurnitureTypeCommon {
+        internal static string Pset_FurnitureTypeCommon {
             get {
                 return ResourceManager.GetString("Pset_FurnitureTypeCommon", resourceCulture);
             }
@@ -3094,7 +3187,7 @@ namespace Xbim.Properties.Definitions {
         ///		&lt;ClassName&gt;IfcFurniture/DESK&lt;/ClassName&gt;
         ///	&lt;/ApplicableC [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_FurnitureTypeDesk {
+        internal static string Pset_FurnitureTypeDesk {
             get {
                 return ResourceManager.GetString("Pset_FurnitureTypeDesk", resourceCulture);
             }
@@ -3109,7 +3202,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableClasses&gt;
         ///		&lt;ClassName&gt;IfcFurniture/FILECABINET [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_FurnitureTypeFileCabinet {
+        internal static string Pset_FurnitureTypeFileCabinet {
             get {
                 return ResourceManager.GetString("Pset_FurnitureTypeFileCabinet", resourceCulture);
             }
@@ -3126,7 +3219,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcFurniture/TABLE&lt;/ [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_FurnitureTypeTable {
+        internal static string Pset_FurnitureTypeTable {
             get {
                 return ResourceManager.GetString("Pset_FurnitureTypeTable", resourceCulture);
             }
@@ -3144,7 +3237,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableTypeValue&gt;IfcHeatExchanger&lt;/ApplicableTypeValue&gt;
         ///	&lt;Pro [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_HeatExchangerTypeCommon {
+        internal static string Pset_HeatExchangerTypeCommon {
             get {
                 return ResourceManager.GetString("Pset_HeatExchangerTypeCommon", resourceCulture);
             }
@@ -3161,7 +3254,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcHeatExchanger/PLATE&lt;/Applicable [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_HeatExchangerTypePlate {
+        internal static string Pset_HeatExchangerTypePlate {
             get {
                 return ResourceManager.GetString("Pset_HeatExchangerTypePlate", resourceCulture);
             }
@@ -3178,7 +3271,7 @@ namespace Xbim.Properties.Definitions {
         ///		&lt;ClassName&gt;IfcHumidifier&lt;/ClassName&gt;
         ///	&lt;/Applicabl [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_HumidifierPHistory {
+        internal static string Pset_HumidifierPHistory {
             get {
                 return ResourceManager.GetString("Pset_HumidifierPHistory", resourceCulture);
             }
@@ -3194,7 +3287,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableClasses&gt;
         ///		&lt;ClassName&gt;IfcHumidifier&lt;/ClassName [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_HumidifierTypeCommon {
+        internal static string Pset_HumidifierTypeCommon {
             get {
                 return ResourceManager.GetString("Pset_HumidifierTypeCommon", resourceCulture);
             }
@@ -3212,7 +3305,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableTypeValue&gt;IfcInterceptor&lt;/ApplicableTypeValue&gt;
         ///	&lt;PropertyDefs [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_InterceptorTypeCommon {
+        internal static string Pset_InterceptorTypeCommon {
             get {
                 return ResourceManager.GetString("Pset_InterceptorTypeCommon", resourceCulture);
             }
@@ -3231,7 +3324,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValu [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_JunctionBoxTypeCommon {
+        internal static string Pset_JunctionBoxTypeCommon {
             get {
                 return ResourceManager.GetString("Pset_JunctionBoxTypeCommon", resourceCulture);
             }
@@ -3249,7 +3342,7 @@ namespace Xbim.Properties.Definitions {
         ///		&lt;ClassName&gt;IfcLamp&lt;/ClassName&gt;
         /// [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_LampTypeCommon {
+        internal static string Pset_LampTypeCommon {
             get {
                 return ResourceManager.GetString("Pset_LampTypeCommon", resourceCulture);
             }
@@ -3263,7 +3356,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;IfcVersion version=&quot;2x4&quot; /&gt;
         ///	&lt;ApplicableClasses [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_LandRegistration {
+        internal static string Pset_LandRegistration {
             get {
                 return ResourceManager.GetString("Pset_LandRegistration", resourceCulture);
             }
@@ -3276,7 +3369,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Definition&gt;Common data for light fixtures.
         ///History: IFC4 - Article number and manufacturer specific information deleted. Use Pset_ManufacturerTypeInformation. ArticleNumber instead.   Load properties moved from Pset_LightFixtureTypeThermal (deleted). [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_LightFixtureTypeCommon {
+        internal static string Pset_LightFixtureTypeCommon {
             get {
                 return ResourceManager.GetString("Pset_LightFixtureTypeCommon", resourceCulture);
             }
@@ -3293,7 +3386,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcLightFix [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_LightFixtureTypeSecurityLighting {
+        internal static string Pset_LightFixtureTypeSecurityLighting {
             get {
                 return ResourceManager.GetString("Pset_LightFixtureTypeSecurityLighting", resourceCulture);
             }
@@ -3306,7 +3399,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Definition&gt;Defines properties of individual instances of manufactured products that may be given by the manufacturer.
         ///HISTORY: IFC 2x4: AssemblyPlace property added. This property does not need to be asserted if Pset_ManufacturerTypeInformation is al [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ManufacturerOccurrence {
+        internal static string Pset_ManufacturerOccurrence {
             get {
                 return ResourceManager.GetString("Pset_ManufacturerOccurrence", resourceCulture);
             }
@@ -3318,7 +3411,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Name&gt;Pset_ManufacturerTypeInformation&lt;/Name&gt;
         ///	&lt;Definition&gt;Defines characteristics of types (ranges) of manufactured products that may be given by the manufacturer. Note that the term &apos;manufactured&apos; may also be used to refer to products that are supplied and identified by the supplier or that  [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ManufacturerTypeInformation {
+        internal static string Pset_ManufacturerTypeInformation {
             get {
                 return ResourceManager.GetString("Pset_ManufacturerTypeInformation", resourceCulture);
             }
@@ -3333,7 +3426,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableClasses&gt;
         ///		&lt;Cl [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_MaterialCombustion {
+        internal static string Pset_MaterialCombustion {
             get {
                 return ResourceManager.GetString("Pset_MaterialCombustion", resourceCulture);
             }
@@ -3352,7 +3445,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;PropertyDefs&gt;
         ///		&lt;Prope [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_MaterialCommon {
+        internal static string Pset_MaterialCommon {
             get {
                 return ResourceManager.GetString("Pset_MaterialCommon", resourceCulture);
             }
@@ -3369,7 +3462,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcMaterial/Conc [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_MaterialConcrete {
+        internal static string Pset_MaterialConcrete {
             get {
                 return ResourceManager.GetString("Pset_MaterialConcrete", resourceCulture);
             }
@@ -3386,7 +3479,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcMaterial&lt;/ApplicableType [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_MaterialEnergy {
+        internal static string Pset_MaterialEnergy {
             get {
                 return ResourceManager.GetString("Pset_MaterialEnergy", resourceCulture);
             }
@@ -3402,7 +3495,7 @@ namespace Xbim.Properties.Definitions {
         ///		&lt;ClassName&gt;IfcMaterial&lt;/ClassName&gt;
         ///	&lt;/App [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_MaterialFuel {
+        internal static string Pset_MaterialFuel {
             get {
                 return ResourceManager.GetString("Pset_MaterialFuel", resourceCulture);
             }
@@ -3420,7 +3513,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableTypeValue&gt;IfcMaterial&lt;/ApplicableTypeValue&gt;
         ///	&lt;PropertyDe [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_MaterialHygroscopic {
+        internal static string Pset_MaterialHygroscopic {
             get {
                 return ResourceManager.GetString("Pset_MaterialHygroscopic", resourceCulture);
             }
@@ -3435,7 +3528,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableClasses&gt;
         ///		&lt;ClassName [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_MaterialMechanical {
+        internal static string Pset_MaterialMechanical {
             get {
                 return ResourceManager.GetString("Pset_MaterialMechanical", resourceCulture);
             }
@@ -3454,7 +3547,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;PropertyDefs&gt;
         ///		&lt; [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_MaterialOptical {
+        internal static string Pset_MaterialOptical {
             get {
                 return ResourceManager.GetString("Pset_MaterialOptical", resourceCulture);
             }
@@ -3471,7 +3564,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableT [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_MaterialSteel {
+        internal static string Pset_MaterialSteel {
             get {
                 return ResourceManager.GetString("Pset_MaterialSteel", resourceCulture);
             }
@@ -3490,7 +3583,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;PropertyDefs&gt;
         ///		&lt;Prop [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_MaterialThermal {
+        internal static string Pset_MaterialThermal {
             get {
                 return ResourceManager.GetString("Pset_MaterialThermal", resourceCulture);
             }
@@ -3506,7 +3599,7 @@ namespace Xbim.Properties.Definitions {
         ///		&lt;ClassName&gt;IfcMaterial&lt;/ClassName&gt;
         ///	&lt;/Appl [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_MaterialWater {
+        internal static string Pset_MaterialWater {
             get {
                 return ResourceManager.GetString("Pset_MaterialWater", resourceCulture);
             }
@@ -3521,7 +3614,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableClasses&gt;
         ///		&lt;ClassName&gt;IfcMaterial/Wood&lt;/Cl [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_MaterialWood {
+        internal static string Pset_MaterialWood {
             get {
                 return ResourceManager.GetString("Pset_MaterialWood", resourceCulture);
             }
@@ -3534,7 +3627,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Definition&gt;This is a collection of mechanical properties applicable to wood-based materials for beam-like products, especially laminated materials like glulam and LVL.
         ///Anisotropy of such materials is taken into account by different properties accordin [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_MaterialWoodBasedBeam {
+        internal static string Pset_MaterialWoodBasedBeam {
             get {
                 return ResourceManager.GetString("Pset_MaterialWoodBasedBeam", resourceCulture);
             }
@@ -3546,7 +3639,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Name&gt;Pset_MaterialWoodBasedPanel&lt;/Name&gt;
         ///	&lt;Definition&gt;This is a collection of mechanical properties related to wood-based materials for panel-like products like plywood or OSB. The propositions given above for wood-based beam materials with respect to anisotropy, strength graduation according  [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_MaterialWoodBasedPanel {
+        internal static string Pset_MaterialWoodBasedPanel {
             get {
                 return ResourceManager.GetString("Pset_MaterialWoodBasedPanel", resourceCulture);
             }
@@ -3563,7 +3656,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;Applicab [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_MechanicalFastenerAnchorBolt {
+        internal static string Pset_MechanicalFastenerAnchorBolt {
             get {
                 return ResourceManager.GetString("Pset_MechanicalFastenerAnchorBolt", resourceCulture);
             }
@@ -3575,7 +3668,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Name&gt;Pset_MechanicalFastenerBolt&lt;/Name&gt;
         ///	&lt;Definition&gt;Properties related to bolt-type fasteners. The properties of a whole set with bolt, washers and nut may be provided. Note, it is usually not necessary to transmit these properties in case of standardized bolts. Instead, the standard is refe [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_MechanicalFastenerBolt {
+        internal static string Pset_MechanicalFastenerBolt {
             get {
                 return ResourceManager.GetString("Pset_MechanicalFastenerBolt", resourceCulture);
             }
@@ -3593,7 +3686,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableTypeValue&gt;IfcMedicalDevice&lt;/ApplicableTypeValue&gt;
         ///	&lt;Pro [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_MedicalDeviceTypeCommon {
+        internal static string Pset_MedicalDeviceTypeCommon {
             get {
                 return ResourceManager.GetString("Pset_MedicalDeviceTypeCommon", resourceCulture);
             }
@@ -3611,7 +3704,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableTypeValue&gt;IfcMember&lt;/ApplicableTypeValue&gt;
         /// [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_MemberCommon {
+        internal static string Pset_MemberCommon {
             get {
                 return ResourceManager.GetString("Pset_MemberCommon", resourceCulture);
             }
@@ -3628,7 +3721,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcMotorConnec [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_MotorConnectionTypeCommon {
+        internal static string Pset_MotorConnectionTypeCommon {
             get {
                 return ResourceManager.GetString("Pset_MotorConnectionTypeCommon", resourceCulture);
             }
@@ -3645,7 +3738,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcOpeningE [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_OpeningElementCommon {
+        internal static string Pset_OpeningElementCommon {
             get {
                 return ResourceManager.GetString("Pset_OpeningElementCommon", resourceCulture);
             }
@@ -3664,7 +3757,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;PropertyDefs&gt;
         ///		 [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_OutletTypeCommon {
+        internal static string Pset_OutletTypeCommon {
             get {
                 return ResourceManager.GetString("Pset_OutletTypeCommon", resourceCulture);
             }
@@ -3677,7 +3770,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Definition&gt;Outside air conditions used as the basis for calculating thermal loads at peak conditions, as well as the weather data location from which these conditions were obtained. HISTORY: New property set in IFC Release 1.0.&lt;/Definition&gt;
         ///	&lt;IfcVersi [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_OutsideDesignCriteria {
+        internal static string Pset_OutsideDesignCriteria {
             get {
                 return ResourceManager.GetString("Pset_OutsideDesignCriteria", resourceCulture);
             }
@@ -3693,7 +3786,7 @@ namespace Xbim.Properties.Definitions {
         ///		&lt;ClassName /&gt;
         ///	&lt;/ApplicableCla [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_PackingInstructions {
+        internal static string Pset_PackingInstructions {
             get {
                 return ResourceManager.GetString("Pset_PackingInstructions", resourceCulture);
             }
@@ -3706,7 +3799,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Definition&gt;A permit is a document that allows permission to gain access to an area or carry out work in a situation where security or other access restrictions apply.
         ///HISTORY: IFC4 EndDate added. PermitType, PermitDuration, StartTime and EndTime are deleted.&lt;/Defini [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_Permit {
+        internal static string Pset_Permit {
             get {
                 return ResourceManager.GetString("Pset_Permit", resourceCulture);
             }
@@ -3724,7 +3817,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableTypeValue&gt;IfcPile&lt;/ApplicableTypeValue&gt;
         ///	&lt;Proper [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_PileCommon {
+        internal static string Pset_PileCommon {
             get {
                 return ResourceManager.GetString("Pset_PileCommon", resourceCulture);
             }
@@ -3739,7 +3832,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableClasses&gt;
         ///		&lt;ClassName&gt;IfcPipeSegment&lt;/ClassName&gt; [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_PipeConnectionFlanged {
+        internal static string Pset_PipeConnectionFlanged {
             get {
                 return ResourceManager.GetString("Pset_PipeConnectionFlanged", resourceCulture);
             }
@@ -3756,7 +3849,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcPipeFit [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_PipeFittingOccurrence {
+        internal static string Pset_PipeFittingOccurrence {
             get {
                 return ResourceManager.GetString("Pset_PipeFittingOccurrence", resourceCulture);
             }
@@ -3774,7 +3867,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableTypeValue&gt;IfcPipeFitting&lt;/ApplicableTypeValue&gt;
         /// [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_PipeFittingPHistory {
+        internal static string Pset_PipeFittingPHistory {
             get {
                 return ResourceManager.GetString("Pset_PipeFittingPHistory", resourceCulture);
             }
@@ -3791,7 +3884,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcPipeFitting/BEND&lt;/ApplicableTypeValu [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_PipeFittingTypeBend {
+        internal static string Pset_PipeFittingTypeBend {
             get {
                 return ResourceManager.GetString("Pset_PipeFittingTypeBend", resourceCulture);
             }
@@ -3809,7 +3902,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableTypeValue&gt;IfcPipeFitting&lt;/ApplicableTypeValue&gt;
         ///	&lt;PropertyDef [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_PipeFittingTypeCommon {
+        internal static string Pset_PipeFittingTypeCommon {
             get {
                 return ResourceManager.GetString("Pset_PipeFittingTypeCommon", resourceCulture);
             }
@@ -3826,7 +3919,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcPipeFitting/JUNCTION&lt;/Ap [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_PipeFittingTypeJunction {
+        internal static string Pset_PipeFittingTypeJunction {
             get {
                 return ResourceManager.GetString("Pset_PipeFittingTypeJunction", resourceCulture);
             }
@@ -3843,7 +3936,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcPipeSeg [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_PipeSegmentOccurrence {
+        internal static string Pset_PipeSegmentOccurrence {
             get {
                 return ResourceManager.GetString("Pset_PipeSegmentOccurrence", resourceCulture);
             }
@@ -3861,7 +3954,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableTypeValue&gt;IfcPipeSegment&lt;/ApplicableTypeValue&gt;
         /// [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_PipeSegmentPHistory {
+        internal static string Pset_PipeSegmentPHistory {
             get {
                 return ResourceManager.GetString("Pset_PipeSegmentPHistory", resourceCulture);
             }
@@ -3879,7 +3972,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableTypeValue&gt;IfcPipeSegment&lt;/ApplicableTypeValue&gt;
         ///	&lt;PropertyDef [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_PipeSegmentTypeCommon {
+        internal static string Pset_PipeSegmentTypeCommon {
             get {
                 return ResourceManager.GetString("Pset_PipeSegmentTypeCommon", resourceCulture);
             }
@@ -3895,7 +3988,7 @@ namespace Xbim.Properties.Definitions {
         ///		&lt;ClassName&gt;IfcPipeSegment/CULVERT&lt;/ClassName&gt;
         ///	&lt;/Appl [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_PipeSegmentTypeCulvert {
+        internal static string Pset_PipeSegmentTypeCulvert {
             get {
                 return ResourceManager.GetString("Pset_PipeSegmentTypeCulvert", resourceCulture);
             }
@@ -3912,7 +4005,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcPipeSegment/GUTTER&lt;/ApplicableTypeValue [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_PipeSegmentTypeGutter {
+        internal static string Pset_PipeSegmentTypeGutter {
             get {
                 return ResourceManager.GetString("Pset_PipeSegmentTypeGutter", resourceCulture);
             }
@@ -3930,7 +4023,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableTypeValue&gt;IfcPlate&lt;/ApplicableTypeValue&gt;
         ///	&lt;Pr [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_PlateCommon {
+        internal static string Pset_PlateCommon {
             get {
                 return ResourceManager.GetString("Pset_PlateCommon", resourceCulture);
             }
@@ -3942,7 +4035,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Name&gt;Pset_PrecastConcreteElementFabrication&lt;/Name&gt;
         ///	&lt;Definition&gt;Definition from IAI: Production and manufacturing related properties common to different types of precast concrete elements. The Pset applies to manufactured pieces. It can be used by a number of subtypes of IfcBuildingElement. I [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_PrecastConcreteElementFabrication {
+        internal static string Pset_PrecastConcreteElementFabrication {
             get {
                 return ResourceManager.GetString("Pset_PrecastConcreteElementFabrication", resourceCulture);
             }
@@ -3954,7 +4047,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Name&gt;Pset_PrecastConcreteElementGeneral&lt;/Name&gt;
         ///	&lt;Definition&gt;Definition from IAI: Production and manufacturing related properties common to different types of precast concrete elements. The Pset can be used by a number of subtypes of IfcBuildingElement. If the precast concrete element is a san [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_PrecastConcreteElementGeneral {
+        internal static string Pset_PrecastConcreteElementGeneral {
             get {
                 return ResourceManager.GetString("Pset_PrecastConcreteElementGeneral", resourceCulture);
             }
@@ -3966,7 +4059,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Name&gt;Pset_PrecastSlab&lt;/Name&gt;
         ///	&lt;Definition&gt;Definition from IAI: Layout and component information defining how prestressed slab components are laid out in a precast slab assembly. The values are global defaults for the slab as a whole, but can be overridden by local placements of the individual [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_PrecastSlab {
+        internal static string Pset_PrecastSlab {
             get {
                 return ResourceManager.GetString("Pset_PrecastSlab", resourceCulture);
             }
@@ -3978,7 +4071,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Name&gt;Pset_ProfileArbitraryDoubleT&lt;/Name&gt;
         ///	&lt;Definition&gt;This is a collection of geometric properties of double-T section profiles of precast concrete elements, to be used in conjunction with IfcArbitraryProfileDef when profile designation alone does not fulfill the information requirements.&lt;/De [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ProfileArbitraryDoubleT {
+        internal static string Pset_ProfileArbitraryDoubleT {
             get {
                 return ResourceManager.GetString("Pset_ProfileArbitraryDoubleT", resourceCulture);
             }
@@ -3990,7 +4083,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Name&gt;Pset_ProfileArbitraryHollowCore&lt;/Name&gt;
         ///	&lt;Definition&gt;This is a collection of geometric properties of hollow core section profiles of precast concrete elements, to be used in conjunction with IfcArbitraryProfileDefWithVoids when profile designation alone does not fulfill the information re [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ProfileArbitraryHollowCore {
+        internal static string Pset_ProfileArbitraryHollowCore {
             get {
                 return ResourceManager.GetString("Pset_ProfileArbitraryHollowCore", resourceCulture);
             }
@@ -4005,7 +4098,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableClasses&gt;
         ///		&lt;ClassN [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ProfileMechanical {
+        internal static string Pset_ProfileMechanical {
             get {
                 return ResourceManager.GetString("Pset_ProfileMechanical", resourceCulture);
             }
@@ -4018,7 +4111,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Definition&gt;A change order is an instruction to make a change to a product or work being undertake. Note that the change order status is defined in the same way as a work order status since a change order implies a work requirement.&lt;/Definition&gt;
         ///	&lt;If [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ProjectOrderChangeOrder {
+        internal static string Pset_ProjectOrderChangeOrder {
             get {
                 return ResourceManager.GetString("Pset_ProjectOrderChangeOrder", resourceCulture);
             }
@@ -4030,7 +4123,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Name&gt;Pset_ProjectOrderMaintenanceWorkOrder&lt;/Name&gt;
         ///	&lt;Definition&gt;A MaintenanceWorkOrder is a detailed description of maintenance work that is to be performed. Note that the Scheduled Frequency property of the maintenance work order is used when the order is required as an instance of a schedule [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ProjectOrderMaintenanceWorkOrder {
+        internal static string Pset_ProjectOrderMaintenanceWorkOrder {
             get {
                 return ResourceManager.GetString("Pset_ProjectOrderMaintenanceWorkOrder", resourceCulture);
             }
@@ -4045,7 +4138,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableClasses&gt;
         ///		&lt; [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ProjectOrderMoveOrder {
+        internal static string Pset_ProjectOrderMoveOrder {
             get {
                 return ResourceManager.GetString("Pset_ProjectOrderMoveOrder", resourceCulture);
             }
@@ -4062,7 +4155,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcProject [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ProjectOrderPurchaseOrder {
+        internal static string Pset_ProjectOrderPurchaseOrder {
             get {
                 return ResourceManager.GetString("Pset_ProjectOrderPurchaseOrder", resourceCulture);
             }
@@ -4079,7 +4172,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcProjectOrder/WO [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ProjectOrderWorkOrder {
+        internal static string Pset_ProjectOrderWorkOrder {
             get {
                 return ResourceManager.GetString("Pset_ProjectOrderWorkOrder", resourceCulture);
             }
@@ -4093,7 +4186,7 @@ namespace Xbim.Properties.Definitions {
         ///
         ///The objective is to capture the information within an  agreement that is relevant to a facilities manager. Design and construction informatio [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_PropertyAgreement {
+        internal static string Pset_PropertyAgreement {
             get {
                 return ResourceManager.GetString("Pset_PropertyAgreement", resourceCulture);
             }
@@ -4105,7 +4198,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Name&gt;Pset_ProtectiveDeviceBreakerUnitI2TCurve&lt;/Name&gt;
         ///	&lt;Definition&gt;A coherent set of attributes representing a curve for let-through energy of a protective device. Note - A protective device may be associated with different instances of this pSet providing information related to different  bas [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ProtectiveDeviceBreakerUnitI2TCurve {
+        internal static string Pset_ProtectiveDeviceBreakerUnitI2TCurve {
             get {
                 return ResourceManager.GetString("Pset_ProtectiveDeviceBreakerUnitI2TCurve", resourceCulture);
             }
@@ -4117,7 +4210,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Name&gt;Pset_ProtectiveDeviceBreakerUnitI2TFuseCurve&lt;/Name&gt;
         ///	&lt;Definition&gt;A coherent set of attributes representing curves for melting- and breaking-energy of a fuse. Note - A fuse may be associated with different instances of this property set providing information related to different  basic ch [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ProtectiveDeviceBreakerUnitI2TFuseCurve {
+        internal static string Pset_ProtectiveDeviceBreakerUnitI2TFuseCurve {
             get {
                 return ResourceManager.GetString("Pset_ProtectiveDeviceBreakerUnitI2TFuseCurve", resourceCulture);
             }
@@ -4129,7 +4222,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Name&gt;Pset_ProtectiveDeviceBreakerUnitIPICurve&lt;/Name&gt;
         ///	&lt;Definition&gt;A coherent set of attributes representing curves for  let-through currents of a protective device. Note - A protective device may be associated with different instances of this pSet providing information related to different  b [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ProtectiveDeviceBreakerUnitIPICurve {
+        internal static string Pset_ProtectiveDeviceBreakerUnitIPICurve {
             get {
                 return ResourceManager.GetString("Pset_ProtectiveDeviceBreakerUnitIPICurve", resourceCulture);
             }
@@ -4141,7 +4234,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Name&gt;Pset_ProtectiveDeviceBreakerUnitTypeMCB&lt;/Name&gt;
         ///	&lt;Definition&gt;A coherent set of attributes representing the breaking capacities of an MCB. Note - A protective device may be associated with different instances of this property set providing information related to different  basic characteri [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ProtectiveDeviceBreakerUnitTypeMCB {
+        internal static string Pset_ProtectiveDeviceBreakerUnitTypeMCB {
             get {
                 return ResourceManager.GetString("Pset_ProtectiveDeviceBreakerUnitTypeMCB", resourceCulture);
             }
@@ -4153,7 +4246,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Name&gt;Pset_ProtectiveDeviceBreakerUnitTypeMotorProtection&lt;/Name&gt;
         ///	&lt;Definition&gt;A coherent set of attributes representing different capacities of a a motor protection device, defined in accordance with IEC 60947. Note - A protective device may be associated with different instances of this Pset. [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ProtectiveDeviceBreakerUnitTypeMotorProtection {
+        internal static string Pset_ProtectiveDeviceBreakerUnitTypeMotorProtection {
             get {
                 return ResourceManager.GetString("Pset_ProtectiveDeviceBreakerUnitTypeMotorProtection", resourceCulture);
             }
@@ -4170,7 +4263,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcProtec [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ProtectiveDeviceOccurrence {
+        internal static string Pset_ProtectiveDeviceOccurrence {
             get {
                 return ResourceManager.GetString("Pset_ProtectiveDeviceOccurrence", resourceCulture);
             }
@@ -4182,7 +4275,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Name&gt;Pset_ProtectiveDeviceTrippingCurve&lt;/Name&gt;
         ///	&lt;Definition&gt;Tripping curves are applied to thermal, thermal magnetic or MCB_RCD tripping units (i.e. tripping units having type property sets for thermal, thermal magnetic or MCB_RCD tripping defined). They are not applied to electronic tripping [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ProtectiveDeviceTrippingCurve {
+        internal static string Pset_ProtectiveDeviceTrippingCurve {
             get {
                 return ResourceManager.GetString("Pset_ProtectiveDeviceTrippingCurve", resourceCulture);
             }
@@ -4195,7 +4288,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Definition&gt;Tripping functions are applied to electronic tripping units (i.e. tripping units having type property sets for electronic tripping defined). They are not applied to thermal, thermal magnetic or RCD tripping units.
         ///This prop [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ProtectiveDeviceTrippingFunctionGCurve {
+        internal static string Pset_ProtectiveDeviceTrippingFunctionGCurve {
             get {
                 return ResourceManager.GetString("Pset_ProtectiveDeviceTrippingFunctionGCurve", resourceCulture);
             }
@@ -4208,7 +4301,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Definition&gt;Tripping functions are applied to electronic tripping units (i.e. tripping units having type property sets for electronic tripping defined). They are not applied to thermal, thermal magnetic or RCD tripping units.
         ///This prop [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ProtectiveDeviceTrippingFunctionICurve {
+        internal static string Pset_ProtectiveDeviceTrippingFunctionICurve {
             get {
                 return ResourceManager.GetString("Pset_ProtectiveDeviceTrippingFunctionICurve", resourceCulture);
             }
@@ -4221,7 +4314,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Definition&gt;Tripping functions are applied to electronic tripping units (i.e. tripping units having type property sets for electronic tripping defined). They are not applied to thermal, thermal magnetic or RCD tripping units.
         ///This prop [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ProtectiveDeviceTrippingFunctionLCurve {
+        internal static string Pset_ProtectiveDeviceTrippingFunctionLCurve {
             get {
                 return ResourceManager.GetString("Pset_ProtectiveDeviceTrippingFunctionLCurve", resourceCulture);
             }
@@ -4234,7 +4327,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Definition&gt;Tripping functions are applied to electronic tripping units (i.e. tripping units having type property sets for electronic tripping defined). They are not applied to thermal, thermal magnetic or RCD tripping units.
         ///This prop [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ProtectiveDeviceTrippingFunctionSCurve {
+        internal static string Pset_ProtectiveDeviceTrippingFunctionSCurve {
             get {
                 return ResourceManager.GetString("Pset_ProtectiveDeviceTrippingFunctionSCurve", resourceCulture);
             }
@@ -4249,7 +4342,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableClasses&gt;
         ///		&lt;ClassName&gt;IfcProtectiveDeviceTrippingUnit&lt;/C [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ProtectiveDeviceTrippingUnitCurrentAdjustment {
+        internal static string Pset_ProtectiveDeviceTrippingUnitCurrentAdjustment {
             get {
                 return ResourceManager.GetString("Pset_ProtectiveDeviceTrippingUnitCurrentAdjustment", resourceCulture);
             }
@@ -4264,7 +4357,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableClasses&gt;
         ///		&lt;ClassName&gt;IfcProtectiveDeviceTrippingUnit&lt;/ClassNa [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ProtectiveDeviceTrippingUnitTimeAdjustment {
+        internal static string Pset_ProtectiveDeviceTrippingUnitTimeAdjustment {
             get {
                 return ResourceManager.GetString("Pset_ProtectiveDeviceTrippingUnitTimeAdjustment", resourceCulture);
             }
@@ -4280,7 +4373,7 @@ namespace Xbim.Properties.Definitions {
         ///		&lt;ClassName&gt;IfcProtectiveDeviceTrippingUnit&lt;/ClassName&gt;
         ///	&lt;/Applic [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ProtectiveDeviceTrippingUnitTypeCommon {
+        internal static string Pset_ProtectiveDeviceTrippingUnitTypeCommon {
             get {
                 return ResourceManager.GetString("Pset_ProtectiveDeviceTrippingUnitTypeCommon", resourceCulture);
             }
@@ -4295,7 +4388,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableClasses&gt;
         ///		&lt;ClassName&gt;IfcProtectiveDeviceTrippingUnit/ELECTROMAGNETIC&lt;/ClassName [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ProtectiveDeviceTrippingUnitTypeElectroMagnetic {
+        internal static string Pset_ProtectiveDeviceTrippingUnitTypeElectroMagnetic {
             get {
                 return ResourceManager.GetString("Pset_ProtectiveDeviceTrippingUnitTypeElectroMagnetic", resourceCulture);
             }
@@ -4311,7 +4404,7 @@ namespace Xbim.Properties.Definitions {
         ///		&lt;ClassName&gt;IfcProtectiveDeviceTrippingUnit/ELECTRONIC&lt;/ClassName&gt;
         ///	&lt;/ApplicableClasses&gt; [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ProtectiveDeviceTrippingUnitTypeElectronic {
+        internal static string Pset_ProtectiveDeviceTrippingUnitTypeElectronic {
             get {
                 return ResourceManager.GetString("Pset_ProtectiveDeviceTrippingUnitTypeElectronic", resourceCulture);
             }
@@ -4327,7 +4420,7 @@ namespace Xbim.Properties.Definitions {
         ///		&lt;ClassName&gt;IfcProtectiveDeviceTrippingUnit/RESIDUALCURRENT&lt;/ClassName&gt;
         ///	&lt;/A [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ProtectiveDeviceTrippingUnitTypeResidualCurrent {
+        internal static string Pset_ProtectiveDeviceTrippingUnitTypeResidualCurrent {
             get {
                 return ResourceManager.GetString("Pset_ProtectiveDeviceTrippingUnitTypeResidualCurrent", resourceCulture);
             }
@@ -4344,7 +4437,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;Applica [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ProtectiveDeviceTrippingUnitTypeThermal {
+        internal static string Pset_ProtectiveDeviceTrippingUnitTypeThermal {
             get {
                 return ResourceManager.GetString("Pset_ProtectiveDeviceTrippingUnitTypeThermal", resourceCulture);
             }
@@ -4356,7 +4449,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Name&gt;Pset_ProtectiveDeviceTypeCircuitBreaker&lt;/Name&gt;
         ///	&lt;Definition&gt;A coherent set of attributes representing different capacities of a circuit breaker or of a motor protection device, defined in accordance with IEC 60947. Note - A protective device may be associated with different instances of  [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ProtectiveDeviceTypeCircuitBreaker {
+        internal static string Pset_ProtectiveDeviceTypeCircuitBreaker {
             get {
                 return ResourceManager.GetString("Pset_ProtectiveDeviceTypeCircuitBreaker", resourceCulture);
             }
@@ -4373,7 +4466,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcProtect [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ProtectiveDeviceTypeCommon {
+        internal static string Pset_ProtectiveDeviceTypeCommon {
             get {
                 return ResourceManager.GetString("Pset_ProtectiveDeviceTypeCommon", resourceCulture);
             }
@@ -4388,7 +4481,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableClasses&gt;
         ///		&lt;ClassName&gt;IfcProtectiveDevice/EARTHLEAKAGECIRCUI [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ProtectiveDeviceTypeEarthLeakageCircuitBreaker {
+        internal static string Pset_ProtectiveDeviceTypeEarthLeakageCircuitBreaker {
             get {
                 return ResourceManager.GetString("Pset_ProtectiveDeviceTypeEarthLeakageCircuitBreaker", resourceCulture);
             }
@@ -4400,7 +4493,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Name&gt;Pset_ProtectiveDeviceTypeFuseDisconnector&lt;/Name&gt;
         ///	&lt;Definition&gt;A coherent set of attributes representing the breakeing capacity of a fuse, defined in accordance with IEC 60269. Note - A protective device may be associated with different instances of this pSet providing information related [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ProtectiveDeviceTypeFuseDisconnector {
+        internal static string Pset_ProtectiveDeviceTypeFuseDisconnector {
             get {
                 return ResourceManager.GetString("Pset_ProtectiveDeviceTypeFuseDisconnector", resourceCulture);
             }
@@ -4415,7 +4508,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableClasses&gt;
         ///		&lt;ClassName&gt;IfcProtectiveDe [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ProtectiveDeviceTypeResidualCurrentCircuitBreaker {
+        internal static string Pset_ProtectiveDeviceTypeResidualCurrentCircuitBreaker {
             get {
                 return ResourceManager.GetString("Pset_ProtectiveDeviceTypeResidualCurrentCircuitBreaker", resourceCulture);
             }
@@ -4430,7 +4523,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableClasses&gt;
         ///		&lt;ClassName&gt;IfcProtectiveDevice/RESIDUALCU [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ProtectiveDeviceTypeResidualCurrentSwitch {
+        internal static string Pset_ProtectiveDeviceTypeResidualCurrentSwitch {
             get {
                 return ResourceManager.GetString("Pset_ProtectiveDeviceTypeResidualCurrentSwitch", resourceCulture);
             }
@@ -4447,7 +4540,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcProtectiveDevice/VARISTO [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ProtectiveDeviceTypeVaristor {
+        internal static string Pset_ProtectiveDeviceTypeVaristor {
             get {
                 return ResourceManager.GetString("Pset_ProtectiveDeviceTypeVaristor", resourceCulture);
             }
@@ -4465,7 +4558,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableTypeValue&gt;IfcPump&lt;/ApplicableTypeValue&gt;
         ///	&lt;Proper [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_PumpOccurrence {
+        internal static string Pset_PumpOccurrence {
             get {
                 return ResourceManager.GetString("Pset_PumpOccurrence", resourceCulture);
             }
@@ -4484,7 +4577,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;PropertyDefs&gt;
         ///		&lt;PropertyDef ifdg [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_PumpPHistory {
+        internal static string Pset_PumpPHistory {
             get {
                 return ResourceManager.GetString("Pset_PumpPHistory", resourceCulture);
             }
@@ -4503,7 +4596,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;PropertyDefs&gt;
         ///		&lt;PropertyDef ifdgu [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_PumpTypeCommon {
+        internal static string Pset_PumpTypeCommon {
             get {
                 return ResourceManager.GetString("Pset_PumpTypeCommon", resourceCulture);
             }
@@ -4520,7 +4613,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcRailing&lt;/ApplicableTypeValu [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_RailingCommon {
+        internal static string Pset_RailingCommon {
             get {
                 return ResourceManager.GetString("Pset_RailingCommon", resourceCulture);
             }
@@ -4538,7 +4631,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableTypeValue&gt;IfcRamp&lt;/ApplicableTypeValue&gt;
         ///	&lt;Proper [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_RampCommon {
+        internal static string Pset_RampCommon {
             get {
                 return ResourceManager.GetString("Pset_RampCommon", resourceCulture);
             }
@@ -4555,7 +4648,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcRampFlight&lt;/Applic [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_RampFlightCommon {
+        internal static string Pset_RampFlightCommon {
             get {
                 return ResourceManager.GetString("Pset_RampFlightCommon", resourceCulture);
             }
@@ -4567,7 +4660,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Name&gt;Pset_ReinforcementBarCountOfIndependentFooting&lt;/Name&gt;
         ///	&lt;Definition&gt;Reinforcement Concrete parameter [ST-2]: The amount number information of reinforcement  bar with the independent footing. The X and Y direction are based on the local coordinate system of building storey. The X and Y dir [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ReinforcementBarCountOfIndependentFooting {
+        internal static string Pset_ReinforcementBarCountOfIndependentFooting {
             get {
                 return ResourceManager.GetString("Pset_ReinforcementBarCountOfIndependentFooting", resourceCulture);
             }
@@ -4584,7 +4677,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcBeam&lt;/ApplicableType [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ReinforcementBarPitchOfBeam {
+        internal static string Pset_ReinforcementBarPitchOfBeam {
             get {
                 return ResourceManager.GetString("Pset_ReinforcementBarPitchOfBeam", resourceCulture);
             }
@@ -4596,7 +4689,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Name&gt;Pset_ReinforcementBarPitchOfColumn&lt;/Name&gt;
         ///	&lt;Definition&gt;Definition from IAI: The pitch length information of reinforcement  bar with the column. The X and Y direction are based on the local coordinate system of building storey. The X and Y direction of the reinforcement bar are parallel t [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ReinforcementBarPitchOfColumn {
+        internal static string Pset_ReinforcementBarPitchOfColumn {
             get {
                 return ResourceManager.GetString("Pset_ReinforcementBarPitchOfColumn", resourceCulture);
             }
@@ -4611,7 +4704,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableClasses&gt;
         ///		&lt;ClassName&gt;IfcFooting&lt;/ClassName [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ReinforcementBarPitchOfContinuousFooting {
+        internal static string Pset_ReinforcementBarPitchOfContinuousFooting {
             get {
                 return ResourceManager.GetString("Pset_ReinforcementBarPitchOfContinuousFooting", resourceCulture);
             }
@@ -4628,7 +4721,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcSlab&lt;/ApplicableType [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ReinforcementBarPitchOfSlab {
+        internal static string Pset_ReinforcementBarPitchOfSlab {
             get {
                 return ResourceManager.GetString("Pset_ReinforcementBarPitchOfSlab", resourceCulture);
             }
@@ -4645,7 +4738,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcWall&lt;/ApplicableType [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ReinforcementBarPitchOfWall {
+        internal static string Pset_ReinforcementBarPitchOfWall {
             get {
                 return ResourceManager.GetString("Pset_ReinforcementBarPitchOfWall", resourceCulture);
             }
@@ -4662,7 +4755,7 @@ namespace Xbim.Properties.Definitions {
         ///There are various types of risk that may be encountered and there may be several instances of Pset_Risk associated in an instance of an IfcProcess.
         ///Spe [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_Risk {
+        internal static string Pset_Risk {
             get {
                 return ResourceManager.GetString("Pset_Risk", resourceCulture);
             }
@@ -4678,7 +4771,7 @@ namespace Xbim.Properties.Definitions {
         ///		&lt;ClassName&gt;IfcRoof&lt;/ClassName&gt;
         ///	&lt;/ApplicableClass [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_RoofCommon {
+        internal static string Pset_RoofCommon {
             get {
                 return ResourceManager.GetString("Pset_RoofCommon", resourceCulture);
             }
@@ -4690,7 +4783,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Name&gt;Pset_SanitaryTerminalTypeBath&lt;/Name&gt;
         ///	&lt;Definition&gt;Sanitary appliance for immersion of the human body or parts of it (BS6100). HISTORY: In IFC4, Material and MaterialThickness properties removed. Use materials capabilities from IfcMaterialsResource schema. Datatype of color changed to Ifc [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_SanitaryTerminalTypeBath {
+        internal static string Pset_SanitaryTerminalTypeBath {
             get {
                 return ResourceManager.GetString("Pset_SanitaryTerminalTypeBath", resourceCulture);
             }
@@ -4702,7 +4795,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Name&gt;Pset_SanitaryTerminalTypeBidet&lt;/Name&gt;
         ///	&lt;Definition&gt;Waste water appliance for washing the excretory organs while sitting astride the bowl (BS6100). HISTORY: In IFC4, Material property removed. Use materials capabilities from IfcMaterialsResource schema. Datatype of color changed to IfcLab [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_SanitaryTerminalTypeBidet {
+        internal static string Pset_SanitaryTerminalTypeBidet {
             get {
                 return ResourceManager.GetString("Pset_SanitaryTerminalTypeBidet", resourceCulture);
             }
@@ -4714,7 +4807,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Name&gt;Pset_SanitaryTerminalTypeCistern&lt;/Name&gt;
         ///	&lt;Definition&gt;A water storage unit attached to a sanitary terminal that is fitted with a device, operated automatically or by the user, that discharges water to cleanse a water closet (toilet) pan, urinal or slop hopper. (BS6100 330 5008)&lt;/Definitio [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_SanitaryTerminalTypeCistern {
+        internal static string Pset_SanitaryTerminalTypeCistern {
             get {
                 return ResourceManager.GetString("Pset_SanitaryTerminalTypeCistern", resourceCulture);
             }
@@ -4731,7 +4824,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcSanitaryTerminal&lt;/ApplicableTypeV [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_SanitaryTerminalTypeCommon {
+        internal static string Pset_SanitaryTerminalTypeCommon {
             get {
                 return ResourceManager.GetString("Pset_SanitaryTerminalTypeCommon", resourceCulture);
             }
@@ -4743,7 +4836,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Name&gt;Pset_SanitaryTerminalTypeSanitaryFountain&lt;/Name&gt;
         ///	&lt;Definition&gt;Asanitary terminal that provides a low pressure jet of water for a specific purpose (IAI). HISTORY: In IFC4, Material property removed. Use materials capabilities from IfcMaterialsResource schema. Datatype of color changed to  [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_SanitaryTerminalTypeSanitaryFountain {
+        internal static string Pset_SanitaryTerminalTypeSanitaryFountain {
             get {
                 return ResourceManager.GetString("Pset_SanitaryTerminalTypeSanitaryFountain", resourceCulture);
             }
@@ -4755,7 +4848,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Name&gt;Pset_SanitaryTerminalTypeShower&lt;/Name&gt;
         ///	&lt;Definition&gt;Installation or waste water appliance that emits a spray of water to wash the human body (BS6100). HISTORY: In IFC4, Material and MaterialThickness properties removed. Use materials capabilities from IfcMaterialsResource schema. Datatyp [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_SanitaryTerminalTypeShower {
+        internal static string Pset_SanitaryTerminalTypeShower {
             get {
                 return ResourceManager.GetString("Pset_SanitaryTerminalTypeShower", resourceCulture);
             }
@@ -4767,7 +4860,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Name&gt;Pset_SanitaryTerminalTypeSink&lt;/Name&gt;
         ///	&lt;Definition&gt;Waste water appliance for receiving, retaining or disposing of domestic, culinary, laboratory or industrial process liquids. HISTORY: In IFC4, Material property removed. Use materials capabilities from IfcMaterialsResource schema. Datatyp [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_SanitaryTerminalTypeSink {
+        internal static string Pset_SanitaryTerminalTypeSink {
             get {
                 return ResourceManager.GetString("Pset_SanitaryTerminalTypeSink", resourceCulture);
             }
@@ -4779,7 +4872,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Name&gt;Pset_SanitaryTerminalTypeToiletPan&lt;/Name&gt;
         ///	&lt;Definition&gt;Soil appliance for the disposal of excrement. HISTORY: In IFC4, Material property removed. Use materials capabilities from IfcMaterialsResource schema. Prefix for color property removed. Datatype of color changed to IfcLabel (still a [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_SanitaryTerminalTypeToiletPan {
+        internal static string Pset_SanitaryTerminalTypeToiletPan {
             get {
                 return ResourceManager.GetString("Pset_SanitaryTerminalTypeToiletPan", resourceCulture);
             }
@@ -4791,7 +4884,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Name&gt;Pset_SanitaryTerminalTypeUrinal&lt;/Name&gt;
         ///	&lt;Definition&gt;Soil appliance that receives urine and directs it to a waste outlet (BS6100). HISTORY: In IFC4, Material property removed. Use materials capabilities from IfcMaterialsResource schema. Prefix for color property removed. Datatype of color [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_SanitaryTerminalTypeUrinal {
+        internal static string Pset_SanitaryTerminalTypeUrinal {
             get {
                 return ResourceManager.GetString("Pset_SanitaryTerminalTypeUrinal", resourceCulture);
             }
@@ -4803,7 +4896,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Name&gt;Pset_SanitaryTerminalTypeWashHandBasin&lt;/Name&gt;
         ///	&lt;Definition&gt;Waste water appliance for washing the upper parts of the body. HISTORY: In IFC4, Material property removed. Use materials capabilities from IfcMaterialsResource schema. Datatype of color changed to IfcLabel (still a string value) [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_SanitaryTerminalTypeWashHandBasin {
+        internal static string Pset_SanitaryTerminalTypeWashHandBasin {
             get {
                 return ResourceManager.GetString("Pset_SanitaryTerminalTypeWashHandBasin", resourceCulture);
             }
@@ -4820,7 +4913,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcSensor&lt;/ApplicableTypeValue [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_SensorPHistory {
+        internal static string Pset_SensorPHistory {
             get {
                 return ResourceManager.GetString("Pset_SensorPHistory", resourceCulture);
             }
@@ -4838,7 +4931,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableTypeValue&gt;IfcSensor&lt;/ApplicableTypeValue&gt;
         ///	&lt;Propert [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_SensorTypeCommon {
+        internal static string Pset_SensorTypeCommon {
             get {
                 return ResourceManager.GetString("Pset_SensorTypeCommon", resourceCulture);
             }
@@ -4855,7 +4948,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;Applicab [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_SensorTypeConductanceSensor {
+        internal static string Pset_SensorTypeConductanceSensor {
             get {
                 return ResourceManager.GetString("Pset_SensorTypeConductanceSensor", resourceCulture);
             }
@@ -4872,7 +4965,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcSensor/CO [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_SensorTypeContactSensor {
+        internal static string Pset_SensorTypeContactSensor {
             get {
                 return ResourceManager.GetString("Pset_SensorTypeContactSensor", resourceCulture);
             }
@@ -4889,7 +4982,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcSensor/FIRESENSOR&lt;/Applica [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_SensorTypeFireSensor {
+        internal static string Pset_SensorTypeFireSensor {
             get {
                 return ResourceManager.GetString("Pset_SensorTypeFireSensor", resourceCulture);
             }
@@ -4906,7 +4999,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcSensor/FLOWSENSOR&lt; [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_SensorTypeFlowSensor {
+        internal static string Pset_SensorTypeFlowSensor {
             get {
                 return ResourceManager.GetString("Pset_SensorTypeFlowSensor", resourceCulture);
             }
@@ -4920,7 +5013,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;IfcVersion version=&quot;2x4&quot; /&gt;
         ///	&lt;Appli [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_SensorTypeGasSensor {
+        internal static string Pset_SensorTypeGasSensor {
             get {
                 return ResourceManager.GetString("Pset_SensorTypeGasSensor", resourceCulture);
             }
@@ -4935,7 +5028,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableClasses&gt;
         ///		&lt;ClassName&gt;IfcSensor/HEATSENSOR&lt;/ClassNam [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_SensorTypeHeatSensor {
+        internal static string Pset_SensorTypeHeatSensor {
             get {
                 return ResourceManager.GetString("Pset_SensorTypeHeatSensor", resourceCulture);
             }
@@ -4950,7 +5043,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableClasses&gt;
         ///		&lt;ClassName&gt;IfcSensor/HU [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_SensorTypeHumiditySensor {
+        internal static string Pset_SensorTypeHumiditySensor {
             get {
                 return ResourceManager.GetString("Pset_SensorTypeHumiditySensor", resourceCulture);
             }
@@ -4966,7 +5059,7 @@ namespace Xbim.Properties.Definitions {
         ///		&lt;ClassName&gt;IfcSensor/IONCONCENTRATIONSENSOR&lt;/ClassName&gt;
         ///	&lt;/App [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_SensorTypeIonConcentrationSensor {
+        internal static string Pset_SensorTypeIonConcentrationSensor {
             get {
                 return ResourceManager.GetString("Pset_SensorTypeIonConcentrationSensor", resourceCulture);
             }
@@ -4983,7 +5076,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcSensor/LEVEL&lt;/A [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_SensorTypeLevelSensor {
+        internal static string Pset_SensorTypeLevelSensor {
             get {
                 return ResourceManager.GetString("Pset_SensorTypeLevelSensor", resourceCulture);
             }
@@ -4998,7 +5091,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableClasses&gt;
         ///		&lt;ClassName&gt;IfcSensor/LI [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_SensorTypeLightSensor {
+        internal static string Pset_SensorTypeLightSensor {
             get {
                 return ResourceManager.GetString("Pset_SensorTypeLightSensor", resourceCulture);
             }
@@ -5015,7 +5108,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcSensor [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_SensorTypeMoistureSensor {
+        internal static string Pset_SensorTypeMoistureSensor {
             get {
                 return ResourceManager.GetString("Pset_SensorTypeMoistureSensor", resourceCulture);
             }
@@ -5032,7 +5125,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTy [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_SensorTypeMovementSensor {
+        internal static string Pset_SensorTypeMovementSensor {
             get {
                 return ResourceManager.GetString("Pset_SensorTypeMovementSensor", resourceCulture);
             }
@@ -5049,7 +5142,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcSensor/PHSENSOR&lt;/A [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_SensorTypePHSensor {
+        internal static string Pset_SensorTypePHSensor {
             get {
                 return ResourceManager.GetString("Pset_SensorTypePHSensor", resourceCulture);
             }
@@ -5064,7 +5157,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableClasses&gt;
         ///		&lt;ClassName&gt;IfcSen [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_SensorTypePressureSensor {
+        internal static string Pset_SensorTypePressureSensor {
             get {
                 return ResourceManager.GetString("Pset_SensorTypePressureSensor", resourceCulture);
             }
@@ -5081,7 +5174,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcSen [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_SensorTypeRadiationSensor {
+        internal static string Pset_SensorTypeRadiationSensor {
             get {
                 return ResourceManager.GetString("Pset_SensorTypeRadiationSensor", resourceCulture);
             }
@@ -5098,7 +5191,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeV [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_SensorTypeRadioactivitySensor {
+        internal static string Pset_SensorTypeRadioactivitySensor {
             get {
                 return ResourceManager.GetString("Pset_SensorTypeRadioactivitySensor", resourceCulture);
             }
@@ -5112,7 +5205,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;IfcVersion version=&quot;2x4&quot; /&gt;
         ///	&lt;ApplicableCl [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_SensorTypeSmokeSensor {
+        internal static string Pset_SensorTypeSmokeSensor {
             get {
                 return ResourceManager.GetString("Pset_SensorTypeSmokeSensor", resourceCulture);
             }
@@ -5127,7 +5220,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableClasses&gt;
         ///		&lt;ClassName&gt;IfcSensor/SOUNDSEN [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_SensorTypeSoundSensor {
+        internal static string Pset_SensorTypeSoundSensor {
             get {
                 return ResourceManager.GetString("Pset_SensorTypeSoundSensor", resourceCulture);
             }
@@ -5142,7 +5235,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableClasses&gt;
         ///		&lt;Clas [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_SensorTypeTemperatureSensor {
+        internal static string Pset_SensorTypeTemperatureSensor {
             get {
                 return ResourceManager.GetString("Pset_SensorTypeTemperatureSensor", resourceCulture);
             }
@@ -5159,7 +5252,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;I [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_SensorTypeWindSensor {
+        internal static string Pset_SensorTypeWindSensor {
             get {
                 return ResourceManager.GetString("Pset_SensorTypeWindSensor", resourceCulture);
             }
@@ -5176,7 +5269,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt; [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ServiceLife {
+        internal static string Pset_ServiceLife {
             get {
                 return ResourceManager.GetString("Pset_ServiceLife", resourceCulture);
             }
@@ -5193,7 +5286,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableType [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ServiceLifeFactors {
+        internal static string Pset_ServiceLifeFactors {
             get {
                 return ResourceManager.GetString("Pset_ServiceLifeFactors", resourceCulture);
             }
@@ -5210,7 +5303,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;If [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ShadingDeviceCommon {
+        internal static string Pset_ShadingDeviceCommon {
             get {
                 return ResourceManager.GetString("Pset_ShadingDeviceCommon", resourceCulture);
             }
@@ -5227,7 +5320,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcShadingDevice&lt;/ApplicableTypeValue&gt;        /// [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ShadingDevicePHistory {
+        internal static string Pset_ShadingDevicePHistory {
             get {
                 return ResourceManager.GetString("Pset_ShadingDevicePHistory", resourceCulture);
             }
@@ -5239,7 +5332,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Name&gt;Pset_SiteCommon&lt;/Name&gt;
         ///	&lt;Definition&gt;Properties common to the definition of all occurrences of IfcSite. Please note that several site attributes are handled directly at the IfcSite instance, the site number (or short name) by IfcSite.Name, the site name (or long name) by IfcSite.LongName, [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_SiteCommon {
+        internal static string Pset_SiteCommon {
             get {
                 return ResourceManager.GetString("Pset_SiteCommon", resourceCulture);
             }
@@ -5256,7 +5349,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;Applicable [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_SlabCommon {
+        internal static string Pset_SlabCommon {
             get {
                 return ResourceManager.GetString("Pset_SlabCommon", resourceCulture);
             }
@@ -5274,7 +5367,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableTypeValue&gt;IfcSolarDevice&lt;/ApplicableTypeValue&gt;
         ///	&lt;Proper [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_SolarDeviceTypeCommon {
+        internal static string Pset_SolarDeviceTypeCommon {
             get {
                 return ResourceManager.GetString("Pset_SolarDeviceTypeCommon", resourceCulture);
             }
@@ -5286,7 +5379,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Name&gt;Pset_SoundAttenuation&lt;/Name&gt;
         ///	&lt;Definition&gt;Common definition to capture sound pressure at a point on behalf of a device typically used within the context of building services and flow distribution systems.   To indicate sound values from an instance of IfcDistributionFlowElement at a part [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_SoundAttenuation {
+        internal static string Pset_SoundAttenuation {
             get {
                 return ResourceManager.GetString("Pset_SoundAttenuation", resourceCulture);
             }
@@ -5298,7 +5391,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Name&gt;Pset_SoundGeneration&lt;/Name&gt;
         ///	&lt;Definition&gt;Common definition to capture the properties of sound typically used within the context of building services and flow distribution systems.  This property set is instantiated multiple times on an object for each frequency band.  HISTORY: New proper [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_SoundGeneration {
+        internal static string Pset_SoundGeneration {
             get {
                 return ResourceManager.GetString("Pset_SoundGeneration", resourceCulture);
             }
@@ -5310,7 +5403,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Name&gt;Pset_SpaceCommon&lt;/Name&gt;
         ///	&lt;Definition&gt;Properties common to the definition of all occurrences of IfcSpace. Please note that several space attributes are handled directly at the IfcSpace instance, the space number (or short name) by IfcSpace.Name, the space name (or long name) by IfcSpace:L [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_SpaceCommon {
+        internal static string Pset_SpaceCommon {
             get {
                 return ResourceManager.GetString("Pset_SpaceCommon", resourceCulture);
             }
@@ -5322,7 +5415,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Name&gt;Pset_SpaceCoveringRequirements&lt;/Name&gt;
         ///	&lt;Definition&gt;Properties common to the definition of covering requirements of IfcSpace. Those properties define the requirements coming from a space program in early project phases and can later be used to define the room book information, if such cov [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_SpaceCoveringRequirements {
+        internal static string Pset_SpaceCoveringRequirements {
             get {
                 return ResourceManager.GetString("Pset_SpaceCoveringRequirements", resourceCulture);
             }
@@ -5338,7 +5431,7 @@ namespace Xbim.Properties.Definitions {
         ///		&lt;ClassName&gt;IfcSpace&lt;/ClassName&gt;
         ///		&lt;ClassName&gt; IfcSpatialZone&lt;/C [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_SpaceFireSafetyRequirements {
+        internal static string Pset_SpaceFireSafetyRequirements {
             get {
                 return ResourceManager.GetString("Pset_SpaceFireSafetyRequirements", resourceCulture);
             }
@@ -5356,7 +5449,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableTypeValue&gt;IfcSpaceHeater&lt;/ApplicableTypeValue&gt;
         /// [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_SpaceHeaterPHistory {
+        internal static string Pset_SpaceHeaterPHistory {
             get {
                 return ResourceManager.GetString("Pset_SpaceHeaterPHistory", resourceCulture);
             }
@@ -5372,7 +5465,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableClasses&gt;
         ///		&lt;ClassName&gt;IfcSpaceHe [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_SpaceHeaterTypeCommon {
+        internal static string Pset_SpaceHeaterTypeCommon {
             get {
                 return ResourceManager.GetString("Pset_SpaceHeaterTypeCommon", resourceCulture);
             }
@@ -5389,7 +5482,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcSpaceHeater/CONVECTOR&lt;/Applicabl [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_SpaceHeaterTypeConvector {
+        internal static string Pset_SpaceHeaterTypeConvector {
             get {
                 return ResourceManager.GetString("Pset_SpaceHeaterTypeConvector", resourceCulture);
             }
@@ -5406,7 +5499,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcSpaceHeater/RADIATOR&lt;/ApplicableTyp [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_SpaceHeaterTypeRadiator {
+        internal static string Pset_SpaceHeaterTypeRadiator {
             get {
                 return ResourceManager.GetString("Pset_SpaceHeaterTypeRadiator", resourceCulture);
             }
@@ -5421,7 +5514,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableClasses&gt;
         ///		 [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_SpaceLightingRequirements {
+        internal static string Pset_SpaceLightingRequirements {
             get {
                 return ResourceManager.GetString("Pset_SpaceLightingRequirements", resourceCulture);
             }
@@ -5437,7 +5530,7 @@ namespace Xbim.Properties.Definitions {
         ///		&lt;ClassName&gt;IfcSpace&lt;/ClassName&gt;
         ///		&lt;Cla [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_SpaceOccupancyRequirements {
+        internal static string Pset_SpaceOccupancyRequirements {
             get {
                 return ResourceManager.GetString("Pset_SpaceOccupancyRequirements", resourceCulture);
             }
@@ -5451,7 +5544,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;IfcVersion version=&quot;2x4&quot; /&gt;
         ///	&lt;Appli [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_SpaceParking {
+        internal static string Pset_SpaceParking {
             get {
                 return ResourceManager.GetString("Pset_SpaceParking", resourceCulture);
             }
@@ -5466,7 +5559,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableClasses&gt;
         ///		&lt;Cl [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_SpaceThermalDesign {
+        internal static string Pset_SpaceThermalDesign {
             get {
                 return ResourceManager.GetString("Pset_SpaceThermalDesign", resourceCulture);
             }
@@ -5478,7 +5571,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Name&gt;Pset_SpaceThermalLoad&lt;/Name&gt;
         ///	&lt;Definition&gt;The space thermal load defines all thermal losses and gains occurring within a space or zone.  The thermal load source attribute defines an enumeration of possible sources of the thermal load. The maximum, minimum, time series and app&lt;/Definition [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_SpaceThermalLoad {
+        internal static string Pset_SpaceThermalLoad {
             get {
                 return ResourceManager.GetString("Pset_SpaceThermalLoad", resourceCulture);
             }
@@ -5490,7 +5583,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Name&gt;Pset_SpaceThermalLoadPHistory&lt;/Name&gt;
         ///	&lt;Definition&gt;The space thermal load IfcSpaceThermalLoadProperties defines actual measured thermal losses and gains occurring within a space or zone. The thermal load source attribute defines an enumeration of possible sources of the thermal load.&lt;/Def [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_SpaceThermalLoadPHistory {
+        internal static string Pset_SpaceThermalLoadPHistory {
             get {
                 return ResourceManager.GetString("Pset_SpaceThermalLoadPHistory", resourceCulture);
             }
@@ -5507,7 +5600,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcSp [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_SpaceThermalPHistory {
+        internal static string Pset_SpaceThermalPHistory {
             get {
                 return ResourceManager.GetString("Pset_SpaceThermalPHistory", resourceCulture);
             }
@@ -5519,7 +5612,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Name&gt;Pset_SpaceThermalRequirements&lt;/Name&gt;
         ///	&lt;Definition&gt;Properties related to the comfort requirements for thermal and other  thermal related performance properties of spaces that apply to the occurrences of IfcSpace, IfcSpatialZone or IfcZone. It can also be used to capture requirements for I [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_SpaceThermalRequirements {
+        internal static string Pset_SpaceThermalRequirements {
             get {
                 return ResourceManager.GetString("Pset_SpaceThermalRequirements", resourceCulture);
             }
@@ -5537,7 +5630,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableTypeValue&gt;IfcStackTerminal&lt;/ApplicableTypeValue&gt;
         ///	&lt;Pro [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_StackTerminalTypeCommon {
+        internal static string Pset_StackTerminalTypeCommon {
             get {
                 return ResourceManager.GetString("Pset_StackTerminalTypeCommon", resourceCulture);
             }
@@ -5555,7 +5648,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableTypeValue&gt;IfcStair&lt;/ApplicableTypeValue&gt;
         ///	&lt;Pr [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_StairCommon {
+        internal static string Pset_StairCommon {
             get {
                 return ResourceManager.GetString("Pset_StairCommon", resourceCulture);
             }
@@ -5572,7 +5665,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcStairFlight&lt;/Ap [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_StairFlightCommon {
+        internal static string Pset_StairFlightCommon {
             get {
                 return ResourceManager.GetString("Pset_StairFlightCommon", resourceCulture);
             }
@@ -5584,7 +5677,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Name&gt;Pset_StructuralSurfaceMemberVaryingThickness&lt;/Name&gt;
         ///	&lt;Definition&gt;Definition from IAI: Thickness parameters of a surface member (structural analysis item) with varying thickness, particularly with linearly varying thickness.  The thickness is interpolated/ extrapolated from three points.  [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_StructuralSurfaceMemberVaryingThickness {
+        internal static string Pset_StructuralSurfaceMemberVaryingThickness {
             get {
                 return ResourceManager.GetString("Pset_StructuralSurfaceMemberVaryingThickness", resourceCulture);
             }
@@ -5600,7 +5693,7 @@ namespace Xbim.Properties.Definitions {
         ///		&lt;ClassName&gt;IfcSwitchingDevice&lt;/ClassName&gt;
         ///	&lt;/ApplicableClasses&gt;        /// [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_SwitchingDeviceTypeCommon {
+        internal static string Pset_SwitchingDeviceTypeCommon {
             get {
                 return ResourceManager.GetString("Pset_SwitchingDeviceTypeCommon", resourceCulture);
             }
@@ -5617,7 +5710,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;Applicab [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_SwitchingDeviceTypeContactor {
+        internal static string Pset_SwitchingDeviceTypeContactor {
             get {
                 return ResourceManager.GetString("Pset_SwitchingDeviceTypeContactor", resourceCulture);
             }
@@ -5632,7 +5725,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableClasses&gt;
         ///		&lt;ClassName&gt;IfcSwitchingDevice/DIMMERS [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_SwitchingDeviceTypeDimmerSwitch {
+        internal static string Pset_SwitchingDeviceTypeDimmerSwitch {
             get {
                 return ResourceManager.GetString("Pset_SwitchingDeviceTypeDimmerSwitch", resourceCulture);
             }
@@ -5647,7 +5740,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableClasses&gt;
         ///		&lt;ClassName&gt;IfcSwitchingDevice/EMERGENCYSTOP&lt;/ClassNa [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_SwitchingDeviceTypeEmergencyStop {
+        internal static string Pset_SwitchingDeviceTypeEmergencyStop {
             get {
                 return ResourceManager.GetString("Pset_SwitchingDeviceTypeEmergencyStop", resourceCulture);
             }
@@ -5664,7 +5757,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeVa [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_SwitchingDeviceTypeKeypad {
+        internal static string Pset_SwitchingDeviceTypeKeypad {
             get {
                 return ResourceManager.GetString("Pset_SwitchingDeviceTypeKeypad", resourceCulture);
             }
@@ -5680,7 +5773,7 @@ namespace Xbim.Properties.Definitions {
         ///		&lt;ClassName&gt;IfcSwitchingDevice/MOMENTARYSWITCH&lt;/ClassName&gt;
         ///	&lt;/ApplicableClass [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_SwitchingDeviceTypeMomentarySwitch {
+        internal static string Pset_SwitchingDeviceTypeMomentarySwitch {
             get {
                 return ResourceManager.GetString("Pset_SwitchingDeviceTypeMomentarySwitch", resourceCulture);
             }
@@ -5697,7 +5790,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;App [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_SwitchingDeviceTypePHistory {
+        internal static string Pset_SwitchingDeviceTypePHistory {
             get {
                 return ResourceManager.GetString("Pset_SwitchingDeviceTypePHistory", resourceCulture);
             }
@@ -5712,7 +5805,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableClasses&gt;
         ///		&lt;ClassName&gt;IfcSwitchingDevice/SELECTORSWIT [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_SwitchingDeviceTypeSelectorSwitch {
+        internal static string Pset_SwitchingDeviceTypeSelectorSwitch {
             get {
                 return ResourceManager.GetString("Pset_SwitchingDeviceTypeSelectorSwitch", resourceCulture);
             }
@@ -5728,7 +5821,7 @@ namespace Xbim.Properties.Definitions {
         ///		&lt;ClassName&gt;IfcSwitchingDevice/STARTER&lt;/ClassName&gt;
         ///	&lt;/App [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_SwitchingDeviceTypeStarter {
+        internal static string Pset_SwitchingDeviceTypeStarter {
             get {
                 return ResourceManager.GetString("Pset_SwitchingDeviceTypeStarter", resourceCulture);
             }
@@ -5742,7 +5835,7 @@ namespace Xbim.Properties.Definitions {
         ///
         ///History: Property &apos;HasVisualIndication&apos; changed to &apos;IsIlluminated&apos; to conform with property na [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_SwitchingDeviceTypeSwitchDisconnector {
+        internal static string Pset_SwitchingDeviceTypeSwitchDisconnector {
             get {
                 return ResourceManager.GetString("Pset_SwitchingDeviceTypeSwitchDisconnector", resourceCulture);
             }
@@ -5757,7 +5850,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableClasses&gt;
         ///		&lt;ClassName&gt;IfcSwitch [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_SwitchingDeviceTypeToggleSwitch {
+        internal static string Pset_SwitchingDeviceTypeToggleSwitch {
             get {
                 return ResourceManager.GetString("Pset_SwitchingDeviceTypeToggleSwitch", resourceCulture);
             }
@@ -5769,7 +5862,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Name&gt;Pset_SystemFurnitureElementTypeCommon&lt;/Name&gt;
         ///	&lt;Definition&gt;Common properties for all systems furniture (I.e. modular furniture) element types (e.g. vertical panels, work surfaces, and storage). HISTORY: First issued in IFC Release R1.5. Renamed from Pset_FurnitureElementCommon&lt;/Definition [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_SystemFurnitureElementTypeCommon {
+        internal static string Pset_SystemFurnitureElementTypeCommon {
             get {
                 return ResourceManager.GetString("Pset_SystemFurnitureElementTypeCommon", resourceCulture);
             }
@@ -5784,7 +5877,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableClasses&gt;
         ///		&lt;ClassName&gt;IfcSys [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_SystemFurnitureElementTypePanel {
+        internal static string Pset_SystemFurnitureElementTypePanel {
             get {
                 return ResourceManager.GetString("Pset_SystemFurnitureElementTypePanel", resourceCulture);
             }
@@ -5799,7 +5892,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableClasses&gt;
         ///		&lt;ClassName&gt;Ifc [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_SystemFurnitureElementTypeWorkSurface {
+        internal static string Pset_SystemFurnitureElementTypeWorkSurface {
             get {
                 return ResourceManager.GetString("Pset_SystemFurnitureElementTypeWorkSurface", resourceCulture);
             }
@@ -5815,7 +5908,7 @@ namespace Xbim.Properties.Definitions {
         ///		&lt;ClassName&gt;IfcTank&lt;/ClassName&gt;
         ///	&lt;/ApplicableClasses [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_TankOccurrence {
+        internal static string Pset_TankOccurrence {
             get {
                 return ResourceManager.GetString("Pset_TankOccurrence", resourceCulture);
             }
@@ -5834,7 +5927,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;PropertyDefs&gt;
         ///		&lt;PropertyDef ifdgu [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_TankTypeCommon {
+        internal static string Pset_TankTypeCommon {
             get {
                 return ResourceManager.GetString("Pset_TankTypeCommon", resourceCulture);
             }
@@ -5852,7 +5945,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableTypeValue&gt;IfcTank/EXPANSION&lt;/ApplicableTypeValue&gt;
         ///	&lt;P [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_TankTypeExpansion {
+        internal static string Pset_TankTypeExpansion {
             get {
                 return ResourceManager.GetString("Pset_TankTypeExpansion", resourceCulture);
             }
@@ -5868,7 +5961,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;IfcVersion version=&quot;2x4&quot; /&gt;
         ///	&lt;Appl [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_TankTypePreformed {
+        internal static string Pset_TankTypePreformed {
             get {
                 return ResourceManager.GetString("Pset_TankTypePreformed", resourceCulture);
             }
@@ -5885,7 +5978,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcTank/PRESSUREVESSEL&lt;/ApplicableTypeV [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_TankTypePressureVessel {
+        internal static string Pset_TankTypePressureVessel {
             get {
                 return ResourceManager.GetString("Pset_TankTypePressureVessel", resourceCulture);
             }
@@ -5900,7 +5993,7 @@ namespace Xbim.Properties.Definitions {
         ///Note (1): All sectional construction tanks are considered to be rectangular by default.
         ///Note (2): Generally, it is not expected that sectional  [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_TankTypeSectional {
+        internal static string Pset_TankTypeSectional {
             get {
                 return ResourceManager.GetString("Pset_TankTypeSectional", resourceCulture);
             }
@@ -5912,7 +6005,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Name&gt;Pset_ThermalLoadAggregate&lt;/Name&gt;
         ///	&lt;Definition&gt;The aggregated thermal loads experienced by one or many spaces, zones, or buildings. This aggregate thermal load information is typically addressed by a system or plant. HISTORY: New property set in IFC Release 1.0 (Pset_AggregateLoadInformat [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ThermalLoadAggregate {
+        internal static string Pset_ThermalLoadAggregate {
             get {
                 return ResourceManager.GetString("Pset_ThermalLoadAggregate", resourceCulture);
             }
@@ -5924,7 +6017,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Name&gt;Pset_ThermalLoadDesignCriteria&lt;/Name&gt;
         ///	&lt;Definition&gt;Building thermal load design data that are used for calculating thermal loads in a space or building. HISTORY: New property set in IFC Release 1.0 (Pset_LoadDesignCriteria); renamed Pset_ThermalLoadDesignCriteria in IFC2x2.&lt;/Definition&gt;        /// [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ThermalLoadDesignCriteria {
+        internal static string Pset_ThermalLoadDesignCriteria {
             get {
                 return ResourceManager.GetString("Pset_ThermalLoadDesignCriteria", resourceCulture);
             }
@@ -5941,7 +6034,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeV [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_TransformerTypeCommon {
+        internal static string Pset_TransformerTypeCommon {
             get {
                 return ResourceManager.GetString("Pset_TransformerTypeCommon", resourceCulture);
             }
@@ -5957,7 +6050,7 @@ namespace Xbim.Properties.Definitions {
         ///		&lt;ClassName&gt;IfcTransportElement&lt;/ClassName&gt;
         ///	&lt;/ApplicableClasses&gt;        /// [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_TransportElementCommon {
+        internal static string Pset_TransportElementCommon {
             get {
                 return ResourceManager.GetString("Pset_TransportElementCommon", resourceCulture);
             }
@@ -5973,7 +6066,7 @@ namespace Xbim.Properties.Definitions {
         ///		&lt;ClassName&gt;IfcTransportElement/ELEVATOR&lt;/ClassName&gt;
         ///	 [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_TransportElementElevator {
+        internal static string Pset_TransportElementElevator {
             get {
                 return ResourceManager.GetString("Pset_TransportElementElevator", resourceCulture);
             }
@@ -5992,7 +6085,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;PropertyDefs&gt;
         /// [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_TubeBundleTypeCommon {
+        internal static string Pset_TubeBundleTypeCommon {
             get {
                 return ResourceManager.GetString("Pset_TubeBundleTypeCommon", resourceCulture);
             }
@@ -6008,7 +6101,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableClasses&gt;
         ///		&lt;ClassName&gt;If [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_TubeBundleTypeFinned {
+        internal static string Pset_TubeBundleTypeFinned {
             get {
                 return ResourceManager.GetString("Pset_TubeBundleTypeFinned", resourceCulture);
             }
@@ -6025,7 +6118,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;Ap [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_UnitaryControlElementPHistory {
+        internal static string Pset_UnitaryControlElementPHistory {
             get {
                 return ResourceManager.GetString("Pset_UnitaryControlElementPHistory", resourceCulture);
             }
@@ -6042,7 +6135,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeV [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_UnitaryControlElementTypeCommon {
+        internal static string Pset_UnitaryControlElementTypeCommon {
             get {
                 return ResourceManager.GetString("Pset_UnitaryControlElementTypeCommon", resourceCulture);
             }
@@ -6058,7 +6151,7 @@ namespace Xbim.Properties.Definitions {
         ///		&lt;ClassName&gt;IfcUnitaryControlElement/INDICATORPANEL&lt;/ClassName&gt;
         ///	&lt;/Appli [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_UnitaryControlElementTypeIndicatorPanel {
+        internal static string Pset_UnitaryControlElementTypeIndicatorPanel {
             get {
                 return ResourceManager.GetString("Pset_UnitaryControlElementTypeIndicatorPanel", resourceCulture);
             }
@@ -6074,7 +6167,7 @@ namespace Xbim.Properties.Definitions {
         ///		&lt;ClassName&gt;IfcUnitaryControlElement/THERMOSTAT&lt;/ClassName&gt;
         ///	&lt;/ApplicableClasses&gt; [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_UnitaryControlElementTypeThermostat {
+        internal static string Pset_UnitaryControlElementTypeThermostat {
             get {
                 return ResourceManager.GetString("Pset_UnitaryControlElementTypeThermostat", resourceCulture);
             }
@@ -6088,7 +6181,7 @@ namespace Xbim.Properties.Definitions {
         ///Note that these attributes were formely Pset_PackagedACUnit prior to IFC2x2.
         ///HeatingEnergySource attribute deleted in IFC2x2 Pset Addendum: Use IfcEnergyProperties, IfcFuel [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_UnitaryEquipmentTypeAirConditioningUnit {
+        internal static string Pset_UnitaryEquipmentTypeAirConditioningUnit {
             get {
                 return ResourceManager.GetString("Pset_UnitaryEquipmentTypeAirConditioningUnit", resourceCulture);
             }
@@ -6104,7 +6197,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableClasses&gt;
         ///		&lt;ClassName&gt;IfcUnitaryEquipment/AIRHANDLER [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_UnitaryEquipmentTypeAirHandler {
+        internal static string Pset_UnitaryEquipmentTypeAirHandler {
             get {
                 return ResourceManager.GetString("Pset_UnitaryEquipmentTypeAirHandler", resourceCulture);
             }
@@ -6121,7 +6214,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcUnitaryEquipment&lt;/ApplicableTypeV [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_UnitaryEquipmentTypeCommon {
+        internal static string Pset_UnitaryEquipmentTypeCommon {
             get {
                 return ResourceManager.GetString("Pset_UnitaryEquipmentTypeCommon", resourceCulture);
             }
@@ -6136,7 +6229,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableClasses&gt;
         ///		&lt;ClassName&gt;IfcBuildin [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_UtilityConsumptionPHistory {
+        internal static string Pset_UtilityConsumptionPHistory {
             get {
                 return ResourceManager.GetString("Pset_UtilityConsumptionPHistory", resourceCulture);
             }
@@ -6153,7 +6246,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcValve&lt;/Applicab [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ValvePHistory {
+        internal static string Pset_ValvePHistory {
             get {
                 return ResourceManager.GetString("Pset_ValvePHistory", resourceCulture);
             }
@@ -6170,7 +6263,7 @@ namespace Xbim.Properties.Definitions {
         ///		&lt;ClassName&gt;IfcValve/AIRRELEASE&lt;/ClassName&gt;
         ///	&lt; [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ValveTypeAirRelease {
+        internal static string Pset_ValveTypeAirRelease {
             get {
                 return ResourceManager.GetString("Pset_ValveTypeAirRelease", resourceCulture);
             }
@@ -6189,7 +6282,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;PropertyDefs&gt;
         ///		&lt;PropertyDef ifdgui [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ValveTypeCommon {
+        internal static string Pset_ValveTypeCommon {
             get {
                 return ResourceManager.GetString("Pset_ValveTypeCommon", resourceCulture);
             }
@@ -6206,7 +6299,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt; [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ValveTypeDrawOffCock {
+        internal static string Pset_ValveTypeDrawOffCock {
             get {
                 return ResourceManager.GetString("Pset_ValveTypeDrawOffCock", resourceCulture);
             }
@@ -6223,7 +6316,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcValve/FAUCET&lt;/Appli [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ValveTypeFaucet {
+        internal static string Pset_ValveTypeFaucet {
             get {
                 return ResourceManager.GetString("Pset_ValveTypeFaucet", resourceCulture);
             }
@@ -6239,7 +6332,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableClasses&gt;
         ///		&lt;ClassName&gt;If [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ValveTypeFlushing {
+        internal static string Pset_ValveTypeFlushing {
             get {
                 return ResourceManager.GetString("Pset_ValveTypeFlushing", resourceCulture);
             }
@@ -6256,7 +6349,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcValve/GASTAP&lt;/ApplicableTypeV [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ValveTypeGasTap {
+        internal static string Pset_ValveTypeGasTap {
             get {
                 return ResourceManager.GetString("Pset_ValveTypeGasTap", resourceCulture);
             }
@@ -6273,7 +6366,7 @@ namespace Xbim.Properties.Definitions {
         ///		&lt;ClassName&gt;IfcValve/ISOLATING&lt;/ClassName&gt;
         ///	&lt;/Applicab [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ValveTypeIsolating {
+        internal static string Pset_ValveTypeIsolating {
             get {
                 return ResourceManager.GetString("Pset_ValveTypeIsolating", resourceCulture);
             }
@@ -6290,7 +6383,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;App [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ValveTypeMixing {
+        internal static string Pset_ValveTypeMixing {
             get {
                 return ResourceManager.GetString("Pset_ValveTypeMixing", resourceCulture);
             }
@@ -6303,7 +6396,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Definition&gt;Valve that reduces the pressure of a fluid immediately downstream of its position in a pipeline to a preselected value or by a predetermined ratio.
         ///Note that a pressure reducing valve is constrained to have a 2 port  pattern.&lt;/Definitio [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ValveTypePressureReducing {
+        internal static string Pset_ValveTypePressureReducing {
             get {
                 return ResourceManager.GetString("Pset_ValveTypePressureReducing", resourceCulture);
             }
@@ -6317,7 +6410,7 @@ namespace Xbim.Properties.Definitions {
         ///Note that a pressure relief valve is constrained to have a single port pattern.&lt;/Definition&gt;
         /// [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ValveTypePressureRelief {
+        internal static string Pset_ValveTypePressureRelief {
             get {
                 return ResourceManager.GetString("Pset_ValveTypePressureRelief", resourceCulture);
             }
@@ -6334,7 +6427,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcVibrationIsolator&lt;/ApplicableT [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_VibrationIsolatorTypeCommon {
+        internal static string Pset_VibrationIsolatorTypeCommon {
             get {
                 return ResourceManager.GetString("Pset_VibrationIsolatorTypeCommon", resourceCulture);
             }
@@ -6351,7 +6444,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;ApplicableTypeValue&gt;IfcWall&lt;/Applic [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_WallCommon {
+        internal static string Pset_WallCommon {
             get {
                 return ResourceManager.GetString("Pset_WallCommon", resourceCulture);
             }
@@ -6363,7 +6456,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;Name&gt;Pset_Warranty&lt;/Name&gt;
         ///	&lt;Definition&gt;An assurance given by the seller or provider of an artefact that the artefact is without defects and will operate as described for a defined period of time without failure and that if a defect does arise during that time, that it will be corrected by the [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_Warranty {
+        internal static string Pset_Warranty {
             get {
                 return ResourceManager.GetString("Pset_Warranty", resourceCulture);
             }
@@ -6381,7 +6474,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableTypeValue&gt;IfcWasteTerminal&lt;/ApplicableTypeValue&gt;
         ///	&lt;Pro [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_WasteTerminalTypeCommon {
+        internal static string Pset_WasteTerminalTypeCommon {
             get {
                 return ResourceManager.GetString("Pset_WasteTerminalTypeCommon", resourceCulture);
             }
@@ -6398,7 +6491,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;/ApplicableClasses&gt;
         ///	&lt;A [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_WasteTerminalTypeFloorTrap {
+        internal static string Pset_WasteTerminalTypeFloorTrap {
             get {
                 return ResourceManager.GetString("Pset_WasteTerminalTypeFloorTrap", resourceCulture);
             }
@@ -6414,7 +6507,7 @@ namespace Xbim.Properties.Definitions {
         ///		&lt;ClassName&gt;IfcWasteTerminal/FLOORWASTE&lt;/ClassName&gt;
         ///	&lt;/ApplicableCla [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_WasteTerminalTypeFloorWaste {
+        internal static string Pset_WasteTerminalTypeFloorWaste {
             get {
                 return ResourceManager.GetString("Pset_WasteTerminalTypeFloorWaste", resourceCulture);
             }
@@ -6429,7 +6522,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableClasses&gt;
         ///		&lt;ClassName&gt;IfcWasteTerminal/GULLYSUMP&lt;/ClassName&gt;        /// [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_WasteTerminalTypeGullySump {
+        internal static string Pset_WasteTerminalTypeGullySump {
             get {
                 return ResourceManager.GetString("Pset_WasteTerminalTypeGullySump", resourceCulture);
             }
@@ -6443,7 +6536,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;IfcVersion version=&quot;2x4&quot; /&gt;
         ///	&lt;ApplicableClass [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_WasteTerminalTypeGullyTrap {
+        internal static string Pset_WasteTerminalTypeGullyTrap {
             get {
                 return ResourceManager.GetString("Pset_WasteTerminalTypeGullyTrap", resourceCulture);
             }
@@ -6459,7 +6552,7 @@ namespace Xbim.Properties.Definitions {
         ///		&lt;ClassName&gt;IfcWasteTerminal/ROOFDRAIN&lt;/ClassName&gt;
         ///	&lt;/ApplicableClass [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_WasteTerminalTypeRoofDrain {
+        internal static string Pset_WasteTerminalTypeRoofDrain {
             get {
                 return ResourceManager.GetString("Pset_WasteTerminalTypeRoofDrain", resourceCulture);
             }
@@ -6474,7 +6567,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableClasses&gt;
         ///		&lt;ClassName&gt;IfcWasteTerminal/ [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_WasteTerminalTypeWasteDisposalUnit {
+        internal static string Pset_WasteTerminalTypeWasteDisposalUnit {
             get {
                 return ResourceManager.GetString("Pset_WasteTerminalTypeWasteDisposalUnit", resourceCulture);
             }
@@ -6490,7 +6583,7 @@ namespace Xbim.Properties.Definitions {
         ///		&lt;ClassName&gt;IfcWasteTerminal/WASTETRAP&lt;/ClassName&gt;
         ///	&lt;/Applic [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_WasteTerminalTypeWasteTrap {
+        internal static string Pset_WasteTerminalTypeWasteTrap {
             get {
                 return ResourceManager.GetString("Pset_WasteTerminalTypeWasteTrap", resourceCulture);
             }
@@ -6508,7 +6601,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableTypeValue&gt;IfcWindow&lt;/ApplicableTypeValue&gt;
         ///	&lt;P [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_WindowCommon {
+        internal static string Pset_WindowCommon {
             get {
                 return ResourceManager.GetString("Pset_WindowCommon", resourceCulture);
             }
@@ -6524,7 +6617,7 @@ namespace Xbim.Properties.Definitions {
         ///		&lt;ClassName&gt;IfcWorkControl&lt;/ClassName&gt;
         ///	&lt;/ApplicableClas [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_WorkControlCommon {
+        internal static string Pset_WorkControlCommon {
             get {
                 return ResourceManager.GetString("Pset_WorkControlCommon", resourceCulture);
             }
@@ -6542,7 +6635,7 @@ namespace Xbim.Properties.Definitions {
         ///	&lt;ApplicableTypeValue&gt;IfcZone&lt;/ApplicableTypeValue&gt;
         ///	&lt;Proper [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string Pset_ZoneCommon {
+        internal static string Pset_ZoneCommon {
             get {
                 return ResourceManager.GetString("Pset_ZoneCommon", resourceCulture);
             }

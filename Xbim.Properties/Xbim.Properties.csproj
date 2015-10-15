@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Xbim.Properties</RootNamespace>
     <AssemblyName>Xbim.Properties</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SccProjectName>SAK</SccProjectName>
     <SccLocalPath>SAK</SccLocalPath>
@@ -45,6 +45,12 @@
   <PropertyGroup>
     <StartupObject />
   </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>XbimOpenSourceKeyFile.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -56,6 +62,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\SharedFileVersionInfo.cs">
+      <Link>Properties\SharedFileVersionInfo.cs</Link>
+    </Compile>
+	<Compile Include="..\SharedAssemblyInfo.cs">
+      <Link>Properties\SharedAssemblyInfo.cs</Link>
+    </Compile>
     <Compile Include="ApplicableClass.cs" />
     <Compile Include="ConstantDef.cs" />
     <Compile Include="DataType.cs" />
@@ -63,6 +75,11 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>IFC2x3_Defitinion_files.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Definitions\IFC4_and_COBie_Definition_files.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>IFC4_and_COBie_Definition_files.resx</DependentUpon>
     </Compile>
     <Compile Include="Definitions\IFC4_COBie_Definition_files.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -115,6 +132,7 @@
     <None Include="Schema\QTO_IFC4.xsd">
       <SubType>Designer</SubType>
     </None>
+    <None Include="XbimOpenSourceKeyFile.snk" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
@@ -949,6 +967,10 @@
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>IFC2x3_Defitinion_files.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="Definitions\IFC4_and_COBie_Definition_files.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>IFC4_and_COBie_Definition_files.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="Definitions\IFC4_COBie_Definition_files.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>IFC4_COBie_Definition_files.Designer.cs</LastGenOutput>
@@ -963,11 +985,18 @@
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
-       Other similar extension points exist, see Microsoft.Common.targets.
+  <PropertyGroup>
+    <Year>$([System.DateTime]::Now.ToString("yy"))</Year>
+    <Month>$([System.DateTime]::Now.ToString("MM"))</Month>
+    <Date>$([System.DateTime]::Now.ToString("dd"))</Date>
+    <Time>$([System.DateTime]::Now.ToString("HH"))</Time>
+    <AssemblyFileVersionAttribute>[assembly:System.Reflection.AssemblyFileVersion("3.1.$(Year)$(Month).$(Date)$(Time)")]</AssemblyFileVersionAttribute>
+  </PropertyGroup>
   <Target Name="BeforeBuild">
+    <WriteLinesToFile
+        File="..\SharedFileVersionInfo.cs"
+        Lines="$(AssemblyFileVersionAttribute)"
+        Overwrite="true"
+        Encoding="Unicode"/>
   </Target>
-  <Target Name="AfterBuild">
-  </Target>
-  -->
 </Project>

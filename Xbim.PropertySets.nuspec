@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
     <metadata>
         <id>Xbim.PropertySets</id>
-        <version>3.1.8</version>
+        <version>3.1.10</version>
         <title>xBIM PropertySets</title>
         <authors>xBIM team</authors>
         <owners>Martin Cerny</owners>
@@ -21,19 +21,17 @@
           The xBIM project provides packages to convert IFC models to COBie spreadsheets in both UK and US cultures as well as a range of 3D viewing controls for use with Windows forms, WPF, WEBGL and OpenGL platforms.
           IOS and Android versions are under development.</description>
         <summary>The .Net toolkit for developing BIM applications based on the IFC standard. Essential support for the Ifc data model</summary>
-        <releaseNotes>Added support for IFC4 COBie property sets. Fixed version of definition files are part built in an assembly as a resource.</releaseNotes>
+        <releaseNotes>
+          Now targeting .Net platform v40 and producing signed dll.
+        </releaseNotes>
         <language>en-GB</language>
         <tags>BIM, IFC, IfcXml, IfcZip, COBie, .Net, C#, BuildingSmart</tags>
 	<dependencies>
-    <dependency id="log4net" version="2.0.3" />
-		<dependency id="ManagedEsent" version="1.9.2" />
-		<dependency id="SharpZipLib" version="0.86.0" />
 	</dependencies> 
     </metadata>
     <files>
-      <file src="Output\Release\Xbim.Properties.dll" target="lib\net45\Xbim.Properties.dll" />
-      <file src="Output\Release\Xbim.Properties.xml" target="lib\net45\Xbim.Properties.xml" />
-      <file src="Output\Release\Xbim.Properties.pdb" target="lib\net45\Xbim.Properties.pdb" />
+      <file src="Output\Release\Xbim.Properties.dll" target="lib\net40\Xbim.Properties.dll" />
+      <file src="Output\Release\Xbim.Properties.xml" target="lib\net40\Xbim.Properties.xml" />
+      <file src="Output\Release\Xbim.Properties.pdb" target="lib\net40\Xbim.Properties.pdb" />
     </files>
-	
 </package>

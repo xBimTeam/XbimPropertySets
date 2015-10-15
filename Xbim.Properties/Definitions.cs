@@ -219,6 +219,21 @@ namespace Xbim.Properties
                 Load(reader);
             }
         }
+
+        public void LoadIFC4AndCOBie()
+        {
+            if (_version != Version.IFC4)
+                throw new Exception("IFC4 COBie properties can only be loaded if this set is defined to be IFC4.");
+            var resources =
+                Definitions.IFC4_and_COBie_Definition_files.ResourceManager.GetResourceSet(CultureInfo.InvariantCulture,
+                    true, true);
+            foreach (var value in from DictionaryEntry entry in resources select entry.Value as string)
+            {
+                if (value == null) throw new Exception("Invalid input data");
+                var reader = new StringReader(value);
+                Load(reader);
+            }
+        }
     }
 
     public enum Version
