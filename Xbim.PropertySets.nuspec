@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
     <metadata>
-        <id>Xbim.PropertySets.4</id>
-        <version>4.0.0</version>
-        <title>xBIM PropertySets 4</title>
+        <id>Xbim.PropertySets</id>
+        <version>4.0.1</version>
+        <title>xBIM PropertySets</title>
         <authors>xBIM Team</authors>
         <owners>Martin Cerny</owners>
         <licenseUrl>https://github.com/xBimTeam/XbimPropertySets/blob/master/LICENCE.md</licenseUrl>
