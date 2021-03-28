@@ -81,7 +81,7 @@ namespace Xbim.Properties
             if (!File.Exists(path))
                 throw new ArgumentException("Invalid path to file");
 
-            using (var file = File.OpenRead(path))
+			using (var file = File.OpenRead(path))
             {
                 Load(file);
                 file.Close();
@@ -151,25 +151,23 @@ namespace Xbim.Properties
             {
                 foreach (var qpDef in set.Definitions)
                 {
-                    var def = qpDef as TP;
-                    if (def == null)
-                        continue;
+					if (!(qpDef is TP def))
+						continue;
 
-                    //check predicate
-                    if (predicate(def))
+					//check predicate
+					if (predicate(def))
                         yield return def;
 
                     if (!nested)
                         continue;
 
-                    var pDef = qpDef as PropertyDef;
-                    if (pDef == null)
-                        continue;
+					if (!(qpDef is PropertyDef pDef))
+						continue;
 
-                    //process nested properties in complex properties
-                    var cType = pDef.PropertyType.PropertyValueType as TypeComplexProperty;
-                    if (cType == null) continue;
-                    foreach (var nDef in cType.OfType<TP>().Where(predicate))
+					//process nested properties in complex properties
+					if (!(pDef.PropertyType.PropertyValueType is TypeComplexProperty cType)) 
+                        continue;
+					foreach (var nDef in cType.OfType<TP>().Where(predicate))
                     {
                         yield return nDef;
                     }

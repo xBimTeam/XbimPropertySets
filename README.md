@@ -1,12 +1,6 @@
-Subproject of https://github.com/xBimTeam/xBimToolkit
+# Xbim.PropertySets
 
-Relates to Nuget Package Xbim.PropertySets
-
-Build Status (master branch): [ ![Build Status](http://xbimbuilds.cloudapp.net/app/rest/builds/buildType:(id:Xbim_XbimPropertySets_XbimPropertySets),branch:(name:master)/statusIcon "Build Status") ](http://xbimbuilds.cloudapp.net/project.html?projectId=Xbim_XbimPropertySets&tab=projectOverview "Build Status")
-
-Build Status (develop branch): [ ![Build Status](http://xbimbuilds.cloudapp.net/app/rest/builds/buildType:(id:Xbim_XbimPropertySets_XbimPropertySets),branch:(name:develop)/statusIcon "Build Status") ](http://xbimbuilds.cloudapp.net/project.html?projectId=Xbim_XbimPropertySets&tab=projectOverview "Build Status")
-
-# XBIM - the eXtensible Building Information Modelling (BIM) Toolkit
+Subproject of https://github.com/xBimTeam/
 
 ## What is it?
 
@@ -63,11 +57,4 @@ Additionally the Samples also make use of the following libraries
 
 All licences are included in full under the Licences\3rd Party solution folder. 
 
-## Support & Help
 
-Please use the Discussion forum at http://xbim.codeplex.com/discussions to ask any questions.
-Alternatively use the Issue Tracker to raise any bugs relating to Xbim.
-
-## Getting Involved
-
-If you'd like to get involved and contribute to this project, please contact the Project Coordinator, [Steve Lockley](https://www.codeplex.com/site/users/view/SteveLockley).

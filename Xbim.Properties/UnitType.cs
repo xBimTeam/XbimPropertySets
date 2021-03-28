@@ -28,17 +28,16 @@ namespace Xbim.Properties
             }
             set
             {
-                UnitTypeEnum type = UnitTypeEnum.USERDEFINED;
-                if (String.IsNullOrEmpty(value))
-                    _type = null;
-                else if (Enum.TryParse<UnitTypeEnum>(value, out type))
-                {
-                    _type = type;
-                }
-                else
-                    throw new ArgumentOutOfRangeException(value);
+				if (string.IsNullOrEmpty(value))
+					_type = null;
+				else if (Enum.TryParse(value, out UnitTypeEnum type))
+				{
+					_type = type;
+				}
+				else
+					throw new ArgumentOutOfRangeException(value);
 
-            }
+			}
         }
 
         [XmlIgnore]

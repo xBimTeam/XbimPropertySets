@@ -1,1001 +1,924 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
-  <PropertyGroup>
-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{651CBC27-A553-4DF1-8D23-BE6D6DAA90EC}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Xbim.Properties</RootNamespace>
-    <AssemblyName>Xbim.Properties</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
-    <FileAlignment>512</FileAlignment>
-    <SccProjectName>SAK</SccProjectName>
-    <SccLocalPath>SAK</SccLocalPath>
-    <SccAuxPath>SAK</SccAuxPath>
-    <SccProvider>SAK</SccProvider>
-    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
-    <RestorePackages>true</RestorePackages>
-    <TargetFrameworkProfile>
-    </TargetFrameworkProfile>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
-    <DebugSymbols>true</DebugSymbols>
-    <DebugType>full</DebugType>
-    <Optimize>false</Optimize>
-    <OutputPath>..\Output\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-    <Prefer32Bit>false</Prefer32Bit>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
-    <DebugType>pdbonly</DebugType>
-    <Optimize>true</Optimize>
-    <OutputPath>..\Output\Release\</OutputPath>
-    <DefineConstants>TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-    <Prefer32Bit>false</Prefer32Bit>
-    <DocumentationFile>..\Output\Release\Xbim.Properties.XML</DocumentationFile>
-  </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject />
-  </PropertyGroup>
-  <PropertyGroup>
-    <SignAssembly>true</SignAssembly>
-  </PropertyGroup>
-  <PropertyGroup>
-    <AssemblyOriginatorKeyFile>XbimOpenSourceKeyFile.snk</AssemblyOriginatorKeyFile>
-  </PropertyGroup>
-  <ItemGroup>
-    <Reference Include="System" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Web" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="..\SharedFileVersionInfo.cs">
-      <Link>Properties\SharedFileVersionInfo.cs</Link>
-    </Compile>
-	<Compile Include="..\SharedAssemblyInfo.cs">
-      <Link>Properties\SharedAssemblyInfo.cs</Link>
-    </Compile>
-    <Compile Include="ApplicableClass.cs" />
-    <Compile Include="ConstantDef.cs" />
-    <Compile Include="DataType.cs" />
-    <Compile Include="Definitions\IFC2x3_Defitinion_files.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>IFC2x3_Defitinion_files.resx</DependentUpon>
-    </Compile>
-    <Compile Include="Definitions\IFC4_and_COBie_Definition_files.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>IFC4_and_COBie_Definition_files.resx</DependentUpon>
-    </Compile>
-    <Compile Include="Definitions\IFC4_COBie_Definition_files.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>IFC4_COBie_Definition_files.resx</DependentUpon>
-    </Compile>
-    <Compile Include="Definitions\IFC4_Definition_files.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>IFC4_Definition_files.resx</DependentUpon>
-    </Compile>
-    <Compile Include="Definitions\IFC4_QTO_Definition_files.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>IFC4_QTO_Definition_files.resx</DependentUpon>
-    </Compile>
-    <Compile Include="Definitions.cs" />
-    <Compile Include="Dictionary\DictionaryConnection.cs" />
-    <Compile Include="Dictionary\peregrineapi.cs" />
-    <Compile Include="QtoDef.cs" />
-    <Compile Include="QtoSetDef.cs" />
-    <Compile Include="QuantityPropertyDef.cs" />
-    <Compile Include="QuantityPropertySetDef.cs" />
-    <Compile Include="ReferenceSelect.cs" />
-    <Compile Include="TypeComplexProperty.cs" />
-    <Compile Include="UnitType.cs" />
-    <Compile Include="Value.cs" />
-    <Compile Include="EnumList.cs" />
-    <Compile Include="IfcVersion.cs" />
-    <Compile Include="IPropertyValueType.cs" />
-    <Compile Include="NameAlias.cs" />
-    <Compile Include="PropertyDef.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="PropertySetDef.cs" />
-    <Compile Include="PropertyType.cs" />
-    <Compile Include="TypePropertyBoundedValue.cs" />
-    <Compile Include="TypePropertyEnumeratedValue.cs" />
-    <Compile Include="TypePropertyListValue.cs" />
-    <Compile Include="TypePropertyReferenceValue.cs" />
-    <Compile Include="TypePropertySingleValue.cs" />
-    <Compile Include="TypePropertyTableValue.cs" />
-    <Compile Include="ValueDef.cs" />
-    <Compile Include="ValueRangeDef.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-    <None Include="Schema\PSD_IFC4_TC1.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Schema\QTO_IFC4.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="XbimOpenSourceKeyFile.snk" />
-  </ItemGroup>
-  <ItemGroup />
-  <ItemGroup>
-    <Content Include="Definitions\IFC2x3_TC1\Pset_ActionRequest.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_ActorCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_ActuatorTypeCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_ActuatorTypeElectricActuator.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_ActuatorTypeHydraulicActuator.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_ActuatorTypeLinearActuation.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_ActuatorTypePneumaticActuator.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_ActuatorTypeRotationalActuation.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_AirSideSystemInformation.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_AirTerminalBoxPHistory.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_AirTerminalBoxTypeCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_AirTerminalPHistory.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_AirTerminalTypeCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_AirTerminalTypeRectangular.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_AirTerminalTypeRound.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_AirTerminalTypeSlot.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_AirTerminalTypeSquare.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_AirToAirHeatRecoveryPHist.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_AirToAirHeatRecoveryTypeCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_AnalogInput.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_AnalogOutput.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_Asset.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_BeamCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_BinaryInput.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_BinaryOutput.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_BoilerPHistory.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_BoilerTypeCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_BoilerTypeSteam.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_BuildingCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_BuildingElementProxyCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_BuildingStoreyCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_BuildingUse.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_BuildingUseAdjacent.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_BuildingWaterStorage.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_CableCarrierSegmentTypeCableLadderSegment.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_CableCarrierSegmentTypeCableTraySegment.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_CableCarrierSegmentTypeCableTrunkingSegment.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_CableCarrierSegmentTypeConduitSegment.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_CableSegmentTypeCableSegment.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_CableSegmentTypeConductorSegment.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_ChillerPHistory.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_ChillerTypeCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_CoilPHistory.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_CoilTypeCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_CoilTypeHydronic.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_ColumnCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_CompressorPHistory.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_CompressorTypeCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_ConcreteElementGeneral.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_ConcreteElementQuantityGeneral.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_ConcreteElementSurfaceFinishQuantityGeneral.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_CondenserPHistory.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_CondenserTypeCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_ControllerTypeCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_ControllerTypeProportional.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_ControllerTypeTwoPosition.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_CooledBeamPHistory.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_CooledBeamPHistoryActive.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_CooledBeamTypeActive.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_CooledBeamTypeCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_CoolingTowerPHistory.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_CoolingTowerTypeCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_CoveringCeiling.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_CoveringCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_CoveringFlooring.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_CurtainWallCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_DamperPHistory.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_DamperTypeCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_DamperTypeControlDamper.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_DamperTypeFireDamper.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_DamperTypeFireSmokeDamper.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_DamperTypeSmokeDamper.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_DesignPoint.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_DiscreteAccessoryAnchorBolt.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_DiscreteAccessoryColumnShoe.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_DiscreteAccessoryCornerFixingPlate.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_DiscreteAccessoryDiagonalTrussConnector.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_DiscreteAccessoryEdgeFixingPlate.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_DiscreteAccessoryFixingSocket.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_DiscreteAccessoryLadderTrussConnector.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_DiscreteAccessoryStandardFixingPlate.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_DiscreteAccessoryWireLoop.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_DistributionChamberElementTypeFormedDuct.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_DistributionChamberElementTypeInspectionChamber.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_DistributionChamberElementTypeInspectionPit.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_DistributionChamberElementTypeManhole.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_DistributionChamberElementTypeMeterChamber.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_DistributionChamberElementTypeSump.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_DistributionChamberElementTypeTrench.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_DistributionChamberElementTypeValveChamber.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_DistributionFlowElementCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_DistributionPortDuct.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_DistributionPortPipe.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_DoorCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_DoorWindowGlazingType.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_DoorWindowShadingType.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_DrainageCatchment.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_DrainageCulvert.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_DrainageOutfall.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_DrainageReserve.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_Draughting.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_DuctConnection.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_DuctDesignCriteria.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_DuctFittingPHistory.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_DuctFittingTypeCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_DuctSegmentPHistory.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_DuctSegmentTypeCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_DuctSilencerPHistory.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_DuctSilencerTypeCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_ElectricalCircuit.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_ElectricalDeviceCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_ElectricDistributionPointCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_ElectricGeneratorTypeCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_ElectricHeaterTypeElectricalCableHeater.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_ElectricHeaterTypeElectricalMatHeater.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_ElectricHeaterTypeElectricalPointHeater.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_ElectricMotorTypeCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_ElementShading.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_EnergyConsumptionPHistoryElectricity.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_EnergyConsumptionPHistoryFuel.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_EnergyConsumptionPHistorySteam.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_EnergyConversionDeviceCoil.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_EnergyConversionDeviceSpaceHeaterPanel.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_EnergyConversionDeviceSpaceHeaterSectional.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_EvaporativeCoolerPHistory.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_EvaporativeCoolerTypeCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_EvaporatorPHistory.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_EvaporatorTypeCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_FanPHistory.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_FanTypeCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_FanTypeSmokeControl.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_FilterPHistory.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_FilterTypeAirParticleFilter.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_FilterTypeCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_FireRatingProperties.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_FireSuppressionTerminalTypeBreechingInlet.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_FireSuppressionTerminalTypeFireHydrant.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_FireSuppressionTerminalTypeHoseReel.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_FireSuppressionTerminalTypeSprinkler.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_FlowControllerDamper.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_FlowControllerFlowMeter.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_FlowFittingDuctFitting.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_FlowFittingPipeFitting.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_FlowInstrumentTypePressureGauge.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_FlowInstrumentTypeThermometer.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_FlowMeterTypeCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_FlowMeterTypeEnergyMeter.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_FlowMeterTypeGasMeter.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_FlowMeterTypeOilMeter.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_FlowMeterTypeWaterMeter.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_FlowMovingDeviceCompressor.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_FlowMovingDeviceFan.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_FlowMovingDeviceFanCentrifugal.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_FlowMovingDevicePump.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_FlowSegmentDuctSegment.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_FlowSegmentPipeSegment.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_FlowStorageDeviceTank.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_FlowTerminalAirTerminal.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_FurnitureTypeChair.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_FurnitureTypeCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_FurnitureTypeDesk.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_FurnitureTypeFileCabinet.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_FurnitureTypeTable.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_GasTerminalPHistory.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_GasTerminalTypeCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_GasTerminalTypeGasAppliance.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_GasTerminalTypeGasBurner.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_HeatExchangerTypeCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_HeatExchangerTypePlate.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_HumidifierPHistory.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_HumidifierTypeCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_LampTypeCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_LightFixtureTypeCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_LightFixtureTypeExitSign.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_LightFixtureTypeThermal.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_ManufacturerOccurrence.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_ManufacturerTypeInformation.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_MemberCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_MultiStateInput.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_MultiStateOutput.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_OpeningElementCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_OutletTypeCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_OutsideDesignCriteria.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_PackingInstructions.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_Permit.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_PipeConnection.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_PipeConnectionFlanged.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_PipeFittingPHistory.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_PipeFittingTypeCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_PipeSegmentPHistory.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_PipeSegmentTypeCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_PipeSegmentTypeGutter.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_PlateCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_PrecastConcreteElementGeneral.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_ProductRequirements.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_ProjectCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_ProjectionElementShadingDevicePHistory.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_ProjectOrderChangeOrder.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_ProjectOrderMaintenanceWorkOrder.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_ProjectOrderMoveOrder.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_ProjectOrderPurchaseOrder.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_ProjectOrderWorkOrder.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_PropertyAgreement.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_ProtectiveDeviceTypeCircuitBreaker.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_ProtectiveDeviceTypeCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_ProtectiveDeviceTypeEarthFailureDevice.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_ProtectiveDeviceTypeFuseDisconnector.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_ProtectiveDeviceTypeResidualCurrentCircuitBreaker.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_ProtectiveDeviceTypeResidualCurrentSwitch.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_ProtectiveDeviceTypeVaristor.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_PumpPHistory.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_PumpTypeCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_QuantityTakeOff.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_RailingCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_RampCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_RampFlightCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_ReinforcementBarCountOfIndependentFooting.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_ReinforcementBarPitchOfBeam.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_ReinforcementBarPitchOfColumn.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_ReinforcementBarPitchOfContinuousFooting.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_ReinforcementBarPitchOfSlab.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_ReinforcementBarPitchOfWall.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_ReinforcingBarBendingsBECCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_ReinforcingBarBendingsBS8666Common.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_ReinforcingBarBendingsDIN135610Common.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_ReinforcingBarBendingsISOCD3766Common.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_Reliability.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_Risk.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_RoofCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_SanitaryTerminalTypeBath.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_SanitaryTerminalTypeBidet.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_SanitaryTerminalTypeCistern.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_SanitaryTerminalTypeSanitaryFountain.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_SanitaryTerminalTypeShower.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_SanitaryTerminalTypeSink.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_SanitaryTerminalTypeToiletPan.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_SanitaryTerminalTypeUrinal.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_SanitaryTerminalTypeWashHandBasin.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_SanitaryTerminalTypeWCSeat.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_SensorTypeCO2Sensor.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_SensorTypeFireSensor.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_SensorTypeGasSensor.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_SensorTypeHeatSensor.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_SensorTypeHumiditySensor.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_SensorTypeLightSensor.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_SensorTypeMovementSensor.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_SensorTypePressureSensor.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_SensorTypeSmokeSensor.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_SensorTypeSoundSensor.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_SensorTypeTemperatureSensor.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_SiteCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_SlabCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_SpaceCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_SpaceFireSafetyRequirements.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_SpaceHeaterPHistoryCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_SpaceHeaterTypeCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_SpaceHeaterTypeHydronic.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_SpaceLightingRequirements.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_SpaceOccupancyRequirements.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_SpaceParking.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_SpaceParkingAisle.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_SpaceProgramCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_SpaceThermalDesign.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_SpaceThermalPHistory.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_SpaceThermalRequirements.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_StairCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_StairFlightCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_SwitchingDeviceTypeCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_SwitchingDeviceTypeContactor.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_SwitchingDeviceTypeEmergencyStop.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_SwitchingDeviceTypeStarter.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_SwitchingDeviceTypeSwitchDisconnector.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_SwitchingDeviceTypeToggleSwitch.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_SystemFurnitureElementTypeCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_SystemFurnitureElementTypePanel.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_SystemFurnitureElementTypeWorkSurface.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_TankTypeCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_TankTypeExpansion.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_TankTypePreformed.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_TankTypePressureVessel.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_TankTypeSectional.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_ThermalLoadAggregate.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_ThermalLoadDesignCriteria.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_TransformerTypeCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_TransportElementCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_TransportElementElevator.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_TubeBundleTypeCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_TubeBundleTypeFinned.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_UnitaryEquipmentTypeAirConditioningUnit.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_UnitaryEquipmentTypeAirHandler.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_UtilityConsumption.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_ValvePHistory.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_ValveTypeAirRelease.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_ValveTypeCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_ValveTypeDrawOffCock.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_ValveTypeFaucet.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_ValveTypeFlushing.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_ValveTypeGasTap.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_ValveTypeIsolating.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_ValveTypeMixing.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_ValveTypePressureReducing.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_ValveTypePressureRelief.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_VibrationIsolatorTypeCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_WallCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_Warranty.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_WasteTerminalTypeFloorTrap.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_WasteTerminalTypeFloorWaste.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_WasteTerminalTypeGreaseInterceptor.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_WasteTerminalTypeGullySump.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_WasteTerminalTypeGullyTrap.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_WasteTerminalTypeOilInterceptor.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_WasteTerminalTypePetrolInterceptor.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_WasteTerminalTypeRoofDrain.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_WasteTerminalTypeWasteDisposalUnit.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_WasteTerminalTypeWasteTrap.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_WindowCommon.xml" />
-    <Content Include="Definitions\IFC2x3_TC1\Pset_ZoneCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_ActionRequest.xml" />
-    <Content Include="Definitions\IFC4\Pset_ActorCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_ActuatorPHistory.xml" />
-    <Content Include="Definitions\IFC4\Pset_ActuatorTypeCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_ActuatorTypeElectricActuator.xml" />
-    <Content Include="Definitions\IFC4\Pset_ActuatorTypeHydraulicActuator.xml" />
-    <Content Include="Definitions\IFC4\Pset_ActuatorTypeLinearActuation.xml" />
-    <Content Include="Definitions\IFC4\Pset_ActuatorTypePneumaticActuator.xml" />
-    <Content Include="Definitions\IFC4\Pset_ActuatorTypeRotationalActuation.xml" />
-    <Content Include="Definitions\IFC4\Pset_AirSideSystemInformation.xml" />
-    <Content Include="Definitions\IFC4\Pset_AirTerminalBoxPHistory.xml" />
-    <Content Include="Definitions\IFC4\Pset_AirTerminalBoxTypeCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_AirTerminalOccurrence.xml" />
-    <Content Include="Definitions\IFC4\Pset_AirTerminalPHistory.xml" />
-    <Content Include="Definitions\IFC4\Pset_AirTerminalTypeCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_AirToAirHeatRecoveryPHistory.xml" />
-    <Content Include="Definitions\IFC4\Pset_AirToAirHeatRecoveryTypeCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_AlarmPHistory.xml" />
-    <Content Include="Definitions\IFC4\Pset_AlarmTypeCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_AnnotationContourLine.xml" />
-    <Content Include="Definitions\IFC4\Pset_AnnotationLineOfSight.xml" />
-    <Content Include="Definitions\IFC4\Pset_AnnotationSurveyArea.xml" />
-    <Content Include="Definitions\IFC4\Pset_Asset.xml" />
-    <Content Include="Definitions\IFC4\Pset_AudioVisualAppliancePHistory.xml" />
-    <Content Include="Definitions\IFC4\Pset_AudioVisualApplianceTypeAmplifier.xml" />
-    <Content Include="Definitions\IFC4\Pset_AudioVisualApplianceTypeCamera.xml" />
-    <Content Include="Definitions\IFC4\Pset_AudioVisualApplianceTypeCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_AudioVisualApplianceTypeDisplay.xml" />
-    <Content Include="Definitions\IFC4\Pset_AudioVisualApplianceTypePlayer.xml" />
-    <Content Include="Definitions\IFC4\Pset_AudioVisualApplianceTypeProjector.xml" />
-    <Content Include="Definitions\IFC4\Pset_AudioVisualApplianceTypeReceiver.xml" />
-    <Content Include="Definitions\IFC4\Pset_AudioVisualApplianceTypeSpeaker.xml" />
-    <Content Include="Definitions\IFC4\Pset_AudioVisualApplianceTypeTuner.xml" />
-    <Content Include="Definitions\IFC4\Pset_BeamCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_BoilerPHistory.xml" />
-    <Content Include="Definitions\IFC4\Pset_BoilerTypeCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_BoilerTypeSteam.xml" />
-    <Content Include="Definitions\IFC4\Pset_BoilerTypeWater.xml" />
-    <Content Include="Definitions\IFC4\Pset_BuildingCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_BuildingElementProxyCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_BuildingElementProxyProvisionForVoid.xml" />
-    <Content Include="Definitions\IFC4\Pset_BuildingStoreyCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_BuildingSystemCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_BuildingUse.xml" />
-    <Content Include="Definitions\IFC4\Pset_BuildingUseAdjacent.xml" />
-    <Content Include="Definitions\IFC4\Pset_BurnerTypeCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_CableCarrierFittingTypeCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_CableCarrierSegmentTypeCableLadderSegment.xml" />
-    <Content Include="Definitions\IFC4\Pset_CableCarrierSegmentTypeCableTraySegment.xml" />
-    <Content Include="Definitions\IFC4\Pset_CableCarrierSegmentTypeCableTrunkingSegment.xml" />
-    <Content Include="Definitions\IFC4\Pset_CableCarrierSegmentTypeCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_CableCarrierSegmentTypeConduitSegment.xml" />
-    <Content Include="Definitions\IFC4\Pset_CableFittingTypeCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_CableSegmentOccurrence.xml" />
-    <Content Include="Definitions\IFC4\Pset_CableSegmentTypeBusBarSegment.xml" />
-    <Content Include="Definitions\IFC4\Pset_CableSegmentTypeCableSegment.xml" />
-    <Content Include="Definitions\IFC4\Pset_CableSegmentTypeCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_CableSegmentTypeConductorSegment.xml" />
-    <Content Include="Definitions\IFC4\Pset_CableSegmentTypeCoreSegment.xml" />
-    <Content Include="Definitions\IFC4\Pset_ChillerPHistory.xml" />
-    <Content Include="Definitions\IFC4\Pset_ChillerTypeCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_ChimneyCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_CoilOccurrence.xml" />
-    <Content Include="Definitions\IFC4\Pset_CoilPHistory.xml" />
-    <Content Include="Definitions\IFC4\Pset_CoilTypeCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_CoilTypeHydronic.xml" />
-    <Content Include="Definitions\IFC4\Pset_ColumnCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_CommunicationsAppliancePHistory.xml" />
-    <Content Include="Definitions\IFC4\Pset_CommunicationsApplianceTypeCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_CompressorPHistory.xml" />
-    <Content Include="Definitions\IFC4\Pset_CompressorTypeCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_ConcreteElementGeneral.xml" />
-    <Content Include="Definitions\IFC4\Pset_CondenserPHistory.xml" />
-    <Content Include="Definitions\IFC4\Pset_CondenserTypeCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_Condition.xml" />
-    <Content Include="Definitions\IFC4\Pset_ConstructionResource.xml" />
-    <Content Include="Definitions\IFC4\Pset_ControllerPHistory.xml" />
-    <Content Include="Definitions\IFC4\Pset_ControllerTypeCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_ControllerTypeFloating.xml" />
-    <Content Include="Definitions\IFC4\Pset_ControllerTypeMultiPosition.xml" />
-    <Content Include="Definitions\IFC4\Pset_ControllerTypeProgrammable.xml" />
-    <Content Include="Definitions\IFC4\Pset_ControllerTypeProportional.xml" />
-    <Content Include="Definitions\IFC4\Pset_ControllerTypeTwoPosition.xml" />
-    <Content Include="Definitions\IFC4\Pset_CooledBeamPHistory.xml" />
-    <Content Include="Definitions\IFC4\Pset_CooledBeamPHistoryActive.xml" />
-    <Content Include="Definitions\IFC4\Pset_CooledBeamTypeActive.xml" />
-    <Content Include="Definitions\IFC4\Pset_CooledBeamTypeCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_CoolingTowerPHistory.xml" />
-    <Content Include="Definitions\IFC4\Pset_CoolingTowerTypeCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_CoveringCeiling.xml" />
-    <Content Include="Definitions\IFC4\Pset_CoveringCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_CoveringFlooring.xml" />
-    <Content Include="Definitions\IFC4\Pset_CurtainWallCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_DamperOccurrence.xml" />
-    <Content Include="Definitions\IFC4\Pset_DamperPHistory.xml" />
-    <Content Include="Definitions\IFC4\Pset_DamperTypeCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_DamperTypeControlDamper.xml" />
-    <Content Include="Definitions\IFC4\Pset_DamperTypeFireDamper.xml" />
-    <Content Include="Definitions\IFC4\Pset_DamperTypeFireSmokeDamper.xml" />
-    <Content Include="Definitions\IFC4\Pset_DamperTypeSmokeDamper.xml" />
-    <Content Include="Definitions\IFC4\Pset_DiscreteAccessoryColumnShoe.xml" />
-    <Content Include="Definitions\IFC4\Pset_DiscreteAccessoryCornerFixingPlate.xml" />
-    <Content Include="Definitions\IFC4\Pset_DiscreteAccessoryDiagonalTrussConnector.xml" />
-    <Content Include="Definitions\IFC4\Pset_DiscreteAccessoryEdgeFixingPlate.xml" />
-    <Content Include="Definitions\IFC4\Pset_DiscreteAccessoryFixingSocket.xml" />
-    <Content Include="Definitions\IFC4\Pset_DiscreteAccessoryLadderTrussConnector.xml" />
-    <Content Include="Definitions\IFC4\Pset_DiscreteAccessoryStandardFixingPlate.xml" />
-    <Content Include="Definitions\IFC4\Pset_DiscreteAccessoryWireLoop.xml" />
-    <Content Include="Definitions\IFC4\Pset_DistributionChamberElementCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_DistributionChamberElementTypeFormedDuct.xml" />
-    <Content Include="Definitions\IFC4\Pset_DistributionChamberElementTypeInspectionChamber.xml" />
-    <Content Include="Definitions\IFC4\Pset_DistributionChamberElementTypeInspectionPit.xml" />
-    <Content Include="Definitions\IFC4\Pset_DistributionChamberElementTypeManhole.xml" />
-    <Content Include="Definitions\IFC4\Pset_DistributionChamberElementTypeMeterChamber.xml" />
-    <Content Include="Definitions\IFC4\Pset_DistributionChamberElementTypeSump.xml" />
-    <Content Include="Definitions\IFC4\Pset_DistributionChamberElementTypeTrench.xml" />
-    <Content Include="Definitions\IFC4\Pset_DistributionChamberElementTypeValveChamber.xml" />
-    <Content Include="Definitions\IFC4\Pset_DistributionPortCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_DistributionPortPHistoryCable.xml" />
-    <Content Include="Definitions\IFC4\Pset_DistributionPortPHistoryDuct.xml" />
-    <Content Include="Definitions\IFC4\Pset_DistributionPortPHistoryPipe.xml" />
-    <Content Include="Definitions\IFC4\Pset_DistributionPortTypeCable.xml" />
-    <Content Include="Definitions\IFC4\Pset_DistributionPortTypeDuct.xml" />
-    <Content Include="Definitions\IFC4\Pset_DistributionPortTypePipe.xml" />
-    <Content Include="Definitions\IFC4\Pset_DistributionSystemCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_DistributionSystemTypeElectrical.xml" />
-    <Content Include="Definitions\IFC4\Pset_DistributionSystemTypeVentilation.xml" />
-    <Content Include="Definitions\IFC4\Pset_DoorCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_DoorWindowGlazingType.xml" />
-    <Content Include="Definitions\IFC4\Pset_DoorWindowShadingType.xml" />
-    <Content Include="Definitions\IFC4\Pset_DuctFittingOccurrence.xml" />
-    <Content Include="Definitions\IFC4\Pset_DuctFittingPHistory.xml" />
-    <Content Include="Definitions\IFC4\Pset_DuctFittingTypeCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_DuctSegmentOccurrence.xml" />
-    <Content Include="Definitions\IFC4\Pset_DuctSegmentPHistory.xml" />
-    <Content Include="Definitions\IFC4\Pset_DuctSegmentTypeCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_DuctSilencerPHistory.xml" />
-    <Content Include="Definitions\IFC4\Pset_DuctSilencerTypeCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_ElectricalDeviceCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_ElectricAppliancePHistory.xml" />
-    <Content Include="Definitions\IFC4\Pset_ElectricApplianceTypeCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_ElectricApplianceTypeDishwasher.xml" />
-    <Content Include="Definitions\IFC4\Pset_ElectricApplianceTypeElectricCooker.xml" />
-    <Content Include="Definitions\IFC4\Pset_ElectricDistributionBoardOccurrence.xml" />
-    <Content Include="Definitions\IFC4\Pset_ElectricDistributionBoardTypeCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_ElectricFlowStorageDeviceTypeCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_ElectricGeneratorTypeCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_ElectricMotorTypeCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_ElectricTimeControlTypeCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_ElementComponentCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_EngineTypeCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_EnvironmentalImpactIndicators.xml" />
-    <Content Include="Definitions\IFC4\Pset_EnvironmentalImpactValues.xml" />
-    <Content Include="Definitions\IFC4\Pset_EvaporativeCoolerPHistory.xml" />
-    <Content Include="Definitions\IFC4\Pset_EvaporativeCoolerTypeCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_EvaporatorPHistory.xml" />
-    <Content Include="Definitions\IFC4\Pset_EvaporatorTypeCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_FanCentrifugal.xml" />
-    <Content Include="Definitions\IFC4\Pset_FanOccurrence.xml" />
-    <Content Include="Definitions\IFC4\Pset_FanPHistory.xml" />
-    <Content Include="Definitions\IFC4\Pset_FanTypeCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_FastenerWeld.xml" />
-    <Content Include="Definitions\IFC4\Pset_FilterPHistory.xml" />
-    <Content Include="Definitions\IFC4\Pset_FilterTypeAirParticleFilter.xml" />
-    <Content Include="Definitions\IFC4\Pset_FilterTypeCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_FilterTypeCompressedAirFilter.xml" />
-    <Content Include="Definitions\IFC4\Pset_FilterTypeWaterFilter.xml" />
-    <Content Include="Definitions\IFC4\Pset_FireSuppressionTerminalTypeBreechingInlet.xml" />
-    <Content Include="Definitions\IFC4\Pset_FireSuppressionTerminalTypeCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_FireSuppressionTerminalTypeFireHydrant.xml" />
-    <Content Include="Definitions\IFC4\Pset_FireSuppressionTerminalTypeHoseReel.xml" />
-    <Content Include="Definitions\IFC4\Pset_FireSuppressionTerminalTypeSprinkler.xml" />
-    <Content Include="Definitions\IFC4\Pset_FlowInstrumentPHistory.xml" />
-    <Content Include="Definitions\IFC4\Pset_FlowInstrumentTypeCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_FlowInstrumentTypePressureGauge.xml" />
-    <Content Include="Definitions\IFC4\Pset_FlowInstrumentTypeThermometer.xml" />
-    <Content Include="Definitions\IFC4\Pset_FlowMeterOccurrence.xml" />
-    <Content Include="Definitions\IFC4\Pset_FlowMeterTypeCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_FlowMeterTypeEnergyMeter.xml" />
-    <Content Include="Definitions\IFC4\Pset_FlowMeterTypeGasMeter.xml" />
-    <Content Include="Definitions\IFC4\Pset_FlowMeterTypeOilMeter.xml" />
-    <Content Include="Definitions\IFC4\Pset_FlowMeterTypeWaterMeter.xml" />
-    <Content Include="Definitions\IFC4\Pset_FootingCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_FurnitureTypeChair.xml" />
-    <Content Include="Definitions\IFC4\Pset_FurnitureTypeCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_FurnitureTypeDesk.xml" />
-    <Content Include="Definitions\IFC4\Pset_FurnitureTypeFileCabinet.xml" />
-    <Content Include="Definitions\IFC4\Pset_FurnitureTypeTable.xml" />
-    <Content Include="Definitions\IFC4\Pset_HeatExchangerTypeCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_HeatExchangerTypePlate.xml" />
-    <Content Include="Definitions\IFC4\Pset_HumidifierPHistory.xml" />
-    <Content Include="Definitions\IFC4\Pset_HumidifierTypeCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_InterceptorTypeCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_JunctionBoxTypeCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_LampTypeCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_LandRegistration.xml" />
-    <Content Include="Definitions\IFC4\Pset_LightFixtureTypeCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_LightFixtureTypeSecurityLighting.xml" />
-    <Content Include="Definitions\IFC4\Pset_ManufacturerOccurrence.xml" />
-    <Content Include="Definitions\IFC4\Pset_ManufacturerTypeInformation.xml" />
-    <Content Include="Definitions\IFC4\Pset_MaterialCombustion.xml" />
-    <Content Include="Definitions\IFC4\Pset_MaterialCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_MaterialConcrete.xml" />
-    <Content Include="Definitions\IFC4\Pset_MaterialEnergy.xml" />
-    <Content Include="Definitions\IFC4\Pset_MaterialFuel.xml" />
-    <Content Include="Definitions\IFC4\Pset_MaterialHygroscopic.xml" />
-    <Content Include="Definitions\IFC4\Pset_MaterialMechanical.xml" />
-    <Content Include="Definitions\IFC4\Pset_MaterialOptical.xml" />
-    <Content Include="Definitions\IFC4\Pset_MaterialSteel.xml" />
-    <Content Include="Definitions\IFC4\Pset_MaterialThermal.xml" />
-    <Content Include="Definitions\IFC4\Pset_MaterialWater.xml" />
-    <Content Include="Definitions\IFC4\Pset_MaterialWood.xml" />
-    <Content Include="Definitions\IFC4\Pset_MaterialWoodBasedBeam.xml" />
-    <Content Include="Definitions\IFC4\Pset_MaterialWoodBasedPanel.xml" />
-    <Content Include="Definitions\IFC4\Pset_MechanicalFastenerAnchorBolt.xml" />
-    <Content Include="Definitions\IFC4\Pset_MechanicalFastenerBolt.xml" />
-    <Content Include="Definitions\IFC4\Pset_MedicalDeviceTypeCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_MemberCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_MotorConnectionTypeCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_OpeningElementCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_OutletTypeCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_OutsideDesignCriteria.xml" />
-    <Content Include="Definitions\IFC4\Pset_PackingInstructions.xml" />
-    <Content Include="Definitions\IFC4\Pset_Permit.xml" />
-    <Content Include="Definitions\IFC4\Pset_PileCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_PipeConnectionFlanged.xml" />
-    <Content Include="Definitions\IFC4\Pset_PipeFittingOccurrence.xml" />
-    <Content Include="Definitions\IFC4\Pset_PipeFittingPHistory.xml" />
-    <Content Include="Definitions\IFC4\Pset_PipeFittingTypeBend.xml" />
-    <Content Include="Definitions\IFC4\Pset_PipeFittingTypeCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_PipeFittingTypeJunction.xml" />
-    <Content Include="Definitions\IFC4\Pset_PipeSegmentOccurrence.xml" />
-    <Content Include="Definitions\IFC4\Pset_PipeSegmentPHistory.xml" />
-    <Content Include="Definitions\IFC4\Pset_PipeSegmentTypeCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_PipeSegmentTypeCulvert.xml" />
-    <Content Include="Definitions\IFC4\Pset_PipeSegmentTypeGutter.xml" />
-    <Content Include="Definitions\IFC4\Pset_PlateCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_PrecastConcreteElementFabrication.xml" />
-    <Content Include="Definitions\IFC4\Pset_PrecastConcreteElementGeneral.xml" />
-    <Content Include="Definitions\IFC4\Pset_PrecastSlab.xml" />
-    <Content Include="Definitions\IFC4\Pset_ProfileArbitraryDoubleT.xml" />
-    <Content Include="Definitions\IFC4\Pset_ProfileArbitraryHollowCore.xml" />
-    <Content Include="Definitions\IFC4\Pset_ProfileMechanical.xml" />
-    <Content Include="Definitions\IFC4\Pset_ProjectOrderChangeOrder.xml" />
-    <Content Include="Definitions\IFC4\Pset_ProjectOrderMaintenanceWorkOrder.xml" />
-    <Content Include="Definitions\IFC4\Pset_ProjectOrderMoveOrder.xml" />
-    <Content Include="Definitions\IFC4\Pset_ProjectOrderPurchaseOrder.xml" />
-    <Content Include="Definitions\IFC4\Pset_ProjectOrderWorkOrder.xml" />
-    <Content Include="Definitions\IFC4\Pset_PropertyAgreement.xml" />
-    <Content Include="Definitions\IFC4\Pset_ProtectiveDeviceBreakerUnitI2TCurve.xml" />
-    <Content Include="Definitions\IFC4\Pset_ProtectiveDeviceBreakerUnitI2TFuseCurve.xml" />
-    <Content Include="Definitions\IFC4\Pset_ProtectiveDeviceBreakerUnitIPICurve.xml" />
-    <Content Include="Definitions\IFC4\Pset_ProtectiveDeviceBreakerUnitTypeMCB.xml" />
-    <Content Include="Definitions\IFC4\Pset_ProtectiveDeviceBreakerUnitTypeMotorProtection.xml" />
-    <Content Include="Definitions\IFC4\Pset_ProtectiveDeviceOccurrence.xml" />
-    <Content Include="Definitions\IFC4\Pset_ProtectiveDeviceTrippingCurve.xml" />
-    <Content Include="Definitions\IFC4\Pset_ProtectiveDeviceTrippingFunctionGCurve.xml" />
-    <Content Include="Definitions\IFC4\Pset_ProtectiveDeviceTrippingFunctionICurve.xml" />
-    <Content Include="Definitions\IFC4\Pset_ProtectiveDeviceTrippingFunctionLCurve.xml" />
-    <Content Include="Definitions\IFC4\Pset_ProtectiveDeviceTrippingFunctionSCurve.xml" />
-    <Content Include="Definitions\IFC4\Pset_ProtectiveDeviceTrippingUnitCurrentAdjustment.xml" />
-    <Content Include="Definitions\IFC4\Pset_ProtectiveDeviceTrippingUnitTimeAdjustment.xml" />
-    <Content Include="Definitions\IFC4\Pset_ProtectiveDeviceTrippingUnitTypeCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_ProtectiveDeviceTrippingUnitTypeElectroMagnetic.xml" />
-    <Content Include="Definitions\IFC4\Pset_ProtectiveDeviceTrippingUnitTypeElectronic.xml" />
-    <Content Include="Definitions\IFC4\Pset_ProtectiveDeviceTrippingUnitTypeResidualCurrent.xml" />
-    <Content Include="Definitions\IFC4\Pset_ProtectiveDeviceTrippingUnitTypeThermal.xml" />
-    <Content Include="Definitions\IFC4\Pset_ProtectiveDeviceTypeCircuitBreaker.xml" />
-    <Content Include="Definitions\IFC4\Pset_ProtectiveDeviceTypeCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_ProtectiveDeviceTypeEarthLeakageCircuitBreaker.xml" />
-    <Content Include="Definitions\IFC4\Pset_ProtectiveDeviceTypeFuseDisconnector.xml" />
-    <Content Include="Definitions\IFC4\Pset_ProtectiveDeviceTypeResidualCurrentCircuitBreaker.xml" />
-    <Content Include="Definitions\IFC4\Pset_ProtectiveDeviceTypeResidualCurrentSwitch.xml" />
-    <Content Include="Definitions\IFC4\Pset_ProtectiveDeviceTypeVaristor.xml" />
-    <Content Include="Definitions\IFC4\Pset_PumpOccurrence.xml" />
-    <Content Include="Definitions\IFC4\Pset_PumpPHistory.xml" />
-    <Content Include="Definitions\IFC4\Pset_PumpTypeCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_RailingCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_RampCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_RampFlightCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_ReinforcementBarCountOfIndependentFooting.xml" />
-    <Content Include="Definitions\IFC4\Pset_ReinforcementBarPitchOfBeam.xml" />
-    <Content Include="Definitions\IFC4\Pset_ReinforcementBarPitchOfColumn.xml" />
-    <Content Include="Definitions\IFC4\Pset_ReinforcementBarPitchOfContinuousFooting.xml" />
-    <Content Include="Definitions\IFC4\Pset_ReinforcementBarPitchOfSlab.xml" />
-    <Content Include="Definitions\IFC4\Pset_ReinforcementBarPitchOfWall.xml" />
-    <Content Include="Definitions\IFC4\Pset_Risk.xml" />
-    <Content Include="Definitions\IFC4\Pset_RoofCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_SanitaryTerminalTypeBath.xml" />
-    <Content Include="Definitions\IFC4\Pset_SanitaryTerminalTypeBidet.xml" />
-    <Content Include="Definitions\IFC4\Pset_SanitaryTerminalTypeCistern.xml" />
-    <Content Include="Definitions\IFC4\Pset_SanitaryTerminalTypeCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_SanitaryTerminalTypeSanitaryFountain.xml" />
-    <Content Include="Definitions\IFC4\Pset_SanitaryTerminalTypeShower.xml" />
-    <Content Include="Definitions\IFC4\Pset_SanitaryTerminalTypeSink.xml" />
-    <Content Include="Definitions\IFC4\Pset_SanitaryTerminalTypeToiletPan.xml" />
-    <Content Include="Definitions\IFC4\Pset_SanitaryTerminalTypeUrinal.xml" />
-    <Content Include="Definitions\IFC4\Pset_SanitaryTerminalTypeWashHandBasin.xml" />
-    <Content Include="Definitions\IFC4\Pset_SensorPHistory.xml" />
-    <Content Include="Definitions\IFC4\Pset_SensorTypeCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_SensorTypeConductanceSensor.xml" />
-    <Content Include="Definitions\IFC4\Pset_SensorTypeContactSensor.xml" />
-    <Content Include="Definitions\IFC4\Pset_SensorTypeFireSensor.xml" />
-    <Content Include="Definitions\IFC4\Pset_SensorTypeFlowSensor.xml" />
-    <Content Include="Definitions\IFC4\Pset_SensorTypeGasSensor.xml" />
-    <Content Include="Definitions\IFC4\Pset_SensorTypeHeatSensor.xml" />
-    <Content Include="Definitions\IFC4\Pset_SensorTypeHumiditySensor.xml" />
-    <Content Include="Definitions\IFC4\Pset_SensorTypeIonConcentrationSensor.xml" />
-    <Content Include="Definitions\IFC4\Pset_SensorTypeLevelSensor.xml" />
-    <Content Include="Definitions\IFC4\Pset_SensorTypeLightSensor.xml" />
-    <Content Include="Definitions\IFC4\Pset_SensorTypeMoistureSensor.xml" />
-    <Content Include="Definitions\IFC4\Pset_SensorTypeMovementSensor.xml" />
-    <Content Include="Definitions\IFC4\Pset_SensorTypePHSensor.xml" />
-    <Content Include="Definitions\IFC4\Pset_SensorTypePressureSensor.xml" />
-    <Content Include="Definitions\IFC4\Pset_SensorTypeRadiationSensor.xml" />
-    <Content Include="Definitions\IFC4\Pset_SensorTypeRadioactivitySensor.xml" />
-    <Content Include="Definitions\IFC4\Pset_SensorTypeSmokeSensor.xml" />
-    <Content Include="Definitions\IFC4\Pset_SensorTypeSoundSensor.xml" />
-    <Content Include="Definitions\IFC4\Pset_SensorTypeTemperatureSensor.xml" />
-    <Content Include="Definitions\IFC4\Pset_SensorTypeWindSensor.xml" />
-    <Content Include="Definitions\IFC4\Pset_ServiceLife.xml" />
-    <Content Include="Definitions\IFC4\Pset_ServiceLifeFactors.xml" />
-    <Content Include="Definitions\IFC4\Pset_ShadingDeviceCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_ShadingDevicePHistory.xml" />
-    <Content Include="Definitions\IFC4\Pset_SiteCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_SlabCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_SolarDeviceTypeCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_SoundAttenuation.xml" />
-    <Content Include="Definitions\IFC4\Pset_SoundGeneration.xml" />
-    <Content Include="Definitions\IFC4\Pset_SpaceCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_SpaceCoveringRequirements.xml" />
-    <Content Include="Definitions\IFC4\Pset_SpaceFireSafetyRequirements.xml" />
-    <Content Include="Definitions\IFC4\Pset_SpaceHeaterPHistory.xml" />
-    <Content Include="Definitions\IFC4\Pset_SpaceHeaterTypeCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_SpaceHeaterTypeConvector.xml" />
-    <Content Include="Definitions\IFC4\Pset_SpaceHeaterTypeRadiator.xml" />
-    <Content Include="Definitions\IFC4\Pset_SpaceLightingRequirements.xml" />
-    <Content Include="Definitions\IFC4\Pset_SpaceOccupancyRequirements.xml" />
-    <Content Include="Definitions\IFC4\Pset_SpaceParking.xml" />
-    <Content Include="Definitions\IFC4\Pset_SpaceThermalDesign.xml" />
-    <Content Include="Definitions\IFC4\Pset_SpaceThermalLoad.xml" />
-    <Content Include="Definitions\IFC4\Pset_SpaceThermalLoadPHistory.xml" />
-    <Content Include="Definitions\IFC4\Pset_SpaceThermalPHistory.xml" />
-    <Content Include="Definitions\IFC4\Pset_SpaceThermalRequirements.xml" />
-    <Content Include="Definitions\IFC4\Pset_StackTerminalTypeCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_StairCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_StairFlightCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_StructuralSurfaceMemberVaryingThickness.xml" />
-    <Content Include="Definitions\IFC4\Pset_SwitchingDeviceTypeCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_SwitchingDeviceTypeContactor.xml" />
-    <Content Include="Definitions\IFC4\Pset_SwitchingDeviceTypeDimmerSwitch.xml" />
-    <Content Include="Definitions\IFC4\Pset_SwitchingDeviceTypeEmergencyStop.xml" />
-    <Content Include="Definitions\IFC4\Pset_SwitchingDeviceTypeKeypad.xml" />
-    <Content Include="Definitions\IFC4\Pset_SwitchingDeviceTypeMomentarySwitch.xml" />
-    <Content Include="Definitions\IFC4\Pset_SwitchingDeviceTypePHistory.xml" />
-    <Content Include="Definitions\IFC4\Pset_SwitchingDeviceTypeSelectorSwitch.xml" />
-    <Content Include="Definitions\IFC4\Pset_SwitchingDeviceTypeStarter.xml" />
-    <Content Include="Definitions\IFC4\Pset_SwitchingDeviceTypeSwitchDisconnector.xml" />
-    <Content Include="Definitions\IFC4\Pset_SwitchingDeviceTypeToggleSwitch.xml" />
-    <Content Include="Definitions\IFC4\Pset_SystemFurnitureElementTypeCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_SystemFurnitureElementTypePanel.xml" />
-    <Content Include="Definitions\IFC4\Pset_SystemFurnitureElementTypeWorkSurface.xml" />
-    <Content Include="Definitions\IFC4\Pset_TankOccurrence.xml" />
-    <Content Include="Definitions\IFC4\Pset_TankTypeCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_TankTypeExpansion.xml" />
-    <Content Include="Definitions\IFC4\Pset_TankTypePreformed.xml" />
-    <Content Include="Definitions\IFC4\Pset_TankTypePressureVessel.xml" />
-    <Content Include="Definitions\IFC4\Pset_TankTypeSectional.xml" />
-    <Content Include="Definitions\IFC4\Pset_ThermalLoadAggregate.xml" />
-    <Content Include="Definitions\IFC4\Pset_ThermalLoadDesignCriteria.xml" />
-    <Content Include="Definitions\IFC4\Pset_TransformerTypeCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_TransportElementCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_TransportElementElevator.xml" />
-    <Content Include="Definitions\IFC4\Pset_TubeBundleTypeCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_TubeBundleTypeFinned.xml" />
-    <Content Include="Definitions\IFC4\Pset_UnitaryControlElementPHistory.xml" />
-    <Content Include="Definitions\IFC4\Pset_UnitaryControlElementTypeCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_UnitaryControlElementTypeIndicatorPanel.xml" />
-    <Content Include="Definitions\IFC4\Pset_UnitaryControlElementTypeThermostat.xml" />
-    <Content Include="Definitions\IFC4\Pset_UnitaryEquipmentTypeAirConditioningUnit.xml" />
-    <Content Include="Definitions\IFC4\Pset_UnitaryEquipmentTypeAirHandler.xml" />
-    <Content Include="Definitions\IFC4\Pset_UnitaryEquipmentTypeCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_UtilityConsumptionPHistory.xml" />
-    <Content Include="Definitions\IFC4\Pset_ValvePHistory.xml" />
-    <Content Include="Definitions\IFC4\Pset_ValveTypeAirRelease.xml" />
-    <Content Include="Definitions\IFC4\Pset_ValveTypeCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_ValveTypeDrawOffCock.xml" />
-    <Content Include="Definitions\IFC4\Pset_ValveTypeFaucet.xml" />
-    <Content Include="Definitions\IFC4\Pset_ValveTypeFlushing.xml" />
-    <Content Include="Definitions\IFC4\Pset_ValveTypeGasTap.xml" />
-    <Content Include="Definitions\IFC4\Pset_ValveTypeIsolating.xml" />
-    <Content Include="Definitions\IFC4\Pset_ValveTypeMixing.xml" />
-    <Content Include="Definitions\IFC4\Pset_ValveTypePressureReducing.xml" />
-    <Content Include="Definitions\IFC4\Pset_ValveTypePressureRelief.xml" />
-    <Content Include="Definitions\IFC4\Pset_VibrationIsolatorTypeCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_WallCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_Warranty.xml" />
-    <Content Include="Definitions\IFC4\Pset_WasteTerminalTypeCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_WasteTerminalTypeFloorTrap.xml" />
-    <Content Include="Definitions\IFC4\Pset_WasteTerminalTypeFloorWaste.xml" />
-    <Content Include="Definitions\IFC4\Pset_WasteTerminalTypeGullySump.xml" />
-    <Content Include="Definitions\IFC4\Pset_WasteTerminalTypeGullyTrap.xml" />
-    <Content Include="Definitions\IFC4\Pset_WasteTerminalTypeRoofDrain.xml" />
-    <Content Include="Definitions\IFC4\Pset_WasteTerminalTypeWasteDisposalUnit.xml" />
-    <Content Include="Definitions\IFC4\Pset_WasteTerminalTypeWasteTrap.xml" />
-    <Content Include="Definitions\IFC4\Pset_WindowCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_WorkControlCommon.xml" />
-    <Content Include="Definitions\IFC4\Pset_ZoneCommon.xml" />
-    <Content Include="Definitions\IFC4_COBie\COBie_ActionRequest.xml" />
-    <Content Include="Definitions\IFC4_COBie\COBie_ConstructionProductResource.xml" />
-    <Content Include="Definitions\IFC4_COBie\COBie_ConstructionProductResourceType.xml" />
-    <Content Include="Definitions\IFC4_COBie\COBie_ElementType.xml" />
-    <Content Include="Definitions\IFC4_COBie\COBie_Task.xml" />
-    <Content Include="Definitions\IFC4_COBie\Pset_ActionRequest.xml" />
-    <Content Include="Definitions\IFC4_COBie\Pset_ManufacturerOccurrence.xml" />
-    <Content Include="Definitions\IFC4_COBie\Pset_ManufacturerTypeInformation.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_ActuatorBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_AirTerminalBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_AirTerminalBoxTypeBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_AirToAirHeatRecoveryBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_AlarmBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_AudioVisualApplianceBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_BeamBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_BoilerBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_BuildingBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_BuildingStoreyBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_BurnerBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_CableCarrierFittingBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_CableCarrierSegmentBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_CableFittingBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_CableSegmentBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_ChillerBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_ChimneyBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_CoilBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_ColumnBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_CommunicationsApplianceBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_CompressorBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_CondenserBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_ConstructionEquipmentResourceBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_ConstructionMaterialResourceBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_ControllerBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_CooledBeamBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_CoolingTowerBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_CoveringBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_CurtainWallQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_DamperBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_DistributionChamberElementBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_DoorBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_DuctFittingBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_DuctSegmentBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_DuctSilencerBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_ElectricApplianceBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_ElectricDistributionBoardBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_ElectricFlowStorageDeviceBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_ElectricGeneratorBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_ElectricMotorBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_ElectricTimeControlBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_EvaporativeCoolerBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_EvaporatorBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_FanBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_FilterBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_FireSuppressionTerminalBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_FlowInstrumentBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_FlowMeterBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_FootingBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_HeatExchangerBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_HumidifierBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_InterceptorBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_JunctionBoxBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_LaborResourceBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_LampBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_LightFixtureBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_MemberBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_MotorConnectionBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_OpeningElementBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_OutletBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_PileBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_PipeFittingBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_PipeSegmentBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_PlateBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_ProjectionElementBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_ProtectiveDeviceBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_ProtectiveDeviceTrippingUnitBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_PumpBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_RailingBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_RampFlightBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_ReinforcingElementBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_RoofBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_SanitaryTerminalBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_SensorBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_SiteBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_SlabBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_SolarDeviceBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_SpaceBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_SpaceHeaterBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_StackTerminalBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_StairFlightBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_SwitchingDeviceBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_TankBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_TransformerBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_TubeBundleBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_UnitaryControlElementBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_UnitaryEquipmentBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_ValveBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_VibrationIsolatorBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_WallBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_WasteTerminalBaseQuantities.xml" />
-    <Content Include="Definitions\IFC4_QTO\Qto_WindowBaseQuantities.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Definitions\IFC2x3_Defitinion_files.resx">
-      <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>IFC2x3_Defitinion_files.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Definitions\IFC4_and_COBie_Definition_files.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>IFC4_and_COBie_Definition_files.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Definitions\IFC4_COBie_Definition_files.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>IFC4_COBie_Definition_files.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Definitions\IFC4_Definition_files.resx">
-      <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>IFC4_Definition_files.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Definitions\IFC4_QTO_Definition_files.resx">
-      <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>IFC4_QTO_Definition_files.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-  </ItemGroup>
-  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <PropertyGroup>
-    <Year>$([System.DateTime]::Now.ToString("yy"))</Year>
-    <Month>$([System.DateTime]::Now.ToString("MM"))</Month>
-    <Day>$([System.DateTime]::Now.ToString("dd"))</Day>
-    <Minute>$([System.Int32]::Parse($([System.DateTime]::Now.ToString("mm"))))</Minute>
-    <Hour>$([System.Int32]::Parse($([System.DateTime]::Now.ToString("HH"))))</Hour>
-    <MinuteOfDay>$([MSBuild]::Add($(Minute),$([MSBuild]::Multiply($(Hour),60))))</MinuteOfDay>
-    <HalfMinuteOfDay>$([System.Convert]::ToInt16($([MSBuild]::Divide($(MinuteOfDay), 2))))</HalfMinuteOfDay>
-    <AssemblyFileVersionAttribute>[assembly:System.Reflection.AssemblyFileVersion("3.1.$(Year)$(Month).$(Day)$(HalfMinuteOfDay)")];</AssemblyFileVersionAttribute>
-  </PropertyGroup>
-  <Target Name="BeforeBuild">
-    <WriteLinesToFile File="..\SharedFileVersionInfo.cs" Lines="$(AssemblyFileVersionAttribute)" Overwrite="true" Encoding="Unicode" />
-  </Target>
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<OutputType>Library</OutputType>
+		<RestorePackages>true</RestorePackages>
+		<!-- To review target compatibility 
+		see  https://docs.microsoft.com/en-us/dotnet/standard/net-standard#net-implementation-support 
+		netstandard2.0 is compatible with Framework 4.6.1, .NET Core 2.0 and NET 5.0
+		-->
+		<TargetFrameworks>netstandard2.0;net5.0</TargetFrameworks>
+		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+		<PackageLicenseExpression>CDDL-1.0</PackageLicenseExpression>
+		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+		<Authors>xBIM Team</Authors>
+		<PackageProjectUrl>https://github.com/xBimTeam/XbimPropertySets</PackageProjectUrl>
+		<PackageIcon>xbim-toolkit-icon.png</PackageIcon>
+		<RepositoryUrl>https://github.com/xBimTeam/XbimPropertySets.git</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageTags>BIM, IFC, BuildingSmart, PropertySets, Property</PackageTags>
+		<PackageReleaseNotes>Now targeting multiple .NET platforms.</PackageReleaseNotes>
+		<AssemblyVersion>5.0.0</AssemblyVersion>
+		<FileVersion>5.0.0</FileVersion>
+		<Version>5.0.0</Version>
+		<SignAssembly>true</SignAssembly>
+		<AssemblyOriginatorKeyFile>XbimOpenSourceKeyFile.snk</AssemblyOriginatorKeyFile>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netstandard2.0|AnyCPU'">
+	  <DefineConstants>DEBUG;TRACE</DefineConstants>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Include="..\xbim-toolkit-icon.png">
+			<Pack>True</Pack>
+			<PackagePath></PackagePath>
+		</None>
+	</ItemGroup>
+	<ItemGroup>
+		<Compile Update="Definitions\IFC2x3_Defitinion_files.Designer.cs">
+			<AutoGen>True</AutoGen>
+			<DesignTime>True</DesignTime>
+			<DependentUpon>IFC2x3_Defitinion_files.resx</DependentUpon>
+		</Compile>
+		<Compile Update="Definitions\IFC4_and_COBie_Definition_files.Designer.cs">
+			<AutoGen>True</AutoGen>
+			<DesignTime>True</DesignTime>
+			<DependentUpon>IFC4_and_COBie_Definition_files.resx</DependentUpon>
+		</Compile>
+		<Compile Update="Definitions\IFC4_COBie_Definition_files.Designer.cs">
+			<AutoGen>True</AutoGen>
+			<DesignTime>True</DesignTime>
+			<DependentUpon>IFC4_COBie_Definition_files.resx</DependentUpon>
+		</Compile>
+		<Compile Update="Definitions\IFC4_Definition_files.Designer.cs">
+			<AutoGen>True</AutoGen>
+			<DesignTime>True</DesignTime>
+			<DependentUpon>IFC4_Definition_files.resx</DependentUpon>
+		</Compile>
+		<Compile Update="Definitions\IFC4_QTO_Definition_files.Designer.cs">
+			<AutoGen>True</AutoGen>
+			<DesignTime>True</DesignTime>
+			<DependentUpon>IFC4_QTO_Definition_files.resx</DependentUpon>
+		</Compile>
+	</ItemGroup>
+	<ItemGroup>
+		<None Update="Schema\PSD_IFC4_TC1.xsd">
+			<SubType>Designer</SubType>
+		</None>
+		<None Update="Schema\QTO_IFC4.xsd">
+			<SubType>Designer</SubType>
+		</None>
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+		<PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<Content Include="Definitions\IFC2x3_TC1\Pset_ActionRequest.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_ActorCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_ActuatorTypeCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_ActuatorTypeElectricActuator.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_ActuatorTypeHydraulicActuator.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_ActuatorTypeLinearActuation.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_ActuatorTypePneumaticActuator.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_ActuatorTypeRotationalActuation.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_AirSideSystemInformation.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_AirTerminalBoxPHistory.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_AirTerminalBoxTypeCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_AirTerminalPHistory.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_AirTerminalTypeCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_AirTerminalTypeRectangular.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_AirTerminalTypeRound.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_AirTerminalTypeSlot.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_AirTerminalTypeSquare.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_AirToAirHeatRecoveryPHist.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_AirToAirHeatRecoveryTypeCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_AnalogInput.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_AnalogOutput.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_Asset.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_BeamCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_BinaryInput.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_BinaryOutput.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_BoilerPHistory.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_BoilerTypeCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_BoilerTypeSteam.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_BuildingCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_BuildingElementProxyCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_BuildingStoreyCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_BuildingUse.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_BuildingUseAdjacent.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_BuildingWaterStorage.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_CableCarrierSegmentTypeCableLadderSegment.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_CableCarrierSegmentTypeCableTraySegment.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_CableCarrierSegmentTypeCableTrunkingSegment.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_CableCarrierSegmentTypeConduitSegment.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_CableSegmentTypeCableSegment.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_CableSegmentTypeConductorSegment.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_ChillerPHistory.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_ChillerTypeCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_CoilPHistory.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_CoilTypeCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_CoilTypeHydronic.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_ColumnCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_CompressorPHistory.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_CompressorTypeCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_ConcreteElementGeneral.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_ConcreteElementQuantityGeneral.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_ConcreteElementSurfaceFinishQuantityGeneral.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_CondenserPHistory.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_CondenserTypeCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_ControllerTypeCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_ControllerTypeProportional.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_ControllerTypeTwoPosition.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_CooledBeamPHistory.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_CooledBeamPHistoryActive.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_CooledBeamTypeActive.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_CooledBeamTypeCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_CoolingTowerPHistory.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_CoolingTowerTypeCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_CoveringCeiling.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_CoveringCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_CoveringFlooring.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_CurtainWallCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_DamperPHistory.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_DamperTypeCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_DamperTypeControlDamper.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_DamperTypeFireDamper.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_DamperTypeFireSmokeDamper.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_DamperTypeSmokeDamper.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_DesignPoint.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_DiscreteAccessoryAnchorBolt.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_DiscreteAccessoryColumnShoe.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_DiscreteAccessoryCornerFixingPlate.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_DiscreteAccessoryDiagonalTrussConnector.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_DiscreteAccessoryEdgeFixingPlate.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_DiscreteAccessoryFixingSocket.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_DiscreteAccessoryLadderTrussConnector.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_DiscreteAccessoryStandardFixingPlate.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_DiscreteAccessoryWireLoop.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_DistributionChamberElementTypeFormedDuct.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_DistributionChamberElementTypeInspectionChamber.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_DistributionChamberElementTypeInspectionPit.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_DistributionChamberElementTypeManhole.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_DistributionChamberElementTypeMeterChamber.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_DistributionChamberElementTypeSump.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_DistributionChamberElementTypeTrench.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_DistributionChamberElementTypeValveChamber.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_DistributionFlowElementCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_DistributionPortDuct.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_DistributionPortPipe.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_DoorCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_DoorWindowGlazingType.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_DoorWindowShadingType.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_DrainageCatchment.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_DrainageCulvert.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_DrainageOutfall.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_DrainageReserve.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_Draughting.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_DuctConnection.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_DuctDesignCriteria.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_DuctFittingPHistory.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_DuctFittingTypeCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_DuctSegmentPHistory.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_DuctSegmentTypeCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_DuctSilencerPHistory.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_DuctSilencerTypeCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_ElectricalCircuit.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_ElectricalDeviceCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_ElectricDistributionPointCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_ElectricGeneratorTypeCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_ElectricHeaterTypeElectricalCableHeater.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_ElectricHeaterTypeElectricalMatHeater.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_ElectricHeaterTypeElectricalPointHeater.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_ElectricMotorTypeCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_ElementShading.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_EnergyConsumptionPHistoryElectricity.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_EnergyConsumptionPHistoryFuel.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_EnergyConsumptionPHistorySteam.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_EnergyConversionDeviceCoil.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_EnergyConversionDeviceSpaceHeaterPanel.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_EnergyConversionDeviceSpaceHeaterSectional.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_EvaporativeCoolerPHistory.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_EvaporativeCoolerTypeCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_EvaporatorPHistory.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_EvaporatorTypeCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_FanPHistory.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_FanTypeCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_FanTypeSmokeControl.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_FilterPHistory.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_FilterTypeAirParticleFilter.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_FilterTypeCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_FireRatingProperties.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_FireSuppressionTerminalTypeBreechingInlet.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_FireSuppressionTerminalTypeFireHydrant.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_FireSuppressionTerminalTypeHoseReel.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_FireSuppressionTerminalTypeSprinkler.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_FlowControllerDamper.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_FlowControllerFlowMeter.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_FlowFittingDuctFitting.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_FlowFittingPipeFitting.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_FlowInstrumentTypePressureGauge.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_FlowInstrumentTypeThermometer.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_FlowMeterTypeCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_FlowMeterTypeEnergyMeter.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_FlowMeterTypeGasMeter.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_FlowMeterTypeOilMeter.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_FlowMeterTypeWaterMeter.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_FlowMovingDeviceCompressor.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_FlowMovingDeviceFan.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_FlowMovingDeviceFanCentrifugal.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_FlowMovingDevicePump.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_FlowSegmentDuctSegment.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_FlowSegmentPipeSegment.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_FlowStorageDeviceTank.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_FlowTerminalAirTerminal.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_FurnitureTypeChair.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_FurnitureTypeCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_FurnitureTypeDesk.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_FurnitureTypeFileCabinet.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_FurnitureTypeTable.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_GasTerminalPHistory.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_GasTerminalTypeCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_GasTerminalTypeGasAppliance.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_GasTerminalTypeGasBurner.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_HeatExchangerTypeCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_HeatExchangerTypePlate.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_HumidifierPHistory.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_HumidifierTypeCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_LampTypeCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_LightFixtureTypeCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_LightFixtureTypeExitSign.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_LightFixtureTypeThermal.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_ManufacturerOccurrence.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_ManufacturerTypeInformation.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_MemberCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_MultiStateInput.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_MultiStateOutput.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_OpeningElementCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_OutletTypeCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_OutsideDesignCriteria.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_PackingInstructions.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_Permit.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_PipeConnection.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_PipeConnectionFlanged.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_PipeFittingPHistory.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_PipeFittingTypeCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_PipeSegmentPHistory.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_PipeSegmentTypeCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_PipeSegmentTypeGutter.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_PlateCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_PrecastConcreteElementGeneral.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_ProductRequirements.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_ProjectCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_ProjectionElementShadingDevicePHistory.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_ProjectOrderChangeOrder.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_ProjectOrderMaintenanceWorkOrder.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_ProjectOrderMoveOrder.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_ProjectOrderPurchaseOrder.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_ProjectOrderWorkOrder.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_PropertyAgreement.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_ProtectiveDeviceTypeCircuitBreaker.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_ProtectiveDeviceTypeCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_ProtectiveDeviceTypeEarthFailureDevice.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_ProtectiveDeviceTypeFuseDisconnector.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_ProtectiveDeviceTypeResidualCurrentCircuitBreaker.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_ProtectiveDeviceTypeResidualCurrentSwitch.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_ProtectiveDeviceTypeVaristor.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_PumpPHistory.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_PumpTypeCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_QuantityTakeOff.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_RailingCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_RampCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_RampFlightCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_ReinforcementBarCountOfIndependentFooting.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_ReinforcementBarPitchOfBeam.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_ReinforcementBarPitchOfColumn.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_ReinforcementBarPitchOfContinuousFooting.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_ReinforcementBarPitchOfSlab.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_ReinforcementBarPitchOfWall.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_ReinforcingBarBendingsBECCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_ReinforcingBarBendingsBS8666Common.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_ReinforcingBarBendingsDIN135610Common.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_ReinforcingBarBendingsISOCD3766Common.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_Reliability.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_Risk.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_RoofCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_SanitaryTerminalTypeBath.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_SanitaryTerminalTypeBidet.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_SanitaryTerminalTypeCistern.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_SanitaryTerminalTypeSanitaryFountain.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_SanitaryTerminalTypeShower.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_SanitaryTerminalTypeSink.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_SanitaryTerminalTypeToiletPan.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_SanitaryTerminalTypeUrinal.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_SanitaryTerminalTypeWashHandBasin.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_SanitaryTerminalTypeWCSeat.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_SensorTypeCO2Sensor.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_SensorTypeFireSensor.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_SensorTypeGasSensor.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_SensorTypeHeatSensor.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_SensorTypeHumiditySensor.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_SensorTypeLightSensor.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_SensorTypeMovementSensor.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_SensorTypePressureSensor.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_SensorTypeSmokeSensor.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_SensorTypeSoundSensor.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_SensorTypeTemperatureSensor.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_SiteCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_SlabCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_SpaceCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_SpaceFireSafetyRequirements.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_SpaceHeaterPHistoryCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_SpaceHeaterTypeCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_SpaceHeaterTypeHydronic.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_SpaceLightingRequirements.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_SpaceOccupancyRequirements.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_SpaceParking.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_SpaceParkingAisle.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_SpaceProgramCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_SpaceThermalDesign.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_SpaceThermalPHistory.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_SpaceThermalRequirements.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_StairCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_StairFlightCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_SwitchingDeviceTypeCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_SwitchingDeviceTypeContactor.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_SwitchingDeviceTypeEmergencyStop.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_SwitchingDeviceTypeStarter.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_SwitchingDeviceTypeSwitchDisconnector.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_SwitchingDeviceTypeToggleSwitch.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_SystemFurnitureElementTypeCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_SystemFurnitureElementTypePanel.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_SystemFurnitureElementTypeWorkSurface.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_TankTypeCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_TankTypeExpansion.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_TankTypePreformed.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_TankTypePressureVessel.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_TankTypeSectional.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_ThermalLoadAggregate.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_ThermalLoadDesignCriteria.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_TransformerTypeCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_TransportElementCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_TransportElementElevator.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_TubeBundleTypeCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_TubeBundleTypeFinned.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_UnitaryEquipmentTypeAirConditioningUnit.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_UnitaryEquipmentTypeAirHandler.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_UtilityConsumption.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_ValvePHistory.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_ValveTypeAirRelease.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_ValveTypeCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_ValveTypeDrawOffCock.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_ValveTypeFaucet.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_ValveTypeFlushing.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_ValveTypeGasTap.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_ValveTypeIsolating.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_ValveTypeMixing.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_ValveTypePressureReducing.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_ValveTypePressureRelief.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_VibrationIsolatorTypeCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_WallCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_Warranty.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_WasteTerminalTypeFloorTrap.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_WasteTerminalTypeFloorWaste.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_WasteTerminalTypeGreaseInterceptor.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_WasteTerminalTypeGullySump.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_WasteTerminalTypeGullyTrap.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_WasteTerminalTypeOilInterceptor.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_WasteTerminalTypePetrolInterceptor.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_WasteTerminalTypeRoofDrain.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_WasteTerminalTypeWasteDisposalUnit.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_WasteTerminalTypeWasteTrap.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_WindowCommon.xml" />
+		<Content Include="Definitions\IFC2x3_TC1\Pset_ZoneCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_ActionRequest.xml" />
+		<Content Include="Definitions\IFC4\Pset_ActorCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_ActuatorPHistory.xml" />
+		<Content Include="Definitions\IFC4\Pset_ActuatorTypeCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_ActuatorTypeElectricActuator.xml" />
+		<Content Include="Definitions\IFC4\Pset_ActuatorTypeHydraulicActuator.xml" />
+		<Content Include="Definitions\IFC4\Pset_ActuatorTypeLinearActuation.xml" />
+		<Content Include="Definitions\IFC4\Pset_ActuatorTypePneumaticActuator.xml" />
+		<Content Include="Definitions\IFC4\Pset_ActuatorTypeRotationalActuation.xml" />
+		<Content Include="Definitions\IFC4\Pset_AirSideSystemInformation.xml" />
+		<Content Include="Definitions\IFC4\Pset_AirTerminalBoxPHistory.xml" />
+		<Content Include="Definitions\IFC4\Pset_AirTerminalBoxTypeCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_AirTerminalOccurrence.xml" />
+		<Content Include="Definitions\IFC4\Pset_AirTerminalPHistory.xml" />
+		<Content Include="Definitions\IFC4\Pset_AirTerminalTypeCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_AirToAirHeatRecoveryPHistory.xml" />
+		<Content Include="Definitions\IFC4\Pset_AirToAirHeatRecoveryTypeCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_AlarmPHistory.xml" />
+		<Content Include="Definitions\IFC4\Pset_AlarmTypeCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_AnnotationContourLine.xml" />
+		<Content Include="Definitions\IFC4\Pset_AnnotationLineOfSight.xml" />
+		<Content Include="Definitions\IFC4\Pset_AnnotationSurveyArea.xml" />
+		<Content Include="Definitions\IFC4\Pset_Asset.xml" />
+		<Content Include="Definitions\IFC4\Pset_AudioVisualAppliancePHistory.xml" />
+		<Content Include="Definitions\IFC4\Pset_AudioVisualApplianceTypeAmplifier.xml" />
+		<Content Include="Definitions\IFC4\Pset_AudioVisualApplianceTypeCamera.xml" />
+		<Content Include="Definitions\IFC4\Pset_AudioVisualApplianceTypeCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_AudioVisualApplianceTypeDisplay.xml" />
+		<Content Include="Definitions\IFC4\Pset_AudioVisualApplianceTypePlayer.xml" />
+		<Content Include="Definitions\IFC4\Pset_AudioVisualApplianceTypeProjector.xml" />
+		<Content Include="Definitions\IFC4\Pset_AudioVisualApplianceTypeReceiver.xml" />
+		<Content Include="Definitions\IFC4\Pset_AudioVisualApplianceTypeSpeaker.xml" />
+		<Content Include="Definitions\IFC4\Pset_AudioVisualApplianceTypeTuner.xml" />
+		<Content Include="Definitions\IFC4\Pset_BeamCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_BoilerPHistory.xml" />
+		<Content Include="Definitions\IFC4\Pset_BoilerTypeCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_BoilerTypeSteam.xml" />
+		<Content Include="Definitions\IFC4\Pset_BoilerTypeWater.xml" />
+		<Content Include="Definitions\IFC4\Pset_BuildingCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_BuildingElementProxyCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_BuildingElementProxyProvisionForVoid.xml" />
+		<Content Include="Definitions\IFC4\Pset_BuildingStoreyCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_BuildingSystemCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_BuildingUse.xml" />
+		<Content Include="Definitions\IFC4\Pset_BuildingUseAdjacent.xml" />
+		<Content Include="Definitions\IFC4\Pset_BurnerTypeCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_CableCarrierFittingTypeCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_CableCarrierSegmentTypeCableLadderSegment.xml" />
+		<Content Include="Definitions\IFC4\Pset_CableCarrierSegmentTypeCableTraySegment.xml" />
+		<Content Include="Definitions\IFC4\Pset_CableCarrierSegmentTypeCableTrunkingSegment.xml" />
+		<Content Include="Definitions\IFC4\Pset_CableCarrierSegmentTypeCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_CableCarrierSegmentTypeConduitSegment.xml" />
+		<Content Include="Definitions\IFC4\Pset_CableFittingTypeCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_CableSegmentOccurrence.xml" />
+		<Content Include="Definitions\IFC4\Pset_CableSegmentTypeBusBarSegment.xml" />
+		<Content Include="Definitions\IFC4\Pset_CableSegmentTypeCableSegment.xml" />
+		<Content Include="Definitions\IFC4\Pset_CableSegmentTypeCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_CableSegmentTypeConductorSegment.xml" />
+		<Content Include="Definitions\IFC4\Pset_CableSegmentTypeCoreSegment.xml" />
+		<Content Include="Definitions\IFC4\Pset_ChillerPHistory.xml" />
+		<Content Include="Definitions\IFC4\Pset_ChillerTypeCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_ChimneyCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_CoilOccurrence.xml" />
+		<Content Include="Definitions\IFC4\Pset_CoilPHistory.xml" />
+		<Content Include="Definitions\IFC4\Pset_CoilTypeCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_CoilTypeHydronic.xml" />
+		<Content Include="Definitions\IFC4\Pset_ColumnCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_CommunicationsAppliancePHistory.xml" />
+		<Content Include="Definitions\IFC4\Pset_CommunicationsApplianceTypeCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_CompressorPHistory.xml" />
+		<Content Include="Definitions\IFC4\Pset_CompressorTypeCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_ConcreteElementGeneral.xml" />
+		<Content Include="Definitions\IFC4\Pset_CondenserPHistory.xml" />
+		<Content Include="Definitions\IFC4\Pset_CondenserTypeCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_Condition.xml" />
+		<Content Include="Definitions\IFC4\Pset_ConstructionResource.xml" />
+		<Content Include="Definitions\IFC4\Pset_ControllerPHistory.xml" />
+		<Content Include="Definitions\IFC4\Pset_ControllerTypeCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_ControllerTypeFloating.xml" />
+		<Content Include="Definitions\IFC4\Pset_ControllerTypeMultiPosition.xml" />
+		<Content Include="Definitions\IFC4\Pset_ControllerTypeProgrammable.xml" />
+		<Content Include="Definitions\IFC4\Pset_ControllerTypeProportional.xml" />
+		<Content Include="Definitions\IFC4\Pset_ControllerTypeTwoPosition.xml" />
+		<Content Include="Definitions\IFC4\Pset_CooledBeamPHistory.xml" />
+		<Content Include="Definitions\IFC4\Pset_CooledBeamPHistoryActive.xml" />
+		<Content Include="Definitions\IFC4\Pset_CooledBeamTypeActive.xml" />
+		<Content Include="Definitions\IFC4\Pset_CooledBeamTypeCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_CoolingTowerPHistory.xml" />
+		<Content Include="Definitions\IFC4\Pset_CoolingTowerTypeCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_CoveringCeiling.xml" />
+		<Content Include="Definitions\IFC4\Pset_CoveringCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_CoveringFlooring.xml" />
+		<Content Include="Definitions\IFC4\Pset_CurtainWallCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_DamperOccurrence.xml" />
+		<Content Include="Definitions\IFC4\Pset_DamperPHistory.xml" />
+		<Content Include="Definitions\IFC4\Pset_DamperTypeCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_DamperTypeControlDamper.xml" />
+		<Content Include="Definitions\IFC4\Pset_DamperTypeFireDamper.xml" />
+		<Content Include="Definitions\IFC4\Pset_DamperTypeFireSmokeDamper.xml" />
+		<Content Include="Definitions\IFC4\Pset_DamperTypeSmokeDamper.xml" />
+		<Content Include="Definitions\IFC4\Pset_DiscreteAccessoryColumnShoe.xml" />
+		<Content Include="Definitions\IFC4\Pset_DiscreteAccessoryCornerFixingPlate.xml" />
+		<Content Include="Definitions\IFC4\Pset_DiscreteAccessoryDiagonalTrussConnector.xml" />
+		<Content Include="Definitions\IFC4\Pset_DiscreteAccessoryEdgeFixingPlate.xml" />
+		<Content Include="Definitions\IFC4\Pset_DiscreteAccessoryFixingSocket.xml" />
+		<Content Include="Definitions\IFC4\Pset_DiscreteAccessoryLadderTrussConnector.xml" />
+		<Content Include="Definitions\IFC4\Pset_DiscreteAccessoryStandardFixingPlate.xml" />
+		<Content Include="Definitions\IFC4\Pset_DiscreteAccessoryWireLoop.xml" />
+		<Content Include="Definitions\IFC4\Pset_DistributionChamberElementCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_DistributionChamberElementTypeFormedDuct.xml" />
+		<Content Include="Definitions\IFC4\Pset_DistributionChamberElementTypeInspectionChamber.xml" />
+		<Content Include="Definitions\IFC4\Pset_DistributionChamberElementTypeInspectionPit.xml" />
+		<Content Include="Definitions\IFC4\Pset_DistributionChamberElementTypeManhole.xml" />
+		<Content Include="Definitions\IFC4\Pset_DistributionChamberElementTypeMeterChamber.xml" />
+		<Content Include="Definitions\IFC4\Pset_DistributionChamberElementTypeSump.xml" />
+		<Content Include="Definitions\IFC4\Pset_DistributionChamberElementTypeTrench.xml" />
+		<Content Include="Definitions\IFC4\Pset_DistributionChamberElementTypeValveChamber.xml" />
+		<Content Include="Definitions\IFC4\Pset_DistributionPortCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_DistributionPortPHistoryCable.xml" />
+		<Content Include="Definitions\IFC4\Pset_DistributionPortPHistoryDuct.xml" />
+		<Content Include="Definitions\IFC4\Pset_DistributionPortPHistoryPipe.xml" />
+		<Content Include="Definitions\IFC4\Pset_DistributionPortTypeCable.xml" />
+		<Content Include="Definitions\IFC4\Pset_DistributionPortTypeDuct.xml" />
+		<Content Include="Definitions\IFC4\Pset_DistributionPortTypePipe.xml" />
+		<Content Include="Definitions\IFC4\Pset_DistributionSystemCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_DistributionSystemTypeElectrical.xml" />
+		<Content Include="Definitions\IFC4\Pset_DistributionSystemTypeVentilation.xml" />
+		<Content Include="Definitions\IFC4\Pset_DoorCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_DoorWindowGlazingType.xml" />
+		<Content Include="Definitions\IFC4\Pset_DoorWindowShadingType.xml" />
+		<Content Include="Definitions\IFC4\Pset_DuctFittingOccurrence.xml" />
+		<Content Include="Definitions\IFC4\Pset_DuctFittingPHistory.xml" />
+		<Content Include="Definitions\IFC4\Pset_DuctFittingTypeCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_DuctSegmentOccurrence.xml" />
+		<Content Include="Definitions\IFC4\Pset_DuctSegmentPHistory.xml" />
+		<Content Include="Definitions\IFC4\Pset_DuctSegmentTypeCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_DuctSilencerPHistory.xml" />
+		<Content Include="Definitions\IFC4\Pset_DuctSilencerTypeCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_ElectricalDeviceCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_ElectricAppliancePHistory.xml" />
+		<Content Include="Definitions\IFC4\Pset_ElectricApplianceTypeCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_ElectricApplianceTypeDishwasher.xml" />
+		<Content Include="Definitions\IFC4\Pset_ElectricApplianceTypeElectricCooker.xml" />
+		<Content Include="Definitions\IFC4\Pset_ElectricDistributionBoardOccurrence.xml" />
+		<Content Include="Definitions\IFC4\Pset_ElectricDistributionBoardTypeCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_ElectricFlowStorageDeviceTypeCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_ElectricGeneratorTypeCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_ElectricMotorTypeCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_ElectricTimeControlTypeCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_ElementComponentCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_EngineTypeCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_EnvironmentalImpactIndicators.xml" />
+		<Content Include="Definitions\IFC4\Pset_EnvironmentalImpactValues.xml" />
+		<Content Include="Definitions\IFC4\Pset_EvaporativeCoolerPHistory.xml" />
+		<Content Include="Definitions\IFC4\Pset_EvaporativeCoolerTypeCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_EvaporatorPHistory.xml" />
+		<Content Include="Definitions\IFC4\Pset_EvaporatorTypeCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_FanCentrifugal.xml" />
+		<Content Include="Definitions\IFC4\Pset_FanOccurrence.xml" />
+		<Content Include="Definitions\IFC4\Pset_FanPHistory.xml" />
+		<Content Include="Definitions\IFC4\Pset_FanTypeCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_FastenerWeld.xml" />
+		<Content Include="Definitions\IFC4\Pset_FilterPHistory.xml" />
+		<Content Include="Definitions\IFC4\Pset_FilterTypeAirParticleFilter.xml" />
+		<Content Include="Definitions\IFC4\Pset_FilterTypeCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_FilterTypeCompressedAirFilter.xml" />
+		<Content Include="Definitions\IFC4\Pset_FilterTypeWaterFilter.xml" />
+		<Content Include="Definitions\IFC4\Pset_FireSuppressionTerminalTypeBreechingInlet.xml" />
+		<Content Include="Definitions\IFC4\Pset_FireSuppressionTerminalTypeCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_FireSuppressionTerminalTypeFireHydrant.xml" />
+		<Content Include="Definitions\IFC4\Pset_FireSuppressionTerminalTypeHoseReel.xml" />
+		<Content Include="Definitions\IFC4\Pset_FireSuppressionTerminalTypeSprinkler.xml" />
+		<Content Include="Definitions\IFC4\Pset_FlowInstrumentPHistory.xml" />
+		<Content Include="Definitions\IFC4\Pset_FlowInstrumentTypeCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_FlowInstrumentTypePressureGauge.xml" />
+		<Content Include="Definitions\IFC4\Pset_FlowInstrumentTypeThermometer.xml" />
+		<Content Include="Definitions\IFC4\Pset_FlowMeterOccurrence.xml" />
+		<Content Include="Definitions\IFC4\Pset_FlowMeterTypeCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_FlowMeterTypeEnergyMeter.xml" />
+		<Content Include="Definitions\IFC4\Pset_FlowMeterTypeGasMeter.xml" />
+		<Content Include="Definitions\IFC4\Pset_FlowMeterTypeOilMeter.xml" />
+		<Content Include="Definitions\IFC4\Pset_FlowMeterTypeWaterMeter.xml" />
+		<Content Include="Definitions\IFC4\Pset_FootingCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_FurnitureTypeChair.xml" />
+		<Content Include="Definitions\IFC4\Pset_FurnitureTypeCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_FurnitureTypeDesk.xml" />
+		<Content Include="Definitions\IFC4\Pset_FurnitureTypeFileCabinet.xml" />
+		<Content Include="Definitions\IFC4\Pset_FurnitureTypeTable.xml" />
+		<Content Include="Definitions\IFC4\Pset_HeatExchangerTypeCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_HeatExchangerTypePlate.xml" />
+		<Content Include="Definitions\IFC4\Pset_HumidifierPHistory.xml" />
+		<Content Include="Definitions\IFC4\Pset_HumidifierTypeCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_InterceptorTypeCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_JunctionBoxTypeCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_LampTypeCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_LandRegistration.xml" />
+		<Content Include="Definitions\IFC4\Pset_LightFixtureTypeCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_LightFixtureTypeSecurityLighting.xml" />
+		<Content Include="Definitions\IFC4\Pset_ManufacturerOccurrence.xml" />
+		<Content Include="Definitions\IFC4\Pset_ManufacturerTypeInformation.xml" />
+		<Content Include="Definitions\IFC4\Pset_MaterialCombustion.xml" />
+		<Content Include="Definitions\IFC4\Pset_MaterialCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_MaterialConcrete.xml" />
+		<Content Include="Definitions\IFC4\Pset_MaterialEnergy.xml" />
+		<Content Include="Definitions\IFC4\Pset_MaterialFuel.xml" />
+		<Content Include="Definitions\IFC4\Pset_MaterialHygroscopic.xml" />
+		<Content Include="Definitions\IFC4\Pset_MaterialMechanical.xml" />
+		<Content Include="Definitions\IFC4\Pset_MaterialOptical.xml" />
+		<Content Include="Definitions\IFC4\Pset_MaterialSteel.xml" />
+		<Content Include="Definitions\IFC4\Pset_MaterialThermal.xml" />
+		<Content Include="Definitions\IFC4\Pset_MaterialWater.xml" />
+		<Content Include="Definitions\IFC4\Pset_MaterialWood.xml" />
+		<Content Include="Definitions\IFC4\Pset_MaterialWoodBasedBeam.xml" />
+		<Content Include="Definitions\IFC4\Pset_MaterialWoodBasedPanel.xml" />
+		<Content Include="Definitions\IFC4\Pset_MechanicalFastenerAnchorBolt.xml" />
+		<Content Include="Definitions\IFC4\Pset_MechanicalFastenerBolt.xml" />
+		<Content Include="Definitions\IFC4\Pset_MedicalDeviceTypeCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_MemberCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_MotorConnectionTypeCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_OpeningElementCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_OutletTypeCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_OutsideDesignCriteria.xml" />
+		<Content Include="Definitions\IFC4\Pset_PackingInstructions.xml" />
+		<Content Include="Definitions\IFC4\Pset_Permit.xml" />
+		<Content Include="Definitions\IFC4\Pset_PileCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_PipeConnectionFlanged.xml" />
+		<Content Include="Definitions\IFC4\Pset_PipeFittingOccurrence.xml" />
+		<Content Include="Definitions\IFC4\Pset_PipeFittingPHistory.xml" />
+		<Content Include="Definitions\IFC4\Pset_PipeFittingTypeBend.xml" />
+		<Content Include="Definitions\IFC4\Pset_PipeFittingTypeCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_PipeFittingTypeJunction.xml" />
+		<Content Include="Definitions\IFC4\Pset_PipeSegmentOccurrence.xml" />
+		<Content Include="Definitions\IFC4\Pset_PipeSegmentPHistory.xml" />
+		<Content Include="Definitions\IFC4\Pset_PipeSegmentTypeCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_PipeSegmentTypeCulvert.xml" />
+		<Content Include="Definitions\IFC4\Pset_PipeSegmentTypeGutter.xml" />
+		<Content Include="Definitions\IFC4\Pset_PlateCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_PrecastConcreteElementFabrication.xml" />
+		<Content Include="Definitions\IFC4\Pset_PrecastConcreteElementGeneral.xml" />
+		<Content Include="Definitions\IFC4\Pset_PrecastSlab.xml" />
+		<Content Include="Definitions\IFC4\Pset_ProfileArbitraryDoubleT.xml" />
+		<Content Include="Definitions\IFC4\Pset_ProfileArbitraryHollowCore.xml" />
+		<Content Include="Definitions\IFC4\Pset_ProfileMechanical.xml" />
+		<Content Include="Definitions\IFC4\Pset_ProjectOrderChangeOrder.xml" />
+		<Content Include="Definitions\IFC4\Pset_ProjectOrderMaintenanceWorkOrder.xml" />
+		<Content Include="Definitions\IFC4\Pset_ProjectOrderMoveOrder.xml" />
+		<Content Include="Definitions\IFC4\Pset_ProjectOrderPurchaseOrder.xml" />
+		<Content Include="Definitions\IFC4\Pset_ProjectOrderWorkOrder.xml" />
+		<Content Include="Definitions\IFC4\Pset_PropertyAgreement.xml" />
+		<Content Include="Definitions\IFC4\Pset_ProtectiveDeviceBreakerUnitI2TCurve.xml" />
+		<Content Include="Definitions\IFC4\Pset_ProtectiveDeviceBreakerUnitI2TFuseCurve.xml" />
+		<Content Include="Definitions\IFC4\Pset_ProtectiveDeviceBreakerUnitIPICurve.xml" />
+		<Content Include="Definitions\IFC4\Pset_ProtectiveDeviceBreakerUnitTypeMCB.xml" />
+		<Content Include="Definitions\IFC4\Pset_ProtectiveDeviceBreakerUnitTypeMotorProtection.xml" />
+		<Content Include="Definitions\IFC4\Pset_ProtectiveDeviceOccurrence.xml" />
+		<Content Include="Definitions\IFC4\Pset_ProtectiveDeviceTrippingCurve.xml" />
+		<Content Include="Definitions\IFC4\Pset_ProtectiveDeviceTrippingFunctionGCurve.xml" />
+		<Content Include="Definitions\IFC4\Pset_ProtectiveDeviceTrippingFunctionICurve.xml" />
+		<Content Include="Definitions\IFC4\Pset_ProtectiveDeviceTrippingFunctionLCurve.xml" />
+		<Content Include="Definitions\IFC4\Pset_ProtectiveDeviceTrippingFunctionSCurve.xml" />
+		<Content Include="Definitions\IFC4\Pset_ProtectiveDeviceTrippingUnitCurrentAdjustment.xml" />
+		<Content Include="Definitions\IFC4\Pset_ProtectiveDeviceTrippingUnitTimeAdjustment.xml" />
+		<Content Include="Definitions\IFC4\Pset_ProtectiveDeviceTrippingUnitTypeCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_ProtectiveDeviceTrippingUnitTypeElectroMagnetic.xml" />
+		<Content Include="Definitions\IFC4\Pset_ProtectiveDeviceTrippingUnitTypeElectronic.xml" />
+		<Content Include="Definitions\IFC4\Pset_ProtectiveDeviceTrippingUnitTypeResidualCurrent.xml" />
+		<Content Include="Definitions\IFC4\Pset_ProtectiveDeviceTrippingUnitTypeThermal.xml" />
+		<Content Include="Definitions\IFC4\Pset_ProtectiveDeviceTypeCircuitBreaker.xml" />
+		<Content Include="Definitions\IFC4\Pset_ProtectiveDeviceTypeCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_ProtectiveDeviceTypeEarthLeakageCircuitBreaker.xml" />
+		<Content Include="Definitions\IFC4\Pset_ProtectiveDeviceTypeFuseDisconnector.xml" />
+		<Content Include="Definitions\IFC4\Pset_ProtectiveDeviceTypeResidualCurrentCircuitBreaker.xml" />
+		<Content Include="Definitions\IFC4\Pset_ProtectiveDeviceTypeResidualCurrentSwitch.xml" />
+		<Content Include="Definitions\IFC4\Pset_ProtectiveDeviceTypeVaristor.xml" />
+		<Content Include="Definitions\IFC4\Pset_PumpOccurrence.xml" />
+		<Content Include="Definitions\IFC4\Pset_PumpPHistory.xml" />
+		<Content Include="Definitions\IFC4\Pset_PumpTypeCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_RailingCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_RampCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_RampFlightCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_ReinforcementBarCountOfIndependentFooting.xml" />
+		<Content Include="Definitions\IFC4\Pset_ReinforcementBarPitchOfBeam.xml" />
+		<Content Include="Definitions\IFC4\Pset_ReinforcementBarPitchOfColumn.xml" />
+		<Content Include="Definitions\IFC4\Pset_ReinforcementBarPitchOfContinuousFooting.xml" />
+		<Content Include="Definitions\IFC4\Pset_ReinforcementBarPitchOfSlab.xml" />
+		<Content Include="Definitions\IFC4\Pset_ReinforcementBarPitchOfWall.xml" />
+		<Content Include="Definitions\IFC4\Pset_Risk.xml" />
+		<Content Include="Definitions\IFC4\Pset_RoofCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_SanitaryTerminalTypeBath.xml" />
+		<Content Include="Definitions\IFC4\Pset_SanitaryTerminalTypeBidet.xml" />
+		<Content Include="Definitions\IFC4\Pset_SanitaryTerminalTypeCistern.xml" />
+		<Content Include="Definitions\IFC4\Pset_SanitaryTerminalTypeCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_SanitaryTerminalTypeSanitaryFountain.xml" />
+		<Content Include="Definitions\IFC4\Pset_SanitaryTerminalTypeShower.xml" />
+		<Content Include="Definitions\IFC4\Pset_SanitaryTerminalTypeSink.xml" />
+		<Content Include="Definitions\IFC4\Pset_SanitaryTerminalTypeToiletPan.xml" />
+		<Content Include="Definitions\IFC4\Pset_SanitaryTerminalTypeUrinal.xml" />
+		<Content Include="Definitions\IFC4\Pset_SanitaryTerminalTypeWashHandBasin.xml" />
+		<Content Include="Definitions\IFC4\Pset_SensorPHistory.xml" />
+		<Content Include="Definitions\IFC4\Pset_SensorTypeCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_SensorTypeConductanceSensor.xml" />
+		<Content Include="Definitions\IFC4\Pset_SensorTypeContactSensor.xml" />
+		<Content Include="Definitions\IFC4\Pset_SensorTypeFireSensor.xml" />
+		<Content Include="Definitions\IFC4\Pset_SensorTypeFlowSensor.xml" />
+		<Content Include="Definitions\IFC4\Pset_SensorTypeGasSensor.xml" />
+		<Content Include="Definitions\IFC4\Pset_SensorTypeHeatSensor.xml" />
+		<Content Include="Definitions\IFC4\Pset_SensorTypeHumiditySensor.xml" />
+		<Content Include="Definitions\IFC4\Pset_SensorTypeIonConcentrationSensor.xml" />
+		<Content Include="Definitions\IFC4\Pset_SensorTypeLevelSensor.xml" />
+		<Content Include="Definitions\IFC4\Pset_SensorTypeLightSensor.xml" />
+		<Content Include="Definitions\IFC4\Pset_SensorTypeMoistureSensor.xml" />
+		<Content Include="Definitions\IFC4\Pset_SensorTypeMovementSensor.xml" />
+		<Content Include="Definitions\IFC4\Pset_SensorTypePHSensor.xml" />
+		<Content Include="Definitions\IFC4\Pset_SensorTypePressureSensor.xml" />
+		<Content Include="Definitions\IFC4\Pset_SensorTypeRadiationSensor.xml" />
+		<Content Include="Definitions\IFC4\Pset_SensorTypeRadioactivitySensor.xml" />
+		<Content Include="Definitions\IFC4\Pset_SensorTypeSmokeSensor.xml" />
+		<Content Include="Definitions\IFC4\Pset_SensorTypeSoundSensor.xml" />
+		<Content Include="Definitions\IFC4\Pset_SensorTypeTemperatureSensor.xml" />
+		<Content Include="Definitions\IFC4\Pset_SensorTypeWindSensor.xml" />
+		<Content Include="Definitions\IFC4\Pset_ServiceLife.xml" />
+		<Content Include="Definitions\IFC4\Pset_ServiceLifeFactors.xml" />
+		<Content Include="Definitions\IFC4\Pset_ShadingDeviceCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_ShadingDevicePHistory.xml" />
+		<Content Include="Definitions\IFC4\Pset_SiteCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_SlabCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_SolarDeviceTypeCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_SoundAttenuation.xml" />
+		<Content Include="Definitions\IFC4\Pset_SoundGeneration.xml" />
+		<Content Include="Definitions\IFC4\Pset_SpaceCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_SpaceCoveringRequirements.xml" />
+		<Content Include="Definitions\IFC4\Pset_SpaceFireSafetyRequirements.xml" />
+		<Content Include="Definitions\IFC4\Pset_SpaceHeaterPHistory.xml" />
+		<Content Include="Definitions\IFC4\Pset_SpaceHeaterTypeCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_SpaceHeaterTypeConvector.xml" />
+		<Content Include="Definitions\IFC4\Pset_SpaceHeaterTypeRadiator.xml" />
+		<Content Include="Definitions\IFC4\Pset_SpaceLightingRequirements.xml" />
+		<Content Include="Definitions\IFC4\Pset_SpaceOccupancyRequirements.xml" />
+		<Content Include="Definitions\IFC4\Pset_SpaceParking.xml" />
+		<Content Include="Definitions\IFC4\Pset_SpaceThermalDesign.xml" />
+		<Content Include="Definitions\IFC4\Pset_SpaceThermalLoad.xml" />
+		<Content Include="Definitions\IFC4\Pset_SpaceThermalLoadPHistory.xml" />
+		<Content Include="Definitions\IFC4\Pset_SpaceThermalPHistory.xml" />
+		<Content Include="Definitions\IFC4\Pset_SpaceThermalRequirements.xml" />
+		<Content Include="Definitions\IFC4\Pset_StackTerminalTypeCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_StairCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_StairFlightCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_StructuralSurfaceMemberVaryingThickness.xml" />
+		<Content Include="Definitions\IFC4\Pset_SwitchingDeviceTypeCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_SwitchingDeviceTypeContactor.xml" />
+		<Content Include="Definitions\IFC4\Pset_SwitchingDeviceTypeDimmerSwitch.xml" />
+		<Content Include="Definitions\IFC4\Pset_SwitchingDeviceTypeEmergencyStop.xml" />
+		<Content Include="Definitions\IFC4\Pset_SwitchingDeviceTypeKeypad.xml" />
+		<Content Include="Definitions\IFC4\Pset_SwitchingDeviceTypeMomentarySwitch.xml" />
+		<Content Include="Definitions\IFC4\Pset_SwitchingDeviceTypePHistory.xml" />
+		<Content Include="Definitions\IFC4\Pset_SwitchingDeviceTypeSelectorSwitch.xml" />
+		<Content Include="Definitions\IFC4\Pset_SwitchingDeviceTypeStarter.xml" />
+		<Content Include="Definitions\IFC4\Pset_SwitchingDeviceTypeSwitchDisconnector.xml" />
+		<Content Include="Definitions\IFC4\Pset_SwitchingDeviceTypeToggleSwitch.xml" />
+		<Content Include="Definitions\IFC4\Pset_SystemFurnitureElementTypeCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_SystemFurnitureElementTypePanel.xml" />
+		<Content Include="Definitions\IFC4\Pset_SystemFurnitureElementTypeWorkSurface.xml" />
+		<Content Include="Definitions\IFC4\Pset_TankOccurrence.xml" />
+		<Content Include="Definitions\IFC4\Pset_TankTypeCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_TankTypeExpansion.xml" />
+		<Content Include="Definitions\IFC4\Pset_TankTypePreformed.xml" />
+		<Content Include="Definitions\IFC4\Pset_TankTypePressureVessel.xml" />
+		<Content Include="Definitions\IFC4\Pset_TankTypeSectional.xml" />
+		<Content Include="Definitions\IFC4\Pset_ThermalLoadAggregate.xml" />
+		<Content Include="Definitions\IFC4\Pset_ThermalLoadDesignCriteria.xml" />
+		<Content Include="Definitions\IFC4\Pset_TransformerTypeCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_TransportElementCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_TransportElementElevator.xml" />
+		<Content Include="Definitions\IFC4\Pset_TubeBundleTypeCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_TubeBundleTypeFinned.xml" />
+		<Content Include="Definitions\IFC4\Pset_UnitaryControlElementPHistory.xml" />
+		<Content Include="Definitions\IFC4\Pset_UnitaryControlElementTypeCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_UnitaryControlElementTypeIndicatorPanel.xml" />
+		<Content Include="Definitions\IFC4\Pset_UnitaryControlElementTypeThermostat.xml" />
+		<Content Include="Definitions\IFC4\Pset_UnitaryEquipmentTypeAirConditioningUnit.xml" />
+		<Content Include="Definitions\IFC4\Pset_UnitaryEquipmentTypeAirHandler.xml" />
+		<Content Include="Definitions\IFC4\Pset_UnitaryEquipmentTypeCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_UtilityConsumptionPHistory.xml" />
+		<Content Include="Definitions\IFC4\Pset_ValvePHistory.xml" />
+		<Content Include="Definitions\IFC4\Pset_ValveTypeAirRelease.xml" />
+		<Content Include="Definitions\IFC4\Pset_ValveTypeCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_ValveTypeDrawOffCock.xml" />
+		<Content Include="Definitions\IFC4\Pset_ValveTypeFaucet.xml" />
+		<Content Include="Definitions\IFC4\Pset_ValveTypeFlushing.xml" />
+		<Content Include="Definitions\IFC4\Pset_ValveTypeGasTap.xml" />
+		<Content Include="Definitions\IFC4\Pset_ValveTypeIsolating.xml" />
+		<Content Include="Definitions\IFC4\Pset_ValveTypeMixing.xml" />
+		<Content Include="Definitions\IFC4\Pset_ValveTypePressureReducing.xml" />
+		<Content Include="Definitions\IFC4\Pset_ValveTypePressureRelief.xml" />
+		<Content Include="Definitions\IFC4\Pset_VibrationIsolatorTypeCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_WallCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_Warranty.xml" />
+		<Content Include="Definitions\IFC4\Pset_WasteTerminalTypeCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_WasteTerminalTypeFloorTrap.xml" />
+		<Content Include="Definitions\IFC4\Pset_WasteTerminalTypeFloorWaste.xml" />
+		<Content Include="Definitions\IFC4\Pset_WasteTerminalTypeGullySump.xml" />
+		<Content Include="Definitions\IFC4\Pset_WasteTerminalTypeGullyTrap.xml" />
+		<Content Include="Definitions\IFC4\Pset_WasteTerminalTypeRoofDrain.xml" />
+		<Content Include="Definitions\IFC4\Pset_WasteTerminalTypeWasteDisposalUnit.xml" />
+		<Content Include="Definitions\IFC4\Pset_WasteTerminalTypeWasteTrap.xml" />
+		<Content Include="Definitions\IFC4\Pset_WindowCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_WorkControlCommon.xml" />
+		<Content Include="Definitions\IFC4\Pset_ZoneCommon.xml" />
+		<Content Include="Definitions\IFC4_COBie\COBie_ActionRequest.xml" />
+		<Content Include="Definitions\IFC4_COBie\COBie_ConstructionProductResource.xml" />
+		<Content Include="Definitions\IFC4_COBie\COBie_ConstructionProductResourceType.xml" />
+		<Content Include="Definitions\IFC4_COBie\COBie_ElementType.xml" />
+		<Content Include="Definitions\IFC4_COBie\COBie_Task.xml" />
+		<Content Include="Definitions\IFC4_COBie\Pset_ActionRequest.xml" />
+		<Content Include="Definitions\IFC4_COBie\Pset_ManufacturerOccurrence.xml" />
+		<Content Include="Definitions\IFC4_COBie\Pset_ManufacturerTypeInformation.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_ActuatorBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_AirTerminalBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_AirTerminalBoxTypeBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_AirToAirHeatRecoveryBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_AlarmBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_AudioVisualApplianceBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_BeamBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_BoilerBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_BuildingBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_BuildingStoreyBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_BurnerBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_CableCarrierFittingBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_CableCarrierSegmentBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_CableFittingBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_CableSegmentBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_ChillerBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_ChimneyBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_CoilBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_ColumnBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_CommunicationsApplianceBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_CompressorBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_CondenserBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_ConstructionEquipmentResourceBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_ConstructionMaterialResourceBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_ControllerBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_CooledBeamBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_CoolingTowerBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_CoveringBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_CurtainWallQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_DamperBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_DistributionChamberElementBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_DoorBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_DuctFittingBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_DuctSegmentBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_DuctSilencerBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_ElectricApplianceBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_ElectricDistributionBoardBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_ElectricFlowStorageDeviceBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_ElectricGeneratorBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_ElectricMotorBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_ElectricTimeControlBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_EvaporativeCoolerBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_EvaporatorBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_FanBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_FilterBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_FireSuppressionTerminalBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_FlowInstrumentBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_FlowMeterBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_FootingBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_HeatExchangerBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_HumidifierBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_InterceptorBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_JunctionBoxBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_LaborResourceBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_LampBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_LightFixtureBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_MemberBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_MotorConnectionBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_OpeningElementBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_OutletBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_PileBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_PipeFittingBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_PipeSegmentBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_PlateBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_ProjectionElementBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_ProtectiveDeviceBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_ProtectiveDeviceTrippingUnitBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_PumpBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_RailingBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_RampFlightBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_ReinforcingElementBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_RoofBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_SanitaryTerminalBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_SensorBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_SiteBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_SlabBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_SolarDeviceBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_SpaceBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_SpaceHeaterBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_StackTerminalBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_StairFlightBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_SwitchingDeviceBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_TankBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_TransformerBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_TubeBundleBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_UnitaryControlElementBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_UnitaryEquipmentBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_ValveBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_VibrationIsolatorBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_WallBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_WasteTerminalBaseQuantities.xml" />
+		<Content Include="Definitions\IFC4_QTO\Qto_WindowBaseQuantities.xml" />
+	</ItemGroup>
+	<ItemGroup>
+		<EmbeddedResource Update="Definitions\IFC2x3_Defitinion_files.resx">
+			<Generator>PublicResXFileCodeGenerator</Generator>
+			<LastGenOutput>IFC2x3_Defitinion_files.Designer.cs</LastGenOutput>
+		</EmbeddedResource>
+		<EmbeddedResource Update="Definitions\IFC4_and_COBie_Definition_files.resx">
+			<Generator>ResXFileCodeGenerator</Generator>
+			<LastGenOutput>IFC4_and_COBie_Definition_files.Designer.cs</LastGenOutput>
+		</EmbeddedResource>
+		<EmbeddedResource Update="Definitions\IFC4_COBie_Definition_files.resx">
+			<Generator>ResXFileCodeGenerator</Generator>
+			<LastGenOutput>IFC4_COBie_Definition_files.Designer.cs</LastGenOutput>
+		</EmbeddedResource>
+		<EmbeddedResource Update="Definitions\IFC4_Definition_files.resx">
+			<Generator>PublicResXFileCodeGenerator</Generator>
+			<LastGenOutput>IFC4_Definition_files.Designer.cs</LastGenOutput>
+		</EmbeddedResource>
+		<EmbeddedResource Update="Definitions\IFC4_QTO_Definition_files.resx">
+			<Generator>PublicResXFileCodeGenerator</Generator>
+			<LastGenOutput>IFC4_QTO_Definition_files.Designer.cs</LastGenOutput>
+		</EmbeddedResource>
+	</ItemGroup>
 </Project>

@@ -27,19 +27,18 @@ namespace Xbim.Properties
             }
             set
             {
-                RefTypeEnum type = RefTypeEnum.IfcExternalReference;
-                if (String.IsNullOrEmpty(value))
-                {
-                    _reftype = null;
-                }
-                else if (Enum.TryParse<RefTypeEnum>(value, out type))
-                {
-                    _reftype = type;
-                }
-                else
-                    throw new ArgumentOutOfRangeException(value);
+				if (string.IsNullOrEmpty(value))
+				{
+					_reftype = null;
+				}
+				else if (Enum.TryParse<RefTypeEnum>(value, out RefTypeEnum type))
+				{
+					_reftype = type;
+				}
+				else
+					throw new ArgumentOutOfRangeException(value);
 
-            }
+			}
         }
 
         public RefTypeEnum? ReferenceType

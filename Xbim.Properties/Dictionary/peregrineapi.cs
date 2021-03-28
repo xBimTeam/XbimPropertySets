@@ -337,7 +337,7 @@ namespace No.Catenda.Peregrine.Model.Objects {
   [System.Xml.Serialization.XmlRootAttribute(ElementName = "ifdConcepts")]
   public class IfdConcepts
   {
-      [System.Xml.Serialization.XmlElement("IfdConcept", Namespace = "http://peregrine.catenda.no/objects")]
+      [System.Xml.Serialization.XmlElement("IfdConcept", Namespace = "http://bsdd.buildingsmart.org/objects")]
       public System.Collections.Generic.List<IfdConcept> Concepts;
   }
 

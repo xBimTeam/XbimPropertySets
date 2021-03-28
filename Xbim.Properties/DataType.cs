@@ -27,19 +27,18 @@ namespace Xbim.Properties
             }
             set
             {
-                DataTypeEnum type = DataTypeEnum.IfcText;
-                if (String.IsNullOrEmpty(value))
-                {
-                    _type = null;
-                }
-                else if (Enum.TryParse<DataTypeEnum>(value, out type))
-                {
-                    _type = type;
-                }
-                else
-                    throw new ArgumentOutOfRangeException(value + " is not valid IFC value type.");
+				if (string.IsNullOrEmpty(value))
+				{
+					_type = null;
+				}
+				else if (Enum.TryParse(value, out DataTypeEnum type))
+				{
+					_type = type;
+				}
+				else
+					throw new ArgumentOutOfRangeException(value + " is not valid IFC value type.");
 
-            }
+			}
         }
 
         [XmlIgnore]

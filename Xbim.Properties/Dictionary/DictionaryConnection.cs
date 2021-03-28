@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Net;
@@ -75,7 +76,7 @@ namespace Xbim.Properties.Dictionary
 
         public IfdConcepts SearchConcept(string name)
         {
-            var uriString = String.Format("{0}/api/4.0/IfdConcept/search/{1}", baseUrl, name);
+            var uriString = string.Format("{0}/api/4.0/IfdConcept/search/{1}", baseUrl, name);
             var uri = new Uri(uriString);
             WebRequest req = WebRequest.Create(uri);
             req.Method = "GET";
@@ -85,13 +86,14 @@ namespace Xbim.Properties.Dictionary
                 {
                     using (var stream = resp.GetResponseStream())
                     {
-                        return Deserialize<IfdConcepts>(stream);
+                        var t = Deserialize<IfdConcepts>(stream);
+                        return t;
                     }
                 }
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-
+                Debug.WriteLine(ex.Message);
                 return null;
             }
         }

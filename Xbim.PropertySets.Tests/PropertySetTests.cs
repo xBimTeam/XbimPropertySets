@@ -92,7 +92,6 @@ namespace Xbim.Properties.Tests
         [TestMethod]
         public void ApplicableClassesTest()
         {
-
             var defs2x3 = new Definitions<PropertySetDef>(Version.IFC2x3);
             defs2x3.LoadAllDefault();
             var classes2x3 = new List<string>();
