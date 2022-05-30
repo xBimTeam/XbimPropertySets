@@ -8,6 +8,7 @@ using System.Xml.Serialization;
 namespace Xbim.Properties
 {
     [XmlInclude(typeof(TypePropertySingleValue))]
+    [XmlInclude(typeof(TypeSimpleProperty))]
     [XmlInclude(typeof(TypePropertyEnumeratedValue))]
     [XmlInclude(typeof(TypePropertyBoundedValue))]
     [XmlInclude(typeof(TypePropertyTableValue))]

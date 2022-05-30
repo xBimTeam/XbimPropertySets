@@ -12,13 +12,14 @@ namespace Xbim.Properties
     /// </summary>
     public class PropertyType
     {
-        [XmlElement("TypePropertySingleValue", typeof(TypePropertySingleValue))]
-        [XmlElement("TypePropertyEnumeratedValue", typeof(TypePropertyEnumeratedValue))]
-        [XmlElement("TypePropertyBoundedValue", typeof(TypePropertyBoundedValue))]
-        [XmlElement("TypePropertyTableValue", typeof(TypePropertyTableValue))]
-        [XmlElement("TypePropertyReferenceValue", typeof(TypePropertyReferenceValue))]
-        [XmlElement("TypePropertyListValue", typeof(TypePropertyListValue))]
-        [XmlElement("TypeComplexProperty", typeof(TypeComplexProperty))]
+        [XmlElement(nameof(TypeSimpleProperty), typeof(TypeSimpleProperty))]
+        [XmlElement(nameof(TypePropertySingleValue), typeof(TypePropertySingleValue))]
+        [XmlElement(nameof(TypePropertyEnumeratedValue), typeof(TypePropertyEnumeratedValue))]
+        [XmlElement(nameof(TypePropertyBoundedValue), typeof(TypePropertyBoundedValue))]
+        [XmlElement(nameof(TypePropertyTableValue), typeof(TypePropertyTableValue))]
+        [XmlElement(nameof(TypePropertyReferenceValue), typeof(TypePropertyReferenceValue))]
+        [XmlElement(nameof(TypePropertyListValue), typeof(TypePropertyListValue))]
+        [XmlElement(nameof(TypeComplexProperty), typeof(TypeComplexProperty))]
         public object _value { get; set; }
 
         [XmlIgnore]

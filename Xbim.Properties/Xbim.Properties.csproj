@@ -17,9 +17,9 @@
 		<RepositoryType>git</RepositoryType>
 		<PackageTags>BIM, IFC, BuildingSmart, PropertySets, Property</PackageTags>
 		<PackageReleaseNotes>Now targeting multiple .NET platforms.</PackageReleaseNotes>
-		<AssemblyVersion>5.0.0</AssemblyVersion>
-		<FileVersion>5.0.0</FileVersion>
-		<Version>5.0.0</Version>
+		<AssemblyVersion>5.0.1</AssemblyVersion>
+		<FileVersion>5.0.1</FileVersion>
+		<Version>5.0.1</Version>
 		<SignAssembly>true</SignAssembly>
 		<AssemblyOriginatorKeyFile>XbimOpenSourceKeyFile.snk</AssemblyOriginatorKeyFile>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>

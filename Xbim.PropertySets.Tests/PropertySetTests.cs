@@ -95,18 +95,18 @@ namespace Xbim.Properties.Tests
             var defs2x3 = new Definitions<PropertySetDef>(Version.IFC2x3);
             defs2x3.LoadAllDefault();
             var classes2x3 = new List<string>();
-                foreach (var item in defs2x3.DefinitionSets)
-                    foreach (var clsName in item.ApplicableClasses)
-                        classes2x3.Add(clsName.ClassName);
-                Assert.IsTrue(classes2x3.Any());
+            foreach (var item in defs2x3.DefinitionSets)
+                foreach (var clsName in item.ApplicableClasses)
+                    classes2x3.Add(clsName.ClassName);
+            Assert.IsTrue(classes2x3.Any());
 
             var defs4 = new Definitions<PropertySetDef>(Version.IFC4);
             defs4.LoadAllDefault();
             var classes4 = new List<string>();
-                foreach (var item in defs4.DefinitionSets)
-                    foreach (var clsName in item.ApplicableClasses)
-                        classes4.Add(clsName.ClassName);
-                Assert.IsTrue(classes4.Any());
+            foreach (var item in defs4.DefinitionSets)
+                foreach (var clsName in item.ApplicableClasses)
+                    classes4.Add(clsName.ClassName);
+            Assert.IsTrue(classes4.Any());
         }
 
         [TestMethod]
@@ -140,6 +140,38 @@ namespace Xbim.Properties.Tests
         {
             var definitions = new Definitions<PropertySetDef>(Version.IFC4);
             definitions.LoadIFC4AndCOBie();
+        }
+
+        [TestMethod]
+        public void CanLoadSimpleType()
+        {
+            // simple type was ignored when parsing the xml files
+            //
+            var definitions = new Definitions<PropertySetDef>(Version.IFC2x3);
+            definitions.LoadAllDefault();
+            var t = definitions.DefinitionSets.FirstOrDefault(x => x.Name == "Pset_CooledBeamPHistoryActive");
+            Assert.IsNotNull(t);
+            var pdef = t.PropertyDefinitions.Where(t => t.Name == "AirFlowRate").FirstOrDefault();
+            Assert.IsNotNull(pdef);
+            var pdeprop = pdef.PropertyType.PropertyValueType as TypeSimpleProperty;
+            Assert.IsNotNull(pdeprop);
+            Assert.AreEqual("IfcTimeSeries", pdeprop.DataTypeValue);
+            Assert.AreEqual("IFCVOLUMETRICFLOWRATEMEASURE", pdeprop.UnitTypeValue);
+
+            // load all ifc2x3 and check 
+            var allSimple2x3 = definitions.DefinitionSets.SelectMany(x=>x.PropertyDefinitions.Where(x=>x.PropertyType.PropertyValueType is TypeSimpleProperty)).Select(x=>x.PropertyType.PropertyValueType as TypeSimpleProperty).ToList();
+            var distT = allSimple2x3.Select(x => x.DataTypeValue).Distinct();
+            Assert.IsTrue(distT.Any());
+
+            var distU = allSimple2x3.Select(x => x.UnitTypeValue).Distinct();
+            Assert.IsTrue(distU.Any());
+
+            // load all ifc4 and check, but there's none in ifc4
+            var def4 = new Definitions<PropertySetDef>(Version.IFC4);
+            def4.LoadAllDefault();
+            var allSimple4 = def4.DefinitionSets.SelectMany(x => x.PropertyDefinitions.Where(x => x.PropertyType.PropertyValueType is TypeSimpleProperty)).Select(x => x.PropertyType.PropertyValueType as TypeSimpleProperty).ToList();
+            Assert.IsFalse(allSimple4.Any());
+
         }
     }
 }
