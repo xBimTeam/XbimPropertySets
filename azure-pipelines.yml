@@ -70,9 +70,9 @@ steps:
   displayName: 'Restore'
   inputs:
     command: 'restore'
-    projects: $(solution)
-    feedsToUse: 'config'
-    nugetConfigPath: 'nuget.config'
+    projects: '$(solution)'
+    feedsToUse: 'select'
+    vstsFeed: '2591d379-784d-4b57-88f5-a932c93cbffd'
 
 
 - task: DotNetCoreCLI@2
