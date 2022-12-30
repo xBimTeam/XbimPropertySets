@@ -1,0 +1,466 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Qto_ActuatorBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_ActuatorBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_AirTerminalBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_AirTerminalBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_AirTerminalBoxTypeBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_AirTerminalBoxTypeBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_AirToAirHeatRecoveryBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_AirToAirHeatRecoveryBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_AlarmBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_AlarmBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_ArealStratumBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_ArealStratumBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_AudioVisualApplianceBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_AudioVisualApplianceBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_BeamBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_BeamBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_BodyGeometryValidation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_BodyGeometryValidation.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Qto_BoilerBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_BoilerBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_BuildingBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_BuildingBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_BuildingElementProxyQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_BuildingElementProxyQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_BuildingStoreyBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_BuildingStoreyBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_BurnerBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_BurnerBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_CableCarrierFittingBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_CableCarrierFittingBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_CableCarrierSegmentBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_CableCarrierSegmentBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_CableFittingBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_CableFittingBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_CableSegmentBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_CableSegmentBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_ChillerBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_ChillerBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_ChimneyBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_ChimneyBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_CoilBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_CoilBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_ColumnBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_ColumnBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_CommunicationsApplianceBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_CommunicationsApplianceBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_CompressorBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_CompressorBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_CondenserBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_CondenserBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_ConduitSegmentBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_ConduitSegmentBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_ConstructionEquipmentResourceBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_ConstructionEquipmentResourceBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_ConstructionMaterialResourceBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_ConstructionMaterialResourceBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_ControllerBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_ControllerBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_CooledBeamBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_CooledBeamBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_CoolingTowerBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_CoolingTowerBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_CourseBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_CourseBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_CoveringBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_CoveringBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_CurtainWallQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_CurtainWallQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_DamperBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_DamperBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_DistributionBoardBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_DistributionBoardBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_DistributionChamberElementBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_DistributionChamberElementBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_DoorBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_DoorBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_DuctFittingBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_DuctFittingBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_DuctSegmentBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_DuctSegmentBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_DuctSilencerBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_DuctSilencerBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_EarthworksCutBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_EarthworksCutBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_EarthworksFillBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_EarthworksFillBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_ElectricApplianceBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_ElectricApplianceBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_ElectricFlowStorageDeviceBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_ElectricFlowStorageDeviceBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_ElectricGeneratorBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_ElectricGeneratorBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_ElectricMotorBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_ElectricMotorBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_ElectricTimeControlBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_ElectricTimeControlBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_EvaporativeCoolerBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_EvaporativeCoolerBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_EvaporatorBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_EvaporatorBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_FacilityPartBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_FacilityPartBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_FanBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_FanBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_FilterBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_FilterBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_FireSuppressionTerminalBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_FireSuppressionTerminalBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_FlowInstrumentBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_FlowInstrumentBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_FlowMeterBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_FlowMeterBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_FootingBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_FootingBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_HeatExchangerBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_HeatExchangerBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_HumidifierBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_HumidifierBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_ImpactProtectionDeviceBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_ImpactProtectionDeviceBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_InterceptorBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_InterceptorBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_JunctionBoxBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_JunctionBoxBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_KerbBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_KerbBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_LaborResourceBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_LaborResourceBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_LampBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_LampBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_LightFixtureBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_LightFixtureBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_LinearStratumBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_LinearStratumBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_MarineFacilityBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_MarineFacilityBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_MemberBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_MemberBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_MotorConnectionBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_MotorConnectionBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_OpeningElementBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_OpeningElementBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_OutletBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_OutletBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_PavementBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_PavementBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_PictorialSignQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_PictorialSignQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_PileBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_PileBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_PipeFittingBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_PipeFittingBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_PipeSegmentBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_PipeSegmentBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_PlateBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_PlateBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_ProjectionElementBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_ProjectionElementBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_ProtectiveDeviceBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_ProtectiveDeviceBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_ProtectiveDeviceTrippingUnitBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_ProtectiveDeviceTrippingUnitBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_PumpBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_PumpBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_RailBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_RailBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_RailingBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_RailingBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_RampFlightBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_RampFlightBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_ReinforcedSoilBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_ReinforcedSoilBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_ReinforcingElementBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_ReinforcingElementBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_RoofBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_RoofBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_SanitaryTerminalBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_SanitaryTerminalBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_SensorBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_SensorBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_SignalBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_SignalBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_SignBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_SignBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_SiteBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_SiteBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_SlabBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_SlabBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_SleeperBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_SleeperBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_SolarDeviceBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_SolarDeviceBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_SpaceBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_SpaceBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_SpaceHeaterBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_SpaceHeaterBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_SpatialZoneBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_SpatialZoneBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_StackTerminalBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_StackTerminalBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_StairFlightBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_StairFlightBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_SurfaceFeatureBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_SurfaceFeatureBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_SwitchingDeviceBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_SwitchingDeviceBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_TankBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_TankBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_TransformerBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_TransformerBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_TubeBundleBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_TubeBundleBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_UnitaryControlElementBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_UnitaryControlElementBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_UnitaryEquipmentBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_UnitaryEquipmentBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_ValveBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_ValveBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_VehicleBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_VehicleBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_VibrationIsolatorBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_VibrationIsolatorBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_VolumetricStratumBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_VolumetricStratumBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_WallBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_WallBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_WasteTerminalBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_WasteTerminalBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Qto_WindowBaseQuantities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3_QTO\Qto_WindowBaseQuantities.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+</root>

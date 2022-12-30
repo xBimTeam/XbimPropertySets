@@ -149,9 +149,10 @@ namespace Xbim.Properties
         IfcThermalResistanceMeasure,
         IfcThermalTransmittanceMeasure,
         IfcTorqueMeasure,
+        IfcURIReference,
         IfcVaporPermeabilityMeasure,
         IfcVolumetricFlowRateMeasure,
         IfcWarpingConstantMeasure,
-        IfcWarpingMomentMeasure
+        IfcWarpingMomentMeasure,
     }
 }

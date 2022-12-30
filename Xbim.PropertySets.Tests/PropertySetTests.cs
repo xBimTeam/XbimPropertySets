@@ -90,7 +90,7 @@ namespace Xbim.Properties.Tests
         }
 
         [TestMethod]
-        public void ApplicableClassesTest()
+        public void ApplicableClassesTestIfc2x3()
         {
             var defs2x3 = new Definitions<PropertySetDef>(Version.IFC2x3);
             defs2x3.LoadAllDefault();
@@ -100,6 +100,12 @@ namespace Xbim.Properties.Tests
                     classes2x3.Add(clsName.ClassName);
             Assert.IsTrue(classes2x3.Any());
 
+        }
+
+        [TestMethod]
+        public void ApplicableClassesTestIfc4()
+        {
+
             var defs4 = new Definitions<PropertySetDef>(Version.IFC4);
             defs4.LoadAllDefault();
             var classes4 = new List<string>();
@@ -107,6 +113,37 @@ namespace Xbim.Properties.Tests
                 foreach (var clsName in item.ApplicableClasses)
                     classes4.Add(clsName.ClassName);
             Assert.IsTrue(classes4.Any());
+        }
+
+        [TestMethod]
+        public void ApplicableClassesTestIfc4x3()
+        {
+
+            var defs4 = new Definitions<PropertySetDef>(Version.IFC4x3);
+            defs4.LoadAllDefault();
+            var classes = new List<string>();
+            foreach (var item in defs4.DefinitionSets)
+                foreach (var clsName in item.ApplicableClasses)
+                    classes.Add(clsName.ClassName);
+            Assert.IsTrue(classes.Any());
+
+            Assert.IsTrue(classes.Any(c => c.Equals("IfcRoad", StringComparison.InvariantCultureIgnoreCase)));
+        }
+
+
+        [TestMethod]
+        public void CanLoadIfc4x3QTOs()
+        {
+
+            var defs4 = new Definitions<QtoSetDef>(Version.IFC4x3);
+            defs4.LoadAllDefault();
+            var classes = new List<string>();
+            foreach (var item in defs4.DefinitionSets)
+                foreach (var clsName in item.ApplicableClasses)
+                    classes.Add(clsName.ClassName);
+            Assert.IsTrue(classes.Any());
+
+            Assert.IsTrue(classes.Any(c => c.Equals("IfcRail", StringComparison.InvariantCultureIgnoreCase)));
         }
 
         [TestMethod]
@@ -166,8 +203,28 @@ namespace Xbim.Properties.Tests
             var distU = allSimple2x3.Select(x => x.UnitTypeValue).Distinct();
             Assert.IsTrue(distU.Any());
 
+        }
+
+        [TestMethod]
+        public void CanLoadSimpleTypeIfc4()
+        {
+            
+
             // load all ifc4 and check, but there's none in ifc4
             var def4 = new Definitions<PropertySetDef>(Version.IFC4);
+            def4.LoadAllDefault();
+            var allSimple4 = def4.DefinitionSets.SelectMany(x => x.PropertyDefinitions.Where(x => x.PropertyType.PropertyValueType is TypeSimpleProperty)).Select(x => x.PropertyType.PropertyValueType as TypeSimpleProperty).ToList();
+            Assert.IsFalse(allSimple4.Any());
+
+        }
+
+        [TestMethod]
+        public void CanLoadSimpleTypeIfc4x3()
+        {
+
+
+            // load all ifc4x3 and check, but there's none
+            var def4 = new Definitions<PropertySetDef>(Version.IFC4x3);
             def4.LoadAllDefault();
             var allSimple4 = def4.DefinitionSets.SelectMany(x => x.PropertyDefinitions.Where(x => x.PropertyType.PropertyValueType is TypeSimpleProperty)).Select(x => x.PropertyType.PropertyValueType as TypeSimpleProperty).ToList();
             Assert.IsFalse(allSimple4.Any());

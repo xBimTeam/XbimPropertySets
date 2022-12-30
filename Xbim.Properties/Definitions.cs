@@ -5,6 +5,7 @@ using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Resources;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
@@ -30,6 +31,7 @@ namespace Xbim.Properties
             _version = version;
             switch (version)
             {
+                
                 case Version.IFC4:
                     var ns = "";
                     if (typeof (T) == typeof (PropertySetDef))
@@ -40,6 +42,9 @@ namespace Xbim.Properties
                     break;
                 case Version.IFC2x3:
                     _serializer = new XmlSerializer(typeof (T));
+                    break;
+                case Version.IFC4x3:
+                    _serializer = new XmlSerializer(typeof(T));
                     break;
             }
         }
@@ -191,21 +196,37 @@ namespace Xbim.Properties
                     : Definitions.IFC4_Definition_files.ResourceManager;
             }
 
+            if (_version == Version.IFC4x3)
+            {
+                mgr = typeof(T) == typeof(QtoSetDef)
+                    ? Definitions.IFC4x3_QTO_Definition_files.ResourceManager
+                    : Definitions.IFC4x3_Definition_files.ResourceManager;
+            }
+
             if (mgr == null)
                 throw new Exception("No default content defined for this combination of version and property type");
 
             var resources = mgr.GetResourceSet(CultureInfo.InvariantCulture, true, true);
-            foreach (var value in from DictionaryEntry entry in resources select entry.Value as string)
+            foreach (var entry in from DictionaryEntry entry in resources select entry)
             {
+                var value = entry.Value as string;
                 if (value == null) throw new Exception("Invalid input data");
                 var reader = new StringReader(value);
-                Load(reader);
+                try
+                {
+
+                    Load(reader);
+                }
+                catch(Exception ex)
+                {
+                    throw new InvalidOperationException($"Failed to Deserialise '{entry.Key}' file", ex);
+                }
             }
         }
 
         public void LoadIFC4COBie()
         {
-            if (_version != Version.IFC4)
+            if (_version != Version.IFC4 && _version != Version.IFC4x3)
                 throw new Exception("IFC4 COBie properties can only be loaded if this set is defined to be IFC4.");
             var resources =
                 Definitions.IFC4_COBie_Definition_files.ResourceManager.GetResourceSet(CultureInfo.InvariantCulture,
@@ -220,7 +241,7 @@ namespace Xbim.Properties
 
         public void LoadIFC4AndCOBie()
         {
-            if (_version != Version.IFC4)
+            if (_version != Version.IFC4 && _version != Version.IFC4x3)
                 throw new Exception("IFC4 COBie properties can only be loaded if this set is defined to be IFC4.");
             var resources =
                 Definitions.IFC4_and_COBie_Definition_files.ResourceManager.GetResourceSet(CultureInfo.InvariantCulture,
@@ -237,6 +258,7 @@ namespace Xbim.Properties
     public enum Version
     {
         IFC2x3,
-        IFC4
+        IFC4,
+        IFC4x3
     }
 }

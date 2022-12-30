@@ -1,0 +1,2041 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Pset_ActionRequest" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ActionRequest.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ActorCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ActorCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ActuatorPHistory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ActuatorPHistory.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ActuatorTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ActuatorTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ActuatorTypeElectricActuator" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ActuatorTypeElectricActuator.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ActuatorTypeHydraulicActuator" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ActuatorTypeHydraulicActuator.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ActuatorTypeLinearActuation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ActuatorTypeLinearActuation.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ActuatorTypePneumaticActuator" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ActuatorTypePneumaticActuator.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ActuatorTypeRotationalActuation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ActuatorTypeRotationalActuation.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_Address" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_Address.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_AirSideSystemInformation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_AirSideSystemInformation.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_AirTerminalBoxPHistory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_AirTerminalBoxPHistory.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_AirTerminalBoxTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_AirTerminalBoxTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_AirTerminalOccurrence" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_AirTerminalOccurrence.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_AirTerminalPHistory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_AirTerminalPHistory.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_AirTerminalTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_AirTerminalTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_AirToAirHeatRecoveryPHistory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_AirToAirHeatRecoveryPHistory.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_AirToAirHeatRecoveryTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_AirToAirHeatRecoveryTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_AlarmPHistory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_AlarmPHistory.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_AlarmTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_AlarmTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_AlignmentCantSegmentCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_AlignmentCantSegmentCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_AlignmentVerticalSegmentCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_AlignmentVerticalSegmentCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_AnnotationContourLine" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_AnnotationContourLine.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_AnnotationLineOfSight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_AnnotationLineOfSight.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_AnnotationSurveyArea" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_AnnotationSurveyArea.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_Asset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_Asset.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_AudioVisualAppliancePHistory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_AudioVisualAppliancePHistory.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_AudioVisualApplianceTypeAmplifier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_AudioVisualApplianceTypeAmplifier.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_AudioVisualApplianceTypeCamera" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_AudioVisualApplianceTypeCamera.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_AudioVisualApplianceTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_AudioVisualApplianceTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_AudioVisualApplianceTypeDisplay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_AudioVisualApplianceTypeDisplay.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_AudioVisualApplianceTypePlayer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_AudioVisualApplianceTypePlayer.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_AudioVisualApplianceTypeProjector" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_AudioVisualApplianceTypeProjector.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_AudioVisualApplianceTypeRailwayCommunicationTerminal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_AudioVisualApplianceTypeRailwayCommunicationTerminal.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_AudioVisualApplianceTypeReceiver" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_AudioVisualApplianceTypeReceiver.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_AudioVisualApplianceTypeRecordingEquipment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_AudioVisualApplianceTypeRecordingEquipment.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_AudioVisualApplianceTypeSpeaker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_AudioVisualApplianceTypeSpeaker.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_AudioVisualApplianceTypeTuner" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_AudioVisualApplianceTypeTuner.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_AxleCountingEquipment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_AxleCountingEquipment.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_BalanceWeightTensionerDesignCriteria" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_BalanceWeightTensionerDesignCriteria.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_BeamCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_BeamCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_BearingCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_BearingCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_BerthCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_BerthCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_BoilerPHistory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_BoilerPHistory.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_BoilerTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_BoilerTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_BoilerTypeSteam" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_BoilerTypeSteam.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_BoilerTypeWater" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_BoilerTypeWater.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_BoreholeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_BoreholeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_BoundedCourseCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_BoundedCourseCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_BreakwaterCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_BreakwaterCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_BridgeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_BridgeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_BuildingCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_BuildingCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_BuildingElementProxyCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_BuildingElementProxyCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_BuildingStoreyCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_BuildingStoreyCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_BuildingSystemCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_BuildingSystemCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_BuildingUse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_BuildingUse.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_BuildingUseAdjacent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_BuildingUseAdjacent.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_BuiltSystemRailwayLine" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_BuiltSystemRailwayLine.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_BuiltSystemRailwayTrack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_BuiltSystemRailwayTrack.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_BurnerTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_BurnerTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_CableCarrierFittingTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_CableCarrierFittingTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_CableCarrierSegmentTypeCableLadderSegment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_CableCarrierSegmentTypeCableLadderSegment.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_CableCarrierSegmentTypeCableTraySegment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_CableCarrierSegmentTypeCableTraySegment.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_CableCarrierSegmentTypeCableTrunkingSegment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_CableCarrierSegmentTypeCableTrunkingSegment.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_CableCarrierSegmentTypeCatenaryWire" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_CableCarrierSegmentTypeCatenaryWire.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_CableCarrierSegmentTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_CableCarrierSegmentTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_CableCarrierSegmentTypeConduitSegment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_CableCarrierSegmentTypeConduitSegment.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_CableCarrierSegmentTypeDropper" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_CableCarrierSegmentTypeDropper.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_CableFittingTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_CableFittingTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_CableFittingTypeExit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_CableFittingTypeExit.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_CableFittingTypeFanout" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_CableFittingTypeFanout.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_CableSegmentConnector" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_CableSegmentConnector.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_CableSegmentOccurenceFiberSegment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_CableSegmentOccurenceFiberSegment.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_CableSegmentOccurrence" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_CableSegmentOccurrence.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_CableSegmentTypeBusBarSegment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_CableSegmentTypeBusBarSegment.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_CableSegmentTypeCableSegment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_CableSegmentTypeCableSegment.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_CableSegmentTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_CableSegmentTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_CableSegmentTypeConductorSegment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_CableSegmentTypeConductorSegment.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_CableSegmentTypeContactWire" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_CableSegmentTypeContactWire.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_CableSegmentTypeCoreSegment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_CableSegmentTypeCoreSegment.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_CableSegmentTypeEarthingConductor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_CableSegmentTypeEarthingConductor.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_CableSegmentTypeFiberSegment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_CableSegmentTypeFiberSegment.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_CableSegmentTypeFiberTubeSegment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_CableSegmentTypeFiberTubeSegment.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_CableSegmentTypeOpticalCableSegment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_CableSegmentTypeOpticalCableSegment.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_CableSegmentTypeStitchWire" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_CableSegmentTypeStitchWire.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_CableSegmentTypeWirePairSegment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_CableSegmentTypeWirePairSegment.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_CargoCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_CargoCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_CessBetweenRails" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_CessBetweenRails.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ChillerPHistory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ChillerPHistory.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ChillerTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ChillerTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ChimneyCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ChimneyCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_CivilElementCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_CivilElementCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_CoaxialCable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_CoaxialCable.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_CoilOccurrence" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_CoilOccurrence.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_CoilPHistory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_CoilPHistory.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Pset_CoilTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_CoilTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_CoilTypeHydronic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_CoilTypeHydronic.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Pset_ColumnCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ColumnCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_CommunicationsAppliancePHistory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_CommunicationsAppliancePHistory.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_CommunicationsApplianceTypeAntenna" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_CommunicationsApplianceTypeAntenna.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_CommunicationsApplianceTypeAutomaton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_CommunicationsApplianceTypeAutomaton.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_CommunicationsApplianceTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_CommunicationsApplianceTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_CommunicationsApplianceTypeComputer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_CommunicationsApplianceTypeComputer.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_CommunicationsApplianceTypeGateway" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_CommunicationsApplianceTypeGateway.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_CommunicationsApplianceTypeIntelligentPeripheral" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_CommunicationsApplianceTypeIntelligentPeripheral.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_CommunicationsApplianceTypeIpNetworkEquipment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_CommunicationsApplianceTypeIpNetworkEquipment.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_CommunicationsApplianceTypeModem" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_CommunicationsApplianceTypeModem.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_CommunicationsApplianceTypeOpticalLineTerminal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_CommunicationsApplianceTypeOpticalLineTerminal.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_CommunicationsApplianceTypeOpticalNetworkUnit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_CommunicationsApplianceTypeOpticalNetworkUnit.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_CommunicationsApplianceTypeTelecommand" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_CommunicationsApplianceTypeTelecommand.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_CommunicationsApplianceTypeTelephonyExchange" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_CommunicationsApplianceTypeTelephonyExchange.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_CommunicationsApplianceTypeTransportEquipment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_CommunicationsApplianceTypeTransportEquipment.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_CompressorPHistory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_CompressorPHistory.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_CompressorTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_CompressorTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ConcreteElementGeneral" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ConcreteElementGeneral.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_CondenserPHistory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_CondenserPHistory.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_CondenserTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_CondenserTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_Condition" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_Condition.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ConstructionAdministration" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ConstructionAdministration.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Pset_ConstructionOccurance" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ConstructionOccurance.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ConstructionResource" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ConstructionResource.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ControllerPHistory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ControllerPHistory.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ControllerTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ControllerTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ControllerTypeFloating" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ControllerTypeFloating.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ControllerTypeMultiPosition" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ControllerTypeMultiPosition.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ControllerTypeProgrammable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ControllerTypeProgrammable.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ControllerTypeProportional" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ControllerTypeProportional.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ControllerTypeTwoPosition" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ControllerTypeTwoPosition.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_CooledBeamPHistory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_CooledBeamPHistory.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_CooledBeamPHistoryActive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_CooledBeamPHistoryActive.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_CooledBeamTypeActive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_CooledBeamTypeActive.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_CooledBeamTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_CooledBeamTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_CoolingTowerPHistory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_CoolingTowerPHistory.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_CoolingTowerTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_CoolingTowerTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_CourseApplicationConditions" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_CourseApplicationConditions.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_CourseCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_CourseCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_CoveringCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_CoveringCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_CoveringFlooring" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_CoveringFlooring.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_CoveringTypeMembrane" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_CoveringTypeMembrane.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_CurrentInstrumentTransformer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_CurrentInstrumentTransformer.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_CurtainWallCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_CurtainWallCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_DamperOccurrence" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_DamperOccurrence.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_DamperPHistory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_DamperPHistory.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_DamperTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_DamperTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Pset_DamperTypeControlDamper" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_DamperTypeControlDamper.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_DamperTypeFireDamper" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_DamperTypeFireDamper.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_DamperTypeFireSmokeDamper" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_DamperTypeFireSmokeDamper.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_DamperTypeSmokeDamper" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_DamperTypeSmokeDamper.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_DataTransmissionUnit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_DataTransmissionUnit.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_DiscreteAccessoryColumnShoe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_DiscreteAccessoryColumnShoe.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_DiscreteAccessoryCornerFixingPlate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_DiscreteAccessoryCornerFixingPlate.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_DiscreteAccessoryDiagonalTrussConnector" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_DiscreteAccessoryDiagonalTrussConnector.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_DiscreteAccessoryEdgeFixingPlate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_DiscreteAccessoryEdgeFixingPlate.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_DiscreteAccessoryFixingSocket" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_DiscreteAccessoryFixingSocket.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_DiscreteAccessoryLadderTrussConnector" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_DiscreteAccessoryLadderTrussConnector.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_DiscreteAccessoryStandardFixingPlate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_DiscreteAccessoryStandardFixingPlate.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_DiscreteAccessoryTypeBracket" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_DiscreteAccessoryTypeBracket.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_DiscreteAccessoryTypeCableArranger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_DiscreteAccessoryTypeCableArranger.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_DiscreteAccessoryTypeInsulator" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_DiscreteAccessoryTypeInsulator.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Pset_DiscreteAccessoryTypeLock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_DiscreteAccessoryTypeLock.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_DiscreteAccessoryTypeRailBrace" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_DiscreteAccessoryTypeRailBrace.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_DiscreteAccessoryTypeRailLubrication" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_DiscreteAccessoryTypeRailLubrication.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_DiscreteAccessoryTypeRailPad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_DiscreteAccessoryTypeRailPad.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_DiscreteAccessoryTypeSlidingChair" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_DiscreteAccessoryTypeSlidingChair.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_DiscreteAccessoryTypeSoundAbsorption" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_DiscreteAccessoryTypeSoundAbsorption.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_DiscreteAccessoryTypeTensioningEquipment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_DiscreteAccessoryTypeTensioningEquipment.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_DiscreteAccessoryWireLoop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_DiscreteAccessoryWireLoop.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_DistributionBoardOccurrence" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_DistributionBoardOccurrence.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_DistributionBoardTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_DistributionBoardTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_DistributionBoardTypeDispatchingBoard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_DistributionBoardTypeDispatchingBoard.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_DistributionBoardTypeDistributionFrame" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_DistributionBoardTypeDistributionFrame.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_DistributionChamberElementCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_DistributionChamberElementCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_DistributionChamberElementTypeFormedDuct" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_DistributionChamberElementTypeFormedDuct.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_DistributionChamberElementTypeInspectionChamber" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_DistributionChamberElementTypeInspectionChamber.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_DistributionChamberElementTypeInspectionPit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_DistributionChamberElementTypeInspectionPit.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_DistributionChamberElementTypeManhole" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_DistributionChamberElementTypeManhole.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_DistributionChamberElementTypeMeterChamber" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_DistributionChamberElementTypeMeterChamber.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_DistributionChamberElementTypeSump" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_DistributionChamberElementTypeSump.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_DistributionChamberElementTypeTrench" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_DistributionChamberElementTypeTrench.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_DistributionChamberElementTypeValveChamber" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_DistributionChamberElementTypeValveChamber.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_DistributionPortCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_DistributionPortCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_DistributionPortPHistoryCable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_DistributionPortPHistoryCable.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_DistributionPortPHistoryDuct" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_DistributionPortPHistoryDuct.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_DistributionPortPHistoryPipe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_DistributionPortPHistoryPipe.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_DistributionPortTypeCable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_DistributionPortTypeCable.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_DistributionPortTypeDuct" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_DistributionPortTypeDuct.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_DistributionPortTypePipe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_DistributionPortTypePipe.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_DistributionSystemCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_DistributionSystemCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_DistributionSystemTypeElectrical" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_DistributionSystemTypeElectrical.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Pset_DistributionSystemTypeOverheadContactlineSystem" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_DistributionSystemTypeOverheadContactlineSystem.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_DistributionSystemTypeVentilation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_DistributionSystemTypeVentilation.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_DoorCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_DoorCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_DoorTypeTurnstile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_DoorTypeTurnstile.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_DoorWindowGlazingType" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_DoorWindowGlazingType.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Pset_DuctFittingOccurrence" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_DuctFittingOccurrence.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_DuctFittingPHistory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_DuctFittingPHistory.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_DuctFittingTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_DuctFittingTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_DuctSegmentOccurrence" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_DuctSegmentOccurrence.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_DuctSegmentPHistory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_DuctSegmentPHistory.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_DuctSegmentTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_DuctSegmentTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_DuctSilencerPHistory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_DuctSilencerPHistory.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_DuctSilencerTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_DuctSilencerTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ElectricalDeviceCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ElectricalDeviceCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ElectricalDeviceCompliance" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ElectricalDeviceCompliance.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ElectricalFeederLine" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ElectricalFeederLine.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ElectricAppliancePHistory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ElectricAppliancePHistory.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ElectricApplianceTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ElectricApplianceTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ElectricApplianceTypeDishwasher" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ElectricApplianceTypeDishwasher.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ElectricApplianceTypeElectricCooker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ElectricApplianceTypeElectricCooker.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ElectricFlowStorageDeviceTypeBattery" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ElectricFlowStorageDeviceTypeBattery.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ElectricFlowStorageDeviceTypeCapacitor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ElectricFlowStorageDeviceTypeCapacitor.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ElectricFlowStorageDeviceTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ElectricFlowStorageDeviceTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ElectricFlowStorageDeviceTypeInductor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ElectricFlowStorageDeviceTypeInductor.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ElectricFlowStorageDeviceTypeRecharger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ElectricFlowStorageDeviceTypeRecharger.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ElectricFlowStorageDeviceTypeUPS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ElectricFlowStorageDeviceTypeUPS.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ElectricFlowTreatmentDeviceTypeElectronicFilter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ElectricFlowTreatmentDeviceTypeElectronicFilter.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ElectricGeneratorTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ElectricGeneratorTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ElectricMotorTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ElectricMotorTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ElectricTimeControlTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ElectricTimeControlTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ElementAssemblyCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ElementAssemblyCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ElementAssemblyTypeCantilever" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ElementAssemblyTypeCantilever.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ElementAssemblyTypeDilatationPanel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ElementAssemblyTypeDilatationPanel.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ElementAssemblyTypeHeadSpan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ElementAssemblyTypeHeadSpan.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ElementAssemblyTypeMast" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ElementAssemblyTypeMast.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ElementAssemblyTypeOCSSuspension" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ElementAssemblyTypeOCSSuspension.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ElementAssemblyTypeRigidFrame" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ElementAssemblyTypeRigidFrame.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ElementAssemblyTypeSteadyDevice" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ElementAssemblyTypeSteadyDevice.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ElementAssemblyTypeSupportingAssembly" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ElementAssemblyTypeSupportingAssembly.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ElementAssemblyTypeTrackPanel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ElementAssemblyTypeTrackPanel.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ElementAssemblyTypeTractionSwitchingAssembly" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ElementAssemblyTypeTractionSwitchingAssembly.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ElementAssemblyTypeTurnoutPanel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ElementAssemblyTypeTurnoutPanel.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ElementComponentCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ElementComponentCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ElementKinematics" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ElementKinematics.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ElementSize" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ElementSize.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_EmbeddedTrack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_EmbeddedTrack.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_EnergyRequirements" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_EnergyRequirements.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_EngineTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_EngineTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_EnvironmentalCondition" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_EnvironmentalCondition.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_EnvironmentalEmissions" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_EnvironmentalEmissions.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_EnvironmentalImpactIndicators" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_EnvironmentalImpactIndicators.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Pset_EnvironmentalImpactValues" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_EnvironmentalImpactValues.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_EvaporativeCoolerPHistory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_EvaporativeCoolerPHistory.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_EvaporativeCoolerTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_EvaporativeCoolerTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_EvaporatorPHistory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_EvaporatorPHistory.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_EvaporatorTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_EvaporatorTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_FanCentrifugal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_FanCentrifugal.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_FanOccurrence" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_FanOccurrence.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_FanPHistory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_FanPHistory.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_FanTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_FanTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_FastenerRailWeld" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_FastenerRailWeld.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_FastenerWeld" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_FastenerWeld.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_FenderCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_FenderCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_FenderDesignCriteria" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_FenderDesignCriteria.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_FilterPHistory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_FilterPHistory.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_FilterTypeAirParticleFilter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_FilterTypeAirParticleFilter.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_FilterTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_FilterTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_FilterTypeCompressedAirFilter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_FilterTypeCompressedAirFilter.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_FilterTypeWaterFilter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_FilterTypeWaterFilter.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_FireSuppressionTerminalTypeBreechingInlet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_FireSuppressionTerminalTypeBreechingInlet.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_FireSuppressionTerminalTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_FireSuppressionTerminalTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_FireSuppressionTerminalTypeFireHydrant" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_FireSuppressionTerminalTypeFireHydrant.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_FireSuppressionTerminalTypeHoseReel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_FireSuppressionTerminalTypeHoseReel.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_FireSuppressionTerminalTypeSprinkler" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_FireSuppressionTerminalTypeSprinkler.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_FittingBend" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_FittingBend.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_FittingJunction" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_FittingJunction.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_FittingTransition" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_FittingTransition.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_FlowInstrumentPHistory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_FlowInstrumentPHistory.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_FlowInstrumentTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_FlowInstrumentTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_FlowInstrumentTypePressureGauge" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_FlowInstrumentTypePressureGauge.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_FlowInstrumentTypeThermometer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_FlowInstrumentTypeThermometer.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_FlowMeterOccurrence" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_FlowMeterOccurrence.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_FlowMeterTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_FlowMeterTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_FlowMeterTypeEnergyMeter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_FlowMeterTypeEnergyMeter.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_FlowMeterTypeGasMeter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_FlowMeterTypeGasMeter.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_FlowMeterTypeOilMeter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_FlowMeterTypeOilMeter.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_FlowMeterTypeWaterMeter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_FlowMeterTypeWaterMeter.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_FootingCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_FootingCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_FootingTypePadFooting" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_FootingTypePadFooting.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_FurnitureTypeChair" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_FurnitureTypeChair.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_FurnitureTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_FurnitureTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_FurnitureTypeDesk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_FurnitureTypeDesk.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_FurnitureTypeFileCabinet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_FurnitureTypeFileCabinet.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_FurnitureTypeTable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_FurnitureTypeTable.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_GateHeadCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_GateHeadCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_GeotechnicalAssemblyCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_GeotechnicalAssemblyCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_GeotechnicalStratumCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_GeotechnicalStratumCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_HeatExchangerTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_HeatExchangerTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_HeatExchangerTypePlate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_HeatExchangerTypePlate.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_HumidifierPHistory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_HumidifierPHistory.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_HumidifierTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_HumidifierTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ImpactProtectionDeviceOccurrenceBumper" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ImpactProtectionDeviceOccurrenceBumper.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ImpactProtectionDeviceTypeBumper" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ImpactProtectionDeviceTypeBumper.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_InstallationOccurrence" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_InstallationOccurrence.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_InterceptorTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_InterceptorTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_IpNetworkEquipmentPHistory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_IpNetworkEquipmentPHistory.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_JettyCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_JettyCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_JettyDesignCriteria" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_JettyDesignCriteria.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_JunctionBoxTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_JunctionBoxTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_JunctionBoxTypeData" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_JunctionBoxTypeData.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_KerbCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_KerbCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_KerbStone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_KerbStone.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_LampTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_LampTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_LandRegistration" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_LandRegistration.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_LightFixtureTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_LightFixtureTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_LightFixtureTypeSecurityLighting" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_LightFixtureTypeSecurityLighting.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_LinearReferencingMethod" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_LinearReferencingMethod.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Pset_MaintenanceStrategy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_MaintenanceStrategy.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_MaintenanceTriggerCondition" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_MaintenanceTriggerCondition.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_MaintenanceTriggerDuration" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_MaintenanceTriggerDuration.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_MaintenanceTriggerPerformance" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_MaintenanceTriggerPerformance.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ManufacturerOccurrence" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ManufacturerOccurrence.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ManufacturerTypeInformation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ManufacturerTypeInformation.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_MarineFacilityTransportation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_MarineFacilityTransportation.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_MarinePartChamberCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_MarinePartChamberCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_MarineVehicleCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_MarineVehicleCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_MarineVehicleDesignCriteria" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_MarineVehicleDesignCriteria.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_MarkerGeneral" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_MarkerGeneral.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_MarkingLinesCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_MarkingLinesCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_MaterialCombustion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_MaterialCombustion.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_MaterialCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_MaterialCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_MaterialConcrete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_MaterialConcrete.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Pset_MaterialEnergy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_MaterialEnergy.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_MaterialFuel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_MaterialFuel.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_MaterialHygroscopic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_MaterialHygroscopic.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_MaterialMechanical" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_MaterialMechanical.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_MaterialOptical" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_MaterialOptical.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Pset_MaterialSteel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_MaterialSteel.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_MaterialThermal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_MaterialThermal.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_MaterialWater" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_MaterialWater.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_MaterialWood" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_MaterialWood.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_MaterialWoodBasedStructure" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_MaterialWoodBasedStructure.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_MechanicalBeamInPlane" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_MechanicalBeamInPlane.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Pset_MechanicalBeamInPlaneNegative" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_MechanicalBeamInPlaneNegative.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Pset_MechanicalBeamOutOfPlane" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_MechanicalBeamOutOfPlane.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Pset_MechanicalFastenerAnchorBolt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_MechanicalFastenerAnchorBolt.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_MechanicalFastenerBolt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_MechanicalFastenerBolt.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_MechanicalFastenerOCSFitting" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_MechanicalFastenerOCSFitting.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_MechanicalFastenerTypeRailFastening" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_MechanicalFastenerTypeRailFastening.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_MechanicalFastenerTypeRailJoint" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_MechanicalFastenerTypeRailJoint.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_MechanicalPanelInPlane" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_MechanicalPanelInPlane.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Pset_MechanicalPanelOutOfPlane" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_MechanicalPanelOutOfPlane.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Pset_MechanicalPanelOutOfPlaneNegative" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_MechanicalPanelOutOfPlaneNegative.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Pset_MedicalDeviceTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_MedicalDeviceTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_MemberCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_MemberCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_MemberTypeAnchoringBar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_MemberTypeAnchoringBar.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_MemberTypeCatenaryStay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_MemberTypeCatenaryStay.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_MemberTypeOCSRigidSupport" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_MemberTypeOCSRigidSupport.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_MemberTypePost" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_MemberTypePost.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Pset_MemberTypeTieBar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_MemberTypeTieBar.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_MobileTelecommunicationsApplianceTypeAccessPoint" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_MobileTelecommunicationsApplianceTypeAccessPoint.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_MobileTelecommunicationsApplianceTypeBasebandUnit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_MobileTelecommunicationsApplianceTypeBasebandUnit.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_MobileTelecommunicationsApplianceTypeBaseTransceiverStation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_MobileTelecommunicationsApplianceTypeBaseTransceiverStation.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_MobileTelecommunicationsApplianceTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_MobileTelecommunicationsApplianceTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_MobileTelecommunicationsApplianceTypeEUtranNodeB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_MobileTelecommunicationsApplianceTypeEUtranNodeB.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_MobileTelecommunicationsApplianceTypeMasterUnit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_MobileTelecommunicationsApplianceTypeMasterUnit.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_MobileTelecommunicationsApplianceTypeMobileSwitchingCenter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_MobileTelecommunicationsApplianceTypeMobileSwitchingCenter.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_MobileTelecommunicationsApplianceTypeMSCServer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_MobileTelecommunicationsApplianceTypeMSCServer.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_MobileTeleCommunicationsApplianceTypeRemoteRadioUnit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_MobileTeleCommunicationsApplianceTypeRemoteRadioUnit.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_MobileTelecommunicationsApplianceTypeRemoteUnit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_MobileTelecommunicationsApplianceTypeRemoteUnit.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_MooringDeviceCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_MooringDeviceCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_MotorConnectionTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_MotorConnectionTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_OnSiteCastKerb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_OnSiteCastKerb.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_OnSiteTelecomControlUnit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_OnSiteTelecomControlUnit.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_OpeningElementCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_OpeningElementCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_OpticalAdapter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_OpticalAdapter.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_OpticalPigtail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_OpticalPigtail.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_OpticalSplitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_OpticalSplitter.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_OutletTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_OutletTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_OutsideDesignCriteria" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_OutsideDesignCriteria.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_PackingInstructions" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_PackingInstructions.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_PatchCordCable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_PatchCordCable.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_PavementCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_PavementCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_PavementMillingCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_PavementMillingCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_PavementSurfaceCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_PavementSurfaceCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_Permit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_Permit.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_PileCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_PileCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_PipeConnectionFlanged" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_PipeConnectionFlanged.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_PipeFittingOccurrence" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_PipeFittingOccurrence.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_PipeFittingPHistory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_PipeFittingPHistory.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_PipeFittingTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_PipeFittingTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_PipeSegmentOccurrence" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_PipeSegmentOccurrence.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_PipeSegmentPHistory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_PipeSegmentPHistory.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_PipeSegmentTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_PipeSegmentTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_PipeSegmentTypeCulvert" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_PipeSegmentTypeCulvert.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_PipeSegmentTypeGutter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_PipeSegmentTypeGutter.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_PlateCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_PlateCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_PointMachine" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_PointMachine.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_PowerControlSystem" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_PowerControlSystem.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_PrecastConcreteElementFabrication" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_PrecastConcreteElementFabrication.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Pset_PrecastConcreteElementGeneral" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_PrecastConcreteElementGeneral.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Pset_PrecastKerbStone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_PrecastKerbStone.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_PrecastSlab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_PrecastSlab.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Pset_ProcessCapacity" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ProcessCapacity.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ProfileArbitraryDoubleT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ProfileArbitraryDoubleT.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ProfileArbitraryHollowCore" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ProfileArbitraryHollowCore.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ProfileMechanical" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ProfileMechanical.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Pset_ProjectCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ProjectCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ProjectOrderChangeOrder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ProjectOrderChangeOrder.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ProjectOrderMaintenanceWorkOrder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ProjectOrderMaintenanceWorkOrder.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ProjectOrderMoveOrder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ProjectOrderMoveOrder.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ProjectOrderPurchaseOrder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ProjectOrderPurchaseOrder.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ProjectOrderWorkOrder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ProjectOrderWorkOrder.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_PropertyAgreement" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_PropertyAgreement.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ProtectiveDeviceBreakerUnitI2TCurve" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ProtectiveDeviceBreakerUnitI2TCurve.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ProtectiveDeviceBreakerUnitI2TFuseCurve" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ProtectiveDeviceBreakerUnitI2TFuseCurve.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ProtectiveDeviceBreakerUnitIPICurve" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ProtectiveDeviceBreakerUnitIPICurve.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Pset_ProtectiveDeviceBreakerUnitTypeMCB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ProtectiveDeviceBreakerUnitTypeMCB.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ProtectiveDeviceBreakerUnitTypeMotorProtection" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ProtectiveDeviceBreakerUnitTypeMotorProtection.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ProtectiveDeviceOccurrence" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ProtectiveDeviceOccurrence.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Pset_ProtectiveDeviceTrippingCurve" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ProtectiveDeviceTrippingCurve.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ProtectiveDeviceTrippingFunctionGCurve" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ProtectiveDeviceTrippingFunctionGCurve.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ProtectiveDeviceTrippingFunctionICurve" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ProtectiveDeviceTrippingFunctionICurve.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ProtectiveDeviceTrippingFunctionLCurve" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ProtectiveDeviceTrippingFunctionLCurve.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ProtectiveDeviceTrippingFunctionSCurve" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ProtectiveDeviceTrippingFunctionSCurve.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ProtectiveDeviceTrippingUnitCurrentAdjustment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ProtectiveDeviceTrippingUnitCurrentAdjustment.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ProtectiveDeviceTrippingUnitTimeAdjustment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ProtectiveDeviceTrippingUnitTimeAdjustment.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ProtectiveDeviceTrippingUnitTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ProtectiveDeviceTrippingUnitTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ProtectiveDeviceTrippingUnitTypeElectroMagnetic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ProtectiveDeviceTrippingUnitTypeElectroMagnetic.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ProtectiveDeviceTrippingUnitTypeElectronic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ProtectiveDeviceTrippingUnitTypeElectronic.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ProtectiveDeviceTrippingUnitTypeResidualCurrent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ProtectiveDeviceTrippingUnitTypeResidualCurrent.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ProtectiveDeviceTrippingUnitTypeThermal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ProtectiveDeviceTrippingUnitTypeThermal.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ProtectiveDeviceTypeAntiArcingDevice" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ProtectiveDeviceTypeAntiArcingDevice.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ProtectiveDeviceTypeCircuitBreaker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ProtectiveDeviceTypeCircuitBreaker.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ProtectiveDeviceTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ProtectiveDeviceTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ProtectiveDeviceTypeEarthLeakageCircuitBreaker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ProtectiveDeviceTypeEarthLeakageCircuitBreaker.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ProtectiveDeviceTypeFuseDisconnector" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ProtectiveDeviceTypeFuseDisconnector.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ProtectiveDeviceTypeResidualCurrentCircuitBreaker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ProtectiveDeviceTypeResidualCurrentCircuitBreaker.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ProtectiveDeviceTypeResidualCurrentSwitch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ProtectiveDeviceTypeResidualCurrentSwitch.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ProtectiveDeviceTypeSparkGap" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ProtectiveDeviceTypeSparkGap.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ProtectiveDeviceTypeVaristor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ProtectiveDeviceTypeVaristor.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ProvisionForVoid" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ProvisionForVoid.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_PumpOccurrence" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_PumpOccurrence.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_PumpPHistory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_PumpPHistory.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_PumpTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_PumpTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_QuayCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_QuayCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_QuayDesignCriteria" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_QuayDesignCriteria.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_RadiiKerbStone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_RadiiKerbStone.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_RailingCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_RailingCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_RailTypeBlade" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_RailTypeBlade.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_RailTypeCheckRail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_RailTypeCheckRail.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_RailTypeGuardRail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_RailTypeGuardRail.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_RailTypeRail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_RailTypeRail.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_RailTypeStockRail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_RailTypeStockRail.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_RailwayBalise" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_RailwayBalise.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_RailwayCableCarrier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_RailwayCableCarrier.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_RailwayLevelCrossing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_RailwayLevelCrossing.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_RailwaySignalAspect" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_RailwaySignalAspect.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_RailwaySignalOccurrence" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_RailwaySignalOccurrence.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_RailwaySignalSighting" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_RailwaySignalSighting.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_RailwaySignalType" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_RailwaySignalType.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_RailwayTrackStructurePart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_RailwayTrackStructurePart.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_RampCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_RampCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_RampFlightCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_RampFlightCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ReferentCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ReferentCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ReinforcementBarCountOfIndependentFooting" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ReinforcementBarCountOfIndependentFooting.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ReinforcementBarPitchOfBeam" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ReinforcementBarPitchOfBeam.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ReinforcementBarPitchOfColumn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ReinforcementBarPitchOfColumn.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ReinforcementBarPitchOfContinuousFooting" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ReinforcementBarPitchOfContinuousFooting.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ReinforcementBarPitchOfSlab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ReinforcementBarPitchOfSlab.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ReinforcementBarPitchOfWall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ReinforcementBarPitchOfWall.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_RepairOccurrence" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_RepairOccurrence.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_RevetmentCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_RevetmentCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_Risk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_Risk.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_RoadDesignCriteriaCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_RoadDesignCriteriaCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_RoadGuardElement" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_RoadGuardElement.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_RoadMarkingCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_RoadMarkingCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_RoadSymbolsCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_RoadSymbolsCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_RoofCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_RoofCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SanitaryTerminalTypeBath" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SanitaryTerminalTypeBath.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SanitaryTerminalTypeBidet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SanitaryTerminalTypeBidet.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Pset_SanitaryTerminalTypeCistern" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SanitaryTerminalTypeCistern.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SanitaryTerminalTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SanitaryTerminalTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SanitaryTerminalTypeSanitaryFountain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SanitaryTerminalTypeSanitaryFountain.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Pset_SanitaryTerminalTypeShower" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SanitaryTerminalTypeShower.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SanitaryTerminalTypeSink" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SanitaryTerminalTypeSink.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Pset_SanitaryTerminalTypeToiletPan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SanitaryTerminalTypeToiletPan.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Pset_SanitaryTerminalTypeUrinal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SanitaryTerminalTypeUrinal.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Pset_SanitaryTerminalTypeWashHandBasin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SanitaryTerminalTypeWashHandBasin.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Pset_SectioningDevice" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SectioningDevice.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SectionInsulator" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SectionInsulator.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SensorPHistory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SensorPHistory.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SensorTypeCO2Sensor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SensorTypeCO2Sensor.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SensorTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SensorTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SensorTypeConductanceSensor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SensorTypeConductanceSensor.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SensorTypeContactSensor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SensorTypeContactSensor.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SensorTypeEarthquakeSensor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SensorTypeEarthquakeSensor.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SensorTypeFireSensor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SensorTypeFireSensor.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SensorTypeFlowSensor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SensorTypeFlowSensor.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SensorTypeForeignObjectDetectionSensor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SensorTypeForeignObjectDetectionSensor.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SensorTypeFrostSensor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SensorTypeFrostSensor.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SensorTypeGasSensor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SensorTypeGasSensor.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SensorTypeHeatSensor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SensorTypeHeatSensor.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SensorTypeHumiditySensor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SensorTypeHumiditySensor.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SensorTypeIdentifierSensor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SensorTypeIdentifierSensor.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SensorTypeIonConcentrationSensor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SensorTypeIonConcentrationSensor.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SensorTypeLevelSensor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SensorTypeLevelSensor.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SensorTypeLightSensor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SensorTypeLightSensor.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SensorTypeMoistureSensor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SensorTypeMoistureSensor.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SensorTypeMovementSensor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SensorTypeMovementSensor.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SensorTypePHSensor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SensorTypePHSensor.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SensorTypePressureSensor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SensorTypePressureSensor.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SensorTypeRadiationSensor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SensorTypeRadiationSensor.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SensorTypeRadioactivitySensor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SensorTypeRadioactivitySensor.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SensorTypeRainSensor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SensorTypeRainSensor.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SensorTypeSmokeSensor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SensorTypeSmokeSensor.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SensorTypeSnowSensor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SensorTypeSnowSensor.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SensorTypeSoundSensor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SensorTypeSoundSensor.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SensorTypeTemperatureSensor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SensorTypeTemperatureSensor.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SensorTypeTurnoutClosureSensor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SensorTypeTurnoutClosureSensor.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SensorTypeWindSensor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SensorTypeWindSensor.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ServiceLife" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ServiceLife.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ServiceLifeFactors" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ServiceLifeFactors.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ShadingDeviceCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ShadingDeviceCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Pset_ShadingDevicePHistory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ShadingDevicePHistory.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ShipLockCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ShipLockCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ShiplockComplex" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ShiplockComplex.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ShiplockDesignCriteria" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ShiplockDesignCriteria.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ShipyardCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ShipyardCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SignalFrame" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SignalFrame.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SignCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SignCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SiteCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SiteCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SiteWeather" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SiteWeather.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SlabCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SlabCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SlabTypeTrackSlab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SlabTypeTrackSlab.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SolarDeviceTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SolarDeviceTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SolidStratumCapacity" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SolidStratumCapacity.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SolidStratumComposition" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SolidStratumComposition.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SoundAttenuation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SoundAttenuation.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SoundGeneration" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SoundGeneration.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SpaceAirHandlingDimensioning" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SpaceAirHandlingDimensioning.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SpaceCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SpaceCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SpaceCoveringRequirements" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SpaceCoveringRequirements.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SpaceFireSafetyRequirements" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SpaceFireSafetyRequirements.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SpaceHeaterPHistory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SpaceHeaterPHistory.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SpaceHeaterTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SpaceHeaterTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SpaceHeaterTypeConvector" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SpaceHeaterTypeConvector.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SpaceHeaterTypeRadiator" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SpaceHeaterTypeRadiator.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SpaceHVACDesign" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SpaceHVACDesign.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SpaceLightingDesign" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SpaceLightingDesign.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SpaceOccupancyRequirements" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SpaceOccupancyRequirements.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SpaceParking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SpaceParking.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SpaceThermalLoad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SpaceThermalLoad.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SpaceThermalLoadPHistory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SpaceThermalLoadPHistory.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SpaceThermalPHistory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SpaceThermalPHistory.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SpatialZoneCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SpatialZoneCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SpringTensioner" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SpringTensioner.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_StackTerminalTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_StackTerminalTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_StairCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_StairCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_StairFlightCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_StairFlightCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_Stationing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_Stationing.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_StructuralSurfaceMemberVaryingThickness" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_StructuralSurfaceMemberVaryingThickness.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SumpBusterCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SumpBusterCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_Superelevation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_Superelevation.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SwitchingDeviceTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SwitchingDeviceTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SwitchingDeviceTypeContactor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SwitchingDeviceTypeContactor.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SwitchingDeviceTypeDimmerSwitch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SwitchingDeviceTypeDimmerSwitch.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SwitchingDeviceTypeEmergencyStop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SwitchingDeviceTypeEmergencyStop.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SwitchingDeviceTypeKeypad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SwitchingDeviceTypeKeypad.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SwitchingDeviceTypeMomentarySwitch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SwitchingDeviceTypeMomentarySwitch.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SwitchingDeviceTypePHistory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SwitchingDeviceTypePHistory.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SwitchingDeviceTypeRelay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SwitchingDeviceTypeRelay.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SwitchingDeviceTypeSelectorSwitch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SwitchingDeviceTypeSelectorSwitch.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SwitchingDeviceTypeStarter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SwitchingDeviceTypeStarter.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SwitchingDeviceTypeSwitchDisconnector" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SwitchingDeviceTypeSwitchDisconnector.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SwitchingDeviceTypeToggleSwitch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SwitchingDeviceTypeToggleSwitch.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SymmetricPairCable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SymmetricPairCable.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SystemFurnitureElementTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SystemFurnitureElementTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SystemFurnitureElementTypePanel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SystemFurnitureElementTypePanel.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SystemFurnitureElementTypeSubrack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SystemFurnitureElementTypeSubrack.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_SystemFurnitureElementTypeWorkSurface" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_SystemFurnitureElementTypeWorkSurface.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_TankOccurrence" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_TankOccurrence.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_TankTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_TankTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_TankTypeExpansion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_TankTypeExpansion.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_TankTypePreformed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_TankTypePreformed.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_TankTypePressureVessel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_TankTypePressureVessel.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_TankTypeSectional" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_TankTypeSectional.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_TelecomCableGeneral" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_TelecomCableGeneral.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ThermalLoad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ThermalLoad.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_TicketProcessing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_TicketProcessing.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_TicketVendingMachine" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_TicketVendingMachine.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_Tiling" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_Tiling.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_Tolerance" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_Tolerance.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_TrackBase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_TrackBase.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_TrackElementOccurrenceSleeper" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_TrackElementOccurrenceSleeper.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_TrackElementPHistoryDerailer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_TrackElementPHistoryDerailer.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_TrackElementTypeDerailer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_TrackElementTypeDerailer.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_TrackElementTypeSleeper" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_TrackElementTypeSleeper.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_TractionPowerSystem" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_TractionPowerSystem.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_TrafficCalmingDeviceCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_TrafficCalmingDeviceCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_TransformerTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_TransformerTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_TransitionSectionCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_TransitionSectionCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_TransportElementCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_TransportElementCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_TransportElementElevator" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_TransportElementElevator.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_TransportEquipmentOTN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_TransportEquipmentOTN.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_TrenchExcavationCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_TrenchExcavationCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_TubeBundleTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_TubeBundleTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_TubeBundleTypeFinned" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_TubeBundleTypeFinned.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_Uncertainty" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_Uncertainty.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_UnitaryControlElementBaseStationController" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_UnitaryControlElementBaseStationController.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_UnitaryControlElementPHistory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_UnitaryControlElementPHistory.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_UnitaryControlElementTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_UnitaryControlElementTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_UnitaryControlElementTypeControlPanel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_UnitaryControlElementTypeControlPanel.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_UnitaryControlElementTypeIndicatorPanel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_UnitaryControlElementTypeIndicatorPanel.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_UnitaryControlElementTypeThermostat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_UnitaryControlElementTypeThermostat.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_UnitaryEquipmentTypeAirConditioningUnit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_UnitaryEquipmentTypeAirConditioningUnit.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_UnitaryEquipmentTypeAirHandler" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_UnitaryEquipmentTypeAirHandler.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_UnitaryEquipmentTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_UnitaryEquipmentTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_UtilityConsumptionPHistory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_UtilityConsumptionPHistory.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ValvePHistory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ValvePHistory.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ValveTypeAirRelease" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ValveTypeAirRelease.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ValveTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ValveTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ValveTypeDrawOffCock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ValveTypeDrawOffCock.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ValveTypeFaucet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ValveTypeFaucet.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ValveTypeFlushing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ValveTypeFlushing.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ValveTypeGasTap" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ValveTypeGasTap.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ValveTypeIsolating" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ValveTypeIsolating.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ValveTypeMixing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ValveTypeMixing.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ValveTypePressureReducing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ValveTypePressureReducing.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ValveTypePressureRelief" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ValveTypePressureRelief.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_VegetationCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_VegetationCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_VehicleAvailability" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_VehicleAvailability.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_VesselLineCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_VesselLineCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_VibrationIsolatorTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_VibrationIsolatorTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_VoltageInstrumentTransformer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_VoltageInstrumentTransformer.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_WallCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_WallCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_Warranty" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_Warranty.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_WasteTerminalTypeCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_WasteTerminalTypeCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_WasteTerminalTypeFloorTrap" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_WasteTerminalTypeFloorTrap.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_WasteTerminalTypeFloorWaste" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_WasteTerminalTypeFloorWaste.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_WasteTerminalTypeGullySump" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_WasteTerminalTypeGullySump.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_WasteTerminalTypeGullyTrap" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_WasteTerminalTypeGullyTrap.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_WasteTerminalTypeRoofDrain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_WasteTerminalTypeRoofDrain.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_WasteTerminalTypeWasteDisposalUnit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_WasteTerminalTypeWasteDisposalUnit.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_WasteTerminalTypeWasteTrap" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_WasteTerminalTypeWasteTrap.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_WaterStratumCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_WaterStratumCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_Width" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_Width.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_WindowCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_WindowCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_WiredCommunicationPortCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_WiredCommunicationPortCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_WorkControlCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_WorkControlCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_ZoneCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ZoneCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+</root>

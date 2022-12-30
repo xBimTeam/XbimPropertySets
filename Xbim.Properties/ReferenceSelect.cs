@@ -83,6 +83,8 @@ namespace Xbim.Properties
         IfcTimeSeries,
         IfcAddress,
         IfcAppliedValue,
+        IfcDocumentReference,
+        IfcCostValue,
 
         [Obsolete]
         IfcMaterial,

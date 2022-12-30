@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<PropertySetDef templatetype="PSET_TYPEDRIVENOVERRIDE" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd">
+  <IfcVersion version="IFC4X3"/>
+  <Name>Pset_ProtectiveDeviceTypeResidualCurrentSwitch</Name>
+  <Definition>A residual current switch opens, closes or isolates a circuit and has no short circuit or overload protection.</Definition>
+  <Applicability/>
+  <ApplicableClasses>
+    <ClassName>IfcProtectiveDevice/RESIDUALCURRENTSWITCH</ClassName>
+    <ClassName>IfcProtectiveDeviceType/RESIDUALCURRENTSWITCH</ClassName>
+  </ApplicableClasses>
+  <ApplicableTypeValue>IfcProtectiveDevice/RESIDUALCURRENTSWITCH,IfcProtectiveDeviceType/RESIDUALCURRENTSWITCH</ApplicableTypeValue>
+  <PropertyDefs>
+    <PropertyDef>
+      <Name>Sensitivity</Name>
+      <Definition>Sensitivity.</Definition>
+      <PropertyType>
+        <TypePropertySingleValue>
+          <DataType type="IfcElectricCurrentMeasure"/>
+        </TypePropertySingleValue>
+      </PropertyType>
+    </PropertyDef>
+  </PropertyDefs>
+</PropertySetDef>

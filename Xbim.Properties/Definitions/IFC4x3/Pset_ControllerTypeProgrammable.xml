@@ -1,0 +1,79 @@
+<?xml version="1.0" ?>
+<PropertySetDef templatetype="PSET_TYPEDRIVENOVERRIDE" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd">
+  <IfcVersion version="IFC4X3"/>
+  <Name>Pset_ControllerTypeProgrammable</Name>
+  <Definition>Properties for Discrete Digital Control (DDC) or programmable logic controllers.  HISTORY: Added in IFC4.</Definition>
+  <Applicability/>
+  <ApplicableClasses>
+    <ClassName>IfcController/PROGRAMMABLE</ClassName>
+    <ClassName>IfcControllerType/PROGRAMMABLE</ClassName>
+  </ApplicableClasses>
+  <ApplicableTypeValue>IfcController/PROGRAMMABLE,IfcControllerType/PROGRAMMABLE</ApplicableTypeValue>
+  <PropertyDefs>
+    <PropertyDef>
+      <Name>ControlType</Name>
+      <Definition>The type controller, signal modification effected and applicable ports</Definition>
+      <PropertyType>
+        <TypePropertyEnumeratedValue>
+          <EnumList name="PEnum_ControllerTypeProgrammable">
+            <EnumItem>PRIMARY</EnumItem>
+            <EnumItem>SECONDARY</EnumItem>
+            <EnumItem>OTHER</EnumItem>
+            <EnumItem>NOTKNOWN</EnumItem>
+            <EnumItem>UNSET</EnumItem>
+          </EnumList>
+        </TypePropertyEnumeratedValue>
+      </PropertyType>
+    </PropertyDef>
+    <PropertyDef>
+      <Name>FirmwareVersion</Name>
+      <Definition>Indicates version of device firmware according to device manufacturer.</Definition>
+      <PropertyType>
+        <TypePropertySingleValue>
+          <DataType type="IfcLabel"/>
+        </TypePropertySingleValue>
+      </PropertyType>
+    </PropertyDef>
+    <PropertyDef>
+      <Name>SoftwareVersion</Name>
+      <Definition>Indicates version of application software according to systems integrator.</Definition>
+      <PropertyType>
+        <TypePropertySingleValue>
+          <DataType type="IfcLabel"/>
+        </TypePropertySingleValue>
+      </PropertyType>
+    </PropertyDef>
+    <PropertyDef>
+      <Name>Application</Name>
+      <Definition>Humidifier application.Fixed: Humidifier installed in a ducted flow distribution system.
+Portable: Humidifier is not installed in a ducted flow distribution system.</Definition>
+      <PropertyType>
+        <TypePropertyEnumeratedValue>
+          <EnumList name="PEnum_ControllerApplication">
+            <EnumItem>BOILERCONTROLLER</EnumItem>
+            <EnumItem>CONSTANTLIGHTCONTROLLER</EnumItem>
+            <EnumItem>DISCHARGEAIRCONTROLLER</EnumItem>
+            <EnumItem>FANCOILUNITCONTROLLER</EnumItem>
+            <EnumItem>LIGHTINGPANELCONTROLLER</EnumItem>
+            <EnumItem>MODEMCONTROLLER</EnumItem>
+            <EnumItem>OCCUPANCYCONTROLLER</EnumItem>
+            <EnumItem>PARTITIONWALLCONTROLLER</EnumItem>
+            <EnumItem>PUMPCONTROLLER</EnumItem>
+            <EnumItem>REALTIMEBASEDSCHEDULER</EnumItem>
+            <EnumItem>REALTIMEKEEPER</EnumItem>
+            <EnumItem>ROOFTOPUNITCONTROLLER</EnumItem>
+            <EnumItem>SCENECONTROLLER</EnumItem>
+            <EnumItem>SPACECONFORTCONTROLLER</EnumItem>
+            <EnumItem>SUNBLINDCONTROLLER</EnumItem>
+            <EnumItem>TELEPHONEDIRECTORY</EnumItem>
+            <EnumItem>UNITVENTILATORCONTROLLER</EnumItem>
+            <EnumItem>VAV</EnumItem>
+            <EnumItem>OTHER</EnumItem>
+            <EnumItem>NOTKNOWN</EnumItem>
+            <EnumItem>UNSET</EnumItem>
+          </EnumList>
+        </TypePropertyEnumeratedValue>
+      </PropertyType>
+    </PropertyDef>
+  </PropertyDefs>
+</PropertySetDef>

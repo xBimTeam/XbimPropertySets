@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<PropertySetDef templatetype="PSET_OCCURRENCEDRIVEN" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd">
+  <IfcVersion version="IFC4X3"/>
+  <Name>Pset_Stationing</Name>
+  <Definition>Specifies stationing parameters for IfcReferent.</Definition>
+  <Applicability/>
+  <ApplicableClasses>
+    <ClassName>IfcReferent</ClassName>
+  </ApplicableClasses>
+  <ApplicableTypeValue>IfcReferent</ApplicableTypeValue>
+  <PropertyDefs>
+    <PropertyDef>
+      <Name>IncomingStation</Name>
+      <Definition>The optional station value of the incoming segment that ends at this location. This value needs to be set if the intention is to specify a station equation, i.e. a location where stationing changes.</Definition>
+      <PropertyType>
+        <TypePropertySingleValue>
+          <DataType type="IfcLengthMeasure"/>
+        </TypePropertySingleValue>
+      </PropertyType>
+    </PropertyDef>
+    <PropertyDef>
+      <Name>Station</Name>
+      <Definition>The station value at this location.</Definition>
+      <PropertyType>
+        <TypePropertySingleValue>
+          <DataType type="IfcLengthMeasure"/>
+        </TypePropertySingleValue>
+      </PropertyType>
+    </PropertyDef>
+  </PropertyDefs>
+</PropertySetDef>

@@ -6,7 +6,7 @@
 		see  https://docs.microsoft.com/en-us/dotnet/standard/net-standard#net-implementation-support 
 		netstandard2.0 is compatible with Framework 4.6.1, .NET Core 2.0 and NET 5.0
 		-->
-		<TargetFrameworks>netstandard2.0;net5.0</TargetFrameworks>
+		<TargetFrameworks>netstandard2.0;netstandard2.1</TargetFrameworks>
 		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
 		<PackageLicenseExpression>CDDL-1.0</PackageLicenseExpression>
 		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
@@ -17,9 +17,9 @@
 		<RepositoryType>git</RepositoryType>
 		<PackageTags>BIM, IFC, BuildingSmart, PropertySets, Property</PackageTags>
 		<PackageReleaseNotes>Now targeting multiple .NET platforms.</PackageReleaseNotes>
-		<AssemblyVersion>5.0.1</AssemblyVersion>
-		<FileVersion>5.0.1</FileVersion>
-		<Version>5.0.1</Version>
+		<AssemblyVersion>6.0.0</AssemblyVersion>
+		<FileVersion>6.0.0</FileVersion>
+    <Version>6.0.0</Version>
 		<SignAssembly>true</SignAssembly>
 		<AssemblyOriginatorKeyFile>XbimOpenSourceKeyFile.snk</AssemblyOriginatorKeyFile>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
@@ -38,6 +38,16 @@
 			<AutoGen>True</AutoGen>
 			<DesignTime>True</DesignTime>
 			<DependentUpon>IFC2x3_Defitinion_files.resx</DependentUpon>
+		</Compile>
+		<Compile Update="Definitions\Ifc4x3_Definition_files.Designer.cs">
+		  <DesignTime>True</DesignTime>
+		  <AutoGen>True</AutoGen>
+		  <DependentUpon>Ifc4x3_Definition_files.resx</DependentUpon>
+		</Compile>
+		<Compile Update="Definitions\IFC4x3_QTO_Definition_files.Designer.cs">
+		  <DesignTime>True</DesignTime>
+		  <AutoGen>True</AutoGen>
+		  <DependentUpon>IFC4x3_QTO_Definition_files.resx</DependentUpon>
 		</Compile>
 		<Compile Update="Definitions\IFC4_and_COBie_Definition_files.Designer.cs">
 			<AutoGen>True</AutoGen>
@@ -904,6 +914,14 @@
 			<Generator>PublicResXFileCodeGenerator</Generator>
 			<LastGenOutput>IFC2x3_Defitinion_files.Designer.cs</LastGenOutput>
 		</EmbeddedResource>
+		<EmbeddedResource Update="Definitions\Ifc4x3_Definition_files.resx">
+		  <Generator>ResXFileCodeGenerator</Generator>
+		  <LastGenOutput>Ifc4x3_Definition_files.Designer.cs</LastGenOutput>
+		</EmbeddedResource>
+		<EmbeddedResource Update="Definitions\IFC4x3_QTO_Definition_files.resx">
+		  <Generator>ResXFileCodeGenerator</Generator>
+		  <LastGenOutput>IFC4x3_QTO_Definition_files.Designer.cs</LastGenOutput>
+		</EmbeddedResource>
 		<EmbeddedResource Update="Definitions\IFC4_and_COBie_Definition_files.resx">
 			<Generator>ResXFileCodeGenerator</Generator>
 			<LastGenOutput>IFC4_and_COBie_Definition_files.Designer.cs</LastGenOutput>
@@ -920,5 +938,9 @@
 			<Generator>PublicResXFileCodeGenerator</Generator>
 			<LastGenOutput>IFC4_QTO_Definition_files.Designer.cs</LastGenOutput>
 		</EmbeddedResource>
+	</ItemGroup>
+	<ItemGroup>
+	  <Folder Include="Definitions\IFC4x3\" />
+	  <Folder Include="Definitions\IFC4x3_QTO\" />
 	</ItemGroup>
 </Project>

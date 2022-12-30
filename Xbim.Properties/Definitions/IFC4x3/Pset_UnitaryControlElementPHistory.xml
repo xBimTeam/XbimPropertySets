@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<PropertySetDef templatetype="PSET_PERFORMANCEDRIVEN" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd">
+  <IfcVersion version="IFC4X3"/>
+  <Name>Pset_UnitaryControlElementPHistory</Name>
+  <Definition>Properties for history and operating schedules of thermostats.  HISTORY: Added in IFC4.</Definition>
+  <Applicability/>
+  <ApplicableClasses>
+    <ClassName>IfcUnitaryControlElement</ClassName>
+  </ApplicableClasses>
+  <ApplicableTypeValue>IfcUnitaryControlElement</ApplicableTypeValue>
+  <PropertyDefs>
+    <PropertyDef>
+      <Name>Temperature</Name>
+      <Definition>Temperature of the fluid.</Definition>
+      <PropertyType>
+        <TypePropertyReferenceValue reftype="IfcTimeSeries"/>
+      </PropertyType>
+    </PropertyDef>
+    <PropertyDef>
+      <Name>OperationModeHistory</Name>
+      <Definition>Indicates operation mode corresponding to Pset_UnitaryControlTypeCommon.Mode.  For example, 'HEAT', 'COOL', 'AUTO'.</Definition>
+      <PropertyType>
+        <TypePropertyReferenceValue reftype="IfcTimeSeries"/>
+      </PropertyType>
+    </PropertyDef>
+    <PropertyDef>
+      <Name>Fan</Name>
+      <Definition>Indicates fan operation where True is on, False is off, and Unknown is automatic.</Definition>
+      <PropertyType>
+        <TypePropertyReferenceValue reftype="IfcTimeSeries"/>
+      </PropertyType>
+    </PropertyDef>
+    <PropertyDef>
+      <Name>SetPoint</Name>
+      <Definition>Indicates the setpoint and label.</Definition>
+      <PropertyType>
+        <TypePropertyReferenceValue reftype="IfcTimeSeries"/>
+      </PropertyType>
+    </PropertyDef>
+  </PropertyDefs>
+</PropertySetDef>
