@@ -3,7 +3,6 @@
 		<OutputType>Library</OutputType>
 		<RestorePackages>true</RestorePackages>
 		<TargetFrameworks>netstandard2.0;netstandard2.1</TargetFrameworks>
-		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
 		<PackageLicenseExpression>CDDL-1.0</PackageLicenseExpression>
 		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
 		<Authors>xBIM Team</Authors>
@@ -12,12 +11,14 @@
 		<RepositoryUrl>https://github.com/xBimTeam/XbimPropertySets.git</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
 		<PackageTags>BIM, IFC, BuildingSmart, PropertySets, Property, IFD, bSDD</PackageTags>
-		<PackageReleaseNotes>Now targeting multiple .NET platforms.</PackageReleaseNotes>
+		<PackageReleaseNotes>Now supporting IFC4x3 schema</PackageReleaseNotes>
 		<AssemblyVersion>6.0.0</AssemblyVersion>
 		<FileVersion>6.0.0</FileVersion>
     <Version>6.0.0</Version>
 		<SignAssembly>true</SignAssembly>
 		<AssemblyOriginatorKeyFile>XbimOpenSourceKeyFile.snk</AssemblyOriginatorKeyFile>
+		<Title>xbim.PropertySets</Title>
+		<Description>Programmatic access to BuildingSmart Properties and Psets for IFC schemas, and related Data Dictionaries</Description>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netstandard2.0|AnyCPU'">
 	  <DefineConstants>DEBUG;TRACE</DefineConstants>
