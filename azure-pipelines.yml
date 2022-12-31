@@ -60,7 +60,7 @@ steps:
 # Description - Applies a version to a .NET Core assembly via the .csproj files based on the build number. 
 # Based on https://github.com/rfennell/AzurePipelines/wiki/Version-Assemblies-and-Packages-Tasks-YAML#versiondotnetcoreassembliestask
 - task: VersionDotNetCoreAssemblies@2
-  displayName: 'Versioning netcore projects $(fileversion)'
+  displayName: 'Versioning netcore projects'
   inputs: 
     # Required arguments
     Path: $(Build.SourcesDirectory)
@@ -69,16 +69,6 @@ steps:
     FilenamePattern: .csproj
     Field: FileVersion
     OutputVersion: OutputedVersion
-
-# nuget restore sln
-- task: DotNetCoreCLI@2
-  displayName: 'Restore'
-  inputs:
-    command: 'restore'
-    projects: '$(solution)'
-    feedsToUse: 'select'
-    vstsFeed: '2591d379-784d-4b57-88f5-a932c93cbffd'
-
 
 - task: DotNetCoreCLI@2
   displayName: 'Build & Pack'
@@ -96,7 +86,7 @@ steps:
   
 # Copy artifacts and Publish
 - task: CopyFiles@2
-  name: 'StagingArtefacts'
+  displayName: 'Stage artifacts'
   inputs:
     sourceFolder: '$(Build.BinariesDirectory)'
     contents: '**\*.nupkg' 
@@ -105,7 +95,7 @@ steps:
     
 # Publish to master or develop MyGet feed based on the source branch
 - task: NuGetCommand@2
-  name: 'MyGetPublishing_Master'
+  displayName: 'Publish to Myget master'
   condition: eq(variables['Build.SourceBranch'], 'refs/heads/master')
   inputs:
     command: push
@@ -115,7 +105,7 @@ steps:
     versionEnvVar: packageversion
 
 - task: NuGetCommand@2
-  name: 'MyGetPublishing_Develop'
+  displayName: 'Publish to Myget develop'
   condition: eq(variables['Build.SourceBranch'], 'refs/heads/develop')
   inputs:
     command: push
