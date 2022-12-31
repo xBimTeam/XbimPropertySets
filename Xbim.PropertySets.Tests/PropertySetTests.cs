@@ -146,7 +146,9 @@ namespace Xbim.Properties.Tests
             Assert.IsTrue(classes.Any(c => c.Equals("IfcRail", StringComparison.InvariantCultureIgnoreCase)));
         }
 
+        
         [TestMethod]
+        [Ignore("bSDD api seems to be down / moved")]
         public void DictionaryAccess()
         {
             var connection = new DictionaryConnection();
