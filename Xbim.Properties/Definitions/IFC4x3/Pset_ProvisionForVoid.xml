@@ -1,17 +1,18 @@
 <?xml version="1.0" ?>
-<PropertySetDef templatetype="PSET_OCCURRENCEDRIVEN" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd">
-  <IfcVersion version="IFC4X3"/>
+<PropertySetDef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" templatetype="PSET_OCCURRENCEDRIVEN" xsi:noNamespaceSchemaLocation="http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd">
+  <IfcVersion version="IFC4X3_ADD2"/>
   <Name>Pset_ProvisionForVoid</Name>
   <Definition>Properties for Provisions For Voids.</Definition>
   <Applicability/>
   <ApplicableClasses>
+    <ClassName>IfcBuildingElementProxy/PROVISIONFORVOID</ClassName>
     <ClassName>IfcVirtualElement/PROVISIONFORVOID</ClassName>
   </ApplicableClasses>
-  <ApplicableTypeValue>IfcVirtualElement/PROVISIONFORVOID</ApplicableTypeValue>
+  <ApplicableTypeValue>IfcBuildingElementProxy/PROVISIONFORVOID,IfcVirtualElement/PROVISIONFORVOID</ApplicableTypeValue>
   <PropertyDefs>
     <PropertyDef>
       <Name>VoidShape</Name>
-      <Definition>Shape of the void.</Definition>
+      <Definition>The shape form of the provision for void, the minimum set of agreed values includes 'Rectangle', 'Round', and 'Undefined'.</Definition>
       <PropertyType>
         <TypePropertySingleValue>
           <DataType type="IfcLabel"/>
@@ -29,7 +30,9 @@
     </PropertyDef>
     <PropertyDef>
       <Name>Height</Name>
-      <Definition>Characteristic height.</Definition>
+      <Definition>Characteristic height
+
+Vertical extension in elevation. Only provided if the Shape property is set to &quot;rectangle&quot;.</Definition>
       <PropertyType>
         <TypePropertySingleValue>
           <DataType type="IfcPositiveLengthMeasure"/>
@@ -56,7 +59,9 @@
     </PropertyDef>
     <PropertyDef>
       <Name>System</Name>
-      <Definition>he building service system that requires the provision for voids, e.g. 'Air Conditioning', 'Plumbing', 'Electro', etc.</Definition>
+      <Definition>The building service system that requires the provision for voids, e.g. 'Air Conditioning', 'Plumbing', 'Electro', etc.
+
+Reference to the building service is done using the Name attribute.</Definition>
       <PropertyType>
         <TypePropertySingleValue>
           <DataType type="IfcLabel"/>

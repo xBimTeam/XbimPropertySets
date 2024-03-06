@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
-<PropertySetDef templatetype="PSET_TYPEDRIVENOVERRIDE" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd">
-  <IfcVersion version="IFC4X3"/>
+<PropertySetDef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" templatetype="PSET_TYPEDRIVENOVERRIDE" xsi:noNamespaceSchemaLocation="http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd">
+  <IfcVersion version="IFC4X3_ADD2"/>
   <Name>Pset_ControllerTypeMultiPosition</Name>
   <Definition>Properties for discrete inputs, outputs, and values within a programmable logic controller. HISTORY: New in IFC4, replaces Pset_MultiStateInput and Pset_MultiStateOutput.</Definition>
   <Applicability/>
@@ -12,7 +12,11 @@
   <PropertyDefs>
     <PropertyDef>
       <Name>ControlType</Name>
-      <Definition>The type controller, signal modification effected and applicable ports</Definition>
+      <Definition>The type controller, signal modification effected and applicable ports
+
+INPUT: Controller element is a dedicated input.
+OUTPUT: Controller element is a dedicated output.
+VARIABLE: Controller element is an in-memory variable.</Definition>
       <PropertyType>
         <TypePropertyEnumeratedValue>
           <EnumList name="PEnum_ControllerMultiPositionType">
@@ -28,7 +32,9 @@
     </PropertyDef>
     <PropertyDef>
       <Name>Labels</Name>
-      <Definition>Table mapping values to labels, where such labels indicate the meanings of True and False, such as 'Open' and 'Closed'</Definition>
+      <Definition>Table mapping values to labels
+
+Each entry corresponds to an integer within the ValueRange.</Definition>
       <PropertyType>
         <TypePropertyTableValue>
           <Expression/>
@@ -52,7 +58,9 @@
     </PropertyDef>
     <PropertyDef>
       <Name>Value</Name>
-      <Definition>The expected range and default value.</Definition>
+      <Definition>The expected range and default value.
+
+The expected range and default value.  The LowerLimitValue and UpperLimitValue must fall within the physical Range.</Definition>
       <PropertyType>
         <TypePropertyBoundedValue>
           <DataType type="IfcInteger"/>

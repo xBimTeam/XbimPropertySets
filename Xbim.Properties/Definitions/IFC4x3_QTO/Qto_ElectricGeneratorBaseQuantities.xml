@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
-<QtoSetDef templatetype="QTO_TYPEDRIVENOVERRIDE" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd">
-  <IfcVersion version="IFC4X3"/>
+<QtoSetDef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" templatetype="QTO_TYPEDRIVENOVERRIDE" xsi:noNamespaceSchemaLocation="http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd">
+  <IfcVersion version="IFC4X3_ADD2"/>
   <Name>Qto_ElectricGeneratorBaseQuantities</Name>
   <Definition>Base quantities that are common to the definition of all occurrences of electric generator.</Definition>
   <Applicability/>

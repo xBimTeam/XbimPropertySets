@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
-<PropertySetDef templatetype="PSET_TYPEDRIVENOVERRIDE" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd">
-  <IfcVersion version="IFC4X3"/>
+<PropertySetDef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" templatetype="PSET_TYPEDRIVENOVERRIDE" xsi:noNamespaceSchemaLocation="http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd">
+  <IfcVersion version="IFC4X3_ADD2"/>
   <Name>Pset_AirTerminalTypeCommon</Name>
   <Definition>Air terminal type common attributes.
 SoundLevel attribute deleted in IFC2x2 Pset Addendum: Use IfcSoundProperties instead.</Definition>
@@ -123,7 +123,9 @@ SoundLevel attribute deleted in IFC2x2 Pset Addendum: Use IfcSoundProperties ins
     </PropertyDef>
     <PropertyDef>
       <Name>AirFlowRateRange</Name>
-      <Definition>Possible range of airflow that can be delivered.</Definition>
+      <Definition>Possible range of airflow that can be delivered.
+
+Air flowrate range within which the air terminal is designed to operate.</Definition>
       <PropertyType>
         <TypePropertyBoundedValue>
           <DataType type="IfcVolumetricFlowRateMeasure"/>
@@ -132,7 +134,9 @@ SoundLevel attribute deleted in IFC2x2 Pset Addendum: Use IfcSoundProperties ins
     </PropertyDef>
     <PropertyDef>
       <Name>TemperatureRange</Name>
-      <Definition>Allowable maximum and minimum temperature.</Definition>
+      <Definition>Allowable maximum and minimum temperature.
+
+Temperature range within which the air terminal is designed to operate.</Definition>
       <PropertyType>
         <TypePropertyBoundedValue>
           <DataType type="IfcThermodynamicTemperatureMeasure"/>
@@ -193,7 +197,7 @@ Adjustable: both parallel and perpendicular discharge.</Definition>
     </PropertyDef>
     <PropertyDef>
       <Name>FinishColour</Name>
-      <Definition/>
+      <Definition>The finish colour of the object.</Definition>
       <PropertyType>
         <TypePropertySingleValue>
           <DataType type="IfcLabel"/>

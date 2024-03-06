@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
-<PropertySetDef templatetype="PSET_TYPEDRIVENOVERRIDE" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd">
-  <IfcVersion version="IFC4X3"/>
+<PropertySetDef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" templatetype="PSET_TYPEDRIVENOVERRIDE" xsi:noNamespaceSchemaLocation="http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd">
+  <IfcVersion version="IFC4X3_ADD2"/>
   <Name>Pset_ProcessCapacity</Name>
   <Definition>Property set for the application of process data to spatial elements and transport assets</Definition>
   <Applicability/>
@@ -9,17 +9,13 @@
     <ClassName>IfcDistributionSystem</ClassName>
     <ClassName>IfcDoor</ClassName>
     <ClassName>IfcSpace</ClassName>
-    <ClassName>IfcSpatialElementType</ClassName>
     <ClassName>IfcTransportationDevice</ClassName>
-    <ClassName>IfcTransportationDeviceType</ClassName>
     <ClassName>IfcZone</ClassName>
     <ClassName>IfcDoorType</ClassName>
     <ClassName>IfcSpaceType</ClassName>
-    <ClassName>IfcSpatialElement</ClassName>
     <ClassName>IfcTransportationDeviceType</ClassName>
-    <ClassName>IfcTransportationDevice</ClassName>
   </ApplicableClasses>
-  <ApplicableTypeValue>IfcBuiltSystem,IfcDistributionSystem,IfcDoor,IfcSpace,IfcSpatialElementType,IfcTransportationDevice,IfcTransportationDeviceType,IfcZone,IfcDoorType,IfcSpaceType,IfcSpatialElement,IfcTransportationDeviceType,IfcTransportationDevice</ApplicableTypeValue>
+  <ApplicableTypeValue>IfcBuiltSystem,IfcDistributionSystem,IfcDoor,IfcSpace,IfcTransportationDevice,IfcZone,IfcDoorType,IfcSpaceType,IfcTransportationDeviceType</ApplicableTypeValue>
   <PropertyDefs>
     <PropertyDef>
       <Name>ProcessItem</Name>
@@ -60,7 +56,7 @@
     </PropertyDef>
     <PropertyDef>
       <Name>DownstreamConnections</Name>
-      <Definition>Names of downstream connected equipment and spaces (comma-separated), if not otherwise represented</Definition>
+      <Definition>Names of downstream connected equipment and spaces, if not otherwise represented</Definition>
       <PropertyType>
         <TypePropertyListValue>
           <ListValue>
@@ -71,7 +67,7 @@
     </PropertyDef>
     <PropertyDef>
       <Name>UpstreamConnections</Name>
-      <Definition>Names of upstream connected equipment and spaces (comma-separated), if not otherwise represented</Definition>
+      <Definition>Names of upstream connected equipment and spaces, if not otherwise represented</Definition>
       <PropertyType>
         <TypePropertyListValue>
           <ListValue>

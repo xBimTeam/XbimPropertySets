@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
-<PropertySetDef templatetype="PSET_MATERIALDRIVEN" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd">
-  <IfcVersion version="IFC4X3"/>
+<PropertySetDef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" templatetype="PSET_MATERIALDRIVEN" xsi:noNamespaceSchemaLocation="http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd">
+  <IfcVersion version="IFC4X3_ADD2"/>
   <Name>Pset_MechanicalPanelOutOfPlane</Name>
   <Definition>Properties for Mechanica lPanels Out Of Plane.</Definition>
   <Applicability/>
@@ -59,7 +59,9 @@
     </PropertyDef>
     <PropertyDef>
       <Name>BendingStrength</Name>
-      <Definition>Defining values: α; defined values: bending strength.</Definition>
+      <Definition>Bending strength.
+
+Defining values: α; defined values: bending strength.</Definition>
       <PropertyType>
         <TypePropertyTableValue>
           <Expression/>
@@ -74,7 +76,9 @@
     </PropertyDef>
     <PropertyDef>
       <Name>CompressiveStrength</Name>
-      <Definition>Defining values: α; defined values: compressive strength.</Definition>
+      <Definition>The compressive strength of the object or material.
+
+Defining values: α; defined values: compressive strength.</Definition>
       <PropertyType>
         <TypePropertyTableValue>
           <Expression/>

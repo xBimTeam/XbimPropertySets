@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
-<PropertySetDef templatetype="PSET_TYPEDRIVENOVERRIDE" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd">
-  <IfcVersion version="IFC4X3"/>
+<PropertySetDef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" templatetype="PSET_TYPEDRIVENOVERRIDE" xsi:noNamespaceSchemaLocation="http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd">
+  <IfcVersion version="IFC4X3_ADD2"/>
   <Name>Pset_ProtectiveDeviceTrippingUnitTypeElectronic</Name>
   <Definition>Information on tripping units that are electronically tripped.</Definition>
   <Applicability/>
@@ -30,7 +30,10 @@
     </PropertyDef>
     <PropertyDef>
       <Name>NominalCurrents</Name>
-      <Definition>A set of values providing information on available modules (chips) for setting the nominal current of the protective device.</Definition>
+      <Definition>A set of values providing information on available modules (chips) for setting the nominal current of the protective device.
+
+A set of values providing information on available modules (chips) for setting the nominal current of the protective device. If
+the set is empty, no nominal current modules are available for the tripping unit.</Definition>
       <PropertyType>
         <TypePropertyListValue>
           <ListValue>
@@ -41,7 +44,7 @@
     </PropertyDef>
     <PropertyDef>
       <Name>N_Protection</Name>
-      <Definition>An indication whether the electronic tripping unit is tripping if the current in the N conductor is more than 50% of that of the phase conductors. The property is only asserted if the property N_Protection is asserted.</Definition>
+      <Definition>An indication whether the electronic tripping unit has separate protection for the N conductor, or not.</Definition>
       <PropertyType>
         <TypePropertySingleValue>
           <DataType type="IfcBoolean"/>

@@ -62,13 +62,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_ActuatorBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all occurrences of actuator.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcActuator&lt;/Clas [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcActuator&lt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_ActuatorBaseQuantities {
             get {
@@ -78,13 +78,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_AirTerminalBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all types of air terminals.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcAirTerminal&lt; [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcAirTerm [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_AirTerminalBaseQuantities {
             get {
@@ -94,13 +94,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_AirTerminalBoxTypeBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all types of air terminal boxes.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;Ifc [rest of string was truncated]&quot;;.
+        ///    &lt;ClassNam [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_AirTerminalBoxTypeBaseQuantities {
             get {
@@ -110,13 +110,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_AirToAirHeatRecoveryBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all types of air-to-air heat recovery elements.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;ApplicableClasses&gt;
-        ///  [rest of string was truncated]&quot;;.
+        ///  &lt;ApplicableClass [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_AirToAirHeatRecoveryBaseQuantities {
             get {
@@ -126,14 +125,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_AlarmBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all occurrences of alarm.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcAlarm&lt;/ClassName&gt;
-        ///   [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcAlarm&lt;/ClassNam [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_AlarmBaseQuantities {
             get {
@@ -143,12 +141,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_ArealStratumBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Quantity measures associated to areal stratum such as in a geotechnical slice. Uncertainty is documented in Pset_Uncertainty.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;App [rest of string was truncated]&quot;;.
+        ///  &lt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_ArealStratumBaseQuantities {
             get {
@@ -158,13 +156,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_AudioVisualApplianceBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all occurrences of audio visual appliance.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;C [rest of string was truncated]&quot;;.
+        ///  [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_AudioVisualApplianceBaseQuantities {
             get {
@@ -174,14 +172,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_BeamBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all occurrences of beams.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcBeam&lt;/ClassName&gt;
-        ///     [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcBeam&lt;/ClassName&gt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_BeamBaseQuantities {
             get {
@@ -191,10 +188,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_BodyGeometryValidation&lt;/Name&gt;
-        ///  &lt;Definition&gt;Quantities supplied for validating the correct interpretation of the body shape representation at import. In case of multiple representation items, the quantities are sum [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Quantities supplied for validating the correct interpretation of the body shape representation at import. In case of multiple representation items, the quantities ar [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_BodyGeometryValidation {
             get {
@@ -204,14 +201,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_BoilerBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all types of boilers.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcBoiler&lt;/ClassName&gt;
-        ///     [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcBoiler&lt;/ClassName&gt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_BoilerBaseQuantities {
             get {
@@ -221,13 +217,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_BuildingBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all occurrences of building.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcBuilding&lt;/Clas [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcBuilding&lt;/C [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_BuildingBaseQuantities {
             get {
@@ -237,14 +233,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_BuildingElementProxyQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Quantity set for Building Element Proxies.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcBuildingElementProxy&lt;/ClassName&gt;
-        ///    &lt;ClassNa [rest of string was truncated]&quot;;.
+        ///    &lt;Cl [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_BuildingElementProxyQuantities {
             get {
@@ -254,13 +250,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_BuildingStoreyBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all occurrences of building storey.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcB [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;I [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_BuildingStoreyBaseQuantities {
             get {
@@ -270,14 +266,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_BurnerBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all types of burners.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcBurner&lt;/ClassName&gt;
-        ///     [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcBurner&lt;/ClassName&gt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_BurnerBaseQuantities {
             get {
@@ -287,13 +282,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_CableCarrierFittingBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all occurrences of cable carrier fitting.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;Cla [rest of string was truncated]&quot;;.
+        ///    [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_CableCarrierFittingBaseQuantities {
             get {
@@ -303,13 +298,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_CableCarrierSegmentBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all occurrences of cable carrier segment.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;Cla [rest of string was truncated]&quot;;.
+        ///    [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_CableCarrierSegmentBaseQuantities {
             get {
@@ -319,13 +314,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_CableFittingBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all occurrences of flow cable fitting.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;Ifc [rest of string was truncated]&quot;;.
+        ///    &lt;ClassNam [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_CableFittingBaseQuantities {
             get {
@@ -335,13 +330,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_CableSegmentBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all occurrences of cable segment.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcCable [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;Ifc [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_CableSegmentBaseQuantities {
             get {
@@ -351,14 +346,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_ChillerBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all types of chillers.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcChiller&lt;/ClassName&gt;
-        ///  [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcChiller&lt;/ClassNa [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_ChillerBaseQuantities {
             get {
@@ -368,13 +362,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_ChimneyBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all occurrences of chimneys.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcChimney&lt;/ClassN [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcChimney&lt;/C [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_ChimneyBaseQuantities {
             get {
@@ -384,14 +378,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_CoilBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all types of coils.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcCoil&lt;/ClassName&gt;
-        ///    &lt;Class [rest of string was truncated]&quot;;.
+        ///    &lt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_CoilBaseQuantities {
             get {
@@ -401,13 +395,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_ColumnBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all occurrences of columns.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcColumn&lt;/ClassName [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcColumn&lt;/Clas [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_ColumnBaseQuantities {
             get {
@@ -417,13 +411,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_CommunicationsApplianceBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all occurrences of communications appliance.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;ApplicableClasses&gt;
-        ///  [rest of string was truncated]&quot;;.
+        ///  &lt;ApplicableClass [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_CommunicationsApplianceBaseQuantities {
             get {
@@ -433,13 +426,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_CompressorBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all types of compressors.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcCompressor&lt;/Cla [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcCompressor [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_CompressorBaseQuantities {
             get {
@@ -449,13 +442,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_CondenserBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all types of condensers.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcCondenser&lt;/ClassN [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcCondenser&lt;/C [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_CondenserBaseQuantities {
             get {
@@ -465,14 +458,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_ConduitSegmentBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Quantity set of Conduit Segment Base.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcCableCarrierSegment/CONDUITSEGMENT&lt;/ClassName&gt;
-        ///    &lt; [rest of string was truncated]&quot;;.
+        /// [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_ConduitSegmentBaseQuantities {
             get {
@@ -482,12 +475,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_ConstructionEquipmentResourceBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all occurrences of construction equipment resources.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;Applic [rest of string was truncated]&quot;;.
+        ///  &lt;A [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_ConstructionEquipmentResourceBaseQuantities {
             get {
@@ -497,12 +490,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_ConstructionMaterialResourceBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all occurrences of construction material resources.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;Applicab [rest of string was truncated]&quot;;.
+        ///  &lt;App [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_ConstructionMaterialResourceBaseQuantities {
             get {
@@ -512,13 +505,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_ControllerBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all occurrences of controller.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcController [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcContr [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_ControllerBaseQuantities {
             get {
@@ -528,13 +521,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_CooledBeamBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all types of cooled beams.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcCooledBeam&lt;/Cl [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcCooledBea [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_CooledBeamBaseQuantities {
             get {
@@ -544,13 +537,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_CoolingTowerBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all types of cooling towers.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcCoolingTow [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcCooli [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_CoolingTowerBaseQuantities {
             get {
@@ -560,15 +553,15 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_CourseBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Quantity set for Course base.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcCourse&lt;/ClassName&gt;
         ///    &lt;ClassName&gt;IfcCourseType&lt;/ClassName&gt;
-        ///  &lt;/Appl [rest of string was truncated]&quot;;.
+        ///  &lt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_CourseBaseQuantities {
             get {
@@ -578,13 +571,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_CoveringBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all occurrences of coverings applied to spaces.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassNam [rest of string was truncated]&quot;;.
+        ///    &lt;Cla [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_CoveringBaseQuantities {
             get {
@@ -594,13 +587,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_CurtainWallQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all occurrences of curtain walls.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcCurtainWal [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcCurta [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_CurtainWallQuantities {
             get {
@@ -610,14 +603,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_DamperBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all types of dampers.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcDamper&lt;/ClassName&gt;
-        ///     [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcDamper&lt;/ClassName&gt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_DamperBaseQuantities {
             get {
@@ -627,13 +619,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_DistributionBoardBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all occurrences of electric distribution board.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;ApplicableClasses&gt;
-        ///     [rest of string was truncated]&quot;;.
+        ///  &lt;ApplicableClasses&gt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_DistributionBoardBaseQuantities {
             get {
@@ -643,12 +634,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_DistributionChamberElementBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all occurrences of distribution chamber elements.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;ApplicableCl [rest of string was truncated]&quot;;.
+        ///  &lt;Applica [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_DistributionChamberElementBaseQuantities {
             get {
@@ -658,14 +649,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_DoorBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all occurrences of doors.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcDoor&lt;/ClassName&gt;
-        ///     [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcDoor&lt;/ClassName&gt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_DoorBaseQuantities {
             get {
@@ -675,13 +665,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_DuctFittingBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all types and occurrences of duct fittings.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName [rest of string was truncated]&quot;;.
+        ///    &lt;Clas [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_DuctFittingBaseQuantities {
             get {
@@ -691,13 +681,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_DuctSegmentBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all types and occurrences of duct segments.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName [rest of string was truncated]&quot;;.
+        ///    &lt;Clas [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_DuctSegmentBaseQuantities {
             get {
@@ -707,13 +697,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_DuctSilencerBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all types of duct silencers.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcDuctSilenc [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcDuctS [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_DuctSilencerBaseQuantities {
             get {
@@ -723,15 +713,15 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_EarthworksCutBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Quantity set for Earthworks Cut Base.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcEarthworksCut&lt;/ClassName&gt;
         ///  &lt;/ApplicableClasses&gt;
-        ///  &lt;A [rest of string was truncated]&quot;;.
+        ///  [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_EarthworksCutBaseQuantities {
             get {
@@ -741,15 +731,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_EarthworksFillBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Quantity set for Earthworks Fill Base.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcEarthworksFill&lt;/ClassName&gt;
-        ///  &lt;/ApplicableClasses&gt;
-        ///  [rest of string was truncated]&quot;;.
+        ///  &lt;/ApplicableClasses [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_EarthworksFillBaseQuantities {
             get {
@@ -759,13 +748,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_ElectricApplianceBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all occurrences of electric appliance.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassNam [rest of string was truncated]&quot;;.
+        ///    &lt;Cla [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_ElectricApplianceBaseQuantities {
             get {
@@ -775,12 +764,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_ElectricFlowStorageDeviceBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all occurrences of electric flow storage device.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;ApplicableClas [rest of string was truncated]&quot;;.
+        ///  &lt;Applicabl [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_ElectricFlowStorageDeviceBaseQuantities {
             get {
@@ -790,13 +779,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_ElectricGeneratorBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all occurrences of electric generator.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassNam [rest of string was truncated]&quot;;.
+        ///    &lt;Cla [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_ElectricGeneratorBaseQuantities {
             get {
@@ -806,13 +795,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_ElectricMotorBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all occurrences of electric motor.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcEle [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;I [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_ElectricMotorBaseQuantities {
             get {
@@ -822,13 +811,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_ElectricTimeControlBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all occurrences of electric time control.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;Cla [rest of string was truncated]&quot;;.
+        ///    [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_ElectricTimeControlBaseQuantities {
             get {
@@ -838,13 +827,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_EvaporativeCoolerBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all types of evaporative coolers.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;Ifc [rest of string was truncated]&quot;;.
+        ///    &lt;ClassNam [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_EvaporativeCoolerBaseQuantities {
             get {
@@ -854,13 +843,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_EvaporatorBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all types of evaporators.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcEvaporator&lt;/Cla [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcEvaporator [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_EvaporatorBaseQuantities {
             get {
@@ -870,13 +859,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_FacilityPartBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all occurrences of IfcFacilityPart.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcFac [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;Ifc [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_FacilityPartBaseQuantities {
             get {
@@ -886,14 +875,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_FanBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all types of fans.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcFan&lt;/ClassName&gt;
-        ///    &lt;ClassNam [rest of string was truncated]&quot;;.
+        ///    &lt;Cla [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_FanBaseQuantities {
             get {
@@ -903,14 +892,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_FilterBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all types of filters.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcFilter&lt;/ClassName&gt;
-        ///     [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcFilter&lt;/ClassName&gt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_FilterBaseQuantities {
             get {
@@ -920,13 +908,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_FireSuppressionTerminalBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all occurrences of fire suppression terminal.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;ApplicableClasses&gt;
-        /// [rest of string was truncated]&quot;;.
+        ///  &lt;ApplicableClas [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_FireSuppressionTerminalBaseQuantities {
             get {
@@ -936,13 +923,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_FlowInstrumentBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all occurrences of flow instrument.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcF [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_FlowInstrumentBaseQuantities {
             get {
@@ -952,13 +939,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_FlowMeterBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all types of flow meters.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcFlowMeter&lt;/Class [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcFlowMeter&lt;/ [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_FlowMeterBaseQuantities {
             get {
@@ -968,13 +955,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_FootingBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all occurrences of footings.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcFooting&lt;/ClassN [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcFooting&lt;/C [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_FootingBaseQuantities {
             get {
@@ -984,13 +971,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_HeatExchangerBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all types of heat exchangers.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcHeatExch [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcHea [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_HeatExchangerBaseQuantities {
             get {
@@ -1000,13 +987,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_HumidifierBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all types of humidifiers.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcHumidifier&lt;/Cla [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcHumidifier [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_HumidifierBaseQuantities {
             get {
@@ -1016,14 +1003,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_ImpactProtectionDeviceBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Quantity set Impact Protection Device Base.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcImpactProtectionDevice&lt;/ClassName&gt;
-        ///    [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcImpactProtectionDevice&lt;/ClassName [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_ImpactProtectionDeviceBaseQuantities {
             get {
@@ -1033,13 +1019,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_InterceptorBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all occurrences of interceptor.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcIntercep [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcInt [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_InterceptorBaseQuantities {
             get {
@@ -1049,13 +1035,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_JunctionBoxBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all occurrences of junction box.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcJunctio [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcJu [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_JunctionBoxBaseQuantities {
             get {
@@ -1065,15 +1051,15 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_KerbBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Quantity set for Kerb Base.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcKerb&lt;/ClassName&gt;
         ///    &lt;ClassName&gt;IfcKerbType&lt;/ClassName&gt;
-        ///  &lt;/ApplicableCl [rest of string was truncated]&quot;;.
+        ///  &lt;/Applica [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_KerbBaseQuantities {
             get {
@@ -1083,13 +1069,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_LaborResourceBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all occurrences of labour resources.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcL [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_LaborResourceBaseQuantities {
             get {
@@ -1099,14 +1085,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_LampBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all occurrences of lamp.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcLamp&lt;/ClassName&gt;
-        ///    &lt; [rest of string was truncated]&quot;;.
+        /// [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_LampBaseQuantities {
             get {
@@ -1116,13 +1102,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_LightFixtureBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all occurrences of light fixture.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcLight [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;Ifc [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_LightFixtureBaseQuantities {
             get {
@@ -1132,12 +1118,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_LinearStratumBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Quantity measures associated to a linear stratum such as in a borehole. Uncertainty is documented in Pset_Uncertainty.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;Applicabl [rest of string was truncated]&quot;;.
+        ///  &lt;Applic [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_LinearStratumBaseQuantities {
             get {
@@ -1147,13 +1133,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_MarineFacilityBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all occurrences of IfcMarineFacility.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;If [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_MarineFacilityBaseQuantities {
             get {
@@ -1163,13 +1149,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_MemberBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all occurrences of members.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcMember&lt;/ClassName [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcMember&lt;/Clas [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_MemberBaseQuantities {
             get {
@@ -1179,13 +1165,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_MotorConnectionBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all occurrences of motor connection.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;If [rest of string was truncated]&quot;;.
+        ///    &lt;ClassNa [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_MotorConnectionBaseQuantities {
             get {
@@ -1195,13 +1181,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_OpeningElementBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all occurrences of opening elements.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;Ifc [rest of string was truncated]&quot;;.
+        ///    &lt;ClassNam [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_OpeningElementBaseQuantities {
             get {
@@ -1211,13 +1197,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_OutletBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all occurrences of outlet.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcOutlet&lt;/ClassName&gt; [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcOutlet&lt;/Class [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_OutletBaseQuantities {
             get {
@@ -1227,15 +1213,15 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_PavementBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Quantity set for Pavement.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcPavement&lt;/ClassName&gt;
         ///    &lt;ClassName&gt;IfcPavementType&lt;/ClassName&gt;
-        ///  &lt;/A [rest of string was truncated]&quot;;.
+        /// [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_PavementBaseQuantities {
             get {
@@ -1245,14 +1231,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_PictorialSignQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Quantity set for Pictorial Signs.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcSign/PICTORAL&lt;/ClassName&gt;
-        ///    &lt;ClassName&gt;IfcSignType/PICTORAL [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcSignType/PIC [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_PictorialSignQuantities {
             get {
@@ -1262,14 +1248,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_PileBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all occurrences of piles.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcPile&lt;/ClassName&gt;
-        ///     [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcPile&lt;/ClassName&gt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_PileBaseQuantities {
             get {
@@ -1279,13 +1264,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_PipeFittingBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all types and occurrences of pipe fittings.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName [rest of string was truncated]&quot;;.
+        ///    &lt;Clas [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_PipeFittingBaseQuantities {
             get {
@@ -1295,13 +1280,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_PipeSegmentBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all types and occurrences of pipe segments.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName [rest of string was truncated]&quot;;.
+        ///    &lt;Clas [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_PipeSegmentBaseQuantities {
             get {
@@ -1311,14 +1296,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_PlateBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all occurrences of plates.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcPlate&lt;/ClassName&gt;
-        ///  [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcPlate&lt;/ClassNa [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_PlateBaseQuantities {
             get {
@@ -1328,13 +1312,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_ProjectionElementBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all occurrences of projection elements.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassNa [rest of string was truncated]&quot;;.
+        ///    &lt;Clas [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_ProjectionElementBaseQuantities {
             get {
@@ -1344,13 +1328,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_ProtectiveDeviceBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all occurrences of protective device.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt; [rest of string was truncated]&quot;;.
+        ///    &lt;Class [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_ProtectiveDeviceBaseQuantities {
             get {
@@ -1360,12 +1344,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_ProtectiveDeviceTrippingUnitBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all occurrences of protective device tripping unit.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;Applicab [rest of string was truncated]&quot;;.
+        ///  &lt;App [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_ProtectiveDeviceTrippingUnitBaseQuantities {
             get {
@@ -1375,14 +1359,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_PumpBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all types of pumps.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcPump&lt;/ClassName&gt;
-        ///    &lt;Class [rest of string was truncated]&quot;;.
+        ///    &lt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_PumpBaseQuantities {
             get {
@@ -1392,14 +1376,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_RailBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all occurrences of rail.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcRail&lt;/ClassName&gt;
-        ///    &lt; [rest of string was truncated]&quot;;.
+        /// [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_RailBaseQuantities {
             get {
@@ -1409,13 +1393,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_RailingBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all occurrences of railings.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcRailing&lt;/ClassN [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcRailing&lt;/C [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_RailingBaseQuantities {
             get {
@@ -1425,13 +1409,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_RampFlightBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all occurrences of ramp flights.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcRampFlig [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcRam [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_RampFlightBaseQuantities {
             get {
@@ -1441,15 +1425,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_ReinforcedSoilBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Quantity sets for Reinforced Soil Base.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcReinforcedSoil&lt;/ClassName&gt;
-        ///  &lt;/ApplicableClasses&gt;
-        /// [rest of string was truncated]&quot;;.
+        ///  &lt;/ApplicableClasse [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_ReinforcedSoilBaseQuantities {
             get {
@@ -1459,13 +1442,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_ReinforcingElementBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all occurrences of reinforcement.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;If [rest of string was truncated]&quot;;.
+        ///    &lt;ClassNa [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_ReinforcingElementBaseQuantities {
             get {
@@ -1475,14 +1458,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_RoofBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all occurrences of roof.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcRoof&lt;/ClassName&gt;
-        ///    &lt; [rest of string was truncated]&quot;;.
+        /// [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_RoofBaseQuantities {
             get {
@@ -1492,13 +1475,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_SanitaryTerminalBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all occurrences of sanitary terminal.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt; [rest of string was truncated]&quot;;.
+        ///    &lt;Class [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_SanitaryTerminalBaseQuantities {
             get {
@@ -1508,13 +1491,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_SensorBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all occurrences of sensor.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcSensor&lt;/ClassName&gt; [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcSensor&lt;/Class [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_SensorBaseQuantities {
             get {
@@ -1524,15 +1507,15 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_SignalBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities for Signals.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcSignal&lt;/ClassName&gt;
         ///    &lt;ClassName&gt;IfcSignalType&lt;/ClassName&gt;
-        ///  &lt;/Appli [rest of string was truncated]&quot;;.
+        ///  &lt;/ [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_SignalBaseQuantities {
             get {
@@ -1542,15 +1525,15 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_SignBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities for Signs.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcSign&lt;/ClassName&gt;
         ///    &lt;ClassName&gt;IfcSignType&lt;/ClassName&gt;
-        ///  &lt;/ApplicableCla [rest of string was truncated]&quot;;.
+        ///  &lt;/Applicab [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_SignBaseQuantities {
             get {
@@ -1560,14 +1543,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_SiteBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all occurrences of site.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcSite&lt;/ClassName&gt;
-        ///  &lt;/A [rest of string was truncated]&quot;;.
+        ///   [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_SiteBaseQuantities {
             get {
@@ -1577,14 +1560,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_SlabBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all occurrences of slabs.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcSlab&lt;/ClassName&gt;
-        ///     [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcSlab&lt;/ClassName&gt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_SlabBaseQuantities {
             get {
@@ -1594,13 +1576,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_SleeperBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities common to the definition to all occurrences of IfcTrackElement with PredefinedType set to SLEEPER.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;ApplicableClasses&gt;
-        /// [rest of string was truncated]&quot;;.
+        ///  &lt;ApplicableClas [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_SleeperBaseQuantities {
             get {
@@ -1610,13 +1591,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_SolarDeviceBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all occurrences of solar devices.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcSolarD [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcS [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_SolarDeviceBaseQuantities {
             get {
@@ -1626,14 +1607,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_SpaceBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all occurrences of spaces.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcSpace&lt;/ClassName&gt;
-        ///  [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcSpace&lt;/ClassNa [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_SpaceBaseQuantities {
             get {
@@ -1643,13 +1623,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_SpaceHeaterBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all types of space heaters.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcSpaceHeater&lt; [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcSpaceHe [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_SpaceHeaterBaseQuantities {
             get {
@@ -1659,14 +1639,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_SpatialZoneBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities set for Spatial Zones.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcSpatialZone&lt;/ClassName&gt;
-        ///    &lt;ClassName&gt;IfcSpatialZoneT [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcSpatial [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_SpatialZoneBaseQuantities {
             get {
@@ -1676,13 +1656,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_StackTerminalBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all occurrences of stack terminal.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcSta [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;I [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_StackTerminalBaseQuantities {
             get {
@@ -1692,13 +1672,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_StairFlightBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all occurrences of stair flights.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcStairF [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcS [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_StairFlightBaseQuantities {
             get {
@@ -1708,15 +1688,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_SurfaceFeatureBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities for Surface Features.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcSurfaceFeature&lt;/ClassName&gt;
-        ///  &lt;/ApplicableClasses&gt;
-        ///   [rest of string was truncated]&quot;;.
+        ///  &lt;/ApplicableClasses&gt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_SurfaceFeatureBaseQuantities {
             get {
@@ -1726,13 +1705,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_SwitchingDeviceBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all occurrences of switching device.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;If [rest of string was truncated]&quot;;.
+        ///    &lt;ClassNa [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_SwitchingDeviceBaseQuantities {
             get {
@@ -1742,14 +1721,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_TankBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all types of tanks.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcTank&lt;/ClassName&gt;
-        ///    &lt;Class [rest of string was truncated]&quot;;.
+        ///    &lt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_TankBaseQuantities {
             get {
@@ -1759,13 +1738,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_TransformerBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all occurrences of transformer.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcTransfor [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcTra [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_TransformerBaseQuantities {
             get {
@@ -1775,13 +1754,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_TubeBundleBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all types of tube bundles.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcTubeBundle&lt;/Cl [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcTubeBundl [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_TubeBundleBaseQuantities {
             get {
@@ -1791,13 +1770,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_UnitaryControlElementBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all occurrences of unitary control element.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;ApplicableClasses&gt;
-        ///     [rest of string was truncated]&quot;;.
+        ///  &lt;ApplicableClasses&gt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_UnitaryControlElementBaseQuantities {
             get {
@@ -1807,13 +1785,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_UnitaryEquipmentBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all types of unitary equipment.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcUni [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;I [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_UnitaryEquipmentBaseQuantities {
             get {
@@ -1823,14 +1801,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_ValveBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all types of valves.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcValve&lt;/ClassName&gt;
-        ///    &lt;Cl [rest of string was truncated]&quot;;.
+        ///   [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_ValveBaseQuantities {
             get {
@@ -1840,14 +1818,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_VehicleBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Quantities for vehicles&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcVehicle/ROLLINGSTOCK&lt;/ClassName&gt;
-        ///    &lt;ClassName&gt;IfcVehicle/VEHICLEAIR&lt;/Cl [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcVehicle/VEHICLEAI [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_VehicleBaseQuantities {
             get {
@@ -1857,13 +1835,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_VibrationIsolatorBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all types of vibration isolators.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;Ifc [rest of string was truncated]&quot;;.
+        ///    &lt;ClassNam [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_VibrationIsolatorBaseQuantities {
             get {
@@ -1873,11 +1851,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_VolumetricStratumBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Quantity measures associated to volumetric stratum such as in a geotechnical model. Uncertainty is documented in Pset_Uncertainty.&lt;/Definition&gt;
-        ///  &lt;Applicabilit [rest of string was truncated]&quot;;.
+        ///  &lt;Applicabi [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_VolumetricStratumBaseQuantities {
             get {
@@ -1887,14 +1865,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_WallBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all occurrences of walls.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcWall&lt;/ClassName&gt;
-        ///     [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcWall&lt;/ClassName&gt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_WallBaseQuantities {
             get {
@@ -1904,13 +1881,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_WasteTerminalBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all occurrences of waste terminal.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcWas [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;I [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_WasteTerminalBaseQuantities {
             get {
@@ -1920,13 +1897,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;QtoSetDef templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;QtoSetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;QTO_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/QTO_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Qto_WindowBaseQuantities&lt;/Name&gt;
         ///  &lt;Definition&gt;Base quantities that are common to the definition of all occurrences of windows.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcWindow&lt;/ClassName [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcWindow&lt;/Clas [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Qto_WindowBaseQuantities {
             get {

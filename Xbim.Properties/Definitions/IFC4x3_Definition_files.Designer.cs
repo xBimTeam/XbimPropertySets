@@ -62,12 +62,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ActionRequest&lt;/Name&gt;
         ///  &lt;Definition&gt;An action request is a request for an action to fulfill a need.  HISTORY: IFC4: Removed RequestSourceType, RequestDescription, Status&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;App [rest of string was truncated]&quot;;.
+        ///  [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ActionRequest {
             get {
@@ -77,10 +77,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ActorCommon&lt;/Name&gt;
-        ///  &lt;Definition&gt;A property set that enables further classification of actors, including the ability to give a number of actors to be designated as a population, the number being specified as [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;A property set that enables further classification of actors, including the ability to give a number of actors to be designated as a population, the number being specifi [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ActorCommon {
             get {
@@ -90,14 +90,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ActuatorPHistory&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties for history of actuators.HISTORY Added in IFC4.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcActuator&lt;/ClassName&gt;
-        ///  &lt;/ApplicableCl [rest of string was truncated]&quot;;.
+        ///  &lt;/Applica [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ActuatorPHistory {
             get {
@@ -107,14 +107,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ActuatorTypeCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Actuator type common attributes.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcActuator&lt;/ClassName&gt;
-        ///    &lt;ClassName&gt;IfcActuatorType&lt;/ClassNa [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcActuatorType&lt;/Cl [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ActuatorTypeCommon {
             get {
@@ -124,13 +124,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ActuatorTypeElectricActuator&lt;/Name&gt;
         ///  &lt;Definition&gt;A device that electrically actuates a control element.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcActuator/ELECTRICACTUATOR&lt;/C [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcActuator/ELECTRICACTUAT [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ActuatorTypeElectricActuator {
             get {
@@ -140,13 +140,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ActuatorTypeHydraulicActuator&lt;/Name&gt;
         ///  &lt;Definition&gt;A device that hydraulically actuates a control element.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcActuator/HYDRAULICACTUATOR [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcActuator/HYDRAULICACT [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ActuatorTypeHydraulicActuator {
             get {
@@ -156,14 +156,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ActuatorTypeLinearActuation&lt;/Name&gt;
         ///  &lt;Definition&gt;Characteristics of linear actuation of an actuator
         ///History: Replaces Pset_LinearActuator&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassNam [rest of string was truncated]&quot;;.
+        ///    &lt;Cla [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ActuatorTypeLinearActuation {
             get {
@@ -173,13 +173,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ActuatorTypePneumaticActuator&lt;/Name&gt;
         ///  &lt;Definition&gt;A device that pneumatically actuates a control element&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcActuator/PNEUMATICACTUATOR&lt; [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcActuator/PNEUMATICACTU [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ActuatorTypePneumaticActuator {
             get {
@@ -189,14 +189,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ActuatorTypeRotationalActuation&lt;/Name&gt;
         ///  &lt;Definition&gt;Characteristics of rotational actuation of an actuator
         ///History: Replaces Pset_RotationalActuator&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;ApplicableClasses&gt;
-        ///  [rest of string was truncated]&quot;;.
+        ///  &lt;ApplicableClass [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ActuatorTypeRotationalActuation {
             get {
@@ -206,13 +205,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_Address&lt;/Name&gt;
         ///  &lt;Definition&gt;This Property Set represents an address for delivery of paper based mail and other postal deliveries.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcActo [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;If [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_Address {
             get {
@@ -222,13 +221,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_AirSideSystemInformation&lt;/Name&gt;
         ///  &lt;Definition&gt;Attributes that apply to an air side HVAC system.HISTORY New property set in IFC Release 1.0.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassNam [rest of string was truncated]&quot;;.
+        ///    &lt;Cla [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_AirSideSystemInformation {
             get {
@@ -238,14 +237,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_AirTerminalBoxPHistory&lt;/Name&gt;
         ///  &lt;Definition&gt;Air terminal box performance history attributes.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcAirTerminalBox&lt;/ClassName&gt;
-        ///  &lt;/Applicable [rest of string was truncated]&quot;;.
+        ///  &lt;/Appli [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_AirTerminalBoxPHistory {
             get {
@@ -255,14 +254,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_AirTerminalBoxTypeCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Air terminal box type common attributes.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcAirTerminalBox&lt;/ClassName&gt;
-        ///    &lt;ClassName&gt;IfcA [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_AirTerminalBoxTypeCommon {
             get {
@@ -272,13 +271,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_AirTerminalOccurrence&lt;/Name&gt;
         ///  &lt;Definition&gt;Air terminal occurrence attributes attached to an instance of IfcAirTerminal.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcAirTerminal&lt;/C [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcAirTermin [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_AirTerminalOccurrence {
             get {
@@ -288,14 +287,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_AirTerminalPHistory&lt;/Name&gt;
         ///  &lt;Definition&gt;Air terminal performance history common attributes.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcAirTerminal&lt;/ClassName&gt;
-        ///  &lt;/ApplicableCla [rest of string was truncated]&quot;;.
+        ///  &lt;/Applicab [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_AirTerminalPHistory {
             get {
@@ -305,13 +304,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_AirTerminalTypeCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Air terminal type common attributes.
         ///SoundLevel attribute deleted in IFC2x2 Pset Addendum: Use IfcSoundProperties instead.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;Appl [rest of string was truncated]&quot;;.
+        ///   [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_AirTerminalTypeCommon {
             get {
@@ -321,13 +320,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_AirToAirHeatRecoveryPHistory&lt;/Name&gt;
         ///  &lt;Definition&gt;Air to Air Heat Recovery performance history common attributes.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcAirToAirHeatRecovery [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcAirToAirHeatRec [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_AirToAirHeatRecoveryPHistory {
             get {
@@ -337,13 +336,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_AirToAirHeatRecoveryTypeCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Air to Air Heat Recovery type common attributes.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcAirToAirHeatRecovery&lt;/ClassName&gt; [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcAirToAirHeatRecovery&lt;/Class [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_AirToAirHeatRecoveryTypeCommon {
             get {
@@ -353,14 +352,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_AlarmPHistory&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties for history of alarm values.  HISTORY: Added in IFC4.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcAlarm&lt;/ClassName&gt;
-        ///  &lt;/ApplicableCl [rest of string was truncated]&quot;;.
+        ///  &lt;/Applica [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_AlarmPHistory {
             get {
@@ -370,14 +369,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_AlarmTypeCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Alarm type common attributes.  HISTORY: Added in IFC4.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcAlarm&lt;/ClassName&gt;
-        ///    &lt;ClassName&gt;IfcAlarm [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;Ifc [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_AlarmTypeCommon {
             get {
@@ -387,13 +386,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_AlignmentCantSegmentCommon&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties common to the definition of all instances of alignment cant segment.&lt;/Definition&gt;
+        ///  &lt;Definition&gt;Properties common to the definition of all instances of alignment segment that have designParameters for cant.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcAlignme [rest of string was truncated]&quot;;.
+        ///  &lt;Applicab [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_AlignmentCantSegmentCommon {
             get {
@@ -403,13 +401,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_AlignmentVerticalSegmentCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties common to the definition of all instances of alignment vertical segment.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;If [rest of string was truncated]&quot;;.
+        ///    &lt;ClassNa [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_AlignmentVerticalSegmentCommon {
             get {
@@ -419,13 +417,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_AnnotationContourLine&lt;/Name&gt;
-        ///  &lt;Definition&gt;Specifies parameters of a standard curve that has a single, consistent measure value.&lt;/Definition&gt;
+        ///  &lt;Definition&gt;Specifies properties of a standard curve that has a single, consistent measure value.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcAnnota [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcA [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_AnnotationContourLine {
             get {
@@ -435,10 +433,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_AnnotationLineOfSight&lt;/Name&gt;
-        ///  &lt;Definition&gt;Specifies the properties of the line of sight at a point of connection between two elements. Typically used to define the line of sight visibility at the junction b [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Specifies the properties of the line of sight. For example, it can be used to define the line of sight visibility at the junction between two roads (particular [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_AnnotationLineOfSight {
             get {
@@ -448,12 +446,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_AnnotationSurveyArea&lt;/Name&gt;
         ///  &lt;Definition&gt;Specifies particular properties of survey methods to be assigned to survey point set or resulting surface patches&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;ApplicableClasse [rest of string was truncated]&quot;;.
+        ///  &lt;ApplicableC [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_AnnotationSurveyArea {
             get {
@@ -463,13 +461,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_Asset&lt;/Name&gt;
         ///  &lt;Definition&gt;An asset is a uniquely identifiable element which has a financial value and against which maintenance actions are recorded.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;ApplicableClasses&gt;
-        ///   [rest of string was truncated]&quot;;.
+        ///  &lt;ApplicableClasse [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_Asset {
             get {
@@ -479,10 +476,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_AudioVisualAppliancePHistory&lt;/Name&gt;
-        ///  &lt;Definition&gt;Captures realtime information for audio-video devices, such as for security camera footage and retail information displays.  HISTORY: Added in IFC4.&lt;/Defini [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Captures realtime information for audio-video devices, such as for security camera footage and retail information displays.  HISTORY: Added in IFC4.&lt;/D [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_AudioVisualAppliancePHistory {
             get {
@@ -492,11 +489,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_AudioVisualApplianceTypeAmplifier&lt;/Name&gt;
-        ///  &lt;Definition&gt;An audio-visual amplifier is a device that renders audio from a single external source connected from a port.  HISTORY: Added in IFC4.&lt;/Definition&gt;
-        ///   [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;An audio-visual amplifier is a device that renders audio from a single external source connected from a port.  HISTORY: Added in IFC4.&lt;/Definitio [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_AudioVisualApplianceTypeAmplifier {
             get {
@@ -506,12 +502,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_AudioVisualApplianceTypeCamera&lt;/Name&gt;
         ///  &lt;Definition&gt;An audio-visual camera is a device that captures video, such as for security.  HISTORY: Added in IFC4.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;ApplicableClass [rest of string was truncated]&quot;;.
+        ///  &lt;Applicable [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_AudioVisualApplianceTypeCamera {
             get {
@@ -521,12 +517,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_AudioVisualApplianceTypeCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;An audio-visual appliance is a device that renders or captures audio and/or video.  HISTORY: Added in IFC4.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;Applicable [rest of string was truncated]&quot;;.
+        ///  &lt;Appli [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_AudioVisualApplianceTypeCommon {
             get {
@@ -536,13 +532,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_AudioVisualApplianceTypeDisplay&lt;/Name&gt;
         ///  &lt;Definition&gt;An audio-visual display is a device that renders video from a screen.  HISTORY: Added in IFC4.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;ApplicableClasses&gt;
-        ///    [rest of string was truncated]&quot;;.
+        ///  &lt;ApplicableClasses [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_AudioVisualApplianceTypeDisplay {
             get {
@@ -552,10 +547,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_AudioVisualApplianceTypePlayer&lt;/Name&gt;
-        ///  &lt;Definition&gt;An audio-visual player is a device that plays stored media into a stream of audio and/or video, such as camera footage in security systems, background au [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;An audio-visual player is a device that plays stored media into a stream of audio and/or video, such as camera footage in security systems, backgrou [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_AudioVisualApplianceTypePlayer {
             get {
@@ -565,12 +560,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_AudioVisualApplianceTypeProjector&lt;/Name&gt;
         ///  &lt;Definition&gt;An audio-visual projector is a device that projects video to a surface.  HISTORY: Added in IFC4.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;ApplicableClasses&gt; [rest of string was truncated]&quot;;.
+        ///  &lt;ApplicableCla [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_AudioVisualApplianceTypeProjector {
             get {
@@ -580,13 +575,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_AudioVisualApplianceTypeRailwayCommunicationTerminal&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties used for railway communication terminals.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcAudioV [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcA [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_AudioVisualApplianceTypeRailwayCommunicationTerminal {
             get {
@@ -596,10 +591,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_AudioVisualApplianceTypeReceiver&lt;/Name&gt;
-        ///  &lt;Definition&gt;An audio-visual receiver is a device that switches audio and/or video from multiple sources, including external sources connected from ports and intern [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;An audio-visual receiver is a device that switches audio and/or video from multiple sources, including external sources connected from ports and i [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_AudioVisualApplianceTypeReceiver {
             get {
@@ -609,12 +604,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_AudioVisualApplianceTypeRecordingEquipment&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties common to IfcAudioVisualAppliance with predefined type set to RECORDINGEQUIPMENT.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;ApplicableCla [rest of string was truncated]&quot;;.
+        ///  &lt;Applicab [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_AudioVisualApplianceTypeRecordingEquipment {
             get {
@@ -624,12 +619,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_AudioVisualApplianceTypeSpeaker&lt;/Name&gt;
         ///  &lt;Definition&gt;An audio-visual speaker is a device that converts amplified audio signals into sound waves.  HISTORY: Added in IFC4.&lt;/Definition&gt;
-        ///  &lt;Applicability/&gt;
-        ///  &lt; [rest of string was truncated]&quot;;.
+        ///  &lt;Applicability/ [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_AudioVisualApplianceTypeSpeaker {
             get {
@@ -639,12 +633,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_AudioVisualApplianceTypeTuner&lt;/Name&gt;
         ///  &lt;Definition&gt;An audio-visual tuner is a device that demodulates a signal into a stream of audio and/or video.  HISTORY: Added in IFC4.&lt;/Definition&gt;
-        ///  &lt;Applicability/&gt;
-        /// [rest of string was truncated]&quot;;.
+        ///  &lt;Applicabili [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_AudioVisualApplianceTypeTuner {
             get {
@@ -654,11 +647,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_AxleCountingEquipment&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties that are applicable for IfcSensor with predefined type WHEELSENSOR, indicated that the wheel sensor is a axle counting equipment.&lt;/Definition&gt;
-        ///  &lt;Appli [rest of string was truncated]&quot;;.
+        ///  &lt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_AxleCountingEquipment {
             get {
@@ -668,11 +661,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_BalanceWeightTensionerDesignCriteria&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties of a weight tensioner. The property set can be used by the predefined type TENSIONINGEQUIPMENT of IfcDiscreteAccessory.&lt;/Definition&gt;
-        ///  &lt; [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties of a weight tensioner. The property set can be used by the predefined type TENSIONINGEQUIPMENT of IfcDiscreteAccessory.&lt;/Definition [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_BalanceWeightTensionerDesignCriteria {
             get {
@@ -682,14 +674,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_BeamCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties common to the definition of all occurrence and type objects of beam.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcBeam&lt;/ClassName&gt;
-        ///     [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcBeam&lt;/ClassName&gt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_BeamCommon {
             get {
@@ -699,15 +690,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_BearingCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Common properties for IfcBearing.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcBearing&lt;/ClassName&gt;
-        ///    &lt;ClassName&gt;IfcBearingType&lt;/ClassName&gt;
-        ///   [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcBearingType&lt;/ClassNam [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_BearingCommon {
             get {
@@ -717,12 +707,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_BerthCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;properties common to the definition of all occurrences of IfcSpace and types of IfcSpaceType with the predefined type set to BERTH&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;Applic [rest of string was truncated]&quot;;.
+        ///  &lt;A [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_BerthCommon {
             get {
@@ -732,11 +722,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_BoilerPHistory&lt;/Name&gt;
         ///  &lt;Definition&gt;Boiler performance history common attributes.
-        ///WaterQuality attribute deleted in IFC2x2 Pset Addendum: Use IfcWaterProperties instead. CombustionProductsMaximulLoad and Co [rest of string was truncated]&quot;;.
+        ///WaterQuality attribute deleted in IFC2x2 Pset Addendum: Use IfcMaterialProperties instead. CombustionProductsMaximulLoa [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_BoilerPHistory {
             get {
@@ -746,11 +736,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_BoilerTypeCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Boiler type common attributes.
-        ///SoundLevel attribute deleted in IFC2x2 Pset Addendum: Use IfcSoundProperties instead. PrimaryEnergySource and AuxiliaryEnergySource attr [rest of string was truncated]&quot;;.
+        ///SoundLevel attribute deleted in IFC2x2 Pset Addendum: Use IfcSoundProperties instead. PrimaryEnergySource and AuxiliaryEnergySource [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_BoilerTypeCommon {
             get {
@@ -760,14 +750,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_BoilerTypeSteam&lt;/Name&gt;
         ///  &lt;Definition&gt;Steam boiler type common attributes.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcBoiler/STEAM&lt;/ClassName&gt;
-        ///    &lt;ClassName&gt;IfcBoilerType/STEAM [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcBoilerType/ [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_BoilerTypeSteam {
             get {
@@ -777,14 +767,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_BoilerTypeWater&lt;/Name&gt;
         ///  &lt;Definition&gt;Water boiler type common attributes.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcBoiler/WATER&lt;/ClassName&gt;
-        ///    &lt;ClassName&gt;IfcBoilerType/WATER [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcBoilerType/ [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_BoilerTypeWater {
             get {
@@ -794,13 +784,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_BoreholeCommon&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties describing the features of a borehole (If not modelled separately).&lt;/Definition&gt;
+        ///  &lt;Definition&gt;Properties describing the features of a borehole (if not modelled separately).&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcBorehole&lt;/ClassName&gt; [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcBorehole&lt;/Class [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_BoreholeCommon {
             get {
@@ -810,14 +800,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_BoundedCourseCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties for a bounded course.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcCourse&lt;/ClassName&gt;
-        ///    &lt;ClassName&gt;IfcCourseType&lt;/ClassName&gt; [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcCourseType&lt;/Class [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_BoundedCourseCommon {
             get {
@@ -827,12 +817,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_BreakwaterCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties common to the definition of all occurrences of IfcMarineFacility with the predefined type set to BREAKWATER.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;ApplicableClas [rest of string was truncated]&quot;;.
+        ///  &lt;Applicabl [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_BreakwaterCommon {
             get {
@@ -842,15 +832,15 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_BridgeCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Common property set for bridges.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcBridge&lt;/ClassName&gt;
         ///  &lt;/ApplicableClasses&gt;
-        ///  &lt;ApplicableTypeValue&gt;Ifc [rest of string was truncated]&quot;;.
+        ///  &lt;ApplicableTypeValu [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_BridgeCommon {
             get {
@@ -860,10 +850,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_BuildingCommon&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties common to the definition of all instances of IfcBuilding. Please note that several building attributes are handled directly at the IfcBuilding instance, the bui [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties common to the definition of all instances of IfcBuilding. Please note that several building attributes are handled directly at the IfcBuilding instance, th [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_BuildingCommon {
             get {
@@ -873,13 +863,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_BuildingElementProxyCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Common properties for built elements that don&apos;t have a specific entity name.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcBuilding [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcBui [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_BuildingElementProxyCommon {
             get {
@@ -889,10 +879,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_BuildingStoreyCommon&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties common to the definition of all instances of IfcBuildingStorey. Please note that several building attributes are handled directly at the IfcBuildingStorey [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties common to the definition of all instances of IfcBuildingStorey. Please note that several building attributes are handled directly at the IfcBuildingS [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_BuildingStoreyCommon {
             get {
@@ -902,14 +892,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_BuildingSystemCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties common to the definition of building systems.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcBuildingSystem&lt;/ClassName&gt;
-        ///  &lt;/Appli [rest of string was truncated]&quot;;.
+        ///  &lt;/ [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_BuildingSystemCommon {
             get {
@@ -919,13 +909,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_BuildingUse&lt;/Name&gt;
         ///  &lt;Definition&gt;Provides information on on the real estate context of the building of interest both current and anticipated.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassN [rest of string was truncated]&quot;;.
+        ///    &lt;C [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_BuildingUse {
             get {
@@ -935,10 +925,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_BuildingUseAdjacent&lt;/Name&gt;
-        ///  &lt;Definition&gt;Provides information on adjacent buildings and their uses to enable their impact on the building of interest to be determined. Note that for each instance of the prop [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Provides information on adjacent buildings and their uses to enable their impact on the building of interest to be determined. Note that for each instance of the [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_BuildingUseAdjacent {
             get {
@@ -948,10 +938,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_BuiltSystemRailwayLine&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties common to the definition of a railway line system, which is a set of functional tracks with explicit terminals. It is usually composed of a set of track [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties common to the definition of a railway line system, which is a set of functional tracks with explicit terminals. It is usually composed of a set of  [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_BuiltSystemRailwayLine {
             get {
@@ -961,11 +951,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_BuiltSystemRailwayTrack&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties common to the definition of a track system. It is usually composed of continuous sequences of track parts and alignments.&lt;/Definition&gt;
-        ///  &lt;Applicability [rest of string was truncated]&quot;;.
+        ///  &lt;Applicab [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_BuiltSystemRailwayTrack {
             get {
@@ -975,15 +965,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_BurnerTypeCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Common attributes of burner types.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcBurner&lt;/ClassName&gt;
-        ///    &lt;ClassName&gt;IfcBurnerType&lt;/ClassName&gt;
-        /// [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcBurnerType&lt;/ClassN [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_BurnerTypeCommon {
             get {
@@ -993,13 +982,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_CableCarrierFittingTypeCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Common properties for cable carrier fittings.  HISTORY: Added in IFC4.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcCableCarrie [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcCableC [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_CableCarrierFittingTypeCommon {
             get {
@@ -1009,11 +998,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_CableCarrierSegmentTypeCableLadderSegment&lt;/Name&gt;
         ///  &lt;Definition&gt;An open carrier segment on which cables are carried on a ladder structure.
-        ///HISTORY: IFC4 - NominalLength deleted. To be handled as a quantity  [rest of string was truncated]&quot;;.
+        ///HISTORY: IFC4 - NominalLength deleted. To be handled as a quan [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_CableCarrierSegmentTypeCableLadderSegment {
             get {
@@ -1023,11 +1012,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_CableCarrierSegmentTypeCableTraySegment&lt;/Name&gt;
         ///  &lt;Definition&gt;An (typically) open carrier segment onto which cables are laid.
-        ///HISTORY: IFC4 - NominalLength deleted. To be handled as a quantity measure&lt;/Defi [rest of string was truncated]&quot;;.
+        ///HISTORY: IFC4 - NominalLength deleted. To be handled as a quantity measure&lt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_CableCarrierSegmentTypeCableTraySegment {
             get {
@@ -1037,11 +1026,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_CableCarrierSegmentTypeCableTrunkingSegment&lt;/Name&gt;
         ///  &lt;Definition&gt;An enclosed carrier segment with one or more compartments into which cables are placed.
-        ///HISTORY: IFC4 - NominalLength deleted. To be handled [rest of string was truncated]&quot;;.
+        ///HISTORY: IFC4 - NominalLength deleted. To be ha [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_CableCarrierSegmentTypeCableTrunkingSegment {
             get {
@@ -1051,10 +1040,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_CableCarrierSegmentTypeCatenaryWire&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties of a catenary wire, which is a longtitudinal wire supporting the grooved contact wires. Properties in this property set are applicable to [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties of a catenary wire, which is a longtitudinal wire supporting the grooved contact wires. Properties in this property set are applicab [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_CableCarrierSegmentTypeCatenaryWire {
             get {
@@ -1064,13 +1053,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_CableCarrierSegmentTypeCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Common properties for cable carrier segments.  HISTORY: Added in IFC4.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcCableCarrie [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcCableC [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_CableCarrierSegmentTypeCommon {
             get {
@@ -1080,11 +1069,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_CableCarrierSegmentTypeConduitSegment&lt;/Name&gt;
         ///  &lt;Definition&gt;An enclosed tubular carrier segment through which cables are pulled.
-        ///HISTORY: IFC4 - NominalLength deleted. To be handled as a quantity measure.&lt;/ [rest of string was truncated]&quot;;.
+        ///HISTORY: IFC4 - NominalLength deleted. To be handled as a quantity measu [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_CableCarrierSegmentTypeConduitSegment {
             get {
@@ -1094,13 +1083,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_CableCarrierSegmentTypeDropper&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties that are applicable to a type or an occurence of dropper.&lt;/Definition&gt;
+        ///  &lt;Definition&gt;Properties that are applicable to a type or an occurrence of dropper.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcCableCarrier [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcCableC [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_CableCarrierSegmentTypeDropper {
             get {
@@ -1110,14 +1099,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_CableFittingTypeCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Common properties for cable fittings.  HISTORY: Added in IFC4.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcCableFitting&lt;/ClassName&gt;
-        ///  [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcCableFitting&lt;/ClassNa [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_CableFittingTypeCommon {
             get {
@@ -1127,13 +1115,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_CableFittingTypeExit&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties of the exit type of cable fitting which ends a cable segment at a non-electric element.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;Class [rest of string was truncated]&quot;;.
+        ///    &lt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_CableFittingTypeExit {
             get {
@@ -1143,14 +1131,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_CableFittingTypeFanout&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties of the fanout type of cable fitting.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcCableFitting/FANOUT&lt;/ClassName&gt;
-        ///    &lt;Clas [rest of string was truncated]&quot;;.
+        ///     [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_CableFittingTypeFanout {
             get {
@@ -1160,10 +1148,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_CableSegmentConnector&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties about cable connectors. This property set is applicable to a type or occurence of IfcCableSegment, indicated that the cable segment has one or two conn [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties about cable connectors. This property set is applicable to a type or occurrence of IfcCableSegment, indicated that the cable segment has one or tw [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_CableSegmentConnector {
             get {
@@ -1173,10 +1161,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_CableSegmentOccurenceFiberSegment&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties of fiber segment occurrences. This property set is applicable to occurences of IfcCableSegment with predefined type FIBERSEGMENT.&lt;/Definition [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties of fiber segment occurrences. This property set is applicable to occurrences of IfcCableSegment with predefined type FIBERSEGMENT.&lt;/Defi [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_CableSegmentOccurenceFiberSegment {
             get {
@@ -1186,10 +1174,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_CableSegmentOccurrence&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties for the occurrence of an electrical cable, core or conductor that conforms to a type as specified by an appropriate type definition within IFC. NOTE: Ma [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties for the occurrence of an electrical cable, core or conductor that conforms to a type as specified by an appropriate type definition within IFC. NOT [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_CableSegmentOccurrence {
             get {
@@ -1199,13 +1187,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_CableSegmentTypeBusBarSegment&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties specific to busbar cable segments.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcCableSegment/BUSBARSEGMENT&lt;/ClassNam [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcCableSegment/BUSBARSEGMENT&lt;/Cla [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_CableSegmentTypeBusBarSegment {
             get {
@@ -1215,10 +1203,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_CableSegmentTypeCableSegment&lt;/Name&gt;
-        ///  &lt;Definition&gt;Electrical cable with a specific purpose to lead electric current within a circuit or any other electric construction. Includes all types of electric cable [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Electrical cable with a specific purpose to lead electric current within a circuit or any other electric construction. Includes all types of electric  [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_CableSegmentTypeCableSegment {
             get {
@@ -1228,14 +1216,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_CableSegmentTypeCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties for the definitions of electrical cable segments.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcCableSegment&lt;/ClassName&gt;
-        ///    [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcCableSegment&lt;/ClassName [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_CableSegmentTypeCommon {
             get {
@@ -1245,10 +1232,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_CableSegmentTypeConductorSegment&lt;/Name&gt;
-        ///  &lt;Definition&gt;An electrical conductor is a single linear element with the specific purpose to lead electric current. The core of one lead is normally single wired or [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;An electrical conductor is a single linear element with the specific purpose to lead electric current. The core of one lead is normally single wir [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_CableSegmentTypeConductorSegment {
             get {
@@ -1258,10 +1245,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_CableSegmentTypeContactWire&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties of contact wires used in overhead contact line systems. This property set is applicable to a type or occurence of IfcCableSegment with predefined [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties of contact wires used in overhead contact line systems. This property set is applicable to a type or occurrence of IfcCableSegment with pred [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_CableSegmentTypeContactWire {
             get {
@@ -1271,13 +1258,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_CableSegmentTypeCoreSegment&lt;/Name&gt;
         ///  &lt;Definition&gt;An assembly comprising a conductor with its own insulation (and screens if any)&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcCabl [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;If [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_CableSegmentTypeCoreSegment {
             get {
@@ -1287,10 +1274,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_CableSegmentTypeEarthingConductor&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties of earthing conductors used in overhead contact line systems. This property set is applicable to a type or occurence of IfcCableSegment wit [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties of earthing conductors used in overhead contact line systems. This property set is applicable to a type or occurrence of IfcCableSegme [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_CableSegmentTypeEarthingConductor {
             get {
@@ -1300,11 +1287,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_CableSegmentTypeFiberSegment&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties of fiber segments. This property set is applicable to a type or occurence of IfcCableSegment with predefined type FIBERSEGMENT.&lt;/Definition&gt;
-        ///  &lt; [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties of fiber segments. This property set is applicable to a type or occurrence of IfcCableSegment with predefined type FIBERSEGMENT.&lt;/Definitio [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_CableSegmentTypeFiberSegment {
             get {
@@ -1314,10 +1300,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_CableSegmentTypeFiberTubeSegment&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties of Fiber tubes segments. This property set is applicable to a type or occurence of IfcCableSegment with predefined type FIBERTUBESEGMENT.&lt;/D [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties of Fiber tubes segments. This property set is applicable to a type or occurrence of IfcCableSegment with predefined type FIBERTUBESEGME [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_CableSegmentTypeFiberTubeSegment {
             get {
@@ -1327,10 +1313,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_CableSegmentTypeOpticalCableSegment&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties of optical cables segments. This property set is applicable to a type or occurence of IfcCableSegment with predefined type OPTICALCABLESE [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties of optical cables segments. This property set is applicable to a type or occurrence of IfcCableSegment with predefined type OPTICALC [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_CableSegmentTypeOpticalCableSegment {
             get {
@@ -1340,11 +1326,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_CableSegmentTypeStitchWire&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties of stitch wires. This property set is applicable to a type or occurence of IfcCableSegment with predefined type STICHWIRE.&lt;/Definition&gt;
-        ///  &lt;Applica [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties of stitch wires. This property set is applicable to a type or occurrence of IfcCableSegment with predefined type STICHWIRE.&lt;/Definition&gt;
+        ///  &lt;A [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_CableSegmentTypeStitchWire {
             get {
@@ -1354,10 +1340,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_CableSegmentTypeWirePairSegment&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties of wire pair segments. This property set is applicable to a type or occurence of IfcCableSegment with predefined type WIREPAIRSEGMENT.&lt;/Defin [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties of wire pair segments. This property set is applicable to a type or occurrence of IfcCableSegment with predefined type WIREPAIRSEGMENT.&lt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_CableSegmentTypeWirePairSegment {
             get {
@@ -1367,11 +1353,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_CargoCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties common to the definition of all occurrences of IfcTransportElement and types of IfcTransportElementType with the predefined type set to CARGO.&lt;/Definition&gt;
-        ///  &lt;Ap [rest of string was truncated]&quot;;.
+        /// [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_CargoCommon {
             get {
@@ -1381,11 +1367,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_CessBetweenRails&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties in this property set are applicable for IfcSlab with PredefinedType TRACKSLAB, indicated that the slab is a cess or covering between rails.&lt;/Definition&gt;
-        ///  &lt; [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties in this property set are applicable for IfcSlab with PredefinedType TRACKSLAB, indicated that the slab is a cess or covering between rails.&lt;/Definition [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_CessBetweenRails {
             get {
@@ -1395,15 +1380,15 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ChillerPHistory&lt;/Name&gt;
         ///  &lt;Definition&gt;Chiller performance history attributes.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcChiller&lt;/ClassName&gt;
         ///  &lt;/ApplicableClasses&gt;
-        ///  &lt;ApplicableT [rest of string was truncated]&quot;;.
+        ///  &lt;Applic [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ChillerPHistory {
             get {
@@ -1413,15 +1398,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ChillerTypeCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Chiller type common attributes.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcChiller&lt;/ClassName&gt;
-        ///    &lt;ClassName&gt;IfcChillerType&lt;/ClassName&gt;
-        /// [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcChillerType&lt;/ClassN [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ChillerTypeCommon {
             get {
@@ -1431,13 +1415,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ChimneyCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties common to the definition of all occurrence and type objects of chimneys.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcChimney&lt;/Class [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcChimney&lt;/ [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ChimneyCommon {
             get {
@@ -1447,13 +1431,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_CivilElementCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties common to the definition of all occurrence and type objects of civil element.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcCivi [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;If [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_CivilElementCommon {
             get {
@@ -1463,10 +1447,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_CoaxialCable&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties applicable to a coaxial cable, which is a copper cable with a variable number of copper coaxial pair conductors used to transmit data by means of electrical sig [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties applicable to a coaxial cable, which is a copper cable with a variable number of copper coaxial pair conductors used to transmit data by means of electrica [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_CoaxialCable {
             get {
@@ -1476,14 +1460,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_CoilOccurrence&lt;/Name&gt;
         ///  &lt;Definition&gt;Coil occurrence attributes attached to an instance of IfcCoil.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcCoil&lt;/ClassName&gt;
-        ///  &lt;/ApplicableClass [rest of string was truncated]&quot;;.
+        ///  &lt;/Applicable [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_CoilOccurrence {
             get {
@@ -1493,13 +1477,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_CoilPHistory&lt;/Name&gt;
         ///  &lt;Definition&gt;Coil performance history common attributes.
         ///Sound attribute deleted in IFC2x2 Pset Addendum: Use IfcSoundProperties instead.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;ApplicableCl [rest of string was truncated]&quot;;.
+        ///  &lt;Applica [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_CoilPHistory {
             get {
@@ -1509,15 +1493,15 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_CoilTypeCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Coil type common attributes.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcCoil&lt;/ClassName&gt;
         ///    &lt;ClassName&gt;IfcCoilType&lt;/ClassName&gt;
-        ///  &lt;/Applicab [rest of string was truncated]&quot;;.
+        ///  &lt;/App [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_CoilTypeCommon {
             get {
@@ -1527,15 +1511,15 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_CoilTypeHydronic&lt;/Name&gt;
         ///  &lt;Definition&gt;Hydronic coil type attributes.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcCoil&lt;/ClassName&gt;
         ///    &lt;ClassName&gt;IfcCoilType&lt;/ClassName&gt;
-        ///  &lt;/Appl [rest of string was truncated]&quot;;.
+        ///  &lt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_CoilTypeHydronic {
             get {
@@ -1545,13 +1529,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ColumnCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties common to the definition of all occurrence and type objects of column.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcColumn&lt;/ClassName [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcColumn&lt;/Clas [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ColumnCommon {
             get {
@@ -1561,12 +1545,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_CommunicationsAppliancePHistory&lt;/Name&gt;
         ///  &lt;Definition&gt;Captures realtime information for communications devices, such as for server farm energy usage.  HISTORY: Added in IFC4.&lt;/Definition&gt;
-        ///  &lt;Applicability/&gt;
-        /// [rest of string was truncated]&quot;;.
+        ///  &lt;Applicabili [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_CommunicationsAppliancePHistory {
             get {
@@ -1576,10 +1559,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_CommunicationsApplianceTypeAntenna&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties common to an antenna. This property set is applied to a type or occurrence of IfcCommunicationsAppliance with the predefined type ANTENNA. [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties common to an antenna. This property set is applied to a type or occurrence of IfcCommunicationsAppliance with the predefined type ANT [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_CommunicationsApplianceTypeAntenna {
             get {
@@ -1589,10 +1572,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_CommunicationsApplianceTypeAutomaton&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties common to automaton appliances. This property set is applied to a type or occurrence of IfcCommunicationsAppliance with predefined type  [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties common to automaton appliances. This property set is applied to a type or occurrence of IfcCommunicationsAppliance with predefined  [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_CommunicationsApplianceTypeAutomaton {
             get {
@@ -1602,13 +1585,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_CommunicationsApplianceTypeCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Common properties for communications appliances.  HISTORY: Added in IFC4.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcComm [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;If [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_CommunicationsApplianceTypeCommon {
             get {
@@ -1618,10 +1601,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_CommunicationsApplianceTypeComputer&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties common to a computer. This property set is applied to a type or occurrence of IfcCommunicationsAppliance with predefined type of COMPUTER [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties common to a computer. This property set is applied to a type or occurrence of IfcCommunicationsAppliance with predefined type of COM [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_CommunicationsApplianceTypeComputer {
             get {
@@ -1631,10 +1614,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_CommunicationsApplianceTypeGateway&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties common to a gateway. This property set is applied to a type or occurrence of IfcCommunicationsAppliance with predefined type of GATEWAY.&lt;/ [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties common to a gateway. This property set is applied to a type or occurrence of IfcCommunicationsAppliance with predefined type of GATEW [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_CommunicationsApplianceTypeGateway {
             get {
@@ -1644,10 +1627,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_CommunicationsApplianceTypeIntelligentPeripheral&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties common to a intelligent peripheral. This property set is applied to a type or occurrence of IfcCommunicationsAppliance with  [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties common to a intelligent peripheral. This property set is applied to a type or occurrence of IfcCommunicationsAppliance  [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_CommunicationsApplianceTypeIntelligentPeripheral {
             get {
@@ -1657,10 +1640,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_CommunicationsApplianceTypeIpNetworkEquipment&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties common to a IP network equipment. This property set is applied to a type or occurrence of IfcCommunicationsAppliance with prede [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties common to a IP network equipment. This property set is applied to a type or occurrence of IfcCommunicationsAppliance with  [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_CommunicationsApplianceTypeIpNetworkEquipment {
             get {
@@ -1670,10 +1653,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_CommunicationsApplianceTypeModem&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties common to a modem. This property set is applied to a type or occurrence of IfcCommunicationsAppliance with predefined type MODEM.&lt;/Definitio [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties common to a modem. This property set is applied to a type or occurrence of IfcCommunicationsAppliance with predefined type MODEM.&lt;/Defi [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_CommunicationsApplianceTypeModem {
             get {
@@ -1683,10 +1666,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_CommunicationsApplianceTypeOpticalLineTerminal&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties common to a optical line terminal. This property set is applied to a type or occurrence of IfcCommunicationsAppliance with pre [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties common to a optical line terminal. This property set is applied to a type or occurrence of IfcCommunicationsAppliance wit [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_CommunicationsApplianceTypeOpticalLineTerminal {
             get {
@@ -1696,10 +1679,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_CommunicationsApplianceTypeOpticalNetworkUnit&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties common to a optical network unit. This property set is applied to a type or occurrence of IfcCommunicationsAppliance with prede [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties common to a optical network unit. This property set is applied to a type or occurrence of IfcCommunicationsAppliance with  [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_CommunicationsApplianceTypeOpticalNetworkUnit {
             get {
@@ -1709,10 +1692,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_CommunicationsApplianceTypeTelecommand&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties common to a telecommand. This property set is applied to a type or occurrence of IfcCommunicationsAppliance with predefined type TELEC [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties common to a telecommand. This property set is applied to a type or occurrence of IfcCommunicationsAppliance with predefined type  [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_CommunicationsApplianceTypeTelecommand {
             get {
@@ -1722,10 +1705,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_CommunicationsApplianceTypeTelephonyExchange&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties common to a telephony exchange. This property set is applied to a type or occurrence of IfcCommunicationsAppliance with predefin [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties common to a telephony exchange. This property set is applied to a type or occurrence of IfcCommunicationsAppliance with pre [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_CommunicationsApplianceTypeTelephonyExchange {
             get {
@@ -1735,10 +1718,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_CommunicationsApplianceTypeTransportEquipment&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties common to a transport equipment. This property set is applied to a type or occurrence of IfcCommunicationsAppliance with predef [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties common to a transport equipment. This property set is applied to a type or occurrence of IfcCommunicationsAppliance with p [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_CommunicationsApplianceTypeTransportEquipment {
             get {
@@ -1748,15 +1731,15 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_CompressorPHistory&lt;/Name&gt;
         ///  &lt;Definition&gt;Compressor performance history attributes.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcCompressor&lt;/ClassName&gt;
         ///  &lt;/ApplicableClasses&gt;
-        ///  &lt;Ap [rest of string was truncated]&quot;;.
+        /// [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_CompressorPHistory {
             get {
@@ -1766,14 +1749,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_CompressorTypeCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Compressor type common attributes.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcCompressor&lt;/ClassName&gt;
-        ///    &lt;ClassName&gt;IfcCompressorType&lt; [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcCompressor [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_CompressorTypeCommon {
             get {
@@ -1783,10 +1766,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ConcreteElementGeneral&lt;/Name&gt;
-        ///  &lt;Definition&gt;General properties common to different types of concrete elements, including reinforced concrete elements. The property set can be used by a number of subtypes o [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;General properties common to different types of concrete elements, including reinforced concrete elements. The property set can be used by a number of subty [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ConcreteElementGeneral {
             get {
@@ -1796,15 +1779,15 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_CondenserPHistory&lt;/Name&gt;
         ///  &lt;Definition&gt;Condenser performance history attributes.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcCondenser&lt;/ClassName&gt;
         ///  &lt;/ApplicableClasses&gt;
-        ///  &lt;Appli [rest of string was truncated]&quot;;.
+        ///  &lt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_CondenserPHistory {
             get {
@@ -1814,14 +1797,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_CondenserTypeCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Condenser type common attributes.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcCondenser&lt;/ClassName&gt;
-        ///    &lt;ClassName&gt;IfcCondenserType&lt;/Cla [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcCondenserType [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_CondenserTypeCommon {
             get {
@@ -1831,14 +1814,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_Condition&lt;/Name&gt;
         ///  &lt;Definition&gt;Determines the state or condition of an element at a particular point in time.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcAsset&lt;/ClassName&gt;
-        ///    &lt; [rest of string was truncated]&quot;;.
+        /// [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_Condition {
             get {
@@ -1848,13 +1831,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ConstructionAdministration&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties for Construction Administration. Often used for facility and asset management.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassNam [rest of string was truncated]&quot;;.
+        ///    &lt;Cla [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ConstructionAdministration {
             get {
@@ -1864,32 +1847,32 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
-        ///  &lt;Name&gt;Pset_ConstructionOccurance&lt;/Name&gt;
-        ///  &lt;Definition&gt;Property set for Construction Occurance.&lt;/Definition&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
+        ///  &lt;Name&gt;Pset_ConstructionOccurence&lt;/Name&gt;
+        ///  &lt;Definition&gt;Property set for construction occurrence.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcElement&lt;/ClassName&gt;
         ///  &lt;/ApplicableClasses&gt;
-        ///  &lt;Appli [rest of string was truncated]&quot;;.
+        ///   [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string Pset_ConstructionOccurance {
+        internal static string Pset_ConstructionOccurence {
             get {
-                return ResourceManager.GetString("Pset_ConstructionOccurance", resourceCulture);
+                return ResourceManager.GetString("Pset_ConstructionOccurence", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ConstructionResource&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties for tracking resource usage over time.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcConstructionResource&lt;/ClassName&gt;
-        ///    &lt;Cla [rest of string was truncated]&quot;;.
+        ///    [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ConstructionResource {
             get {
@@ -1899,14 +1882,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ControllerPHistory&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties for history of controller values.  HISTORY: Added in IFC4.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcController&lt;/ClassName&gt;
-        ///  [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcController&lt;/ClassNa [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ControllerPHistory {
             get {
@@ -1916,14 +1898,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ControllerTypeCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Controller type common attributes.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcController&lt;/ClassName&gt;
-        ///    &lt;ClassName&gt;IfcControllerType&lt; [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcController [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ControllerTypeCommon {
             get {
@@ -1933,10 +1915,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ControllerTypeFloating&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties for signal handling for an analog controller taking disparate valued multiple inputs and creating a single valued output.  HISTORY: IFC4 adapted from  [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties for signal handling for an analog controller taking disparate valued multiple inputs and creating a single valued output.  HISTORY: IFC4 adapted  [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ControllerTypeFloating {
             get {
@@ -1946,10 +1928,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ControllerTypeMultiPosition&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties for discrete inputs, outputs, and values within a programmable logic controller. HISTORY: New in IFC4, replaces Pset_MultiStateInput and Pset_Mul [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties for discrete inputs, outputs, and values within a programmable logic controller. HISTORY: New in IFC4, replaces Pset_MultiStateInput and Pse [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ControllerTypeMultiPosition {
             get {
@@ -1959,12 +1941,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ControllerTypeProgrammable&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties for Discrete Digital Control (DDC) or programmable logic controllers.  HISTORY: Added in IFC4.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;ApplicableClasse [rest of string was truncated]&quot;;.
+        ///  &lt;ApplicableC [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ControllerTypeProgrammable {
             get {
@@ -1974,10 +1956,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ControllerTypeProportional&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties for signal handling for an proportional controller taking setpoint and feedback inputs and creating a single valued output. HISTORY: In IFC4, Sign [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties for signal handling for an proportional controller taking setpoint and feedback inputs and creating a single valued output. HISTORY: In IFC4, [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ControllerTypeProportional {
             get {
@@ -1987,10 +1969,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ControllerTypeTwoPosition&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties for signal handling for an analog controller taking disparate valued multiple inputs and creating a single valued binary output. HISTORY: In IFC4,  [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties for signal handling for an analog controller taking disparate valued multiple inputs and creating a single valued binary output. HISTORY: In I [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ControllerTypeTwoPosition {
             get {
@@ -2000,14 +1982,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_CooledBeamPHistory&lt;/Name&gt;
         ///  &lt;Definition&gt;Common performance history attributes for a cooled beam.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcCooledBeam&lt;/ClassName&gt;
-        ///  &lt;/Applicable [rest of string was truncated]&quot;;.
+        ///  &lt;/Appli [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_CooledBeamPHistory {
             get {
@@ -2017,14 +1999,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_CooledBeamPHistoryActive&lt;/Name&gt;
         ///  &lt;Definition&gt;Performance history attributes for an active cooled beam.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcCooledBeam/ACTIVE&lt;/ClassName&gt;
-        /// [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcCooledBeam/ACTIVE&lt;/ClassN [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_CooledBeamPHistoryActive {
             get {
@@ -2034,14 +2015,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_CooledBeamTypeActive&lt;/Name&gt;
         ///  &lt;Definition&gt;Active (ventilated) cooled beam common attributes.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcCooledBeam/ACTIVE&lt;/ClassName&gt;
-        ///    &lt;Class [rest of string was truncated]&quot;;.
+        ///    &lt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_CooledBeamTypeActive {
             get {
@@ -2051,12 +2032,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_CooledBeamTypeCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Cooled beam common attributes.
         ///SoundLevel and SoundAttenuation attributes deleted in IFC2x2 Pset Addendum: Use IfcSoundProperties instead.&lt;/Definition&gt;
-        ///  &lt;Applicab [rest of string was truncated]&quot;;.
+        ///  &lt;App [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_CooledBeamTypeCommon {
             get {
@@ -2066,14 +2047,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_CoolingTowerPHistory&lt;/Name&gt;
         ///  &lt;Definition&gt;Cooling tower performance history attributes.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcCoolingTower&lt;/ClassName&gt;
-        ///  &lt;/ApplicableClasses [rest of string was truncated]&quot;;.
+        ///  &lt;/ApplicableCl [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_CoolingTowerPHistory {
             get {
@@ -2083,13 +2064,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_CoolingTowerTypeCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Cooling tower type common attributes.
         ///WaterRequirement attribute unit type modified in IFC2x2 Pset Addendum.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;ApplicableClasses [rest of string was truncated]&quot;;.
+        ///  &lt;ApplicableCl [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_CoolingTowerTypeCommon {
             get {
@@ -2099,14 +2080,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_CourseApplicationConditions&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties regarding the conditions when applying a course.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcCourse&lt;/ClassName&gt;
-        ///    &lt; [rest of string was truncated]&quot;;.
+        /// [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_CourseApplicationConditions {
             get {
@@ -2116,15 +2097,15 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_CourseCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Common properties for courses.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcCourse&lt;/ClassName&gt;
         ///    &lt;ClassName&gt;IfcCourseType&lt;/ClassName&gt;
-        ///  &lt;/Appl [rest of string was truncated]&quot;;.
+        ///  &lt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_CourseCommon {
             get {
@@ -2134,13 +2115,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_CoveringCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties common to the definition of all occurrence and type objects of covering&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcCovering&lt;/Clas [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcCovering&lt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_CoveringCommon {
             get {
@@ -2150,12 +2131,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_CoveringFlooring&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties common to the definition of all occurrence and type objects of covering with the predefined type set to FLOORING.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;Applica [rest of string was truncated]&quot;;.
+        ///  &lt;Ap [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_CoveringFlooring {
             get {
@@ -2165,14 +2146,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_CoveringTypeMembrane&lt;/Name&gt;
         ///  &lt;Definition&gt;Property set for overing Type Membrane.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcCovering/MEMBRANE&lt;/ClassName&gt;
-        ///    &lt;ClassName&gt;IfcCov [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;I [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_CoveringTypeMembrane {
             get {
@@ -2182,10 +2163,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_CurrentInstrumentTransformer&lt;/Name&gt;
-        ///  &lt;Definition&gt;Instrument transformers are high accuracy class electrical devices used to isolate or transform voltage or current levels. The main function of instrument  [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Instrument transformers are high accuracy class electrical devices used to isolate or transform voltage or current levels. The main function of instru [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_CurrentInstrumentTransformer {
             get {
@@ -2195,13 +2176,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_CurtainWallCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties common to the definition of all occurrences of IfcCurtainWall.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcCurtainWall&lt;/ClassNa [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcCurtainWall&lt;/Cl [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_CurtainWallCommon {
             get {
@@ -2211,14 +2192,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_DamperOccurrence&lt;/Name&gt;
         ///  &lt;Definition&gt;Damper occurrence attributes attached to an instance of IfcDamper&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcDamper&lt;/ClassName&gt;
-        ///  &lt;/Applicab [rest of string was truncated]&quot;;.
+        ///  &lt;/App [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_DamperOccurrence {
             get {
@@ -2228,15 +2209,15 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_DamperPHistory&lt;/Name&gt;
         ///  &lt;Definition&gt;Damper performance history attributes.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcDamper&lt;/ClassName&gt;
         ///  &lt;/ApplicableClasses&gt;
-        ///  &lt;ApplicableType [rest of string was truncated]&quot;;.
+        ///  &lt;Applicabl [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_DamperPHistory {
             get {
@@ -2246,15 +2227,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_DamperTypeCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Damper type common attributes.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcDamper&lt;/ClassName&gt;
-        ///    &lt;ClassName&gt;IfcDamperType&lt;/ClassName&gt;
-        ///  &lt;/ [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcDamperType&lt;/ClassName&gt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_DamperTypeCommon {
             get {
@@ -2264,12 +2244,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_DamperTypeControlDamper&lt;/Name&gt;
         ///  &lt;Definition&gt;Control damper type attributes.
         ///Pset renamed from Pset_DamperTypeControl to Pset_DamperTypeControlDamper in IFC2x2 Pset Addendum.&lt;/Definition&gt;
-        ///  &lt;Applicability/ [rest of string was truncated]&quot;;.
+        ///  &lt;Applicabi [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_DamperTypeControlDamper {
             get {
@@ -2279,13 +2259,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_DamperTypeFireDamper&lt;/Name&gt;
         ///  &lt;Definition&gt;Fire damper type attributes.
         ///Pset renamed from Pset_DamperTypeFire to Pset_DamperTypeFireDamper in IFC2x2 Pset Addendum.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;Applica [rest of string was truncated]&quot;;.
+        ///  &lt;Ap [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_DamperTypeFireDamper {
             get {
@@ -2295,14 +2275,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_DamperTypeFireSmokeDamper&lt;/Name&gt;
         ///  &lt;Definition&gt;Combination Fire and Smoke damper type attributes.
         ///New Pset in IFC2x2 Pset Addendum.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcD [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_DamperTypeFireSmokeDamper {
             get {
@@ -2312,13 +2292,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_DamperTypeSmokeDamper&lt;/Name&gt;
         ///  &lt;Definition&gt;Smoke damper type attributes.
         ///Pset renamed from Pset_DamperTypeSmoke to Pset_DamperTypeSmokeDamper in IFC2x2 Pset Addendum.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;App [rest of string was truncated]&quot;;.
+        ///  [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_DamperTypeSmokeDamper {
             get {
@@ -2328,10 +2308,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_DataTransmissionUnit&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties common to a data transmission unit. This property set is applied to a type or occurrence of IfcCommunicationsAppliance with predefined type MODEM.&lt;/Defi [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties common to a data transmission unit. This property set is applied to a type or occurrence of IfcCommunicationsAppliance with predefined type MODEM.&lt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_DataTransmissionUnit {
             get {
@@ -2341,14 +2321,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_DiscreteAccessoryColumnShoe&lt;/Name&gt;
         ///  &lt;Definition&gt;Shape properties common to column shoes.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcDiscreteAccessory/SHOE&lt;/ClassName&gt;
-        ///    &lt;Cla [rest of string was truncated]&quot;;.
+        ///    [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_DiscreteAccessoryColumnShoe {
             get {
@@ -2358,14 +2338,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_DiscreteAccessoryCornerFixingPlate&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties specific to corner fixing plates.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcDiscreteAccessory&lt;/ClassName&gt;
-        ///   [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcDiscreteAccessory&lt;/ClassNam [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_DiscreteAccessoryCornerFixingPlate {
             get {
@@ -2375,12 +2354,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_DiscreteAccessoryDiagonalTrussConnector&lt;/Name&gt;
         ///  &lt;Definition&gt;Shape properties specific to connecting accessories in truss form with diagonal cross-bars.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;ApplicableClasses [rest of string was truncated]&quot;;.
+        ///  &lt;ApplicableCl [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_DiscreteAccessoryDiagonalTrussConnector {
             get {
@@ -2390,14 +2369,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_DiscreteAccessoryEdgeFixingPlate&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties specific to edge fixing plates.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcDiscreteAccessory&lt;/ClassName&gt;
-        ///    &lt;C [rest of string was truncated]&quot;;.
+        ///  [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_DiscreteAccessoryEdgeFixingPlate {
             get {
@@ -2407,14 +2386,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_DiscreteAccessoryFixingSocket&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties common to fixing sockets.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcDiscreteAccessory&lt;/ClassName&gt;
-        ///    &lt;ClassName&gt; [rest of string was truncated]&quot;;.
+        ///    &lt;Class [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_DiscreteAccessoryFixingSocket {
             get {
@@ -2424,12 +2403,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_DiscreteAccessoryLadderTrussConnector&lt;/Name&gt;
         ///  &lt;Definition&gt;Shape properties specific to connecting accessories in truss form with straight cross-bars in ladder shape.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;App [rest of string was truncated]&quot;;.
+        ///  [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_DiscreteAccessoryLadderTrussConnector {
             get {
@@ -2439,13 +2418,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_DiscreteAccessoryStandardFixingPlate&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties specific to standard fixing plates.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcDiscreteAccessory&lt;/ClassName [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcDiscreteAccessory&lt;/Clas [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_DiscreteAccessoryStandardFixingPlate {
             get {
@@ -2455,12 +2434,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_DiscreteAccessoryTypeBracket&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties of a bracket. The property set can be used by the predefined type BRACKET of IfcDiscreteAccessory.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;Applicable [rest of string was truncated]&quot;;.
+        ///  &lt;Appli [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_DiscreteAccessoryTypeBracket {
             get {
@@ -2470,11 +2449,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_DiscreteAccessoryTypeCableArranger&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties used for a cable arranger. The property set can be used by the predefined type CABLEARRANGER of IfcDiscreteAccessory.&lt;/Definition&gt;
-        ///  &lt;Appl [rest of string was truncated]&quot;;.
+        ///   [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_DiscreteAccessoryTypeCableArranger {
             get {
@@ -2484,12 +2463,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_DiscreteAccessoryTypeInsulator&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties of an insulator. The property set can be used by the predefined type INSULATOR of IfcDiscreteAccessory.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;App [rest of string was truncated]&quot;;.
+        ///  [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_DiscreteAccessoryTypeInsulator {
             get {
@@ -2499,12 +2478,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_DiscreteAccessoryTypeLock&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties of locking equipment. The property set can be used by the predefined type LOCK of IfcDiscreteAccessory.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;Applicab [rest of string was truncated]&quot;;.
+        ///  &lt;App [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_DiscreteAccessoryTypeLock {
             get {
@@ -2514,12 +2493,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_DiscreteAccessoryTypeRailBrace&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties of a rail brace. The property set can be used by the predefined type RAILBRACE of IfcDiscreteAccessory.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;App [rest of string was truncated]&quot;;.
+        ///  [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_DiscreteAccessoryTypeRailBrace {
             get {
@@ -2529,10 +2508,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_DiscreteAccessoryTypeRailLubrication&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties of rail lubrication equipment. The property set can be used by the predefined type RAIL_LUBRICATION of IfcDiscreteAccessory.&lt;/Definition [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties of rail lubrication equipment. The property set can be used by the predefined type RAIL_LUBRICATION of IfcDiscreteAccessory.&lt;/Defin [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_DiscreteAccessoryTypeRailLubrication {
             get {
@@ -2542,12 +2521,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_DiscreteAccessoryTypeRailPad&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties of rail pads. The property set can be used by the predefined type RAILPAD of IfcDiscreteAccessory.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;Applicable [rest of string was truncated]&quot;;.
+        ///  &lt;Appli [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_DiscreteAccessoryTypeRailPad {
             get {
@@ -2557,11 +2536,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_DiscreteAccessoryTypeSlidingChair&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties of a sliding chair. The property set can be used by the predefined type SLIDINGCHAIR of IfcDiscreteAccessory.&lt;/Definition&gt;
-        ///  &lt;Applicability [rest of string was truncated]&quot;;.
+        ///  &lt;Applicab [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_DiscreteAccessoryTypeSlidingChair {
             get {
@@ -2571,10 +2550,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_DiscreteAccessoryTypeSoundAbsorption&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties of sound absorption equipment used in railway. The property set can be used by the predefined type SOUNDABSORPTION of IfcDiscreteAccesso [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties of sound absorption equipment used in railway. The property set can be used by the predefined type SOUNDABSORPTION of IfcDiscreteAc [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_DiscreteAccessoryTypeSoundAbsorption {
             get {
@@ -2584,10 +2563,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_DiscreteAccessoryTypeTensioningEquipment&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties of tensioning equipment used in railway. The property set can be used by the predefined type TENSIONINGEQUIPMENT of IfcDiscreteAcces [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties of tensioning equipment used in railway. The property set can be used by the predefined type TENSIONINGEQUIPMENT of IfcDiscrete [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_DiscreteAccessoryTypeTensioningEquipment {
             get {
@@ -2597,14 +2576,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_DiscreteAccessoryWireLoop&lt;/Name&gt;
         ///  &lt;Definition&gt;Shape properties common to wire loop joint connectors.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcDiscreteAccessory&lt;/ClassName&gt;
-        ///  [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcDiscreteAccessory&lt;/ClassNa [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_DiscreteAccessoryWireLoop {
             get {
@@ -2614,13 +2592,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_DistributionBoardOccurrence&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties that may be applied to electric distribution board occurrences.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcElectricDis [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcElectr [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_DistributionBoardOccurrence {
             get {
@@ -2630,13 +2608,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_DistributionBoardTypeCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties that may be applied to electric distribution boards.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcElectricDistribution [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcElectricDistrib [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_DistributionBoardTypeCommon {
             get {
@@ -2646,13 +2624,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_DistributionBoardTypeDispatchingBoard&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties for IfcDistributionBoard with PredefinedType DISPATCHINGBOARD.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;Ifc [rest of string was truncated]&quot;;.
+        ///    &lt;ClassNam [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_DistributionBoardTypeDispatchingBoard {
             get {
@@ -2662,13 +2640,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_DistributionBoardTypeDistributionFrame&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties for IfcDistributionBoard with PredefinedType DISTRIBUTIONFRAME.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;I [rest of string was truncated]&quot;;.
+        ///    &lt;ClassN [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_DistributionBoardTypeDistributionFrame {
             get {
@@ -2678,13 +2656,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_DistributionChamberElementCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Common properties of all occurrences of IfcDistributionChamberElement.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcDistribu [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcDis [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_DistributionChamberElementCommon {
             get {
@@ -2694,13 +2672,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_DistributionChamberElementTypeFormedDuct&lt;/Name&gt;
         ///  &lt;Definition&gt;Space formed in the ground for the passage of pipes, cables, ducts.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcDis [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;I [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_DistributionChamberElementTypeFormedDuct {
             get {
@@ -2710,11 +2688,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_DistributionChamberElementTypeInspectionChamber&lt;/Name&gt;
         ///  &lt;Definition&gt;Chamber constructed on a drain, sewer or pipeline and with a removable cover, that permits visible inspection.&lt;/Definition&gt;
-        ///  &lt;Applicabi [rest of string was truncated]&quot;;.
+        ///  &lt;Appl [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_DistributionChamberElementTypeInspectionChamber {
             get {
@@ -2724,10 +2702,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_DistributionChamberElementTypeInspectionPit&lt;/Name&gt;
-        ///  &lt;Definition&gt;Recess or chamber formed to permit access for inspection of substructure and services (definition modified from BS6100 221 4128).&lt;/Definitio [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Recess or chamber formed to permit access for inspection of substructure and services (definition modified from BS6100 221 4128).&lt;/Defi [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_DistributionChamberElementTypeInspectionPit {
             get {
@@ -2737,12 +2715,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_DistributionChamberElementTypeManhole&lt;/Name&gt;
         ///  &lt;Definition&gt;Chamber constructed on a drain, sewer or pipeline and with a removable cover, that permits the entry of a person.&lt;/Definition&gt;
-        ///  &lt;Applicability/&gt;
-        /// [rest of string was truncated]&quot;;.
+        ///  &lt;Applicabili [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_DistributionChamberElementTypeManhole {
             get {
@@ -2752,13 +2729,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_DistributionChamberElementTypeMeterChamber&lt;/Name&gt;
         ///  &lt;Definition&gt;Chamber that houses a meter(s) (definition modified from BS6100 250 6224).&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassNa [rest of string was truncated]&quot;;.
+        ///    &lt;Cl [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_DistributionChamberElementTypeMeterChamber {
             get {
@@ -2768,13 +2745,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_DistributionChamberElementTypeSump&lt;/Name&gt;
         ///  &lt;Definition&gt;Recess or small chamber into which liquid is drained to facilitate its removal.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt; [rest of string was truncated]&quot;;.
+        ///    &lt;Class [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_DistributionChamberElementTypeSump {
             get {
@@ -2784,13 +2761,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_DistributionChamberElementTypeTrench&lt;/Name&gt;
         ///  &lt;Definition&gt;Excavation, the length of which greatly exceeds the width.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcDistributionCham [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcDistributio [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_DistributionChamberElementTypeTrench {
             get {
@@ -2800,13 +2777,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_DistributionChamberElementTypeValveChamber&lt;/Name&gt;
         ///  &lt;Definition&gt;Chamber that houses a valve(s).&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcDistributionChamberElement/VALVECHAMB [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcDistributionChamberElement/VALVE [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_DistributionChamberElementTypeValveChamber {
             get {
@@ -2816,13 +2793,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_DistributionPortCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Common attributes attached to an instance of IfcDistributionPort.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcDistributionPort&lt;/ClassNa [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcDistributionPort&lt;/Cl [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_DistributionPortCommon {
             get {
@@ -2832,11 +2809,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_DistributionPortPHistoryCable&lt;/Name&gt;
         ///  &lt;Definition&gt;Log of electrical activity attached to an instance of IfcPerformanceHistory having an assigned IfcDistributionPort of type CABLE.&lt;/Definition&gt;
-        ///  &lt;Applicabi [rest of string was truncated]&quot;;.
+        ///  &lt;Appl [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_DistributionPortPHistoryCable {
             get {
@@ -2846,10 +2823,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_DistributionPortPHistoryDuct&lt;/Name&gt;
-        ///  &lt;Definition&gt;Fluid flow performance history attached to an instance of IfcPerformanceHistory assigned to IfcDistributionPort.  This replaces the deprecated IfcFluidFlowP [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Fluid flow performance history attached to an instance of IfcPerformanceHistory assigned to IfcDistributionPort.  This replaces the deprecated IfcFluid [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_DistributionPortPHistoryDuct {
             get {
@@ -2859,11 +2836,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_DistributionPortPHistoryPipe&lt;/Name&gt;
         ///  &lt;Definition&gt;Log of substance usage attached to an instance of IfcPerformanceHistory having an assigned IfcDistributionPort of type PIPE.&lt;/Definition&gt;
-        ///  &lt;Applicability/&gt; [rest of string was truncated]&quot;;.
+        ///  &lt;Applicabil [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_DistributionPortPHistoryPipe {
             get {
@@ -2873,13 +2850,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_DistributionPortTypeCable&lt;/Name&gt;
         ///  &lt;Definition&gt;Cable port occurrence attributes attached to an instance of IfcDistributionPort.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcDistrib [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcDi [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_DistributionPortTypeCable {
             get {
@@ -2889,13 +2866,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_DistributionPortTypeDuct&lt;/Name&gt;
         ///  &lt;Definition&gt;Duct port occurrence attributes attached to an instance of IfcDistributionPort.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcDistribut [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcDist [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_DistributionPortTypeDuct {
             get {
@@ -2905,13 +2882,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_DistributionPortTypePipe&lt;/Name&gt;
         ///  &lt;Definition&gt;Pipe port occurrence attributes attached to an instance of IfcDistributionPort.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcDistribut [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcDist [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_DistributionPortTypePipe {
             get {
@@ -2921,13 +2898,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_DistributionSystemCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Distribution system occurrence attributes attached to an instance of IfcDistributionSystem.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt; [rest of string was truncated]&quot;;.
+        ///    &lt;Class [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_DistributionSystemCommon {
             get {
@@ -2937,14 +2914,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_DistributionSystemTypeElectrical&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties of electrical circuits.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcDistributionSystem/ELECTRICAL&lt;/ClassName&gt;
-        ///  &lt;/ [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcDistributionSystem/ELECTRICAL&lt;/ClassName&gt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_DistributionSystemTypeElectrical {
             get {
@@ -2954,10 +2930,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_DistributionSystemTypeOverheadContactlineSystem&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties of an overhead contact line system. The property set is associated with the predefined type OVERHEAD_CONTACT_LINE_SYSTEM of Ifc [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties of an overhead contact line system. The property set is associated with the predefined type OVERHEAD_CONTACT_LINE_SYSTEM o [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_DistributionSystemTypeOverheadContactlineSystem {
             get {
@@ -2967,11 +2943,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_DistributionSystemTypeVentilation&lt;/Name&gt;
         ///  &lt;Definition&gt;This property set is used to define the general characteristics of the duct design parameters within a system.
-        ///HISTORY: New property set in IFC Release  [rest of string was truncated]&quot;;.
+        ///HISTORY: New property set in IFC Rel [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_DistributionSystemTypeVentilation {
             get {
@@ -2981,14 +2957,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_DoorCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties common to the definition of all occurrences of IfcDoor.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcDoor&lt;/ClassName&gt;
-        ///    &lt;ClassName&gt;If [rest of string was truncated]&quot;;.
+        ///    &lt;ClassNa [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_DoorCommon {
             get {
@@ -2998,10 +2974,40 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
+        ///  &lt;Name&gt;Pset_DoorLiningProperties&lt;/Name&gt;
+        ///  &lt;Definition&gt;Properties of the door lining.HISTORY New property set in IFC4.3.2.0 to replace the entity IfcDoorLiningProperties&lt;/Definition&gt;
+        ///  &lt;Applicability/&gt;
+        ///  &lt;Applicab [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Pset_DoorLiningProperties {
+            get {
+                return ResourceManager.GetString("Pset_DoorLiningProperties", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
+        ///  &lt;Name&gt;Pset_DoorPanelProperties&lt;/Name&gt;
+        ///  &lt;Definition&gt;Properties of the door panel.HISTORY New property set in IFC4.3.2.0 to replace the entity IfcDoorPanelProperties&lt;/Definition&gt;
+        ///  &lt;Applicability/&gt;
+        ///  &lt;ApplicableC [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Pset_DoorPanelProperties {
+            get {
+                return ResourceManager.GetString("Pset_DoorPanelProperties", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_DoorTypeTurnstile&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties common to turnstiles or automatic gates used to control the flow of people or vehicles. This property set is applied to IfcDoor instances of predefined typ [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties common to turnstiles or automatic gates used to control the flow of people or vehicles. This property set is applied to IfcDoor instances of predefine [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_DoorTypeTurnstile {
             get {
@@ -3011,11 +3017,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_DoorWindowGlazingType&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties common to the definition of the glazing component of occurrences of IfcDoor and IfcWindow, used for thermal and lighting calculations.&lt;/Definition&gt;
-        ///  &lt; [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties common to the definition of the glazing component of occurrences of IfcDoor and IfcWindow, used for thermal and lighting calculations.&lt;/Definition [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_DoorWindowGlazingType {
             get {
@@ -3025,15 +3030,15 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_DuctFittingOccurrence&lt;/Name&gt;
         ///  &lt;Definition&gt;Duct fitting occurrence attributes.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcDuctFitting&lt;/ClassName&gt;
         ///  &lt;/ApplicableClasses&gt;
-        ///  &lt;Applic [rest of string was truncated]&quot;;.
+        ///  &lt;A [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_DuctFittingOccurrence {
             get {
@@ -3043,14 +3048,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_DuctFittingPHistory&lt;/Name&gt;
         ///  &lt;Definition&gt;Duct fitting performance history common attributes.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcDuctFitting&lt;/ClassName&gt;
-        ///  &lt;/ApplicableCla [rest of string was truncated]&quot;;.
+        ///  &lt;/Applicab [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_DuctFittingPHistory {
             get {
@@ -3060,14 +3065,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_DuctFittingTypeCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Duct fitting type common attributes.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcDuctFitting&lt;/ClassName&gt;
-        ///    &lt;ClassName&gt;IfcDuctFitting [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcDuctFi [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_DuctFittingTypeCommon {
             get {
@@ -3077,13 +3082,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_DuctSegmentOccurrence&lt;/Name&gt;
         ///  &lt;Definition&gt;Duct segment occurrence attributes attached to an instance of IfcDuctSegment.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcDuctSegment&lt;/C [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcDuctSegme [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_DuctSegmentOccurrence {
             get {
@@ -3093,14 +3098,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_DuctSegmentPHistory&lt;/Name&gt;
         ///  &lt;Definition&gt;Duct segment performance history common attributes.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcDuctSegment&lt;/ClassName&gt;
-        ///  &lt;/ApplicableCla [rest of string was truncated]&quot;;.
+        ///  &lt;/Applicab [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_DuctSegmentPHistory {
             get {
@@ -3110,14 +3115,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_DuctSegmentTypeCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Duct segment type common attributes.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcDuctSegment&lt;/ClassName&gt;
-        ///    &lt;ClassName&gt;IfcDuctSegment [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcDuctSe [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_DuctSegmentTypeCommon {
             get {
@@ -3127,14 +3132,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_DuctSilencerPHistory&lt;/Name&gt;
         ///  &lt;Definition&gt;Duct silencer performance history common attributes.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcDuctSilencer&lt;/ClassName&gt;
-        ///  &lt;/Applicable [rest of string was truncated]&quot;;.
+        ///  &lt;/Appli [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_DuctSilencerPHistory {
             get {
@@ -3144,11 +3149,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_DuctSilencerTypeCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Duct silencer type common attributes.
-        ///InsertionLoss and RegeneratedSound attributes deleted in IFC2x2 Pset Addendum: Use IfcSoundProperties instead.&lt;/Definition&gt; [rest of string was truncated]&quot;;.
+        ///InsertionLoss and RegeneratedSound attributes deleted in IFC2x2 Pset Addendum: Use IfcSoundProperties instead.&lt;/Defini [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_DuctSilencerTypeCommon {
             get {
@@ -3158,13 +3163,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ElectricalDeviceCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;A collection of properties that are commonly used by electrical device types.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcDistributio [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcDistri [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ElectricalDeviceCommon {
             get {
@@ -3174,13 +3179,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ElectricalDeviceCompliance&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties related to information about compliance to standards or regulations of electric devices.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;ApplicableClasses&gt;
-        ///    [rest of string was truncated]&quot;;.
+        ///  &lt;ApplicableClasses [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ElectricalDeviceCompliance {
             get {
@@ -3190,10 +3194,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ElectricalFeederLine&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties of conductors used as feeder line. This property set is applicable to a type or occurence of IfcCableSegment with predefined type CONDUCTORSEGMENT.&lt;/Def [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties of conductors used as feeder line. This property set is applicable to a type or occurrence of IfcCableSegment with predefined type CONDUCTORSEGMENT [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ElectricalFeederLine {
             get {
@@ -3203,12 +3207,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ElectricAppliancePHistory&lt;/Name&gt;
         ///  &lt;Definition&gt;Captures realtime information for electric appliances, such as for energy usage.  HISTORY: Added in IFC4.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;ApplicableClasses&gt; [rest of string was truncated]&quot;;.
+        ///  &lt;ApplicableCla [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ElectricAppliancePHistory {
             get {
@@ -3218,13 +3222,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ElectricApplianceTypeCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Common properties for electric appliances.  HISTORY: Added in IFC4.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcElectricApplianc [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcElectricApp [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ElectricApplianceTypeCommon {
             get {
@@ -3234,13 +3238,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ElectricApplianceTypeDishwasher&lt;/Name&gt;
         ///  &lt;Definition&gt;Common properties for dishwasher appliances.  HISTORY: Added in IFC4.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcElectricAp [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcElect [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ElectricApplianceTypeDishwasher {
             get {
@@ -3250,13 +3254,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ElectricApplianceTypeElectricCooker&lt;/Name&gt;
         ///  &lt;Definition&gt;Common properties for electric cooker appliances.  HISTORY: Added in IFC4.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcE [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ElectricApplianceTypeElectricCooker {
             get {
@@ -3266,11 +3270,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ElectricFlowStorageDeviceTypeBattery&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties of batteries. The property set can be used by the predefined type BATTERY of IfcElectricFlowStorageDevice.&lt;/Definition&gt;
-        ///  &lt;Applicability [rest of string was truncated]&quot;;.
+        ///  &lt;Applicab [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ElectricFlowStorageDeviceTypeBattery {
             get {
@@ -3280,11 +3284,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ElectricFlowStorageDeviceTypeCapacitor&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties of capacitors. The property set can be used by the predefined type CAPACITOR of IfcElectricFlowStorageDevice.&lt;/Definition&gt;
-        ///  &lt;Applicab [rest of string was truncated]&quot;;.
+        ///  &lt;App [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ElectricFlowStorageDeviceTypeCapacitor {
             get {
@@ -3294,10 +3298,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ElectricFlowStorageDeviceTypeCommon&lt;/Name&gt;
-        ///  &lt;Definition&gt;The characteristics of the supply associated with an electrical device occurrence acting as a source of supply to an electrical distribution system  [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;The characteristics of the supply associated with an electrical device occurrence acting as a source of supply to an electrical distribution sy [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ElectricFlowStorageDeviceTypeCommon {
             get {
@@ -3307,11 +3311,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ElectricFlowStorageDeviceTypeInductor&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties of inductors. The property set can be used by the predefined type INDUCTOR of IfcElectricFlowStorageDevice.&lt;/Definition&gt;
-        ///  &lt;Applicabili [rest of string was truncated]&quot;;.
+        ///  &lt;Applic [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ElectricFlowStorageDeviceTypeInductor {
             get {
@@ -3321,11 +3325,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ElectricFlowStorageDeviceTypeRecharger&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties of battery rechargers. The property set can be used by the predefined type RECHARGER of IfcElectricFlowStorageDevice.&lt;/Definition&gt;
-        ///  &lt; [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties of battery rechargers. The property set can be used by the predefined type RECHARGER of IfcElectricFlowStorageDevice.&lt;/Definition [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ElectricFlowStorageDeviceTypeRecharger {
             get {
@@ -3335,10 +3338,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ElectricFlowStorageDeviceTypeUPS&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties of uninterruptible power supply equipment. The property set can be used by the predefined type UPS  of IfcElectricFlowStorageDevice.&lt;/Defini [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties of uninterruptible power supply equipment. The property set can be used by the predefined type UPS  of IfcElectricFlowStorageDevice.&lt;/D [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ElectricFlowStorageDeviceTypeUPS {
             get {
@@ -3348,11 +3351,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ElectricFlowTreatmentDeviceTypeElectronicFilter&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties associated to electronic filter.
-        ///An electronic filter is a device designed to transmit spectral components of signals accordi [rest of string was truncated]&quot;;.
+        ///An electronic filter is a device designed to transmit spectral components of signals ac [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ElectricFlowTreatmentDeviceTypeElectronicFilter {
             get {
@@ -3362,12 +3365,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ElectricGeneratorTypeCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Defines a particular type of engine that is a machine for converting mechanical energy into electrical energy.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;Applicable [rest of string was truncated]&quot;;.
+        ///  &lt;Appli [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ElectricGeneratorTypeCommon {
             get {
@@ -3377,10 +3380,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ElectricMotorTypeCommon&lt;/Name&gt;
-        ///  &lt;Definition&gt;Defines a particular type of engine that is a machine for converting electrical energy into mechanical energy. Note that in cases where a close coupled or monob [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Defines a particular type of engine that is a machine for converting electrical energy into mechanical energy. Note that in cases where a close coupled or  [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ElectricMotorTypeCommon {
             get {
@@ -3390,13 +3393,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ElectricTimeControlTypeCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Common properties for electric time control devices.  HISTORY: Added in IFC4.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcElec [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;If [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ElectricTimeControlTypeCommon {
             get {
@@ -3406,13 +3409,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ElementAssemblyCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties common to the definition of all occurrence and type objects of element assembly.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;I [rest of string was truncated]&quot;;.
+        ///    &lt;ClassN [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ElementAssemblyCommon {
             get {
@@ -3422,11 +3425,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ElementAssemblyTypeCantilever&lt;/Name&gt;
-        ///  &lt;Definition&gt;Energy cantilever properties used in railway. The property set can be used by the predefined type SUSPENSION_ASSEMBLY of IfcElementAssembly.&lt;/Definition&gt;
-        /// [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Energy cantilever properties used in railway. The property set can be used by the predefined type SUSPENSION_ASSEMBLY of IfcElementAssembly.&lt;/Definit [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ElementAssemblyTypeCantilever {
             get {
@@ -3436,10 +3438,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ElementAssemblyTypeDilatationPanel&lt;/Name&gt;
-        ///  &lt;Definition&gt;Adjustment switch panel properties used in railway. The property set can be used by the predefined type DILATATION_PANEL of IfcElementAssembly.&lt;/Defi [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Adjustment switch panel properties used in railway. The property set can be used by the predefined type DILATATION_PANEL of IfcElementAssembly.&lt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ElementAssemblyTypeDilatationPanel {
             get {
@@ -3449,11 +3451,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ElementAssemblyTypeHeadSpan&lt;/Name&gt;
-        ///  &lt;Definition&gt;Energy Head Span properties used in railway. The property set can be used by the predefined type SUSPENSION_ASSEMBLY of IfcElementAssembly.&lt;/Definition&gt;
-        ///  &lt; [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Energy Head Span properties used in railway. The property set can be used by the predefined type SUSPENSION_ASSEMBLY of IfcElementAssembly.&lt;/Definition [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ElementAssemblyTypeHeadSpan {
             get {
@@ -3463,12 +3464,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ElementAssemblyTypeMast&lt;/Name&gt;
         ///  &lt;Definition&gt;Telecom Tower properties used in railway. The property set can be used by the predefined type MAST of IfcElementAssembly.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;App [rest of string was truncated]&quot;;.
+        ///  [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ElementAssemblyTypeMast {
             get {
@@ -3478,10 +3479,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ElementAssemblyTypeOCSSuspension&lt;/Name&gt;
-        ///  &lt;Definition&gt;Common energy suspension properties used in railway. The property set can be used by the predefined type SUSPENSION_ASSEMBLY of IfcElementAssembly.&lt;/De [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Common energy suspension properties used in railway. The property set can be used by the predefined type SUSPENSION_ASSEMBLY of IfcElementAssembly [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ElementAssemblyTypeOCSSuspension {
             get {
@@ -3491,11 +3492,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ElementAssemblyTypeRigidFrame&lt;/Name&gt;
         ///  &lt;Definition&gt;Energy Cross Beam properties used in railway. The property set can be used by the predefined type RIGID_FRAME of IfcElementAssembly.&lt;/Definition&gt;
-        ///  &lt;Appli [rest of string was truncated]&quot;;.
+        ///  &lt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ElementAssemblyTypeRigidFrame {
             get {
@@ -3505,10 +3506,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ElementAssemblyTypeSteadyDevice&lt;/Name&gt;
-        ///  &lt;Definition&gt;Energy steady device properties used in railway. The property set can be used by the predefined type SUSPENSION_ASSEMBLY of IfcElementAssembly.&lt;/Definit [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Energy steady device properties used in railway. The property set can be used by the predefined type SUSPENSION_ASSEMBLY of IfcElementAssembly.&lt;/De [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ElementAssemblyTypeSteadyDevice {
             get {
@@ -3518,10 +3519,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ElementAssemblyTypeSupportingAssembly&lt;/Name&gt;
-        ///  &lt;Definition&gt;Energy supporting assembly properties used in railway. The property set can be used by the predefined type SUPPORTING_ASSEMBLY of IfcElementAssemb [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Energy supporting assembly properties used in railway. The property set can be used by the predefined type SUPPORTING_ASSEMBLY of IfcElementA [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ElementAssemblyTypeSupportingAssembly {
             get {
@@ -3531,11 +3532,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ElementAssemblyTypeTrackPanel&lt;/Name&gt;
         ///  &lt;Definition&gt;Track panel properties used in railway. The property set can be used by the predefined type TRACK_PANEL of IfcElementAssembly.&lt;/Definition&gt;
-        ///  &lt;Applicabili [rest of string was truncated]&quot;;.
+        ///  &lt;Applic [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ElementAssemblyTypeTrackPanel {
             get {
@@ -3545,10 +3546,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ElementAssemblyTypeTractionSwitchingAssembly&lt;/Name&gt;
-        ///  &lt;Definition&gt;Energy switching assembly properties used in railway. The property set can be used by the predefined type TRACTION_SWITCHING_ASSEMBLY of If [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Energy switching assembly properties used in railway. The property set can be used by the predefined type TRACTION_SWITCHING_ASSEMBLY  [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ElementAssemblyTypeTractionSwitchingAssembly {
             get {
@@ -3558,11 +3559,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ElementAssemblyTypeTurnoutPanel&lt;/Name&gt;
         ///  &lt;Definition&gt;Turnout panel properties used in railway. The property set can be used by the predefined type TURNOUT_PANEL of IfcElementAssembly.&lt;/Definition&gt;
-        ///  &lt;Appli [rest of string was truncated]&quot;;.
+        ///  &lt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ElementAssemblyTypeTurnoutPanel {
             get {
@@ -3572,10 +3573,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ElementComponentCommon&lt;/Name&gt;
-        ///  &lt;Definition&gt;Set of common properties of component elements (especially discrete accessories, but also fasteners, reinforcement elements, or other types of components).&lt;/Defi [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Set of common properties of component elements (especially discrete accessories, but also fasteners, reinforcement elements, or other types of components).&lt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ElementComponentCommon {
             get {
@@ -3585,10 +3586,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ElementKinematics&lt;/Name&gt;
-        ///  &lt;Definition&gt;Information confirming that the element has cyclic and/or pathed kinematic behaviour. The resulting envelope may be available as a &apos;clearance&apos; shape representation.&lt;/ [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Information confirming that the element has cyclic and/or pathed kinematic behaviour. The resulting envelope may be available as a &apos;clearance&apos; shape representati [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ElementKinematics {
             get {
@@ -3598,14 +3599,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ElementSize&lt;/Name&gt;
         ///  &lt;Definition&gt;Property set with properties about size of the element.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcDistributionChamberElement&lt;/ClassName&gt;
-        ///    &lt; [rest of string was truncated]&quot;;.
+        /// [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ElementSize {
             get {
@@ -3615,13 +3616,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_EmbeddedTrack&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties for track slab that have embedded tracks recessed into road surface.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcSlab/TRACKSLAB&lt;/Cl [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcSlab/TRACKSLA [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_EmbeddedTrack {
             get {
@@ -3631,13 +3632,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_EnergyRequirements&lt;/Name&gt;
         ///  &lt;Definition&gt;Property set for the application of energy requirements to facility and physical elements&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcDis [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;I [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_EnergyRequirements {
             get {
@@ -3647,15 +3648,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_EngineTypeCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Engine type common attributes.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcEngine&lt;/ClassName&gt;
-        ///    &lt;ClassName&gt;IfcEngineType&lt;/ClassName&gt;
-        ///  &lt;/ [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcEngineType&lt;/ClassName&gt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_EngineTypeCommon {
             get {
@@ -3665,14 +3665,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_EnvironmentalCondition&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties defining environment conditions required by the element.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcElement&lt;/ClassName&gt;
-        ///  [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcElement&lt;/ClassNa [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_EnvironmentalCondition {
             get {
@@ -3682,13 +3681,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_EnvironmentalEmissions&lt;/Name&gt;
         ///  &lt;Definition&gt;Property set for the application of energy emissions produced by facility and physical elements.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;Class [rest of string was truncated]&quot;;.
+        ///    &lt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_EnvironmentalEmissions {
             get {
@@ -3698,10 +3697,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_EnvironmentalImpactIndicators&lt;/Name&gt;
-        ///  &lt;Definition&gt;Environmental impact indicators are related to a given “functional unit” (ISO 14040 concept). An example of functional unit is a &amp;quot;Double glazing wind [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Environmental impact indicators are related to a given “functional unit” (ISO 14040 concept). An example of functional unit is a &amp;quot;Double glazing [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_EnvironmentalImpactIndicators {
             get {
@@ -3711,10 +3710,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_EnvironmentalImpactValues&lt;/Name&gt;
-        ///  &lt;Definition&gt;The following properties capture environmental impact values of an element. They correspond to the indicators defined into Pset_EnvironmentalImpactIndicators. [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;The following properties capture environmental impact values of an element. They correspond to the indicators defined into Pset_EnvironmentalImpactIndica [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_EnvironmentalImpactValues {
             get {
@@ -3724,14 +3723,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_EvaporativeCoolerPHistory&lt;/Name&gt;
         ///  &lt;Definition&gt;Evaporative cooler performance history attributes.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcEvaporativeCooler&lt;/ClassName&gt;
-        ///  &lt;/Ap [rest of string was truncated]&quot;;.
+        ///  [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_EvaporativeCoolerPHistory {
             get {
@@ -3741,11 +3740,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_EvaporativeCoolerTypeCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Evaporative cooler type common attributes.
-        ///Sound attribute deleted in IFC2x2 Pset Addendum: Use IfcSoundProperties instead. WaterRequirement attribute unit  [rest of string was truncated]&quot;;.
+        ///Sound attribute deleted in IFC2x2 Pset Addendum: Use IfcSoundProperties instead. WaterRequirement attribute  [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_EvaporativeCoolerTypeCommon {
             get {
@@ -3755,15 +3754,15 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_EvaporatorPHistory&lt;/Name&gt;
         ///  &lt;Definition&gt;Evaporator performance history attributes.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcEvaporator&lt;/ClassName&gt;
         ///  &lt;/ApplicableClasses&gt;
-        ///  &lt;Ap [rest of string was truncated]&quot;;.
+        /// [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_EvaporatorPHistory {
             get {
@@ -3773,14 +3772,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_EvaporatorTypeCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Evaporator type common attributes.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcEvaporator&lt;/ClassName&gt;
-        ///    &lt;ClassName&gt;IfcEvaporatorType&lt; [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcEvaporator [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_EvaporatorTypeCommon {
             get {
@@ -3790,13 +3789,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_FanCentrifugal&lt;/Name&gt;
         ///  &lt;Definition&gt;Centrifugal fan occurrence attributes attached to an instance of IfcFan.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcFan/CENTRIFUGALAIRFOIL&lt;/ [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcFan/CENTRIFUGALAIRF [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_FanCentrifugal {
             get {
@@ -3806,15 +3805,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_FanOccurrence&lt;/Name&gt;
         ///  &lt;Definition&gt;Fan occurrence attributes attached to an instance of IfcFan.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcFan&lt;/ClassName&gt;
-        ///  &lt;/ApplicableClasses&gt;
-        /// [rest of string was truncated]&quot;;.
+        ///  &lt;/ApplicableClas [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_FanOccurrence {
             get {
@@ -3824,12 +3822,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_FanPHistory&lt;/Name&gt;
         ///  &lt;Definition&gt;Fan performance history attributes.IFC2X2 CHANGE Sound attribute deleted in IFC2x2 Pset Addendum: Use IfcSoundProperties instead.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;Applicab [rest of string was truncated]&quot;;.
+        ///  &lt;App [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_FanPHistory {
             get {
@@ -3839,15 +3837,15 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_FanTypeCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Fan type common attributes.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcFan&lt;/ClassName&gt;
         ///    &lt;ClassName&gt;IfcFanType&lt;/ClassName&gt;
-        ///  &lt;/ApplicableCl [rest of string was truncated]&quot;;.
+        ///  &lt;/Applica [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_FanTypeCommon {
             get {
@@ -3857,12 +3855,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_FastenerRailWeld&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties of Welded rail joint used in railway. The property set can be used by the predefined type WELD of IfcFastener.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;Applicable [rest of string was truncated]&quot;;.
+        ///  &lt;Appli [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_FastenerRailWeld {
             get {
@@ -3872,14 +3870,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_FastenerWeld&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties related to welded connections.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcFastener/WELD&lt;/ClassName&gt;
-        ///    &lt;ClassName&gt;IfcFastenerType/ [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcFastener [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_FastenerWeld {
             get {
@@ -3889,10 +3887,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_FenderCommon&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties common to the definition of all occurrences of IfcImpactProtectionDevice and types of IfcImpactProtectionDeviceType with the predefined type set to FENDER.&lt;/Def [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties common to the definition of all occurrences of IfcImpactProtectionDevice and types of IfcImpactProtectionDeviceType with the predefined type set to FENDER. [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_FenderCommon {
             get {
@@ -3902,10 +3900,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_FenderDesignCriteria&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties common to the definition of design criteria of all occurrences of  IfcImpactProtectionDevice and types of IfcImpactProtectionDeviceType with the predefi [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties common to the definition of design criteria of all occurrences of  IfcImpactProtectionDevice and types of IfcImpactProtectionDeviceType with the pr [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_FenderDesignCriteria {
             get {
@@ -3915,15 +3913,15 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_FilterPHistory&lt;/Name&gt;
         ///  &lt;Definition&gt;Filter performance history attributes.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcFilter&lt;/ClassName&gt;
         ///  &lt;/ApplicableClasses&gt;
-        ///  &lt;ApplicableType [rest of string was truncated]&quot;;.
+        ///  &lt;Applicabl [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_FilterPHistory {
             get {
@@ -3933,14 +3931,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_FilterTypeAirParticleFilter&lt;/Name&gt;
         ///  &lt;Definition&gt;Air particle filter type attributes.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcFilter/AIRPARTICLEFILTER&lt;/ClassName&gt;
-        ///    &lt;Class [rest of string was truncated]&quot;;.
+        ///    &lt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_FilterTypeAirParticleFilter {
             get {
@@ -3950,15 +3948,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_FilterTypeCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Filter type common attributes.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcFilter&lt;/ClassName&gt;
-        ///    &lt;ClassName&gt;IfcFilterType&lt;/ClassName&gt;
-        ///  &lt;/ [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcFilterType&lt;/ClassName&gt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_FilterTypeCommon {
             get {
@@ -3968,14 +3965,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_FilterTypeCompressedAirFilter&lt;/Name&gt;
         ///  &lt;Definition&gt;Compressed air filter type attributes.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcFilter/COMPRESSEDAIRFILTER&lt;/ClassName&gt;
-        ///     [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcFilter/COMPRESSEDAIRFILTER&lt;/ClassName&gt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_FilterTypeCompressedAirFilter {
             get {
@@ -3985,14 +3981,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_FilterTypeWaterFilter&lt;/Name&gt;
         ///  &lt;Definition&gt;Water filter type attributes.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcFilter/WATERFILTER&lt;/ClassName&gt;
-        ///    &lt;ClassName&gt;IfcFilterType/ [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcFilter [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_FilterTypeWaterFilter {
             get {
@@ -4002,12 +3998,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_FireSuppressionTerminalTypeBreechingInlet&lt;/Name&gt;
         ///  &lt;Definition&gt;Symmetrical pipe fitting that unites two or more inlets into a single pipe (BS6100 330 114 adapted).&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;Applic [rest of string was truncated]&quot;;.
+        ///  &lt;A [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_FireSuppressionTerminalTypeBreechingInlet {
             get {
@@ -4017,13 +4013,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_FireSuppressionTerminalTypeCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Common properties for fire suppression terminals.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcFireSuppressionTerminal&lt;/Cla [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcFireSuppressionTerminal [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_FireSuppressionTerminalTypeCommon {
             get {
@@ -4033,10 +4029,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_FireSuppressionTerminalTypeFireHydrant&lt;/Name&gt;
-        ///  &lt;Definition&gt;Device, fitted to a pipe, through which a temporary supply of water may be provided (BS6100 330 6107)For further details on fire hydrants, see ww [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Device, fitted to a pipe, through which a temporary supply of water may be provided (BS6100 330 6107)For further details on fire hydrants, s [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_FireSuppressionTerminalTypeFireHydrant {
             get {
@@ -4046,10 +4042,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_FireSuppressionTerminalTypeHoseReel&lt;/Name&gt;
-        ///  &lt;Definition&gt;A supporting framework on which a hose may be wound (BS6100 155 8201).Note that the service provided by the hose (water/foam) is determined by the c [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;A supporting framework on which a hose may be wound (BS6100 155 8201).Note that the service provided by the hose (water/foam) is determined by  [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_FireSuppressionTerminalTypeHoseReel {
             get {
@@ -4059,13 +4055,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_FireSuppressionTerminalTypeSprinkler&lt;/Name&gt;
         ///  &lt;Definition&gt;Device for sprinkling water from a pipe under pressure over an area (BS6100 100 3432)&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;Cl [rest of string was truncated]&quot;;.
+        ///   [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_FireSuppressionTerminalTypeSprinkler {
             get {
@@ -4075,14 +4071,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_FittingBend&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties about the bend angles.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcCableCarrierFitting/BEND&lt;/ClassName&gt;
-        ///    &lt;ClassName&gt;IfcDuctFitting [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcDuctFi [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_FittingBend {
             get {
@@ -4092,14 +4088,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_FittingJunction&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties about Fitting Junction.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcCableFitting/JUNCTION&lt;/ClassName&gt;
-        ///    &lt;ClassName&gt;IfcDuctFitti [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcDuct [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_FittingJunction {
             get {
@@ -4109,14 +4105,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_FittingTransition&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties about Fitting Transition.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcCableFitting/TRANSITION&lt;/ClassName&gt;
-        ///    &lt;ClassName&gt;IfcDuc [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;I [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_FittingTransition {
             get {
@@ -4126,13 +4122,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_FlowInstrumentPHistory&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties for history of flow instrument values.  HISTORY: Added in IFC4.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcFlowInstrument&lt; [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcFlowInstru [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_FlowInstrumentPHistory {
             get {
@@ -4142,13 +4138,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_FlowInstrumentTypeCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Flow Instrument type common attributes.  HISTORY: Added in IFC4.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcFlowInstrument&lt;/ClassN [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcFlowInstrument&lt;/C [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_FlowInstrumentTypeCommon {
             get {
@@ -4158,12 +4154,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_FlowInstrumentTypePressureGauge&lt;/Name&gt;
         ///  &lt;Definition&gt;A device that reads and displays a pressure value at a point or the pressure difference between two points.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;Applicabl [rest of string was truncated]&quot;;.
+        ///  &lt;Appl [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_FlowInstrumentTypePressureGauge {
             get {
@@ -4173,13 +4169,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_FlowInstrumentTypeThermometer&lt;/Name&gt;
         ///  &lt;Definition&gt;A device that reads and displays a temperature value at a point.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcFlowInstrument/TH [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcFlowInstrume [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_FlowInstrumentTypeThermometer {
             get {
@@ -4189,15 +4185,15 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_FlowMeterOccurrence&lt;/Name&gt;
         ///  &lt;Definition&gt;Flow meter occurrence common attributes.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcFlowMeter&lt;/ClassName&gt;
         ///  &lt;/ApplicableClasses&gt;
-        ///  &lt;Appli [rest of string was truncated]&quot;;.
+        ///  &lt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_FlowMeterOccurrence {
             get {
@@ -4207,14 +4203,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_FlowMeterTypeCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Common attributes of a flow meter type&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcFlowMeter&lt;/ClassName&gt;
-        ///    &lt;ClassName&gt;IfcFlowMeterType [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcFlowMete [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_FlowMeterTypeCommon {
             get {
@@ -4224,13 +4220,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_FlowMeterTypeEnergyMeter&lt;/Name&gt;
         ///  &lt;Definition&gt;Device that measures, indicates and sometimes records, the energy usage in a system.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcFl [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_FlowMeterTypeEnergyMeter {
             get {
@@ -4240,12 +4236,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_FlowMeterTypeGasMeter&lt;/Name&gt;
         ///  &lt;Definition&gt;Device that measures, indicates and sometimes records, the volume of gas that passes through it without interrupting the flow.&lt;/Definition&gt;
-        ///  &lt;Applicability/&gt;
-        ///  &lt; [rest of string was truncated]&quot;;.
+        ///  &lt;Applicability/ [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_FlowMeterTypeGasMeter {
             get {
@@ -4255,12 +4250,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_FlowMeterTypeOilMeter&lt;/Name&gt;
         ///  &lt;Definition&gt;Device that measures, indicates and sometimes records, the volume of oil that passes through it without interrupting the flow.&lt;/Definition&gt;
-        ///  &lt;Applicability/&gt;
-        ///  &lt; [rest of string was truncated]&quot;;.
+        ///  &lt;Applicability/ [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_FlowMeterTypeOilMeter {
             get {
@@ -4270,11 +4264,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_FlowMeterTypeWaterMeter&lt;/Name&gt;
         ///  &lt;Definition&gt;Device that measures, indicates and sometimes records, the volume of water that passes through it without interrupting the flow.&lt;/Definition&gt;
-        ///  &lt;Applicability/&gt; [rest of string was truncated]&quot;;.
+        ///  &lt;Applicabil [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_FlowMeterTypeWaterMeter {
             get {
@@ -4284,14 +4278,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_FootingCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties common to the definition of all occurrences of IfcFooting.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcFooting&lt;/ClassName&gt;
-        ///    &lt;Cla [rest of string was truncated]&quot;;.
+        ///    [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_FootingCommon {
             get {
@@ -4301,13 +4295,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_FootingTypePadFooting&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties of footing. The property set can be used by the predefined type PAD_FOOTING of IfcFooting.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;C [rest of string was truncated]&quot;;.
+        ///  [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_FootingTypePadFooting {
             get {
@@ -4317,12 +4311,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_FurnitureTypeChair&lt;/Name&gt;
         ///  &lt;Definition&gt;A set of specific properties for furniture type chair. HISTORY: First issued in IFC Release R1.5. Renamed from Pset_Chair&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;Applicab [rest of string was truncated]&quot;;.
+        ///  &lt;App [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_FurnitureTypeChair {
             get {
@@ -4332,10 +4326,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_FurnitureTypeCommon&lt;/Name&gt;
-        ///  &lt;Definition&gt;Common properties for all types of furniture such as chair, desk, table, and file cabinet. HISTORY: First issued in IFC Release R1.5. Renamed from Pset_FurnitureCom [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Common properties for all types of furniture such as chair, desk, table, and file cabinet. HISTORY: First issued in IFC Release R1.5. Renamed from Pset_Furnitu [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_FurnitureTypeCommon {
             get {
@@ -4345,12 +4339,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_FurnitureTypeDesk&lt;/Name&gt;
         ///  &lt;Definition&gt;A set of specific properties for furniture type desk. HISTORY: First issued in IFC Release R1.5. Renamed from Pset_Desk&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;ApplicableC [rest of string was truncated]&quot;;.
+        ///  &lt;Applic [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_FurnitureTypeDesk {
             get {
@@ -4360,11 +4354,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_FurnitureTypeFileCabinet&lt;/Name&gt;
         ///  &lt;Definition&gt;A set of specific properties for furniture type file cabinet HISTORY: First issued in IFC Release R1.5. Renamed from Pset_FileCabinet&lt;/Definition&gt;
-        ///  &lt;Applicabi [rest of string was truncated]&quot;;.
+        ///  &lt;Appl [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_FurnitureTypeFileCabinet {
             get {
@@ -4374,13 +4368,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_FurnitureTypeTable&lt;/Name&gt;
         ///  &lt;Definition&gt;HISTORY: First issued in IFC Release R1.5. Renamed from Pset_Table&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcFurniture/TABLE&lt;/ClassName [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcFurniture/TABLE&lt;/Clas [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_FurnitureTypeTable {
             get {
@@ -4390,13 +4384,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_GateHeadCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties common to the definition of all occurrences of IfcMarinePart with the predefined type set to GATEHEAD.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;ApplicableClasses&gt;
-        ///    [rest of string was truncated]&quot;;.
+        ///  &lt;ApplicableClasses [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_GateHeadCommon {
             get {
@@ -4406,10 +4399,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_GeotechnicalAssemblyCommon&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties describing the characteristics of any geotechnical model. A Status of &amp;quot;New&amp;quot; should not be associated to a IfcGeotechnicalAssembly or IfcGe [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties describing the characteristics of any geotechnical model. A Status of &amp;quot;New&amp;quot; should not be associated to a IfcGeotechnicalAssembly or  [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_GeotechnicalAssemblyCommon {
             get {
@@ -4419,10 +4412,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_GeotechnicalStratumCommon&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties describing the characteristics of any solid, water or void stratum. A status of &amp;quot;New&amp;quot; should not be associated to a IfcGeotechnicalAssembly [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties describing the characteristics of any solid, water or void stratum. A status of &amp;quot;New&amp;quot; should not be associated to a IfcGeotechnicalAss [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_GeotechnicalStratumCommon {
             get {
@@ -4432,14 +4425,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_HeatExchangerTypeCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Heat exchanger type common attributes.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcHeatExchanger&lt;/ClassName&gt;
-        ///    &lt;ClassName&gt;IfcHeatE [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;Ifc [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_HeatExchangerTypeCommon {
             get {
@@ -4449,14 +4442,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_HeatExchangerTypePlate&lt;/Name&gt;
         ///  &lt;Definition&gt;Plate heat exchanger type common attributes.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcHeatExchanger/PLATE&lt;/ClassName&gt;
-        ///    &lt;ClassNa [rest of string was truncated]&quot;;.
+        ///    &lt;Cl [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_HeatExchangerTypePlate {
             get {
@@ -4466,13 +4459,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_HumidifierPHistory&lt;/Name&gt;
         ///  &lt;Definition&gt;Humidifier performance history attributes.
         ///Sound attribute deleted in IFC2x2 Pset Addendum: Use IfcSoundProperties instead.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;Applica [rest of string was truncated]&quot;;.
+        ///  &lt;Ap [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_HumidifierPHistory {
             get {
@@ -4482,12 +4475,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_HumidifierTypeCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Humidifier type common attributes.
         ///WaterProperties attribute renamed to WaterRequirement and unit type modified in IFC2x2 Pset Addendum.&lt;/Definition&gt;
-        ///  &lt;Applicabil [rest of string was truncated]&quot;;.
+        ///  &lt;Appli [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_HumidifierTypeCommon {
             get {
@@ -4497,12 +4490,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ImpactProtectionDeviceOccurrenceBumper&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties common to all occurrences of IfcImpactProtectionDevice with PredefinedType set to BUMPER.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;ApplicableC [rest of string was truncated]&quot;;.
+        ///  &lt;Applic [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ImpactProtectionDeviceOccurrenceBumper {
             get {
@@ -4512,12 +4505,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ImpactProtectionDeviceTypeBumper&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties common to all occurrences and types of IfcImpactProtectionDevice with PredefinedType set to BUMPER.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;Appli [rest of string was truncated]&quot;;.
+        ///  &lt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ImpactProtectionDeviceTypeBumper {
             get {
@@ -4527,13 +4520,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_InstallationOccurrence&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties defining installation information for occurrences of element, asset or system.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcA [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_InstallationOccurrence {
             get {
@@ -4543,14 +4536,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_InterceptorTypeCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Common properties for interceptors.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcInterceptor&lt;/ClassName&gt;
-        ///    &lt;ClassName&gt;IfcInterceptorT [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcInterce [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_InterceptorTypeCommon {
             get {
@@ -4560,13 +4553,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_IpNetworkEquipmentPHistory&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties defining performance information for IP network equipments.&lt;/Definition&gt;
+        ///  &lt;Definition&gt;Properties defining performance information for IP network equipment.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcCommunicationsA [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcCommunicati [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_IpNetworkEquipmentPHistory {
             get {
@@ -4576,13 +4569,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_JettyCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties common to the definition of all occurrences of IfcMarineFacility with the predefined type set to JETTY.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt; [rest of string was truncated]&quot;;.
+        /// [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_JettyCommon {
             get {
@@ -4592,12 +4585,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_JettyDesignCriteria&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties common to the definition of design criteria of all occurrences of IfcMarineFacility with the predefined type set to JETTY.&lt;/Definition&gt;
-        ///  &lt;Applicability/&gt;
-        /// [rest of string was truncated]&quot;;.
+        ///  &lt;Applicabili [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_JettyDesignCriteria {
             get {
@@ -4607,13 +4599,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_JunctionBoxTypeCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;A junction box is an enclosure within which cables are connected.History: New in IFC4&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcJunc [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;If [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_JunctionBoxTypeCommon {
             get {
@@ -4623,13 +4615,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_JunctionBoxTypeData&lt;/Name&gt;
         ///  &lt;Definition&gt;The property set can be used by the predefined type DATA of IfcJunctionBox.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcJunctionBox/DATA [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcJunctionBox [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_JunctionBoxTypeData {
             get {
@@ -4639,15 +4631,15 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_KerbCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties for a kerb.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcKerb&lt;/ClassName&gt;
         ///    &lt;ClassName&gt;IfcKerbType&lt;/ClassName&gt;
-        ///  &lt;/ApplicableClasses&gt; [rest of string was truncated]&quot;;.
+        ///  &lt;/ApplicableCla [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_KerbCommon {
             get {
@@ -4657,15 +4649,15 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_KerbStone&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties for kerb stones.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcKerb&lt;/ClassName&gt;
         ///    &lt;ClassName&gt;IfcKerbType&lt;/ClassName&gt;
-        ///  &lt;/ApplicableClas [rest of string was truncated]&quot;;.
+        ///  &lt;/Applicabl [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_KerbStone {
             get {
@@ -4675,11 +4667,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_LampTypeCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;A lamp is a component within a light fixture that is designed to emit light.History: Name changed from Pset_LampEmitterTypeCommon in IFC 2x3.&lt;/Definition&gt;
-        ///  &lt;Applicabili [rest of string was truncated]&quot;;.
+        ///  &lt;Applic [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_LampTypeCommon {
             get {
@@ -4689,10 +4681,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_LandRegistration&lt;/Name&gt;
-        ///  &lt;Definition&gt;Specifies the identity of land within a statutory registration system. NOTE: The property LandTitleID is to be used in preference to deprecated attribute LandTitleNumber [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Specifies the identity of land within a statutory registration system.NOTE  The property LandTitleID is to be used in preference to deprecated attribute LandTitleNu [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_LandRegistration {
             get {
@@ -4702,11 +4694,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_LightFixtureTypeCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Common data for light fixtures.
-        ///History: IFC4 - Article number and manufacturer specific information deleted. Use Pset_ManufacturerTypeInformation. ArticleNumber [rest of string was truncated]&quot;;.
+        ///History: IFC4 - Article number and manufacturer specific information deleted. Use Pset_ManufacturerTypeInformation. ArticleN [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_LightFixtureTypeCommon {
             get {
@@ -4716,13 +4708,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_LightFixtureTypeSecurityLighting&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties that characterize security lighting.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcLightFixture/SECURITYLIGHTING&lt;/ [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcLightFixture/SECURITYLIGHT [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_LightFixtureTypeSecurityLighting {
             get {
@@ -4732,11 +4724,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_LinearReferencingMethod&lt;/Name&gt;
-        ///  &lt;Definition&gt;Describes the manner in which measurements are made along (and optionally offset from) a linear element.NOTE Definition according to ISO 19148:2021&lt;/Definition&gt;
-        ///  [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Describes the manner in which measurements are made along (and optionally offset from) a linear element.NOTE Definition according to ISO 19148:2021&lt;/Definiti [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_LinearReferencingMethod {
             get {
@@ -4746,13 +4737,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_MaintenanceStrategy&lt;/Name&gt;
         ///  &lt;Definition&gt;Property set for the association of a maintenance strategy to an element, asset of system.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcA [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_MaintenanceStrategy {
             get {
@@ -4762,13 +4753,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_MaintenanceTriggerCondition&lt;/Name&gt;
         ///  &lt;Definition&gt;Trigger levels for an asset that has an inspection-based maintenance strategy&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcAsset&lt; [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcA [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_MaintenanceTriggerCondition {
             get {
@@ -4778,13 +4769,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_MaintenanceTriggerDuration&lt;/Name&gt;
         ///  &lt;Definition&gt;Trigger levels for an asset that has an PPM based maintenance strategy.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcAsset&lt;/ClassN [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcAsset&lt;/C [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_MaintenanceTriggerDuration {
             get {
@@ -4794,14 +4785,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_MaintenanceTriggerPerformance&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties for performance based maintenance policies&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcAsset&lt;/ClassName&gt;
-        ///    &lt;Class [rest of string was truncated]&quot;;.
+        ///    &lt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_MaintenanceTriggerPerformance {
             get {
@@ -4811,11 +4802,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ManufacturerOccurrence&lt;/Name&gt;
         ///  &lt;Definition&gt;Defines properties of individual instances of manufactured products that may be given by the manufacturer.
-        ///HISTORY: IFC 2x4: AssemblyPlace property added. This pro [rest of string was truncated]&quot;;.
+        ///HISTORY: IFC 2x4: AssemblyPlace property added. Thi [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ManufacturerOccurrence {
             get {
@@ -4825,10 +4816,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ManufacturerTypeInformation&lt;/Name&gt;
-        ///  &lt;Definition&gt;Defines characteristics of types (ranges) of manufactured products that may be given by the manufacturer. Note that the term &apos;manufactured&apos; may also be used [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Defines characteristics of types (ranges) of manufactured products that may be given by the manufacturer. Note that the term &apos;manufactured&apos; may also be [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ManufacturerTypeInformation {
             get {
@@ -4838,10 +4829,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_MarineFacilityTransportation&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties common to the definition of all occurrences of IfcMarineFacility which are catagorised as transportation facilities such as Ports, marinas etc.&lt;/D [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties common to the definition of all occurrences of IfcMarineFacility which are catagorised as transportation facilities such as Ports, marinas et [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_MarineFacilityTransportation {
             get {
@@ -4851,12 +4842,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_MarinePartChamberCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties common to the definition of all occurrences of IfcMarinePart with the predefined type set to CHAMBER.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;ApplicableClas [rest of string was truncated]&quot;;.
+        ///  &lt;Applicabl [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_MarinePartChamberCommon {
             get {
@@ -4866,10 +4857,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_MarineVehicleCommon&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties common to the definition of all occurrences of IfcTransportElement and types of IfcTransportElementType with the predefined type set to VEHICLEMARINE.&lt;/D [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties common to the definition of all occurrences of IfcTransportElement and types of IfcTransportElementType with the predefined type set to VEHICLEMARIN [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_MarineVehicleCommon {
             get {
@@ -4879,10 +4870,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_MarineVehicleDesignCriteria&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties common to the definition of design criteria of all occurrences of IfcTransportElement and types of IfcTransportElementType with the predefined ty [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties common to the definition of design criteria of all occurrences of IfcTransportElement and types of IfcTransportElementType with the predefin [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_MarineVehicleDesignCriteria {
             get {
@@ -4892,10 +4883,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_MarkerGeneral&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties common to a signalling marker made as an assembly of elements. The property set can be used by the predefined type SIGNAL_ASSEMBLY of IfcElementAssembly.&lt;/Defi [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties common to a signalling marker made as an assembly of elements. The property set can be used by the predefined type SIGNAL_ASSEMBLY of IfcElementAssembly.&lt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_MarkerGeneral {
             get {
@@ -4905,15 +4896,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_MarkingLinesCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties for line markings.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcSurfaceFeature/LINEMARKING&lt;/ClassName&gt;
-        ///  &lt;/ApplicableClasses&gt;
-        ///  &lt; [rest of string was truncated]&quot;;.
+        ///  &lt;/ApplicableClasses [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_MarkingLinesCommon {
             get {
@@ -4923,10 +4913,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_MATERIALDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_MATERIALDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_MaterialCombustion&lt;/Name&gt;
-        ///  &lt;Definition&gt;A set of extended material properties of products of combustion generated by elements typically used within the context of building services and flow distribution system [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;A set of extended material properties of products of combustion generated by elements typically used within the context of building services and flow distribution s [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_MaterialCombustion {
             get {
@@ -4936,15 +4926,15 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_MATERIALDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_MATERIALDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_MaterialCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;A set of general material properties.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcMaterial&lt;/ClassName&gt;
         ///  &lt;/ApplicableClasses&gt;
-        ///  &lt;ApplicableTypeVa [rest of string was truncated]&quot;;.
+        ///  &lt;ApplicableT [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_MaterialCommon {
             get {
@@ -4954,14 +4944,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_MATERIALDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_MATERIALDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_MaterialConcrete&lt;/Name&gt;
         ///  &lt;Definition&gt;A set of extended mechanical properties related to concrete materials.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcMaterial&lt;/ClassName&gt;
-        ///  &lt;/App [rest of string was truncated]&quot;;.
+        ///   [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_MaterialConcrete {
             get {
@@ -4971,14 +4961,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_MATERIALDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_MATERIALDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_MaterialEnergy&lt;/Name&gt;
         ///  &lt;Definition&gt;A set of extended material properties for energy calculation purposes.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcMaterial&lt;/ClassName&gt;
-        ///  &lt;/Appli [rest of string was truncated]&quot;;.
+        ///  &lt;/ [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_MaterialEnergy {
             get {
@@ -4988,12 +4978,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_MATERIALDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_MATERIALDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_MaterialFuel&lt;/Name&gt;
         ///  &lt;Definition&gt;A set of extended material properties of fuel energy typically used within the context of building services and flow distribution systems.&lt;/Definition&gt;
-        ///  &lt;Applicability/&gt;
-        ///  &lt;A [rest of string was truncated]&quot;;.
+        ///  &lt;Applicability/&gt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_MaterialFuel {
             get {
@@ -5003,15 +4992,15 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_MATERIALDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_MATERIALDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_MaterialHygroscopic&lt;/Name&gt;
         ///  &lt;Definition&gt;A set of hygroscopic properties of materials.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcMaterial&lt;/ClassName&gt;
         ///  &lt;/ApplicableClasses&gt;
-        ///  &lt;App [rest of string was truncated]&quot;;.
+        ///  [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_MaterialHygroscopic {
             get {
@@ -5021,10 +5010,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_MATERIALDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_MATERIALDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_MaterialMechanical&lt;/Name&gt;
-        ///  &lt;Definition&gt;A set of mechanical material properties normally used for structural analysis purpose. It contains all properties which are independent of the actual material type.&lt;/Def [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;A set of mechanical material properties normally used for structural analysis purpose. It contains all properties which are independent of the actual material type. [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_MaterialMechanical {
             get {
@@ -5034,15 +5023,15 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_MATERIALDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_MATERIALDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_MaterialOptical&lt;/Name&gt;
         ///  &lt;Definition&gt;A set of optical properties of materials.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcMaterial&lt;/ClassName&gt;
         ///  &lt;/ApplicableClasses&gt;
-        ///  &lt;ApplicableT [rest of string was truncated]&quot;;.
+        ///  &lt;Applic [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_MaterialOptical {
             get {
@@ -5052,13 +5041,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_MATERIALDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_MATERIALDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_MaterialSteel&lt;/Name&gt;
         ///  &lt;Definition&gt;A set of extended mechanical properties related to steel (or other metallic and isotropic) materials.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;Ifc [rest of string was truncated]&quot;;.
+        ///    &lt;ClassNam [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_MaterialSteel {
             get {
@@ -5068,15 +5057,15 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_MATERIALDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_MATERIALDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_MaterialThermal&lt;/Name&gt;
         ///  &lt;Definition&gt;A set of thermal material properties.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcMaterial&lt;/ClassName&gt;
         ///  &lt;/ApplicableClasses&gt;
-        ///  &lt;ApplicableTypeV [rest of string was truncated]&quot;;.
+        ///  &lt;Applicable [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_MaterialThermal {
             get {
@@ -5086,12 +5075,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_MATERIALDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_MATERIALDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_MaterialWater&lt;/Name&gt;
         ///  &lt;Definition&gt;A set of extended material properties for of water typically used within the context of building services and flow distribution systems.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;Ap [rest of string was truncated]&quot;;.
+        /// [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_MaterialWater {
             get {
@@ -5101,11 +5090,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_MATERIALDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_MATERIALDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_MaterialWood&lt;/Name&gt;
         ///  &lt;Definition&gt;This is a collection of properties applicable to wood-based materials that specify kind and grade of material as well as moisture related parameters.&lt;/Definition&gt;
-        ///  &lt;Applicabi [rest of string was truncated]&quot;;.
+        ///  &lt;Appl [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_MaterialWood {
             get {
@@ -5115,14 +5104,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_MATERIALDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_MATERIALDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_MaterialWoodBasedStructure&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties about Material of Wood Based Structure.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcMaterial&lt;/ClassName&gt;
-        ///  &lt;/ApplicableCla [rest of string was truncated]&quot;;.
+        ///  &lt;/Applicab [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_MaterialWoodBasedStructure {
             get {
@@ -5132,15 +5121,15 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_MATERIALDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_MATERIALDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_MechanicalBeamInPlane&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties about Mechanical Beam in Plane.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcMaterial&lt;/ClassName&gt;
         ///  &lt;/ApplicableClasses&gt;
-        ///  &lt;Appl [rest of string was truncated]&quot;;.
+        ///   [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_MechanicalBeamInPlane {
             get {
@@ -5150,14 +5139,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_MATERIALDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_MATERIALDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_MechanicalBeamInPlaneNegative&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties about Mechanical Beam in Plane Negative.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcMaterial&lt;/ClassName&gt;
-        ///  &lt;/Applicabl [rest of string was truncated]&quot;;.
+        ///  &lt;/Appl [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_MechanicalBeamInPlaneNegative {
             get {
@@ -5167,15 +5156,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_MATERIALDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_MATERIALDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_MechanicalBeamOutOfPlane&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties about Mechanical Beam Out Of Plane.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcMaterial&lt;/ClassName&gt;
-        ///  &lt;/ApplicableClasses&gt;
-        /// [rest of string was truncated]&quot;;.
+        ///  &lt;/ApplicableClas [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_MechanicalBeamOutOfPlane {
             get {
@@ -5185,13 +5173,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_MechanicalFastenerAnchorBolt&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties common to different types of anchor bolts.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcMechanicalFastener/ANCHORBOLT [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcMechanicalFastener/ANCHO [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_MechanicalFastenerAnchorBolt {
             get {
@@ -5201,10 +5189,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_MechanicalFastenerBolt&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties related to bolt-type fasteners. The properties of a whole set with bolt, washers and nut may be provided. Note, it is usually not necessary to transmi [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties related to bolt-type fasteners. The properties of a whole set with bolt, washers and nut may be provided. Note, it is usually not necessary to tr [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_MechanicalFastenerBolt {
             get {
@@ -5214,13 +5202,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_MechanicalFastenerOCSFitting&lt;/Name&gt;
         ///  &lt;Definition&gt;Common properties of clamps and fittings used in railway overhead contact system (OCS).&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassNam [rest of string was truncated]&quot;;.
+        ///    &lt;Cla [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_MechanicalFastenerOCSFitting {
             get {
@@ -5230,10 +5218,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_MechanicalFastenerTypeRailFastening&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties of rail fastening used in railway track system. The property set can be used by the predefined type RAILFASTENING of IfcMechanicalFastene [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties of rail fastening used in railway track system. The property set can be used by the predefined type RAILFASTENING of IfcMechanicalFa [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_MechanicalFastenerTypeRailFastening {
             get {
@@ -5243,10 +5231,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_MechanicalFastenerTypeRailJoint&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties common to a rail joint of a railway track system.  The property set can be used by the predefined type RAILJOINT of IfcMechanicalFastener.&lt;/D [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties common to a rail joint of a railway track system.  The property set can be used by the predefined type RAILJOINT of IfcMechanicalFastene [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_MechanicalFastenerTypeRailJoint {
             get {
@@ -5256,15 +5244,15 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_MATERIALDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_MATERIALDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_MechanicalPanelInPlane&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties for Mechanical Panels In Plane.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcMaterial&lt;/ClassName&gt;
         ///  &lt;/ApplicableClasses&gt;
-        ///  &lt;App [rest of string was truncated]&quot;;.
+        ///  [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_MechanicalPanelInPlane {
             get {
@@ -5274,14 +5262,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_MATERIALDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_MATERIALDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_MechanicalPanelOutOfPlane&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties for Mechanica lPanels Out Of Plane.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcMaterial&lt;/ClassName&gt;
-        ///  &lt;/ApplicableClasses&gt; [rest of string was truncated]&quot;;.
+        ///  &lt;/ApplicableCla [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_MechanicalPanelOutOfPlane {
             get {
@@ -5291,14 +5279,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_MATERIALDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_MATERIALDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_MechanicalPanelOutOfPlaneNegative&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties for Mechanical Panels Out Of Plane Negative.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcMaterial&lt;/ClassName&gt;
-        ///  &lt;/A [rest of string was truncated]&quot;;.
+        /// [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_MechanicalPanelOutOfPlaneNegative {
             get {
@@ -5308,14 +5296,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_MedicalDeviceTypeCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Medical device type common attributes.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcMedicalDevice&lt;/ClassName&gt;
-        ///    &lt;ClassName&gt;IfcMedic [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;Ifc [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_MedicalDeviceTypeCommon {
             get {
@@ -5325,14 +5313,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_MemberCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties common to the definition of all occurrences of IfcMember.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcMember&lt;/ClassName&gt;
-        ///    &lt;ClassN [rest of string was truncated]&quot;;.
+        ///    &lt;C [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_MemberCommon {
             get {
@@ -5342,13 +5330,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_MemberTypeAnchoringBar&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties of anchoring bar. The anchoring bar is used to connect stay from pole to the foundation.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;Cl [rest of string was truncated]&quot;;.
+        ///   [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_MemberTypeAnchoringBar {
             get {
@@ -5358,12 +5346,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_MemberTypeCatenaryStay&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties of catenary stay used in railway. The property set can be used by the predefined type STAY_CABLE of IfcMember.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;Appl [rest of string was truncated]&quot;;.
+        ///   [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_MemberTypeCatenaryStay {
             get {
@@ -5373,13 +5361,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_MemberTypeOCSRigidSupport&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties of rigid catenary support used in railway overhead contact system.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcMember/M [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcMem [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_MemberTypeOCSRigidSupport {
             get {
@@ -5389,13 +5377,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_MemberTypePost&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties of a post. A post is a linear (usually vertical) member used to support something or to mark a point.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;ApplicableClasses&gt;
-        ///   [rest of string was truncated]&quot;;.
+        ///  &lt;ApplicableClasse [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_MemberTypePost {
             get {
@@ -5405,10 +5392,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_MemberTypeTieBar&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties of tie bar. A tie bar is a linear bar element used to secure or stabilise a structure by resisting lateral and longitudinal loading through tension and or c [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties of tie bar. A tie bar is a linear bar element used to secure or stabilise a structure by resisting lateral and longitudinal loading through tension and [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_MemberTypeTieBar {
             get {
@@ -5418,10 +5405,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_MobileTelecommunicationsApplianceTypeAccessPoint&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties common to the definition of all occurrences of  IfcMobileTelecommunicationsAppliance and types of IfcMobileTelecommunication [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties common to the definition of all occurrences of  IfcMobileTelecommunicationsAppliance and types of IfcMobileTelecommunic [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_MobileTelecommunicationsApplianceTypeAccessPoint {
             get {
@@ -5431,10 +5418,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_MobileTelecommunicationsApplianceTypeBasebandUnit&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties common to the definition of all occurrences of  IfcMobileTelecommunicationsAppliance and types of IfcMobileTelecommunicatio [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties common to the definition of all occurrences of  IfcMobileTelecommunicationsAppliance and types of IfcMobileTelecommuni [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_MobileTelecommunicationsApplianceTypeBasebandUnit {
             get {
@@ -5444,10 +5431,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_MobileTelecommunicationsApplianceTypeBaseTransceiverStation&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties common to the definition of all occurrences of  IfcMobileTelecommunicationsAppliance and types of IfcMobileTeleco [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties common to the definition of all occurrences of  IfcMobileTelecommunicationsAppliance and types of IfcMobileT [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_MobileTelecommunicationsApplianceTypeBaseTransceiverStation {
             get {
@@ -5457,10 +5444,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_MobileTelecommunicationsApplianceTypeCommon&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties common to the definition of all occurrences of  IfcMobileTelecommunicationsAppliance and types of IfcMobileTelecommunicationsAppl [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties common to the definition of all occurrences of  IfcMobileTelecommunicationsAppliance and types of IfcMobileTelecommunication [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_MobileTelecommunicationsApplianceTypeCommon {
             get {
@@ -5470,10 +5457,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_MobileTelecommunicationsApplianceTypeEUtranNodeB&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties common to the definition of all occurrences of  IfcMobileTelecommunicationsAppliance and types of IfcMobileTelecommunication [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties common to the definition of all occurrences of  IfcMobileTelecommunicationsAppliance and types of IfcMobileTelecommunic [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_MobileTelecommunicationsApplianceTypeEUtranNodeB {
             get {
@@ -5483,10 +5470,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_MobileTelecommunicationsApplianceTypeMasterUnit&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties common to the definition of all occurrences of  IfcMobileTelecommunicationsAppliance and types of IfcMobileTelecommunications [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties common to the definition of all occurrences of  IfcMobileTelecommunicationsAppliance and types of IfcMobileTelecommunica [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_MobileTelecommunicationsApplianceTypeMasterUnit {
             get {
@@ -5496,10 +5483,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_MobileTelecommunicationsApplianceTypeMobileSwitchingCenter&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties common to the definition of all occurrences of  IfcMobileTelecommunicationsAppliance and types of IfcMobileTelecom [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties common to the definition of all occurrences of  IfcMobileTelecommunicationsAppliance and types of IfcMobileTe [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_MobileTelecommunicationsApplianceTypeMobileSwitchingCenter {
             get {
@@ -5509,10 +5496,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_MobileTelecommunicationsApplianceTypeMSCServer&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties common to the definition of all occurrences of  IfcMobileTelecommunicationsAppliance and types of IfcMobileTelecommunicationsA [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties common to the definition of all occurrences of  IfcMobileTelecommunicationsAppliance and types of IfcMobileTelecommunicat [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_MobileTelecommunicationsApplianceTypeMSCServer {
             get {
@@ -5522,10 +5509,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_MobileTeleCommunicationsApplianceTypeRemoteRadioUnit&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties common to the definition of all occurrences of  IfcMobileTelecommunicationsAppliance and types of IfcMobileTelecommunica [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties common to the definition of all occurrences of  IfcMobileTelecommunicationsAppliance and types of IfcMobileTelecomm [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_MobileTeleCommunicationsApplianceTypeRemoteRadioUnit {
             get {
@@ -5535,10 +5522,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_MobileTelecommunicationsApplianceTypeRemoteUnit&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties common to the definition of all occurrences of  IfcMobileTelecommunicationsAppliance and types of IfcMobileTelecommunications [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties common to the definition of all occurrences of  IfcMobileTelecommunicationsAppliance and types of IfcMobileTelecommunica [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_MobileTelecommunicationsApplianceTypeRemoteUnit {
             get {
@@ -5548,13 +5535,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_MooringDeviceCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties common to the definition of all occurrences of IfcMooringDevice and types of IfcMooringDeviceType.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;ApplicableClasses&gt;
-        /// [rest of string was truncated]&quot;;.
+        ///  &lt;ApplicableClas [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_MooringDeviceCommon {
             get {
@@ -5564,13 +5550,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_MotorConnectionTypeCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Common properties for motor connections.  HISTORY: Added in IFC4.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcMotorConnection&lt;/Cla [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcMotorConnection [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_MotorConnectionTypeCommon {
             get {
@@ -5580,15 +5566,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_OnSiteCastKerb&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties for an on site cast kerb.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcKerb&lt;/ClassName&gt;
-        ///    &lt;ClassName&gt;IfcKerbType&lt;/ClassName&gt;
-        ///  &lt;/ [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcKerbType&lt;/ClassName&gt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_OnSiteCastKerb {
             get {
@@ -5598,14 +5583,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_OnSiteTelecomControlUnit&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties for on-site telecom control unit used for railway.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcController&lt;/ClassName&gt;
-        ///   [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcController&lt;/ClassNam [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_OnSiteTelecomControlUnit {
             get {
@@ -5615,13 +5599,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_OpeningElementCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties common to the definition of all instances of IfcOpeningElement.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcOpeningElement&lt;/Cl [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcOpeningElemen [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_OpeningElementCommon {
             get {
@@ -5631,11 +5615,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_OpticalAdapter&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties in this property set are applicable to the transition type of cable fitting. Indicated that such transition is an optical adapter.&lt;/Definition&gt;
-        ///  &lt;Applicabili [rest of string was truncated]&quot;;.
+        ///  &lt;Applic [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_OpticalAdapter {
             get {
@@ -5645,11 +5629,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_OpticalPigtail&lt;/Name&gt;
-        ///  &lt;Definition&gt;Property set for optical pigtail. This property set is applicable to a type or occurence of IfcCableSegment with predefined type OPTICALCABLESEGMENT.&lt;/Definition&gt;
-        ///  &lt;App [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Property set for optical pigtail. This property set is applicable to a type or occurrence of IfcCableSegment with predefined type OPTICALCABLESEGMENT.&lt;/Definition&gt;
+        /// [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_OpticalPigtail {
             get {
@@ -5659,11 +5643,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_OpticalSplitter&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties of optical splitter used in the telecommunication domain. This property set can be used by the predefined type DATA of IfcJunctionBox.&lt;/Definition&gt;
-        ///  &lt;Applic [rest of string was truncated]&quot;;.
+        ///  &lt;A [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_OpticalSplitter {
             get {
@@ -5673,14 +5657,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_OutletTypeCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Common properties for different outlet types.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcOutlet&lt;/ClassName&gt;
-        ///    &lt;ClassName&gt;IfcOutletType&lt;/ [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcOutletT [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_OutletTypeCommon {
             get {
@@ -5690,10 +5674,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_OutsideDesignCriteria&lt;/Name&gt;
-        ///  &lt;Definition&gt;Outside air conditions used as the basis for calculating thermal loads at peak conditions, as well as the weather data location from which these conditions were obt [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Outside air conditions used as the basis for calculating thermal loads at peak conditions, as well as the weather data location from which these conditions wer [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_OutsideDesignCriteria {
             get {
@@ -5703,11 +5687,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_PackingInstructions&lt;/Name&gt;
         ///  &lt;Definition&gt;Packing instructions are specific instructions relating to the packing that is required for an artifact in the event of a move (or transport).&lt;/Definition&gt;
-        ///  &lt;Appli [rest of string was truncated]&quot;;.
+        ///  &lt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_PackingInstructions {
             get {
@@ -5717,10 +5701,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_PatchCordCable&lt;/Name&gt;
-        ///  &lt;Definition&gt;This property set has properties that are applicable to cable segment and optical cable segment, indicated that the cable is a patch cord cable, which is fitted with con [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;This property set has properties that are applicable to cable segment and optical cable segment, indicated that the cable is a patch cord cable, which is fitted wit [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_PatchCordCable {
             get {
@@ -5730,11 +5714,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_PavementCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Describes the common properties and nominal dimensions of pavement.Property use clarification
-        ///The nominal thickness of the pavement remains constant with the value from  [rest of string was truncated]&quot;;.
+        ///The nominal thickness of the pavement remains constant with the value  [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_PavementCommon {
             get {
@@ -5744,14 +5728,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_PavementMillingCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties for pavement milling.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcEarthworksCut/PAVEMENTMILLING&lt;/ClassName&gt;
-        ///  &lt;/ApplicableCla [rest of string was truncated]&quot;;.
+        ///  &lt;/Applicab [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_PavementMillingCommon {
             get {
@@ -5761,14 +5745,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_PavementSurfaceCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties for a pavement surface.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcPavement&lt;/ClassName&gt;
-        ///    &lt;ClassName&gt;IfcPavementType&lt;/Cl [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcPavementTyp [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_PavementSurfaceCommon {
             get {
@@ -5778,11 +5762,25 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
+        ///  &lt;Name&gt;Pset_PermeableCoveringProperties&lt;/Name&gt;
+        ///  &lt;Definition&gt;Properties of the permeable covering.HISTORY New property set in IFC4.3.2.0 to replace the entity IfcPermeableCoveringProperties&lt;/Definition&gt;
+        ///  &lt;Applic [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Pset_PermeableCoveringProperties {
+            get {
+                return ResourceManager.GetString("Pset_PermeableCoveringProperties", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_Permit&lt;/Name&gt;
         ///  &lt;Definition&gt;A permit is a document that allows permission to gain access to an area or carry out work in a situation where security or other access restrictions apply.
-        ///HISTORY: IFC4 EndDate a [rest of string was truncated]&quot;;.
+        ///HISTORY: IFC4 EndD [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_Permit {
             get {
@@ -5792,14 +5790,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_PileCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties common to the definition of all occurrences of IfcPile.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcPile&lt;/ClassName&gt;
-        ///    &lt;ClassName&gt;If [rest of string was truncated]&quot;;.
+        ///    &lt;ClassNa [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_PileCommon {
             get {
@@ -5809,11 +5807,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_PipeConnectionFlanged&lt;/Name&gt;
         ///  &lt;Definition&gt;This property set is used to define the specifics of a flanged pipe connection used between occurrences of pipe segments and fittings.&lt;/Definition&gt;
-        ///  &lt;Applicabili [rest of string was truncated]&quot;;.
+        ///  &lt;Applic [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_PipeConnectionFlanged {
             get {
@@ -5823,13 +5821,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_PipeFittingOccurrence&lt;/Name&gt;
         ///  &lt;Definition&gt;Pipe segment occurrence attributes attached to an instance of IfcPipeSegment.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcPipeFitting&lt;/C [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcPipeFitti [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_PipeFittingOccurrence {
             get {
@@ -5839,14 +5837,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_PipeFittingPHistory&lt;/Name&gt;
         ///  &lt;Definition&gt;Pipe fitting performance history common attributes.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcPipeFitting&lt;/ClassName&gt;
-        ///  &lt;/ApplicableCla [rest of string was truncated]&quot;;.
+        ///  &lt;/Applicab [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_PipeFittingPHistory {
             get {
@@ -5856,14 +5854,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_PipeFittingTypeCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Pipe fitting type common attributes.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcPipeFitting&lt;/ClassName&gt;
-        ///    &lt;ClassName&gt;IfcPipeFitting [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcPipeFi [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_PipeFittingTypeCommon {
             get {
@@ -5873,13 +5871,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_PipeSegmentOccurrence&lt;/Name&gt;
         ///  &lt;Definition&gt;Pipe segment occurrence attributes attached to an instance of IfcPipeSegment.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcPipeSegment&lt;/C [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcPipeSegme [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_PipeSegmentOccurrence {
             get {
@@ -5889,14 +5887,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_PipeSegmentPHistory&lt;/Name&gt;
         ///  &lt;Definition&gt;Pipe segment performance history common attributes.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcPipeSegment&lt;/ClassName&gt;
-        ///  &lt;/ApplicableCla [rest of string was truncated]&quot;;.
+        ///  &lt;/Applicab [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_PipeSegmentPHistory {
             get {
@@ -5906,14 +5904,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_PipeSegmentTypeCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Pipe segment type common attributes.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcPipeSegment&lt;/ClassName&gt;
-        ///    &lt;ClassName&gt;IfcPipeSegment [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcPipeSe [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_PipeSegmentTypeCommon {
             get {
@@ -5923,12 +5921,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_PipeSegmentTypeCulvert&lt;/Name&gt;
         ///  &lt;Definition&gt;Covered channel or large pipe that forms a watercourse below ground level, usually under a road or railway (BS6100).&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;Applicabl [rest of string was truncated]&quot;;.
+        ///  &lt;Appl [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_PipeSegmentTypeCulvert {
             get {
@@ -5938,14 +5936,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_PipeSegmentTypeGutter&lt;/Name&gt;
         ///  &lt;Definition&gt;Gutter segment type common attributes.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcPipeSegment/GUTTER&lt;/ClassName&gt;
-        ///    &lt;ClassName&gt;IfcPi [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_PipeSegmentTypeGutter {
             get {
@@ -5955,14 +5953,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_PlateCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties common to the definition of all occurrences of IfcPlate.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcPlate&lt;/ClassName&gt;
-        ///    &lt;ClassName [rest of string was truncated]&quot;;.
+        ///    &lt;Clas [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_PlateCommon {
             get {
@@ -5972,10 +5970,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_PointMachine&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties of point machine used in railway. The property set can be used by IfcActuator with predefined type set to ELECTRICACTUATOR, HYDRAULICACTUATOR, HANDOPERATEDACTUA [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties of point machine used in railway. The property set can be used by IfcActuator with predefined type set to ELECTRICACTUATOR, HYDRAULICACTUATOR, HANDOPERATED [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_PointMachine {
             get {
@@ -5985,10 +5983,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_PowerControlSystem&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties of power control system. The property set can be used by the predefined type ELECTRICAL of IfcDistributionSystem. The property set can be used to characteri [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties of power control system. The property set can be used by the predefined type ELECTRICAL of IfcDistributionSystem. The property set can be used to chara [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_PowerControlSystem {
             get {
@@ -5998,10 +5996,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_PrecastConcreteElementFabrication&lt;/Name&gt;
-        ///  &lt;Definition&gt;Production and manufacturing related properties common to different types of precast concrete elements. The Pset applies to manufactured pieces. It ca [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Production and manufacturing related properties common to different types of precast concrete elements. The Pset applies to manufactured pieces.  [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_PrecastConcreteElementFabrication {
             get {
@@ -6011,10 +6009,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_PrecastConcreteElementGeneral&lt;/Name&gt;
-        ///  &lt;Definition&gt;Production and manufacturing related properties common to different types of precast concrete elements. The Pset can be used by a number of subtypes of If [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Production and manufacturing related properties common to different types of precast concrete elements. The Pset can be used by a number of subtypes  [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_PrecastConcreteElementGeneral {
             get {
@@ -6024,15 +6022,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_PrecastKerbStone&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties for precast kerb stone.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcKerb&lt;/ClassName&gt;
-        ///    &lt;ClassName&gt;IfcKerbType&lt;/ClassName&gt;
-        ///  &lt;/ [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcKerbType&lt;/ClassName&gt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_PrecastKerbStone {
             get {
@@ -6042,10 +6039,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_PrecastSlab&lt;/Name&gt;
-        ///  &lt;Definition&gt;Layout and component information defining how prestressed slab components are laid out in a precast slab assembly. The values are global defaults for the slab as a whole, b [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Layout and component information defining how prestressed slab components are laid out in a precast slab assembly. The values are global defaults for the slab as a who [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_PrecastSlab {
             get {
@@ -6055,13 +6052,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ProcessCapacity&lt;/Name&gt;
         ///  &lt;Definition&gt;Property set for the application of process data to spatial elements and transport assets&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcBuiltS [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcB [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ProcessCapacity {
             get {
@@ -6071,10 +6068,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_PROFILEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_PROFILEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ProfileArbitraryDoubleT&lt;/Name&gt;
-        ///  &lt;Definition&gt;This is a collection of geometric properties of double-T section profiles of precast concrete elements, to be used in conjunction with IfcArbitraryProfileDef when pr [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;This is a collection of geometric properties of double-T section profiles of precast concrete elements, to be used in conjunction with IfcArbitraryClosedProfile [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ProfileArbitraryDoubleT {
             get {
@@ -6084,10 +6081,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_PROFILEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_PROFILEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ProfileArbitraryHollowCore&lt;/Name&gt;
-        ///  &lt;Definition&gt;This is a collection of geometric properties of hollow core section profiles of precast concrete elements, to be used in conjunction with IfcArbitraryProfileDefWi [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;This is a collection of geometric properties of hollow core section profiles of precast concrete elements, to be used in conjunction with IfcArbitraryProfile [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ProfileArbitraryHollowCore {
             get {
@@ -6097,10 +6094,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_PROFILEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_PROFILEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ProfileMechanical&lt;/Name&gt;
-        ///  &lt;Definition&gt;This is a collection of mechanical properties that are applicable to virtually all profile classes. Most of these properties are especially used in structural analysis.&lt;/D [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;This is a collection of mechanical properties that are applicable to virtually all profile classes. Most of these properties are especially used in structural analysi [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ProfileMechanical {
             get {
@@ -6110,13 +6107,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ProjectCommon&lt;/Name&gt;
-        ///  &lt;Definition&gt;Property set for the application of high level project information to all occurrences of IfcProject&lt;/Definition&gt;
+        ///  &lt;Definition&gt;Property set for the application of high level project information.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;Ifc [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcProject&lt;/ClassName&gt;
+        ///  &lt;/App [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ProjectCommon {
             get {
@@ -6126,10 +6124,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ProjectOrderChangeOrder&lt;/Name&gt;
-        ///  &lt;Definition&gt;A change order is an instruction to make a change to a product or work being undertake. Note that the change order status is defined in the same way as a work ord [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;A change order is an instruction to make a change to a product or work being undertake. Note that the change order status is defined in the same way as a wor [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ProjectOrderChangeOrder {
             get {
@@ -6139,10 +6137,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ProjectOrderMaintenanceWorkOrder&lt;/Name&gt;
-        ///  &lt;Definition&gt;A MaintenanceWorkOrder is a detailed description of maintenance work that is to be performed. Note that the Scheduled Frequency property of the maintenan [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;A MaintenanceWorkOrder is a detailed description of maintenance work that is to be performed. Note that the Scheduled Frequency property of the main [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ProjectOrderMaintenanceWorkOrder {
             get {
@@ -6152,10 +6150,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ProjectOrderMoveOrder&lt;/Name&gt;
-        ///  &lt;Definition&gt;Defines the requirements for move orders. Note that the move order status is defined in the same way as a work order status since a move order implies a work requir [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Defines the requirements for move orders. Note that the move order status is defined in the same way as a work order status since a move order implies a work r [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ProjectOrderMoveOrder {
             get {
@@ -6165,13 +6163,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ProjectOrderPurchaseOrder&lt;/Name&gt;
         ///  &lt;Definition&gt;Defines the requirements for purchase orders in a project.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcProjectOrder/PURCHASEORDER&lt;/C [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcProjectOrder/PURCHASEORD [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ProjectOrderPurchaseOrder {
             get {
@@ -6181,13 +6179,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ProjectOrderWorkOrder&lt;/Name&gt;
         ///  &lt;Definition&gt;Defines the requirements for purchase orders in a project.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcProjectOrder/WORKORDER&lt;/ClassName [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcProjectOrder/WORKORDER&lt;/Clas [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ProjectOrderWorkOrder {
             get {
@@ -6197,10 +6195,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_PropertyAgreement&lt;/Name&gt;
-        ///  &lt;Definition&gt;A property agreement is an agreement that enables the occupation of a property for a period of time.The objective is to capture the information within an  agreement t [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;A property agreement is an agreement that enables the occupation of a property for a period of time.The objective is to capture the information within an  agreem [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_PropertyAgreement {
             get {
@@ -6210,10 +6208,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ProtectiveDeviceBreakerUnitI2TCurve&lt;/Name&gt;
-        ///  &lt;Definition&gt;A coherent set of attributes representing a curve for let-through energy of a protective device. Note - A protective device may be associated with d [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;A coherent set of attributes representing a curve for let-through energy of a protective device. Note - A protective device may be associated w [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ProtectiveDeviceBreakerUnitI2TCurve {
             get {
@@ -6223,10 +6221,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ProtectiveDeviceBreakerUnitI2TFuseCurve&lt;/Name&gt;
-        ///  &lt;Definition&gt;A coherent set of attributes representing curves for melting- and breaking-energy of a fuse. Note - A fuse may be associated with different inst [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;A coherent set of attributes representing curves for melting- and breaking-energy of a fuse. Note - A fuse may be associated with different [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ProtectiveDeviceBreakerUnitI2TFuseCurve {
             get {
@@ -6236,10 +6234,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ProtectiveDeviceBreakerUnitIPICurve&lt;/Name&gt;
-        ///  &lt;Definition&gt;A coherent set of attributes representing curves for  let-through currents of a protective device. Note - A protective device may be associated with [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;A coherent set of attributes representing curves for  let-through currents of a protective device. Note - A protective device may be associated [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ProtectiveDeviceBreakerUnitIPICurve {
             get {
@@ -6249,10 +6247,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ProtectiveDeviceBreakerUnitTypeMCB&lt;/Name&gt;
-        ///  &lt;Definition&gt;A coherent set of attributes representing the breaking capacities of an MCB. Note - A protective device may be associated with different instances of [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;A coherent set of attributes representing the breaking capacities of an MCB. Note - A protective device may be associated with different instanc [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ProtectiveDeviceBreakerUnitTypeMCB {
             get {
@@ -6262,10 +6260,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ProtectiveDeviceBreakerUnitTypeMotorProtection&lt;/Name&gt;
-        ///  &lt;Definition&gt;A coherent set of attributes representing different capacities of a a motor protection device, defined in accordance with IEC 60947. Note [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;A coherent set of attributes representing different capacities of a a motor protection device, defined in accordance with IEC 60947. [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ProtectiveDeviceBreakerUnitTypeMotorProtection {
             get {
@@ -6275,13 +6273,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ProtectiveDeviceOccurrence&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties that are applied to an occurrence of a protective device.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcProtectiveDevice&lt;/ [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcProtectiveDev [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ProtectiveDeviceOccurrence {
             get {
@@ -6291,10 +6289,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ProtectiveDeviceTrippingCurve&lt;/Name&gt;
-        ///  &lt;Definition&gt;Tripping curves are applied to thermal, thermal magnetic or MCB_RCD tripping units (i.e. tripping units having type property sets for thermal, thermal mag [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Tripping curves are applied to thermal, thermal magnetic or MCB_RCD tripping units (i.e. tripping units having type property sets for thermal, therma [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ProtectiveDeviceTrippingCurve {
             get {
@@ -6304,10 +6302,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ProtectiveDeviceTrippingFunctionGCurve&lt;/Name&gt;
-        ///  &lt;Definition&gt;Tripping functions are applied to electronic tripping units (i.e. tripping units having type property sets for electronic tripping defined). They [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Tripping functions are applied to electronic tripping units (i.e. tripping units having type property sets for electronic tripping defined). [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ProtectiveDeviceTrippingFunctionGCurve {
             get {
@@ -6317,10 +6315,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ProtectiveDeviceTrippingFunctionICurve&lt;/Name&gt;
-        ///  &lt;Definition&gt;Tripping functions are applied to electronic tripping units (i.e. tripping units having type property sets for electronic tripping defined). They [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Tripping functions are applied to electronic tripping units (i.e. tripping units having type property sets for electronic tripping defined). [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ProtectiveDeviceTrippingFunctionICurve {
             get {
@@ -6330,10 +6328,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ProtectiveDeviceTrippingFunctionLCurve&lt;/Name&gt;
-        ///  &lt;Definition&gt;Tripping functions are applied to electronic tripping units (i.e. tripping units having type property sets for electronic tripping defined). They [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Tripping functions are applied to electronic tripping units (i.e. tripping units having type property sets for electronic tripping defined). [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ProtectiveDeviceTrippingFunctionLCurve {
             get {
@@ -6343,10 +6341,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ProtectiveDeviceTrippingFunctionSCurve&lt;/Name&gt;
-        ///  &lt;Definition&gt;Tripping functions are applied to electronic tripping units (i.e. tripping units having type property sets for electronic tripping defined). They [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Tripping functions are applied to electronic tripping units (i.e. tripping units having type property sets for electronic tripping defined). [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ProtectiveDeviceTrippingFunctionSCurve {
             get {
@@ -6356,12 +6354,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ProtectiveDeviceTrippingUnitCurrentAdjustment&lt;/Name&gt;
         ///  &lt;Definition&gt;A set of current adjustment values that may be applied to an electronic or thermal tripping unit type.&lt;/Definition&gt;
-        ///  &lt;Applicability/&gt;
-        ///  &lt; [rest of string was truncated]&quot;;.
+        ///  &lt;Applicability/ [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ProtectiveDeviceTrippingUnitCurrentAdjustment {
             get {
@@ -6371,12 +6368,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ProtectiveDeviceTrippingUnitTimeAdjustment&lt;/Name&gt;
         ///  &lt;Definition&gt;A set of time adjustment values that may be applied to an electronic or thermal tripping unit type.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;Applic [rest of string was truncated]&quot;;.
+        ///  &lt;A [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ProtectiveDeviceTrippingUnitTimeAdjustment {
             get {
@@ -6386,13 +6383,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ProtectiveDeviceTrippingUnitTypeCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Common information concerning tripping units that area associated with protective devices&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;ApplicableClasses&gt;
-        ///  [rest of string was truncated]&quot;;.
+        ///  &lt;ApplicableClass [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ProtectiveDeviceTrippingUnitTypeCommon {
             get {
@@ -6402,13 +6398,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ProtectiveDeviceTrippingUnitTypeElectroMagnetic&lt;/Name&gt;
         ///  &lt;Definition&gt;Information on tripping units that are electrically or magnetically tripped.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt; [rest of string was truncated]&quot;;.
+        /// [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ProtectiveDeviceTrippingUnitTypeElectroMagnetic {
             get {
@@ -6418,13 +6414,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ProtectiveDeviceTrippingUnitTypeElectronic&lt;/Name&gt;
         ///  &lt;Definition&gt;Information on tripping units that are electronically tripped.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcProtec [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcP [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ProtectiveDeviceTrippingUnitTypeElectronic {
             get {
@@ -6434,13 +6430,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ProtectiveDeviceTrippingUnitTypeResidualCurrent&lt;/Name&gt;
         ///  &lt;Definition&gt;Information on tripping units that are activated by residual current.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassNa [rest of string was truncated]&quot;;.
+        ///    &lt;Cl [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ProtectiveDeviceTrippingUnitTypeResidualCurrent {
             get {
@@ -6450,13 +6446,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ProtectiveDeviceTrippingUnitTypeThermal&lt;/Name&gt;
         ///  &lt;Definition&gt;Information on tripping units that are thermally tripped.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcProtectiveDevi [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcProtectiv [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ProtectiveDeviceTrippingUnitTypeThermal {
             get {
@@ -6466,10 +6462,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ProtectiveDeviceTypeAntiArcingDevice&lt;/Name&gt;
-        ///  &lt;Definition&gt;Anti arcing device properties used in energy domain. The property set can be used by the predefined type ANTI_ARCING_DEVICE of IfcProtectiveDevice. [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Anti arcing device properties used in energy domain. The property set can be used by the predefined type ANTI_ARCING_DEVICE of IfcProtectiveDe [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ProtectiveDeviceTypeAntiArcingDevice {
             get {
@@ -6479,10 +6475,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ProtectiveDeviceTypeCircuitBreaker&lt;/Name&gt;
-        ///  &lt;Definition&gt;A coherent set of attributes representing different capacities of a circuit breaker or of a motor protection device, defined in accordance with IEC 6 [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;A coherent set of attributes representing different capacities of a circuit breaker or of a motor protection device, defined in accordance with  [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ProtectiveDeviceTypeCircuitBreaker {
             get {
@@ -6492,13 +6488,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ProtectiveDeviceTypeCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties that are applied to a definition of a protective device.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcProtectiveDevice&lt; [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcProtectiveDe [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ProtectiveDeviceTypeCommon {
             get {
@@ -6508,12 +6504,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ProtectiveDeviceTypeEarthLeakageCircuitBreaker&lt;/Name&gt;
         ///  &lt;Definition&gt;An earth failure device acts to protect people and equipment from the effects of current leakage.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;Appl [rest of string was truncated]&quot;;.
+        ///   [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ProtectiveDeviceTypeEarthLeakageCircuitBreaker {
             get {
@@ -6523,10 +6519,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ProtectiveDeviceTypeFuseDisconnector&lt;/Name&gt;
-        ///  &lt;Definition&gt;A coherent set of attributes representing the breaking capacity of a fuse, defined in accordance with IEC 60269. Note - A protective device may be  [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;A coherent set of attributes representing the breaking capacity of a fuse, defined in accordance with IEC 60269. Note - A protective device ma [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ProtectiveDeviceTypeFuseDisconnector {
             get {
@@ -6536,11 +6532,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ProtectiveDeviceTypeResidualCurrentCircuitBreaker&lt;/Name&gt;
-        ///  &lt;Definition&gt;A residual current circuit breaker opens, closes or isolates a circuit and has short circuit and overload protection.&lt;/Definition&gt;
-        ///  &lt; [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;A residual current circuit breaker opens, closes or isolates a circuit and has short circuit and overload protection.&lt;/Definition [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ProtectiveDeviceTypeResidualCurrentCircuitBreaker {
             get {
@@ -6550,11 +6545,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ProtectiveDeviceTypeResidualCurrentSwitch&lt;/Name&gt;
         ///  &lt;Definition&gt;A residual current switch opens, closes or isolates a circuit and has no short circuit or overload protection.&lt;/Definition&gt;
-        ///  &lt;Applicability/&gt; [rest of string was truncated]&quot;;.
+        ///  &lt;Applicabil [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ProtectiveDeviceTypeResidualCurrentSwitch {
             get {
@@ -6564,10 +6559,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ProtectiveDeviceTypeSparkGap&lt;/Name&gt;
-        ///  &lt;Definition&gt;Spark gap properties used in energy domain. The property set can be used by the predefined type SPARKGAP and VOLTAGELIMITER of IfcProtectiveDevice.&lt;/Defini [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Spark gap properties used in energy domain. The property set can be used by the predefined type SPARKGAP and VOLTAGELIMITER of IfcProtectiveDevice.&lt;/D [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ProtectiveDeviceTypeSparkGap {
             get {
@@ -6577,14 +6572,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ProtectiveDeviceTypeVaristor&lt;/Name&gt;
         ///  &lt;Definition&gt;A high voltage surge protection device.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcProtectiveDevice/VARISTOR&lt;/ClassName&gt;
-        ///    &lt; [rest of string was truncated]&quot;;.
+        /// [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ProtectiveDeviceTypeVaristor {
             get {
@@ -6594,14 +6589,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ProvisionForVoid&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties for Provisions For Voids.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcVirtualElement/PROVISIONFORVOID&lt;/ClassName&gt;
-        ///  &lt;/ApplicableCl [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcBuildingElementProxy/PROVISIONFORVOID&lt;/ClassName&gt;
+        ///    &lt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ProvisionForVoid {
             get {
@@ -6611,14 +6606,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_PumpOccurrence&lt;/Name&gt;
         ///  &lt;Definition&gt;Pump occurrence attributes attached to an instance of IfcPump.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcPump&lt;/ClassName&gt;
-        ///  &lt;/ApplicableClass [rest of string was truncated]&quot;;.
+        ///  &lt;/Applicable [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_PumpOccurrence {
             get {
@@ -6628,15 +6623,15 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_PumpPHistory&lt;/Name&gt;
         ///  &lt;Definition&gt;Pump performance history attributes.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcPump&lt;/ClassName&gt;
         ///  &lt;/ApplicableClasses&gt;
-        ///  &lt;ApplicableTypeValue&gt; [rest of string was truncated]&quot;;.
+        ///  &lt;ApplicableTypeV [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_PumpPHistory {
             get {
@@ -6646,15 +6641,15 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_PumpTypeCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Common attributes of a pump type.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcPump&lt;/ClassName&gt;
         ///    &lt;ClassName&gt;IfcPumpType&lt;/ClassName&gt;
-        ///  &lt;/App [rest of string was truncated]&quot;;.
+        ///   [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_PumpTypeCommon {
             get {
@@ -6664,13 +6659,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_QuayCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties common to the definition of all occurrences of IfcMarineFacility with the predefined type set to QUAY.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;Cl [rest of string was truncated]&quot;;.
+        ///   [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_QuayCommon {
             get {
@@ -6680,12 +6675,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_QuayDesignCriteria&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties common to the definition of design criteria of all occurrences of IfcMarineFacility with the predefined type set to QUAY.&lt;/Definition&gt;
-        ///  &lt;Applicability/&gt;
-        ///   [rest of string was truncated]&quot;;.
+        ///  &lt;Applicability [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_QuayDesignCriteria {
             get {
@@ -6695,14 +6689,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_RadiiKerbStone&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties describing the keb stone radii.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcKerb&lt;/ClassName&gt;
-        ///    &lt;ClassName&gt;IfcKerbType&lt;/ClassName [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcKerbType&lt;/Clas [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_RadiiKerbStone {
             get {
@@ -6712,14 +6706,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_RailingCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties common to the definition of all occurrences of IfcRailing.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcRailing&lt;/ClassName&gt;
-        ///    &lt;Cla [rest of string was truncated]&quot;;.
+        ///    [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_RailingCommon {
             get {
@@ -6729,13 +6723,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_RailTypeBlade&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties common to IfcRail types and occurrences with PredefinedType set to BLADE.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcRail/BLADE&lt;/C [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcRail/BLA [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_RailTypeBlade {
             get {
@@ -6745,13 +6739,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_RailTypeCheckRail&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties common to IfcRail types and occurrences with PredefinedType set to CHECKRAIL.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcRail/ [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;Ifc [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_RailTypeCheckRail {
             get {
@@ -6761,13 +6755,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_RailTypeGuardRail&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties common to IfcRail types and occurrences with PredefinedType set to GUARDRAIL.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcRail/ [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;Ifc [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_RailTypeGuardRail {
             get {
@@ -6777,13 +6771,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_RailTypeRail&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties common to IfcRail types and occurrences with PredefinedType set to RAIL.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcRail/RAIL&lt;/Clas [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcRail/RAIL&lt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_RailTypeRail {
             get {
@@ -6793,13 +6787,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_RailTypeStockRail&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties common to IfcRail types and occurrences with PredefinedType set to STOCKRAIL.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcRail/ [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;Ifc [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_RailTypeStockRail {
             get {
@@ -6809,10 +6803,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_RailwayBalise&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties  applicable to a railway balise. This property set is applied to a type or occurrence of IfcCommunicationsAppliance with predefined type TRANSPONDER.&lt;/Definiti [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties  applicable to a railway balise. This property set is applied to a type or occurrence of IfcCommunicationsAppliance with predefined type TRANSPONDER.&lt;/Def [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_RailwayBalise {
             get {
@@ -6822,13 +6816,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_RailwayCableCarrier&lt;/Name&gt;
         ///  &lt;Definition&gt;Common properties for cable carrier segments constructed in railway projects.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcCableCarrierSegm [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcCableCarrie [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_RailwayCableCarrier {
             get {
@@ -6838,13 +6832,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_RailwayLevelCrossing&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties applicable to IfcFacilityPartCommon with PredefinedType set to LEVELCROSSING.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcFaci [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;If [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_RailwayLevelCrossing {
             get {
@@ -6854,10 +6848,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_RailwaySignalAspect&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties in this property set are applicable for IfcSignal and IfcSign applied in railways. These properties describe the signal aspect, which is the information  [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties in this property set are applicable for IfcSignal and IfcSign applied in railways. These properties describe the signal aspect, which is the informa [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_RailwaySignalAspect {
             get {
@@ -6867,13 +6861,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_RailwaySignalOccurrence&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties common to the definition of occurrences of IfcSignal applied in railways.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcSigna [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;Ifc [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_RailwaySignalOccurrence {
             get {
@@ -6883,10 +6877,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_RailwaySignalSighting&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties that define information about signal sighting or visibility in railways. These properties are applicable to occurrences of IfcSignal and IfcSign.&lt;/Defini [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties that define information about signal sighting or visibility in railways. These properties are applicable to occurrences of IfcSignal and IfcSign.&lt;/D [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_RailwaySignalSighting {
             get {
@@ -6896,13 +6890,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_RailwaySignalType&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties common to the definition of occurrences and types of IfcSignal applied in railways.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;If [rest of string was truncated]&quot;;.
+        ///    &lt;ClassNa [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_RailwaySignalType {
             get {
@@ -6912,10 +6906,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_RailwayTrackStructurePart&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties applicable to IfcRailwayPart with PredefinedType set to TRACKSTRUCTURE, or more specialized types including PLAINTRACKSUPERSTRUCTURE, TURNOUTSUPERSTR [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties applicable to IfcRailwayPart with PredefinedType set to TRACK, or more specialized types including PLAINTRACK, TURNOUTTRACK, DILATATIONTRACK or  [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_RailwayTrackStructurePart {
             get {
@@ -6925,14 +6919,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_RampCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties common to the definition of all occurrences of IfcRamp.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcRamp&lt;/ClassName&gt;
-        ///    &lt;ClassName&gt;If [rest of string was truncated]&quot;;.
+        ///    &lt;ClassNa [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_RampCommon {
             get {
@@ -6942,13 +6936,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_RampFlightCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties common to the definition of all occurrences of IfcRampFlight.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcRampFlight&lt;/ClassName&gt; [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcRampFlight&lt;/Class [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_RampFlightCommon {
             get {
@@ -6958,15 +6952,15 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ReferentCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Specifies common properties for IfcReferent&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcReferent&lt;/ClassName&gt;
         ///  &lt;/ApplicableClasses&gt;
-        ///  &lt;Applicab [rest of string was truncated]&quot;;.
+        ///  &lt;App [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ReferentCommon {
             get {
@@ -6976,10 +6970,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ReinforcementBarCountOfIndependentFooting&lt;/Name&gt;
-        ///  &lt;Definition&gt;Reinforcement Concrete parameter [ST-2]: The amount number information of reinforcement  bar with the independent footing. The X and Y directi [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Reinforcement Concrete parameter [ST-2]: The amount number information of reinforcement  bar with the independent footing. The X and Y di [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ReinforcementBarCountOfIndependentFooting {
             get {
@@ -6989,14 +6983,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ReinforcementBarPitchOfBeam&lt;/Name&gt;
         ///  &lt;Definition&gt;The pitch length information of reinforcement  bar with the beam.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcBeam&lt;/ClassName&gt;
-        ///  [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcBeam&lt;/ClassNa [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ReinforcementBarPitchOfBeam {
             get {
@@ -7006,10 +6999,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ReinforcementBarPitchOfColumn&lt;/Name&gt;
-        ///  &lt;Definition&gt;The pitch length information of reinforcement  bar with the column. The X and Y direction are based on the local coordinate system of building storey. The [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;The pitch length information of reinforcement  bar with the column. The X and Y direction are based on the local coordinate system of building storey [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ReinforcementBarPitchOfColumn {
             get {
@@ -7019,11 +7012,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ReinforcementBarPitchOfContinuousFooting&lt;/Name&gt;
         ///  &lt;Definition&gt;Reinforcement Concrete parameter [ST-2]: The pitch length information of reinforcement  bar with the continuous footing.&lt;/Definition&gt;
-        ///  &lt;Applic [rest of string was truncated]&quot;;.
+        ///  &lt;A [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ReinforcementBarPitchOfContinuousFooting {
             get {
@@ -7033,14 +7026,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ReinforcementBarPitchOfSlab&lt;/Name&gt;
         ///  &lt;Definition&gt;The pitch length information of reinforcement  bar with the slab.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcSlab&lt;/ClassName&gt;
-        ///  [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcSlab&lt;/ClassNa [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ReinforcementBarPitchOfSlab {
             get {
@@ -7050,14 +7042,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ReinforcementBarPitchOfWall&lt;/Name&gt;
         ///  &lt;Definition&gt;The pitch length information of reinforcement  bar with the wall.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcWall&lt;/ClassName&gt;
-        ///  [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcWall&lt;/ClassNa [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ReinforcementBarPitchOfWall {
             get {
@@ -7067,13 +7058,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_RepairOccurrence&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties defining repair information for occurrences of element, asset or system.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcAsset&lt;/ClassN [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcAsset&lt;/C [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_RepairOccurrence {
             get {
@@ -7083,12 +7074,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_RevetmentCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties common to the definition of all occurrences of IfcMarineFacility with the predefined type set to REVETMENT.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;ApplicableClasse [rest of string was truncated]&quot;;.
+        ///  &lt;ApplicableC [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_RevetmentCommon {
             get {
@@ -7098,10 +7089,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_Risk&lt;/Name&gt;
-        ///  &lt;Definition&gt;An indication of exposure to mischance, peril, menace, hazard or loss. Documentation of a potential hazard, likilihood and consequence aligned with AS/NZS 4360 and BS PAS 1192-6:2 [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;An indication of exposure to mischance, peril, menace, hazard or loss. Documentation of a potential hazard, likilihood and consequence aligned with AS/NZS 4360 and BS PAS 119 [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_Risk {
             get {
@@ -7111,13 +7102,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_RoadDesignCriteriaCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Road design criteria that may be attached to road parts.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcFacilityPartCommon/JUNCTION&lt;/Cla [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcFacilityPartCommon/JUNCTION [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_RoadDesignCriteriaCommon {
             get {
@@ -7127,13 +7118,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_RoadGuardElement&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties assigned to IfcWall/PARAPET or IfcRailing/GUARDRAIL when assigned as road guard elements.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassNa [rest of string was truncated]&quot;;.
+        ///    &lt;Cl [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_RoadGuardElement {
             get {
@@ -7143,14 +7134,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_RoadMarkingCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties for road markings.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcSurfaceFeature/HATCHMARKING&lt;/ClassName&gt;
-        ///    &lt;ClassName&gt;IfcSurfaceF [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcSur [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_RoadMarkingCommon {
             get {
@@ -7160,15 +7151,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_RoadSymbolsCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties for road symbols.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcSurfaceFeature/SYMBOLMARKING&lt;/ClassName&gt;
-        ///  &lt;/ApplicableClasses&gt;
-        ///  &lt; [rest of string was truncated]&quot;;.
+        ///  &lt;/ApplicableClasses [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_RoadSymbolsCommon {
             get {
@@ -7178,12 +7168,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_RoofCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties common to the definition of all occurrences of IfcRoof. Note: Properties for ProjectedArea and TotalArea added in IFC 2x3&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;Appli [rest of string was truncated]&quot;;.
+        ///  &lt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_RoofCommon {
             get {
@@ -7193,10 +7183,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SanitaryTerminalTypeBath&lt;/Name&gt;
-        ///  &lt;Definition&gt;Sanitary appliance for immersion of the human body or parts of it (BS6100). HISTORY: In IFC4, Material and MaterialThickness properties removed. Use materials  [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Sanitary appliance for immersion of the human body or parts of it (BS6100). HISTORY: In IFC4, Material and MaterialThickness properties removed. Use mater [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SanitaryTerminalTypeBath {
             get {
@@ -7206,10 +7196,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SanitaryTerminalTypeBidet&lt;/Name&gt;
-        ///  &lt;Definition&gt;Waste water appliance for washing the excretory organs while sitting astride the bowl (BS6100). HISTORY: In IFC4, Material property removed. Use materials cap [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Waste water appliance for washing the excretory organs while sitting astride the bowl (BS6100). HISTORY: In IFC4, Material property removed. Use material [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SanitaryTerminalTypeBidet {
             get {
@@ -7219,10 +7209,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SanitaryTerminalTypeCistern&lt;/Name&gt;
-        ///  &lt;Definition&gt;A water storage unit attached to a sanitary terminal that is fitted with a device, operated automatically or by the user, that discharges water to cleanse a [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;A water storage unit attached to a sanitary terminal that is fitted with a device, operated automatically or by the user, that discharges water to clea [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SanitaryTerminalTypeCistern {
             get {
@@ -7232,14 +7222,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SanitaryTerminalTypeCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Common properties for sanitary terminals.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcSanitaryTerminal&lt;/ClassName&gt;
-        ///    &lt;ClassName [rest of string was truncated]&quot;;.
+        ///    &lt;Clas [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SanitaryTerminalTypeCommon {
             get {
@@ -7249,10 +7239,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SanitaryTerminalTypeSanitaryFountain&lt;/Name&gt;
-        ///  &lt;Definition&gt;Asanitary terminal that provides a low pressure jet of water for a specific purpose (IAI). HISTORY: In IFC4, Material property removed. Use materia [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Asanitary terminal that provides a low pressure jet of water for a specific purpose (IAI). HISTORY: In IFC4, Material property removed. Use ma [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SanitaryTerminalTypeSanitaryFountain {
             get {
@@ -7262,10 +7252,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SanitaryTerminalTypeShower&lt;/Name&gt;
-        ///  &lt;Definition&gt;Installation or waste water appliance that emits a spray of water to wash the human body (BS6100). HISTORY: In IFC4, Material and MaterialThickness propertie [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Installation or waste water appliance that emits a spray of water to wash the human body (BS6100). HISTORY: In IFC4, Material and MaterialThickness prop [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SanitaryTerminalTypeShower {
             get {
@@ -7275,10 +7265,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SanitaryTerminalTypeSink&lt;/Name&gt;
-        ///  &lt;Definition&gt;Waste water appliance for receiving, retaining or disposing of domestic, culinary, laboratory or industrial process liquids. HISTORY: In IFC4, Material propert [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Waste water appliance for receiving, retaining or disposing of domestic, culinary, laboratory or industrial process liquids. HISTORY: In IFC4, Material pr [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SanitaryTerminalTypeSink {
             get {
@@ -7288,10 +7278,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SanitaryTerminalTypeToiletPan&lt;/Name&gt;
-        ///  &lt;Definition&gt;Soil appliance for the disposal of excrement. HISTORY: In IFC4, Material property removed. Use materials capabilities from IfcMaterialsResource schema. Pr [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Soil appliance for the disposal of excrement. HISTORY: In IFC4, Material property removed. Use materials capabilities from IfcMaterialResource schema [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SanitaryTerminalTypeToiletPan {
             get {
@@ -7301,10 +7291,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SanitaryTerminalTypeUrinal&lt;/Name&gt;
-        ///  &lt;Definition&gt;Soil appliance that receives urine and directs it to a waste outlet (BS6100). HISTORY: In IFC4, Material property removed. Use materials capabilities from If [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Soil appliance that receives urine and directs it to a waste outlet (BS6100). HISTORY: In IFC4, Material property removed. Use materials capabilities fr [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SanitaryTerminalTypeUrinal {
             get {
@@ -7314,10 +7304,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SanitaryTerminalTypeWashHandBasin&lt;/Name&gt;
-        ///  &lt;Definition&gt;Waste water appliance for washing the upper parts of the body. HISTORY: In IFC4, Material property removed. Use materials capabilities from IfcMateria [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Waste water appliance for washing the upper parts of the body. HISTORY: In IFC4, Material property removed. Use materials capabilities from IfcMa [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SanitaryTerminalTypeWashHandBasin {
             get {
@@ -7327,11 +7317,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SectioningDevice&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties of sectioning device used in railway. The property set can be used by the predefined type INSULATOR of IfcDiscreteAccessory.&lt;/Definition&gt;
-        ///  &lt;Applicability/&gt; [rest of string was truncated]&quot;;.
+        ///  &lt;Applicabil [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SectioningDevice {
             get {
@@ -7341,10 +7331,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SectionInsulator&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties applicable to the insulator type of discrete accessory, indicated that the insulator is a section insulator used in the overhead contact line system.&lt;/Defin [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties applicable to the insulator type of discrete accessory, indicated that the insulator is a section insulator used in the overhead contact line system.&lt;/ [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SectionInsulator {
             get {
@@ -7354,14 +7344,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SensorPHistory&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties for history of controller values.  HISTORY: Added in IFC4.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcSensor&lt;/ClassName&gt;
-        ///  &lt;/Appli [rest of string was truncated]&quot;;.
+        ///  &lt;/ [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SensorPHistory {
             get {
@@ -7371,14 +7361,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SensorTypeCO2Sensor&lt;/Name&gt;
         ///  &lt;Definition&gt;A device that senses or detects carbon dioxide.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcSensor/CO2SENSOR&lt;/ClassName&gt;
-        ///    &lt;ClassName&gt; [rest of string was truncated]&quot;;.
+        ///    &lt;Class [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SensorTypeCO2Sensor {
             get {
@@ -7388,14 +7378,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SensorTypeCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Sensor type common attributes.  HISTORY: Added in IFC4.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcSensor&lt;/ClassName&gt;
-        ///    &lt;ClassName&gt;IfcSe [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SensorTypeCommon {
             get {
@@ -7405,13 +7395,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SensorTypeConductanceSensor&lt;/Name&gt;
         ///  &lt;Definition&gt;A device that senses or detects electrical conductance.  HISTORY: Added in IFC4.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcSen [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;I [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SensorTypeConductanceSensor {
             get {
@@ -7421,13 +7411,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SensorTypeContactSensor&lt;/Name&gt;
         ///  &lt;Definition&gt;A device that senses or detects contact. HISTORY: Added in IFC4.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcSensor/CONTACTSENSOR&lt;/C [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcSensor/CONTACTSENS [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SensorTypeContactSensor {
             get {
@@ -7437,13 +7427,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SensorTypeEarthquakeSensor&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties that are applicable for IfcSensor with predefined type EARTHQUAKESENSOR.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcS [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SensorTypeEarthquakeSensor {
             get {
@@ -7453,14 +7443,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SensorTypeFireSensor&lt;/Name&gt;
         ///  &lt;Definition&gt;A device that senses or detects the presence of fire.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcSensor/FIRESENSOR&lt;/ClassName&gt;
-        ///    &lt;Cl [rest of string was truncated]&quot;;.
+        ///   [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SensorTypeFireSensor {
             get {
@@ -7470,13 +7460,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SensorTypeFlowSensor&lt;/Name&gt;
         ///  &lt;Definition&gt;A device that senses or detects flow. HISTORY: Added in IFC4.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcSensor/FLOWSENSOR&lt;/ClassName&gt; [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcSensor/FLOWSENSOR&lt;/Class [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SensorTypeFlowSensor {
             get {
@@ -7486,12 +7476,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SensorTypeForeignObjectDetectionSensor&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties that are applicable for IfcSensor with predefined type FOREIGNOBJECTDETECTIONSENSOR.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;ApplicableClas [rest of string was truncated]&quot;;.
+        ///  &lt;Applicabl [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SensorTypeForeignObjectDetectionSensor {
             get {
@@ -7501,14 +7491,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SensorTypeFrostSensor&lt;/Name&gt;
-        ///  &lt;Definition&gt;A device that senses or detects the presense of frost.&lt;/Definition&gt;
+        ///  &lt;Definition&gt;A device that senses or detects the presence of frost.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcSensor/FROSTSENSOR&lt;/ClassName&gt;
-        ///     [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcSensor/FROSTSENSOR&lt;/ClassName&gt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SensorTypeFrostSensor {
             get {
@@ -7518,10 +7507,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SensorTypeGasSensor&lt;/Name&gt;
-        ///  &lt;Definition&gt;A device that senses or detects gas. HISTORY: Changed in IFC4. Gas detected made into enumeration, set point concentration and coverage area added. Range, accuracy  [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;A device that senses or detects gas. HISTORY: Changed in IFC4. Gas detected made into enumeration, set point concentration and coverage area added. Range, accu [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SensorTypeGasSensor {
             get {
@@ -7531,11 +7520,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SensorTypeHeatSensor&lt;/Name&gt;
         ///  &lt;Definition&gt;A device that senses or detects heat. HISTORY: In IFC4, incorporates Fire Sensor. HeatSensorSetPoint changed to SetPointTemperature&lt;/Definition&gt;
-        ///  &lt;Applicability/&gt; [rest of string was truncated]&quot;;.
+        ///  &lt;Applicabil [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SensorTypeHeatSensor {
             get {
@@ -7545,11 +7534,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SensorTypeHumiditySensor&lt;/Name&gt;
-        ///  &lt;Definition&gt;A device that senses or detects humidity. HISTORY: HumiditySensorSetPoint changed to SetPointHumidity. Range, accuracy and time constant deleted.&lt;/Definition&gt;
-        /// [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;A device that senses or detects humidity. HISTORY: HumiditySensorSetPoint changed to SetPointHumidity. Range, accuracy and time constant deleted.&lt;/Definit [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SensorTypeHumiditySensor {
             get {
@@ -7559,14 +7547,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SensorTypeIdentifierSensor&lt;/Name&gt;
         ///  &lt;Definition&gt;A device that senses identification tags.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcSensor/IDENTIFIERSENSOR&lt;/ClassName&gt;
-        ///    &lt;Cl [rest of string was truncated]&quot;;.
+        ///   [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SensorTypeIdentifierSensor {
             get {
@@ -7576,12 +7564,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SensorTypeIonConcentrationSensor&lt;/Name&gt;
         ///  &lt;Definition&gt;A device that senses or detects ion concentration such as water hardness. HISTORY: Added in IFC4.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;ApplicableClasses&gt; [rest of string was truncated]&quot;;.
+        ///  &lt;ApplicableCla [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SensorTypeIonConcentrationSensor {
             get {
@@ -7591,13 +7579,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SensorTypeLevelSensor&lt;/Name&gt;
         ///  &lt;Definition&gt;A device that senses or detects fill level.  HISTORY: Added in IFC4.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcSensor/LEVELSENSOR&lt;/C [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcSensor/LEVELSENS [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SensorTypeLevelSensor {
             get {
@@ -7607,11 +7595,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SensorTypeLightSensor&lt;/Name&gt;
-        ///  &lt;Definition&gt;A device that senses or detects light. HISTORY: LightSensorSensorSetPoint changed to SetPointIlluminance. Range, accuracy and time constant deleted.&lt;/Definition&gt;
-        /// [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;A device that senses or detects light. HISTORY: LightSensorSensorSetPoint changed to SetPointIlluminance. Range, accuracy and time constant deleted.&lt;/Definit [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SensorTypeLightSensor {
             get {
@@ -7621,13 +7608,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SensorTypeMoistureSensor&lt;/Name&gt;
         ///  &lt;Definition&gt;A device that senses or detects moisture. HISTORY: Added in IFC4.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcSensor/MOISTURESENSOR [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcSensor/MOISTURES [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SensorTypeMoistureSensor {
             get {
@@ -7637,13 +7624,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SensorTypeMovementSensor&lt;/Name&gt;
         ///  &lt;Definition&gt;A device that senses or detects movement. HISTORY: In IFC4, time constant deleted.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcSens [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;If [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SensorTypeMovementSensor {
             get {
@@ -7653,13 +7640,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SensorTypePHSensor&lt;/Name&gt;
         ///  &lt;Definition&gt;A device that senses or detects acidity.  HISTORY: Added in IFC4.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcSensor/PHSENSOR&lt;/ClassName&gt; [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcSensor/PHSENSOR&lt;/Class [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SensorTypePHSensor {
             get {
@@ -7669,10 +7656,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SensorTypePressureSensor&lt;/Name&gt;
-        ///  &lt;Definition&gt;A device that senses or detects pressure. HISTORY: PressureSensorSensorSetPoint changed to SetPointPressure. Range, accuracy and time constant deleted.&lt;/Defini [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;A device that senses or detects pressure. HISTORY: PressureSensorSensorSetPoint changed to SetPointPressure. Range, accuracy and time constant deleted.&lt;/D [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SensorTypePressureSensor {
             get {
@@ -7682,13 +7669,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SensorTypeRadiationSensor&lt;/Name&gt;
         ///  &lt;Definition&gt;A device that senses or detects radiation. HISTORY: Added in IFC4.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcSensor/RADIATIONSEN [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcSensor/RADIATI [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SensorTypeRadiationSensor {
             get {
@@ -7698,13 +7685,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SensorTypeRadioactivitySensor&lt;/Name&gt;
         ///  &lt;Definition&gt;A device that senses or detects atomic decay. HISTORY: Added in IFC4.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcSensor/RADIO [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcSensor/ [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SensorTypeRadioactivitySensor {
             get {
@@ -7714,13 +7701,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SensorTypeRainSensor&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties that are applicable for IfcSensor with predefined type RAINSENSOR.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcSensor/RAINSE [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcSensor/R [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SensorTypeRainSensor {
             get {
@@ -7730,10 +7717,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SensorTypeSmokeSensor&lt;/Name&gt;
-        ///  &lt;Definition&gt;A device that senses or detects smoke. HISTORY: PressureSensorSensorSetPoint (error in previous release) changed to SetPointConcentration. Range, accuracy and tim [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;A device that senses or detects smoke. HISTORY: PressureSensorSensorSetPoint (error in previous release) changed to SetPointConcentration. Range, accuracy an [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SensorTypeSmokeSensor {
             get {
@@ -7743,13 +7730,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SensorTypeSnowSensor&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties that are applicable for IfcSensor with predefined type SNOWDEPTHSENSOR.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcSensor/S [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcSen [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SensorTypeSnowSensor {
             get {
@@ -7759,11 +7746,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SensorTypeSoundSensor&lt;/Name&gt;
         ///  &lt;Definition&gt;A device that senses or detects sound. HISTORY: SoundSensorSensorSetPoint changed to SetPointSound. Range, accuracy and time constant deleted.&lt;/Definition&gt;
-        ///  &lt;App [rest of string was truncated]&quot;;.
+        ///  [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SensorTypeSoundSensor {
             get {
@@ -7773,10 +7760,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SensorTypeTemperatureSensor&lt;/Name&gt;
-        ///  &lt;Definition&gt;A device that senses or detects temperature. HISTORY: TemperatureSensorSensorSetPoint changed to SetPointTemperature. Range, accuracy and time constant dele [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;A device that senses or detects temperature. HISTORY: TemperatureSensorSensorSetPoint changed to SetPointTemperature. Range, accuracy and time constant [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SensorTypeTemperatureSensor {
             get {
@@ -7786,13 +7773,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SensorTypeTurnoutClosureSensor&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties that are applicable for IfcSensor with predefined type TURNOUTCLOSURESENSOR.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassN [rest of string was truncated]&quot;;.
+        ///    &lt;C [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SensorTypeTurnoutClosureSensor {
             get {
@@ -7802,13 +7789,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SensorTypeWindSensor&lt;/Name&gt;
         ///  &lt;Definition&gt;A device that senses or detects wind speed and direction. HISTORY: Added in IFC4.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcSensor/WI [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcSens [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SensorTypeWindSensor {
             get {
@@ -7818,12 +7805,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ServiceLife&lt;/Name&gt;
         ///  &lt;Definition&gt;Captures the period of time that an artifact will last.  HISTORY: Introduced in IFC2X4 as replacement for IfcServiceLife.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;ApplicableClass [rest of string was truncated]&quot;;.
+        ///  &lt;Applicable [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ServiceLife {
             get {
@@ -7833,13 +7820,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ServiceLifeFactors&lt;/Name&gt;
         ///  &lt;Definition&gt;Captures various factors that impact the expected service life of elements within the system or zone.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassN [rest of string was truncated]&quot;;.
+        ///    &lt;C [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ServiceLifeFactors {
             get {
@@ -7849,13 +7836,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ShadingDeviceCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Shading device properties associated with an element that represents a shading device&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcShadin [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcS [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ShadingDeviceCommon {
             get {
@@ -7865,14 +7852,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ShadingDevicePHistory&lt;/Name&gt;
         ///  &lt;Definition&gt;Shading device performance history attributes.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcShadingDevice&lt;/ClassName&gt;
-        ///  &lt;/ApplicableClas [rest of string was truncated]&quot;;.
+        ///  &lt;/Applicabl [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ShadingDevicePHistory {
             get {
@@ -7882,12 +7869,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ShipLockCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties common to the definition of all occurrences of IfcMarineFacility with the predefined type set to SHIPLOCK.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;ApplicableClasses&gt; [rest of string was truncated]&quot;;.
+        ///  &lt;ApplicableCla [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ShipLockCommon {
             get {
@@ -7897,10 +7884,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ShiplockComplex&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties common to the definition of occurrences of IfcMarineFacility with the predefined type set to SHIPLOCK, where the facility represents a complex of multiple ship [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties common to the definition of occurrences of IfcMarineFacility with the predefined type set to SHIPLOCK, where the facility represents a complex of multiple [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ShiplockComplex {
             get {
@@ -7910,11 +7897,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ShiplockDesignCriteria&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties common to the definition of design criteria of all occurrences of IfcMarineFacility with the predefined type set to SHIPLOCK.&lt;/Definition&gt;
-        ///  &lt;Applicabil [rest of string was truncated]&quot;;.
+        ///  &lt;Appli [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ShiplockDesignCriteria {
             get {
@@ -7924,12 +7911,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ShipyardCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties common to the definition of all occurrences of IfcMarineFacility with the predefined type set to SHIPYARD.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;ApplicableClasses&gt; [rest of string was truncated]&quot;;.
+        ///  &lt;ApplicableCla [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ShipyardCommon {
             get {
@@ -7939,13 +7926,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SignalFrame&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties that define signal frame parameters for occurrences and types of IfcSignal applied in railways.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassN [rest of string was truncated]&quot;;.
+        ///    &lt;C [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SignalFrame {
             get {
@@ -7955,15 +7942,15 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SignCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Common properties for Signs.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcSign&lt;/ClassName&gt;
         ///    &lt;ClassName&gt;IfcSignType&lt;/ClassName&gt;
-        ///  &lt;/ApplicableCl [rest of string was truncated]&quot;;.
+        ///  &lt;/Applica [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SignCommon {
             get {
@@ -7973,10 +7960,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SiteCommon&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties common to the definition of all occurrences of IfcSite. Please note that several site attributes are handled directly at the IfcSite instance, the site number (or s [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties common to the definition of all occurrences of IfcSite. Please note that several site attributes are handled directly at the IfcSite instance, the site number  [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SiteCommon {
             get {
@@ -7986,15 +7973,15 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SiteWeather&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties for site weather&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcSite&lt;/ClassName&gt;
         ///  &lt;/ApplicableClasses&gt;
-        ///  &lt;ApplicableTypeValue&gt;IfcSite&lt;/Ap [rest of string was truncated]&quot;;.
+        ///  &lt;ApplicableTypeValue&gt;IfcSit [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SiteWeather {
             get {
@@ -8004,13 +7991,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SlabCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties common to the definition of all occurrences of IfcSlab. Note: Properties for PitchAngle added in IFC 2x3&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;ApplicableClasses&gt;
-        ///    [rest of string was truncated]&quot;;.
+        ///  &lt;ApplicableClasses [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SlabCommon {
             get {
@@ -8020,11 +8006,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SlabTypeTrackSlab&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties in this property set are generally applicable slabs used in railway tracks, modelled as IfcSlab with PredefinedType TRACKSLAB.&lt;/Definition&gt;
-        ///  &lt;Applicabilit [rest of string was truncated]&quot;;.
+        ///  &lt;Applica [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SlabTypeTrackSlab {
             get {
@@ -8034,14 +8020,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SolarDeviceTypeCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Common properties for solar device types.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcSolarDevice&lt;/ClassName&gt;
-        ///    &lt;ClassName&gt;IfcSolarD [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcS [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SolarDeviceTypeCommon {
             get {
@@ -8051,10 +8037,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SolidStratumCapacity&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties expressing the capacity of a stratum using physical measures. Regional and National conventions should be captured through classification and specific pro [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties expressing the capacity of a stratum using physical measures. Regional and National conventions should be captured through classification and specifi [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SolidStratumCapacity {
             get {
@@ -8064,10 +8050,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SolidStratumComposition&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties expressing the composition of a stratum using volume measures, implementing ISO14688 Part 2 Table 1 Primary fractions and composite fractions. Regional [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties expressing the composition of a stratum using volume measures, implementing ISO14688 Part 2 Table 1 Primary fractions and composite fractions. Reg [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SolidStratumComposition {
             get {
@@ -8077,10 +8063,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SoundAttenuation&lt;/Name&gt;
-        ///  &lt;Definition&gt;Common definition to capture sound pressure at a point on behalf of a device typically used within the context of building services and flow distribution systems.   To i [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Common definition to capture sound pressure at a point on behalf of a device typically used within the context of building services and flow distribution systems.   [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SoundAttenuation {
             get {
@@ -8090,10 +8076,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SoundGeneration&lt;/Name&gt;
-        ///  &lt;Definition&gt;Common definition to capture the properties of sound typically used within the context of building services and flow distribution systems.  This property set is instant [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Common definition to capture the properties of sound typically used within the context of building services and flow distribution systems.  This property set is in [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SoundGeneration {
             get {
@@ -8103,14 +8089,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SpaceAirHandlingDimensioning&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties for Space AirHandling Dimensioning.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcSpatialElement&lt;/ClassName&gt;
-        ///    &lt;Clas [rest of string was truncated]&quot;;.
+        ///     [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SpaceAirHandlingDimensioning {
             get {
@@ -8120,10 +8106,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SpaceCommon&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties common to the definition of all occurrences of IfcSpace. Please note that several space attributes are handled directly at the IfcSpace instance, the space numbe [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties common to the definition of all occurrences of IfcSpace. Please note that several space attributes are handled directly at the IfcSpace instance, the space  [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SpaceCommon {
             get {
@@ -8133,10 +8119,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SpaceCoveringRequirements&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties common to the definition of covering requirements of IfcSpace. Those properties define the requirements coming from a space program in early projec [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties common to the definition of covering requirements of IfcSpace. Those properties define the requirements coming from a space program in early p [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SpaceCoveringRequirements {
             get {
@@ -8146,13 +8132,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SpaceFireSafetyRequirements&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties related to fire protection of spaces that apply to the occurrences of IfcSpace or IfcZone.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;ApplicableClasses&gt;
-        /// [rest of string was truncated]&quot;;.
+        ///  &lt;ApplicableClas [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SpaceFireSafetyRequirements {
             get {
@@ -8162,14 +8147,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SpaceHeaterPHistory&lt;/Name&gt;
         ///  &lt;Definition&gt;Space heater performance history common attributes.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcSpaceHeater&lt;/ClassName&gt;
-        ///  &lt;/ApplicableCla [rest of string was truncated]&quot;;.
+        ///  &lt;/Applicab [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SpaceHeaterPHistory {
             get {
@@ -8179,11 +8164,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SpaceHeaterTypeCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Space heater type common attributes.
-        ///SoundLevel attribute deleted in IFC2x2 Pset Addendum: Use IfcSoundProperties instead.  Properties added in IFC4.&lt;/Definition&gt; [rest of string was truncated]&quot;;.
+        ///SoundLevel attribute deleted in IFC2x2 Pset Addendum: Use IfcSoundProperties instead.  Properties added in IFC4.&lt;/Defini [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SpaceHeaterTypeCommon {
             get {
@@ -8193,14 +8178,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SpaceHeaterTypeConvector&lt;/Name&gt;
         ///  &lt;Definition&gt;Space heater type convector attributes.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcSpaceHeater/CONVECTOR&lt;/ClassName&gt;
-        ///    &lt;ClassNam [rest of string was truncated]&quot;;.
+        ///    &lt;Cla [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SpaceHeaterTypeConvector {
             get {
@@ -8210,14 +8195,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SpaceHeaterTypeRadiator&lt;/Name&gt;
         ///  &lt;Definition&gt;Space heater type radiator attributes.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcSpaceHeater/RADIATOR&lt;/ClassName&gt;
-        ///    &lt;ClassName&gt;I [rest of string was truncated]&quot;;.
+        ///    &lt;ClassN [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SpaceHeaterTypeRadiator {
             get {
@@ -8227,14 +8212,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SpaceHVACDesign&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties for HVAC requirements for spaces.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcSpatialElement&lt;/ClassName&gt;
-        ///    &lt;ClassName&gt;IfcSpatia [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcS [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SpaceHVACDesign {
             get {
@@ -8244,14 +8229,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SpaceLightingDesign&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties for requirements on Lighting of spaces.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcSpatialElement&lt;/ClassName&gt;
-        ///    &lt;ClassName [rest of string was truncated]&quot;;.
+        ///    &lt;Clas [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SpaceLightingDesign {
             get {
@@ -8261,11 +8246,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SpaceOccupancyRequirements&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties concerning work activities occurring or expected to occur within one or a set of similar spatial structure elements.&lt;/Definition&gt;
-        ///  &lt;Applicability [rest of string was truncated]&quot;;.
+        ///  &lt;Applicab [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SpaceOccupancyRequirements {
             get {
@@ -8275,10 +8260,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SpaceParking&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties common to the definition of all occurrences of IfcSpace which have an attribute value for ObjectType = &apos;Parking&apos;. NOTE: Modified in IFC 2x3, properties ParkingU [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties common to the definition of all occurrences of IfcSpace which have an attribute value for ObjectType = &apos;Parking&apos;.NOTE  Modified in IFC 2x3, properties Park [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SpaceParking {
             get {
@@ -8288,10 +8273,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SpaceThermalLoad&lt;/Name&gt;
-        ///  &lt;Definition&gt;The space thermal load defines all thermal losses and gains occurring within a space or zone.  The thermal load source attribute defines an enumeration of possible sou [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;The space thermal load defines all thermal losses and gains occurring within a space or zone.  The thermal load source attribute defines an enumeration of possibl [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SpaceThermalLoad {
             get {
@@ -8301,10 +8286,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SpaceThermalLoadPHistory&lt;/Name&gt;
-        ///  &lt;Definition&gt;The space thermal load IfcSpaceThermalLoadProperties defines actual measured thermal losses and gains occurring within a space or zone. The thermal load source  [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;This property set defines actual measured thermal losses and gains occurring within a space or zone. The thermal load source attribute defines an enumerati [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SpaceThermalLoadPHistory {
             get {
@@ -8314,13 +8299,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SpaceThermalPHistory&lt;/Name&gt;
         ///  &lt;Definition&gt;Thermal and air flow conditions of a space or zone. HISTORY: New property set in IFC 2x2.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcSp [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SpaceThermalPHistory {
             get {
@@ -8330,14 +8315,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SpatialZoneCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Common properties for Spatial Zones.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcSpatialZone&lt;/ClassName&gt;
-        ///    &lt;ClassName&gt;IfcSpatialZoneType [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcSpatialZon [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SpatialZoneCommon {
             get {
@@ -8347,11 +8332,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SpringTensioner&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties of spring tensioner used in railway. The property set can be used by the predefined type TENSIONINGEQUIPMENT of IfcDiscreteAccessory.&lt;/Definition&gt;
-        ///  &lt;Applica [rest of string was truncated]&quot;;.
+        ///  &lt;Ap [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SpringTensioner {
             get {
@@ -8361,14 +8346,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_StackTerminalTypeCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Common properties for stack terminals.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcStackTerminal&lt;/ClassName&gt;
-        ///    &lt;ClassName&gt;IfcStack [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;Ifc [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_StackTerminalTypeCommon {
             get {
@@ -8378,14 +8363,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_StairCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties common to the definition of all occurrences of IfcStair.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcStair&lt;/ClassName&gt;
-        ///    &lt;ClassName [rest of string was truncated]&quot;;.
+        ///    &lt;Clas [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_StairCommon {
             get {
@@ -8395,13 +8380,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_StairFlightCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties common to the definition of all occurrences of IfcStairFlight.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcStairFlight&lt;/ClassNa [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcStairFlight&lt;/Cl [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_StairFlightCommon {
             get {
@@ -8411,15 +8396,15 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_Stationing&lt;/Name&gt;
         ///  &lt;Definition&gt;Specifies stationing parameters for IfcReferent.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcReferent&lt;/ClassName&gt;
         ///  &lt;/ApplicableClasses&gt;
-        ///  &lt;Applica [rest of string was truncated]&quot;;.
+        ///  &lt;Ap [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_Stationing {
             get {
@@ -8429,10 +8414,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_StructuralSurfaceMemberVaryingThickness&lt;/Name&gt;
-        ///  &lt;Definition&gt;Thickness parameters of a surface member (structural analysis item) with varying thickness, particularly with linearly varying thickness.  The thi [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Thickness parameters of a surface member (structural analysis item) with varying thickness, particularly with linearly varying thickness.  Th [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_StructuralSurfaceMemberVaryingThickness {
             get {
@@ -8442,14 +8427,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SumpBusterCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties for a sump buster.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcElementAssembly/SUMPBUSTER&lt;/ClassName&gt;
-        ///    &lt;ClassName&gt;IfcElementA [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcEle [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SumpBusterCommon {
             get {
@@ -8459,13 +8444,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_Superelevation&lt;/Name&gt;
         ///  &lt;Definition&gt;Specifies the general properties for a Superelevation event.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcAnnotation/SUPERELEVATIONEVENT&lt;/ClassN [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcReferent/SUPERELEVATIONEVENT&lt;/Cla [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_Superelevation {
             get {
@@ -8475,13 +8460,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SwitchingDeviceTypeCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;A switching device is a device designed to make or break the current in one or more electric circuits.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;ApplicableClasses&gt;
-        ///  [rest of string was truncated]&quot;;.
+        ///  &lt;ApplicableClass [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SwitchingDeviceTypeCommon {
             get {
@@ -8491,13 +8475,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SwitchingDeviceTypeContactor&lt;/Name&gt;
         ///  &lt;Definition&gt;An electrical device used to control the flow of power in a circuit on or off.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcSwit [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;If [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SwitchingDeviceTypeContactor {
             get {
@@ -8507,11 +8491,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SwitchingDeviceTypeDimmerSwitch&lt;/Name&gt;
         ///  &lt;Definition&gt;A dimmer switch is a switch that adjusts electrical power through a variable position level action.  HISTORY: Added in IFC4.&lt;/Definition&gt;
-        ///  &lt;Applicabili [rest of string was truncated]&quot;;.
+        ///  &lt;Applic [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SwitchingDeviceTypeDimmerSwitch {
             get {
@@ -8521,12 +8505,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SwitchingDeviceTypeEmergencyStop&lt;/Name&gt;
         ///  &lt;Definition&gt;An emergency stop device acts to remove as quickly as possible any danger that may have arisen unexpectedly.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;Applica [rest of string was truncated]&quot;;.
+        ///  &lt;Ap [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SwitchingDeviceTypeEmergencyStop {
             get {
@@ -8536,13 +8520,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SwitchingDeviceTypeKeypad&lt;/Name&gt;
         ///  &lt;Definition&gt;A keypad is a switch supporting multiple functions.  HISTORY: Added in IFC4.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcSwitching [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcSwit [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SwitchingDeviceTypeKeypad {
             get {
@@ -8552,13 +8536,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SwitchingDeviceTypeMomentarySwitch&lt;/Name&gt;
         ///  &lt;Definition&gt;A momentary switch is a switch that does not hold state.  HISTORY: Added in IFC4.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassNam [rest of string was truncated]&quot;;.
+        ///    &lt;Cla [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SwitchingDeviceTypeMomentarySwitch {
             get {
@@ -8568,13 +8552,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SwitchingDeviceTypePHistory&lt;/Name&gt;
         ///  &lt;Definition&gt;Indicates switch positions or levels over time, such as for energy management or surveillance.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;Cla [rest of string was truncated]&quot;;.
+        ///    [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SwitchingDeviceTypePHistory {
             get {
@@ -8584,13 +8568,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SwitchingDeviceTypeRelay&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties in this property set are applicable for IfcSwitchingDevice with PredefinedType RELAY.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;Cla [rest of string was truncated]&quot;;.
+        ///    [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SwitchingDeviceTypeRelay {
             get {
@@ -8600,12 +8584,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SwitchingDeviceTypeSelectorSwitch&lt;/Name&gt;
         ///  &lt;Definition&gt;A selector switch is a switch that adjusts electrical power through a multi-position action.  HISTORY: Added in IFC4.&lt;/Definition&gt;
-        ///  &lt;Applicability/&gt;
-        /// [rest of string was truncated]&quot;;.
+        ///  &lt;Applicabili [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SwitchingDeviceTypeSelectorSwitch {
             get {
@@ -8615,12 +8598,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SwitchingDeviceTypeStarter&lt;/Name&gt;
         ///  &lt;Definition&gt;A starter is a switch which in the closed position controls the application of power to an electrical device.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;ApplicableCl [rest of string was truncated]&quot;;.
+        ///  &lt;Applica [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SwitchingDeviceTypeStarter {
             get {
@@ -8630,10 +8613,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SwitchingDeviceTypeSwitchDisconnector&lt;/Name&gt;
-        ///  &lt;Definition&gt;A switch disconnector is a switch which in the open position satisfies the isolating requirements specified for a disconnector.History: Property &apos; [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;A switch disconnector is a switch which in the open position satisfies the isolating requirements specified for a disconnector.History: Prope [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SwitchingDeviceTypeSwitchDisconnector {
             get {
@@ -8643,10 +8626,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SwitchingDeviceTypeToggleSwitch&lt;/Name&gt;
-        ///  &lt;Definition&gt;A toggle switch is a switch that enables or isolates electrical power through a two position on/off action.  HISTORY: SetPoint added in IFC4.&lt;/Definitio [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;A toggle switch is a switch that enables or isolates electrical power through a two position on/off action.  HISTORY: SetPoint added in IFC4.&lt;/Defi [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SwitchingDeviceTypeToggleSwitch {
             get {
@@ -8656,10 +8639,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SymmetricPairCable&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties applicable to a symmetric pair cable, which is is a copper cable with a variable number of copper twisted symmetric pair conductors used to transmit data  [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties applicable to a symmetric pair cable, which is is a copper cable with a variable number of copper twisted symmetric pair conductors used to transmit  [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SymmetricPairCable {
             get {
@@ -8669,10 +8652,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SystemFurnitureElementTypeCommon&lt;/Name&gt;
-        ///  &lt;Definition&gt;Common properties for all systems furniture (I.e. modular furniture) element types (e.g. vertical panels, work surfaces, and storage). HISTORY: First i [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Common properties for all systems furniture (I.e. modular furniture) element types (e.g. vertical panels, work surfaces, and storage). HISTORY: Fi [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SystemFurnitureElementTypeCommon {
             get {
@@ -8682,10 +8665,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SystemFurnitureElementTypePanel&lt;/Name&gt;
-        ///  &lt;Definition&gt;A set of specific properties for vertical panels that assembly workstations.. HISTORY: First issued in IFC Release R1.5. Renamed from Pset_Panel&lt;/Defini [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;A set of specific properties for vertical panels that assembly workstations.. HISTORY: First issued in IFC Release R1.5. Renamed from Pset_Panel&lt;/D [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SystemFurnitureElementTypePanel {
             get {
@@ -8695,11 +8678,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SystemFurnitureElementTypeSubrack&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties of subrack used in railway telecom. The property set can be used by the predefined type SUBRACK of IfcSystemFurnitureElement&lt;/Definition&gt;
-        ///  [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties of subrack used in railway telecom. The property set can be used by the predefined type SUBRACK of IfcSystemFurnitureElement&lt;/Definiti [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SystemFurnitureElementTypeSubrack {
             get {
@@ -8709,10 +8691,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_SystemFurnitureElementTypeWorkSurface&lt;/Name&gt;
-        ///  &lt;Definition&gt;A set of specific properties for work surfaces used in workstations. HISTORY: First issued in IFC Release R1.5. Renamed from Pset_Worksurface&lt;/Def [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;A set of specific properties for work surfaces used in workstations. HISTORY: First issued in IFC Release R1.5. Renamed from Pset_Worksurface [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_SystemFurnitureElementTypeWorkSurface {
             get {
@@ -8722,12 +8704,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_TankOccurrence&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties that relate to a tank. Note that a partial tank may be considered as a compartment within a compartmentalized tank.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;Applicabl [rest of string was truncated]&quot;;.
+        ///  &lt;Appl [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_TankOccurrence {
             get {
@@ -8737,15 +8719,15 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_TankTypeCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Common attributes of a tank type.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcTank&lt;/ClassName&gt;
         ///    &lt;ClassName&gt;IfcTankType&lt;/ClassName&gt;
-        ///  &lt;/App [rest of string was truncated]&quot;;.
+        ///   [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_TankTypeCommon {
             get {
@@ -8755,14 +8737,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_TankTypeExpansion&lt;/Name&gt;
         ///  &lt;Definition&gt;Common attributes of an expansion type tank.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcTank/EXPANSION&lt;/ClassName&gt;
-        ///    &lt;ClassName&gt;IfcTank [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;If [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_TankTypeExpansion {
             get {
@@ -8772,10 +8754,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_TankTypePreformed&lt;/Name&gt;
-        ///  &lt;Definition&gt;Fixed vessel manufactured as a single unit with one or more compartments for storing a liquid.Pset renamed from Pset_TankTypePreformedTank to Pset_TankTypePreformed i [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Fixed vessel manufactured as a single unit with one or more compartments for storing a liquid.Pset renamed from Pset_TankTypePreformedTank to Pset_TankTypePrefor [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_TankTypePreformed {
             get {
@@ -8785,14 +8767,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_TankTypePressureVessel&lt;/Name&gt;
         ///  &lt;Definition&gt;Common attributes of a pressure vessel.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcTank/PRESSUREVESSEL&lt;/ClassName&gt;
-        ///    &lt;ClassName&gt;If [rest of string was truncated]&quot;;.
+        ///    &lt;ClassNa [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_TankTypePressureVessel {
             get {
@@ -8802,10 +8784,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_TankTypeSectional&lt;/Name&gt;
-        ///  &lt;Definition&gt;Fixed vessel constructed from sectional parts with one or more compartments for storing a liquid.Note (1): All sectional construction tanks are considered to be recta [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Fixed vessel constructed from sectional parts with one or more compartments for storing a liquid.Note (1): All sectional construction tanks are considered to be  [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_TankTypeSectional {
             get {
@@ -8815,12 +8797,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_TelecomCableGeneral&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties common to occurrences and types of IfcCableSegment and IfcCableFitting applied in telecommunication domain.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;Applicable [rest of string was truncated]&quot;;.
+        ///  &lt;Appli [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_TelecomCableGeneral {
             get {
@@ -8830,14 +8812,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ThermalLoad&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties for thermal loads of elements.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcSpatialElement&lt;/ClassName&gt;
-        ///    &lt;ClassName&gt;IfcSpatialElemen [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcSpatialE [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ThermalLoad {
             get {
@@ -8847,12 +8829,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_TicketProcessing&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties for indicating performance ratings for ticket processing of entry elements (e.g. turnstile, boom barrier).&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;ApplicableClas [rest of string was truncated]&quot;;.
+        ///  &lt;Applicabl [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_TicketProcessing {
             get {
@@ -8862,12 +8844,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_TicketVendingMachine&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties of ticket vending machine. The property set can be used by IfcElectricAppliance with PredefinedType VENDINGMACHINE.&lt;/Definition&gt;
-        ///  &lt;Applicability/&gt;
-        ///  &lt;A [rest of string was truncated]&quot;;.
+        ///  &lt;Applicability/&gt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_TicketVendingMachine {
             get {
@@ -8877,15 +8858,15 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_Tiling&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties about tiles.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcPavement&lt;/ClassName&gt;
         ///    &lt;ClassName&gt;IfcCovering&lt;/ClassName&gt;
-        ///    &lt;ClassName&gt;IfcPav [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;I [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_Tiling {
             get {
@@ -8895,10 +8876,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_Tolerance&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties expressing the tolerance relating to locating and shaping of an intended element or feature. Range diameters are non-negative describing a linear, rectangular or   [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties expressing the tolerance relating to locating and shaping of an intended element or feature. Range diameters are non-negative describing a linear, rectangular [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_Tolerance {
             get {
@@ -8908,12 +8889,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_TrackBase&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties in this property set are applicable for IfcSlab with PredefinedType BASESLAB, indicated that the base slab is a track base slab.&lt;/Definition&gt;
-        ///  &lt;Applicability/&gt;
-        ///   [rest of string was truncated]&quot;;.
+        ///  &lt;Applicability [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_TrackBase {
             get {
@@ -8923,12 +8903,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_TrackElementOccurrenceSleeper&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties common to the definition to all occurrences of IfcTrackElement with PredefinedType set to SLEEPER.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;ApplicableC [rest of string was truncated]&quot;;.
+        ///  &lt;Applic [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_TrackElementOccurrenceSleeper {
             get {
@@ -8938,13 +8918,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_TrackElementPHistoryDerailer&lt;/Name&gt;
         ///  &lt;Definition&gt;Indicates derailer information over time for operation management.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcTrackElement/DERA [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcTrackElement [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_TrackElementPHistoryDerailer {
             get {
@@ -8954,12 +8934,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_TrackElementTypeDerailer&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties common to the definition to all occurrences and types of IfcTrackElement with PredefinedType set to DERAILER.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;App [rest of string was truncated]&quot;;.
+        ///  [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_TrackElementTypeDerailer {
             get {
@@ -8969,12 +8949,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_TrackElementTypeSleeper&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties common to the definition to all occurrences and types of IfcTrackElement with PredefinedType set to SLEEPER.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;Appli [rest of string was truncated]&quot;;.
+        ///  &lt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_TrackElementTypeSleeper {
             get {
@@ -8984,10 +8964,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_TractionPowerSystem&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties of a traction power system. The property is associated to the predefined type ELECTRICAL of IfcDistributionSystem, and is used to characterise systems such [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Properties of a traction power system. The property is associated to the predefined type ELECTRICAL of IfcDistributionSystem, and is used to characterise systems [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_TractionPowerSystem {
             get {
@@ -8997,13 +8977,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_TrafficCalmingDeviceCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties for a traffic calming device.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcElementAssembly/TRAFFIC_CALMING_DEVICE&lt;/Clas [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcElementAssembly/TRAFFIC_CALMING_DEVICE&lt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_TrafficCalmingDeviceCommon {
             get {
@@ -9013,13 +8993,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_TransformerTypeCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;An inductive stationary device that transfers electrical energy from one circuit to another.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt; [rest of string was truncated]&quot;;.
+        ///    &lt;Class [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_TransformerTypeCommon {
             get {
@@ -9029,14 +9009,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_TransitionSectionCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties for a transition section.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcEarthworksFill/TRANSITIONSECTION&lt;/ClassName&gt;
-        ///  &lt;/Appl [rest of string was truncated]&quot;;.
+        ///  &lt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_TransitionSectionCommon {
             get {
@@ -9046,13 +9026,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_TransportElementCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties common to the definition of all occurrences of IfcTransportElement or IfcTransportElementType&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;ApplicableClasses&gt;
-        ///   [rest of string was truncated]&quot;;.
+        ///  &lt;ApplicableClasse [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_TransportElementCommon {
             get {
@@ -9062,12 +9041,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_TransportElementElevator&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties common to the definition of all occurrences of IfcTransportElement with the predefined type =&amp;quot;ELEVATOR&amp;quot;&lt;/Definition&gt;
-        ///  &lt;Applicability/&gt;
-        ///   [rest of string was truncated]&quot;;.
+        ///  &lt;Applicability [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_TransportElementElevator {
             get {
@@ -9077,12 +9055,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_TransportEquipmentOTN&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties in this property set are applied to transport equipment that act in optical transport network (OTN) system.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;Applicab [rest of string was truncated]&quot;;.
+        ///  &lt;App [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_TransportEquipmentOTN {
             get {
@@ -9092,14 +9070,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_TrenchExcavationCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties for a trench excavation.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcEarthworksCut/TRENCH&lt;/ClassName&gt;
-        ///  &lt;/ApplicableClasses&gt; [rest of string was truncated]&quot;;.
+        ///  &lt;/ApplicableCla [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_TrenchExcavationCommon {
             get {
@@ -9109,14 +9087,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_TubeBundleTypeCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Tube bundle type common attributes.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcTubeBundle&lt;/ClassName&gt;
-        ///    &lt;ClassName&gt;IfcTubeBundleType [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcTubeBundl [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_TubeBundleTypeCommon {
             get {
@@ -9126,11 +9104,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_TubeBundleTypeFinned&lt;/Name&gt;
         ///  &lt;Definition&gt;Finned tube bundle type attributes.
-        ///Contains the attributes related to the fins attached to a tube in a finned tube bundle such as is commonly found in coils.&lt;/Def [rest of string was truncated]&quot;;.
+        ///Contains the attributes related to the fins attached to a tube in a finned tube bundle such as is commonly found in coils. [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_TubeBundleTypeFinned {
             get {
@@ -9140,12 +9118,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_Uncertainty&lt;/Name&gt;
         ///  &lt;Definition&gt;Property set capturing the geometric uncertainty regarding measurements including how the way that uncertainty was assessed.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;ApplicableCl [rest of string was truncated]&quot;;.
+        ///  &lt;Applica [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_Uncertainty {
             get {
@@ -9155,11 +9133,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_UnitaryControlElementBaseStationController&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties that are applicable to IfcUnitaryControlElement with the predefined type set to BASESTATIONCONTROLLER.&lt;/Definition&gt;
-        ///  &lt;Applicabili [rest of string was truncated]&quot;;.
+        ///  &lt;Applic [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_UnitaryControlElementBaseStationController {
             get {
@@ -9169,13 +9147,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_UnitaryControlElementPHistory&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties for history and operating schedules of thermostats.  HISTORY: Added in IFC4.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassNam [rest of string was truncated]&quot;;.
+        ///    &lt;Cla [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_UnitaryControlElementPHistory {
             get {
@@ -9185,13 +9163,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_UnitaryControlElementTypeCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Unitary control element type common attributes.  HISTORY: Added in IFC4.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcUnitary [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcUn [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_UnitaryControlElementTypeCommon {
             get {
@@ -9201,12 +9179,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_UnitaryControlElementTypeControlPanel&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties that are applicable to IfcUnitaryControlElement with the predefined type set to CONTROLPANEL.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;Applic [rest of string was truncated]&quot;;.
+        ///  &lt;A [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_UnitaryControlElementTypeControlPanel {
             get {
@@ -9216,13 +9194,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_UnitaryControlElementTypeIndicatorPanel&lt;/Name&gt;
         ///  &lt;Definition&gt;Unitary control element type indicator panel attributes.  HISTORY: Added in IFC4.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;Cla [rest of string was truncated]&quot;;.
+        ///    [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_UnitaryControlElementTypeIndicatorPanel {
             get {
@@ -9232,13 +9210,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_UnitaryControlElementTypeThermostat&lt;/Name&gt;
         ///  &lt;Definition&gt;Unitary control element type thermostat attributes.  HISTORY: Added in IFC4.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;If [rest of string was truncated]&quot;;.
+        ///    &lt;ClassNa [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_UnitaryControlElementTypeThermostat {
             get {
@@ -9248,12 +9226,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_UnitaryEquipmentTypeAirConditioningUnit&lt;/Name&gt;
         ///  &lt;Definition&gt;Air conditioning unit equipment type attributes.
-        ///Note that these attributes were formely Pset_PackagedACUnit prior to IFC2x2.
-        ///HeatingEnergySourc [rest of string was truncated]&quot;;.
+        ///Note that these attributes were formerly Pset_PackagedACUnit prior to IFC2x2.
+        ///HeatingEnerg [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_UnitaryEquipmentTypeAirConditioningUnit {
             get {
@@ -9263,13 +9241,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_UnitaryEquipmentTypeAirHandler&lt;/Name&gt;
         ///  &lt;Definition&gt;Air handler unitary equipment type attributes.
         ///Note that these attributes were formerly Pset_AirHandler prior to IFC2x2.&lt;/Definition&gt;
-        ///  &lt;Applicability/&gt;
-        /// [rest of string was truncated]&quot;;.
+        ///  &lt;Applicabili [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_UnitaryEquipmentTypeAirHandler {
             get {
@@ -9279,14 +9256,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_UnitaryEquipmentTypeCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Unitary equipment type common attributes.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcUnitaryEquipment&lt;/ClassName&gt;
-        ///    &lt;ClassName [rest of string was truncated]&quot;;.
+        ///    &lt;Clas [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_UnitaryEquipmentTypeCommon {
             get {
@@ -9296,10 +9273,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_UtilityConsumptionPHistory&lt;/Name&gt;
-        ///  &lt;Definition&gt;Consumption of utility resources, typically applied to the IfcBuilding instance, used to identify how much was consumed on I.e., a monthly basis.&lt;/Definition&gt; [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Consumption of utility resources, typically applied to the IfcBuilding instance, used to identify how much was consumed on I.e., a monthly basis.&lt;/Defini [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_UtilityConsumptionPHistory {
             get {
@@ -9309,13 +9286,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_PERFORMANCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ValvePHistory&lt;/Name&gt;
         ///  &lt;Definition&gt;Valve performance history common attributes of a typical 2 port pattern type valve.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcValve&lt;/ClassNam [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcValve&lt;/Cla [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ValvePHistory {
             get {
@@ -9325,13 +9302,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ValveTypeAirRelease&lt;/Name&gt;
         ///  &lt;Definition&gt;Valve used to release air from a pipe or fitting.
         ///Note that an air release valve is constrained to have a single port pattern&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;App [rest of string was truncated]&quot;;.
+        ///  [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ValveTypeAirRelease {
             get {
@@ -9341,15 +9318,15 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ValveTypeCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Valve type common attributes.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcValve&lt;/ClassName&gt;
         ///    &lt;ClassName&gt;IfcValveType&lt;/ClassName&gt;
-        ///  &lt;/Appl [rest of string was truncated]&quot;;.
+        ///  &lt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ValveTypeCommon {
             get {
@@ -9359,13 +9336,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ValveTypeDrawOffCock&lt;/Name&gt;
         ///  &lt;Definition&gt;A small diameter valve, used to drain water from a cistern or water filled system.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcValve/DR [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcVal [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ValveTypeDrawOffCock {
             get {
@@ -9375,14 +9352,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ValveTypeFaucet&lt;/Name&gt;
         ///  &lt;Definition&gt;A small diameter valve, with a free outlet, from which water is drawn.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcValve/FAUCET&lt;/ClassName&gt;
-        /// [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcValve/FAUCET&lt;/ClassN [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ValveTypeFaucet {
             get {
@@ -9392,11 +9368,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ValveTypeFlushing&lt;/Name&gt;
         ///  &lt;Definition&gt;Valve that flushes a predetermined quantity of water to cleanse a WC, urinal or slop hopper.
-        ///Note that a flushing valve is constrained to have a 2 port  pattern.&lt;/Def [rest of string was truncated]&quot;;.
+        ///Note that a flushing valve is constrained to have a 2 port  pattern. [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ValveTypeFlushing {
             get {
@@ -9406,14 +9382,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ValveTypeGasTap&lt;/Name&gt;
         ///  &lt;Definition&gt;A small diameter valve, used to discharge gas from a system.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcValve/GASTAP&lt;/ClassName&gt;
-        ///    &lt;Class [rest of string was truncated]&quot;;.
+        ///    &lt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ValveTypeGasTap {
             get {
@@ -9423,13 +9399,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ValveTypeIsolating&lt;/Name&gt;
         ///  &lt;Definition&gt;Valve that is used to isolate system components.
         ///Note that an isolating valve is constrained to have a 2 port  pattern.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;Applicable [rest of string was truncated]&quot;;.
+        ///  &lt;Appli [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ValveTypeIsolating {
             get {
@@ -9439,13 +9415,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ValveTypeMixing&lt;/Name&gt;
         ///  &lt;Definition&gt;A valve where typically the temperature of the outlet is determined by mixing hot and cold water inlet flows.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;ApplicableClasses&gt;
-        ///     [rest of string was truncated]&quot;;.
+        ///  &lt;ApplicableClasses&gt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ValveTypeMixing {
             get {
@@ -9455,11 +9430,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ValveTypePressureReducing&lt;/Name&gt;
         ///  &lt;Definition&gt;Valve that reduces the pressure of a fluid immediately downstream of its position in a pipeline to a preselected value or by a predetermined ratio.
-        ///Note that  [rest of string was truncated]&quot;;.
+        ///Note  [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ValveTypePressureReducing {
             get {
@@ -9469,11 +9444,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ValveTypePressureRelief&lt;/Name&gt;
         ///  &lt;Definition&gt;Spring or weight loaded valve that automatically discharges to a safe place fluid that has built up to excessive pressure in pipes or fittings.
-        ///Note that a pres [rest of string was truncated]&quot;;.
+        ///Note that a [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ValveTypePressureRelief {
             get {
@@ -9483,15 +9458,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_VegetationCommon&lt;/Name&gt;
-        ///  &lt;Definition&gt;Properties for a plant.&lt;/Definition&gt;
+        ///  &lt;Definition&gt;Properties for vegetation and plants, modelled as instances of IfcGeographicElement with the predefined type set to VEGETATION.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcGeographicElement/VEGETATION&lt;/ClassName&gt;
-        ///  &lt;/ApplicableClasses&gt;
-        ///  &lt;Applic [rest of string was truncated]&quot;;.
+        ///  &lt;A [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_VegetationCommon {
             get {
@@ -9501,13 +9473,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_VehicleAvailability&lt;/Name&gt;
         ///  &lt;Definition&gt;Property set for the application of availability data to vehicles and equipment.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcVehicle/ROL [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcVehicl [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_VehicleAvailability {
             get {
@@ -9517,14 +9489,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_VesselLineCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties for vessel lines and anchoring&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcMechanicalFastener/ROPE&lt;/ClassName&gt;
-        ///    &lt;ClassName&gt;If [rest of string was truncated]&quot;;.
+        ///    &lt;ClassNa [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_VesselLineCommon {
             get {
@@ -9534,14 +9506,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_VibrationIsolatorTypeCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Vibration isolator type common attributes.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcVibrationIsolator&lt;/ClassName&gt;
-        ///    &lt;ClassN [rest of string was truncated]&quot;;.
+        ///    &lt;C [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_VibrationIsolatorTypeCommon {
             get {
@@ -9551,10 +9523,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_VoltageInstrumentTransformer&lt;/Name&gt;
-        ///  &lt;Definition&gt;Instrument transformers are high accuracy class electrical devices used to isolate or transform voltage or current levels. The main function of instrument  [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Instrument transformers are high accuracy class electrical devices used to isolate or transform voltage or current levels. The main function of instru [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_VoltageInstrumentTransformer {
             get {
@@ -9564,14 +9536,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_WallCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties common to the definition of all occurrences of IfcWall.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcWall&lt;/ClassName&gt;
-        ///    &lt;ClassName&gt;If [rest of string was truncated]&quot;;.
+        ///    &lt;ClassNa [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_WallCommon {
             get {
@@ -9581,10 +9553,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_Warranty&lt;/Name&gt;
-        ///  &lt;Definition&gt;An assurance given by the seller or provider of an artefact that the artefact is without defects and will operate as described for a defined period of time without failure and [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;An assurance given by the seller or provider of an artefact that the artefact is without defects and will operate as described for a defined period of time without failur [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_Warranty {
             get {
@@ -9594,14 +9566,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_WasteTerminalTypeCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Common properties for waste terminals.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcWasteTerminal&lt;/ClassName&gt;
-        ///    &lt;ClassName&gt;IfcWaste [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;Ifc [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_WasteTerminalTypeCommon {
             get {
@@ -9611,13 +9583,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_WasteTerminalTypeFloorTrap&lt;/Name&gt;
         ///  &lt;Definition&gt;Pipe fitting, set into the floor, that retains liquid to prevent the passage of foul air.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassNam [rest of string was truncated]&quot;;.
+        ///    &lt;Cla [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_WasteTerminalTypeFloorTrap {
             get {
@@ -9627,13 +9599,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_WasteTerminalTypeFloorWaste&lt;/Name&gt;
         ///  &lt;Definition&gt;Pipe fitting, set into the floor, that collects waste water and discharges it to a separate trap.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;ApplicableClasses&gt;
-        ///     [rest of string was truncated]&quot;;.
+        ///  &lt;ApplicableClasses&gt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_WasteTerminalTypeFloorWaste {
             get {
@@ -9643,12 +9614,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_WasteTerminalTypeGullySump&lt;/Name&gt;
         ///  &lt;Definition&gt;Pipe fitting or assembly of fittings to receive surface water or waste water, fitted with a grating or sealed cover.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;Appli [rest of string was truncated]&quot;;.
+        ///  &lt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_WasteTerminalTypeGullySump {
             get {
@@ -9658,10 +9629,10 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_WasteTerminalTypeGullyTrap&lt;/Name&gt;
-        ///  &lt;Definition&gt;Pipe fitting or assembly of fittings to receive surface water or waste water, fitted with a grating or sealed cover and discharging through a trap (BS6100 33 [rest of string was truncated]&quot;;.
+        ///  &lt;Definition&gt;Pipe fitting or assembly of fittings to receive surface water or waste water, fitted with a grating or sealed cover and discharging through a trap (BS61 [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_WasteTerminalTypeGullyTrap {
             get {
@@ -9671,13 +9642,13 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_WasteTerminalTypeRoofDrain&lt;/Name&gt;
         ///  &lt;Definition&gt;Pipe fitting, set into the roof, that collects rainwater for discharge into the rainwater system.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt; [rest of string was truncated]&quot;;.
+        /// [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_WasteTerminalTypeRoofDrain {
             get {
@@ -9687,11 +9658,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_WasteTerminalTypeWasteDisposalUnit&lt;/Name&gt;
         ///  &lt;Definition&gt;Electrically operated device that reduces kitchen or other waste into fragments small enough to be flushed into a drainage system.&lt;/Definition&gt;
-        ///  &lt;Ap [rest of string was truncated]&quot;;.
+        /// [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_WasteTerminalTypeWasteDisposalUnit {
             get {
@@ -9701,12 +9672,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_WasteTerminalTypeWasteTrap&lt;/Name&gt;
         ///  &lt;Definition&gt;Pipe fitting, set adjacent to a sanitary terminal, that retains liquid to prevent the passage of foul air.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;ApplicableClass [rest of string was truncated]&quot;;.
+        ///  &lt;Applicable [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_WasteTerminalTypeWasteTrap {
             get {
@@ -9716,11 +9687,11 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_WaterStratumCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties expressing the composition and any variability in the height of the body of water. Ranges are non-negative describing a spread.&lt;/Definition&gt;
-        ///  &lt;Applicabilit [rest of string was truncated]&quot;;.
+        ///  &lt;Applica [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_WaterStratumCommon {
             get {
@@ -9730,14 +9701,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_Width&lt;/Name&gt;
         ///  &lt;Definition&gt;Specifies the general properties for a Width event.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcAnnotation/WIDTHEVENT&lt;/ClassName&gt;
-        ///  &lt;/ApplicableClasses&gt; [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcReferent/WIDTHEVENT&lt;/ClassName&gt;
+        ///  &lt;/ApplicableClass [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_Width {
             get {
@@ -9747,14 +9718,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_WindowCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties common to the definition of all occurrences of Window.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcWindow&lt;/ClassName&gt;
-        ///    &lt;ClassName [rest of string was truncated]&quot;;.
+        ///    &lt;Clas [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_WindowCommon {
             get {
@@ -9764,14 +9735,43 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
+        ///  &lt;Name&gt;Pset_WindowLiningProperties&lt;/Name&gt;
+        ///  &lt;Definition&gt;Properties of the window lining.HISTORY New property set in IFC4.3.2.0 to replace the entity IfcWindowLiningProperties&lt;/Definition&gt;
+        ///  &lt;Applicability/&gt;
+        ///  &lt;Ap [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Pset_WindowLiningProperties {
+            get {
+                return ResourceManager.GetString("Pset_WindowLiningProperties", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_TYPEDRIVENOVERRIDE&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
+        ///  &lt;Name&gt;Pset_WindowPanelProperties&lt;/Name&gt;
+        ///  &lt;Definition&gt;Properties of the window panel.HISTORY New property set in IFC4.3.2.0 to replace the entity IfcWindowPanelProperties&lt;/Definition&gt;
+        ///  &lt;Applicability/&gt;
+        ///  &lt;Appli [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Pset_WindowPanelProperties {
+            get {
+                return ResourceManager.GetString("Pset_WindowPanelProperties", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_WiredCommunicationPortCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties used for wired communication port.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
-        ///    &lt;ClassName&gt;IfcDistributionPort/CABLE&lt;/ClassName&gt;
-        ///  &lt;/ [rest of string was truncated]&quot;;.
+        ///    &lt;ClassName&gt;IfcDistributionPort/CABLE&lt;/ClassName&gt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_WiredCommunicationPortCommon {
             get {
@@ -9781,12 +9781,12 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_WorkControlCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties common to the definition of all occurrences of IfcWorkPlan and IfcWorkSchedule (subtypes of IfcWorkControl).&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
-        ///  &lt;ApplicableCla [rest of string was truncated]&quot;;.
+        ///  &lt;Applicab [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_WorkControlCommon {
             get {
@@ -9796,14 +9796,14 @@ namespace Xbim.Properties.Definitions {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; ?&gt;
-        ///&lt;PropertySetDef templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
-        ///  &lt;IfcVersion version=&quot;IFC4X3&quot;/&gt;
+        ///&lt;PropertySetDef xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; templatetype=&quot;PSET_OCCURRENCEDRIVEN&quot; xsi:noNamespaceSchemaLocation=&quot;http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd&quot;&gt;
+        ///  &lt;IfcVersion version=&quot;IFC4X3_ADD2&quot;/&gt;
         ///  &lt;Name&gt;Pset_ZoneCommon&lt;/Name&gt;
         ///  &lt;Definition&gt;Properties common to the definition of all occurrences of IfcZone.&lt;/Definition&gt;
         ///  &lt;Applicability/&gt;
         ///  &lt;ApplicableClasses&gt;
         ///    &lt;ClassName&gt;IfcZone&lt;/ClassName&gt;
-        ///  &lt;/ApplicableClass [rest of string was truncated]&quot;;.
+        ///  &lt;/Applicable [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pset_ZoneCommon {
             get {

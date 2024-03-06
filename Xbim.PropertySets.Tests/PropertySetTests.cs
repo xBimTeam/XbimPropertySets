@@ -130,6 +130,18 @@ namespace Xbim.Properties.Tests
             Assert.IsTrue(classes.Any(c => c.Equals("IfcRoad", StringComparison.InvariantCultureIgnoreCase)));
         }
 
+        [TestMethod]
+        public void CorrectSpellingOf_Pset_ConstructionOccurence()
+        {
+
+            var defs43 = new Definitions<PropertySetDef>(Version.IFC4x3);
+            defs43.LoadAllDefault();
+
+            var props = defs43.DefinitionSets.Where(p => p.Name == "Pset_ConstructionOccurence");
+
+            Assert.IsTrue(props.Any());
+        }
+
 
         [TestMethod]
         public void CanLoadIfc4x3QTOs()

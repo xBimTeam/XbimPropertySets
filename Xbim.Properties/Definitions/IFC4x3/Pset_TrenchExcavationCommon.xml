@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
-<PropertySetDef templatetype="PSET_OCCURRENCEDRIVEN" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd">
-  <IfcVersion version="IFC4X3"/>
+<PropertySetDef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" templatetype="PSET_OCCURRENCEDRIVEN" xsi:noNamespaceSchemaLocation="http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd">
+  <IfcVersion version="IFC4X3_ADD2"/>
   <Name>Pset_TrenchExcavationCommon</Name>
   <Definition>Properties for a trench excavation.</Definition>
   <Applicability/>
@@ -11,7 +11,7 @@
   <PropertyDefs>
     <PropertyDef>
       <Name>NominalDepth</Name>
-      <Definition>Nominal or quoted depth of the object measured from the inlet drain connection to the base of the unit.</Definition>
+      <Definition>Nominal Depth of the object</Definition>
       <PropertyType>
         <TypePropertySingleValue>
           <DataType type="IfcNonNegativeLengthMeasure"/>

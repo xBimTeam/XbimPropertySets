@@ -475,8 +475,8 @@
   <data name="Pset_ConstructionAdministration" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>IFC4x3\Pset_ConstructionAdministration.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="Pset_ConstructionOccurance" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>IFC4x3\Pset_ConstructionOccurance.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  <data name="Pset_ConstructionOccurence" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_ConstructionOccurence.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
   </data>
   <data name="Pset_ConstructionResource" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>IFC4x3\Pset_ConstructionResource.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
@@ -693,6 +693,12 @@
   </data>
   <data name="Pset_DoorCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>IFC4x3\Pset_DoorCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_DoorLiningProperties" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_DoorLiningProperties.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_DoorPanelProperties" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_DoorPanelProperties.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
   </data>
   <data name="Pset_DoorTypeTurnstile" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>IFC4x3\Pset_DoorTypeTurnstile.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
@@ -1079,7 +1085,7 @@
     <value>IFC4x3\Pset_MaterialCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
   </data>
   <data name="Pset_MaterialConcrete" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>IFC4x3\Pset_MaterialConcrete.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+    <value>IFC4x3\Pset_MaterialConcrete.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
   </data>
   <data name="Pset_MaterialEnergy" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>IFC4x3\Pset_MaterialEnergy.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
@@ -1160,7 +1166,7 @@
     <value>IFC4x3\Pset_MemberTypeOCSRigidSupport.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
   </data>
   <data name="Pset_MemberTypePost" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>IFC4x3\Pset_MemberTypePost.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+    <value>IFC4x3\Pset_MemberTypePost.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
   </data>
   <data name="Pset_MemberTypeTieBar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>IFC4x3\Pset_MemberTypeTieBar.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
@@ -1239,6 +1245,9 @@
   </data>
   <data name="Pset_PavementSurfaceCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>IFC4x3\Pset_PavementSurfaceCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_PermeableCoveringProperties" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_PermeableCoveringProperties.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
   </data>
   <data name="Pset_Permit" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>IFC4x3\Pset_Permit.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
@@ -2028,6 +2037,12 @@
   </data>
   <data name="Pset_WindowCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>IFC4x3\Pset_WindowCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_WindowLiningProperties" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_WindowLiningProperties.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pset_WindowPanelProperties" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>IFC4x3\Pset_WindowPanelProperties.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
   </data>
   <data name="Pset_WiredCommunicationPortCommon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>IFC4x3\Pset_WiredCommunicationPortCommon.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>

@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
-<PropertySetDef templatetype="PSET_TYPEDRIVENOVERRIDE" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd">
-  <IfcVersion version="IFC4X3"/>
+<PropertySetDef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" templatetype="PSET_TYPEDRIVENOVERRIDE" xsi:noNamespaceSchemaLocation="http://buildingSMART-tech.org/xml/psd/PSD_IFC4.xsd">
+  <IfcVersion version="IFC4X3_ADD2"/>
   <Name>Pset_DamperTypeCommon</Name>
   <Definition>Damper type common attributes.</Definition>
   <Applicability/>
@@ -261,7 +261,9 @@
     </PropertyDef>
     <PropertyDef>
       <Name>FrameDepth</Name>
-      <Definition>The length (or depth) of the damper frame.</Definition>
+      <Definition>The length (or depth) of the frame.
+
+For a damper, it is the length (or depth) of the damper frame.</Definition>
       <PropertyType>
         <TypePropertySingleValue>
           <DataType type="IfcPositiveLengthMeasure"/>
@@ -270,7 +272,9 @@
     </PropertyDef>
     <PropertyDef>
       <Name>FrameThickness</Name>
-      <Definition>The thickness of the damper frame material.</Definition>
+      <Definition>The thickness of the frame.
+
+For a damper, it is the thickness of the damper frame material.</Definition>
       <PropertyType>
         <TypePropertySingleValue>
           <DataType type="IfcPositiveLengthMeasure"/>
