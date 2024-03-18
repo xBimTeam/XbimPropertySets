@@ -1,114 +1,115 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-	<PropertyGroup>
-		<OutputType>Library</OutputType>
-		<RestorePackages>true</RestorePackages>
-		<TargetFrameworks>netstandard2.0;netstandard2.1</TargetFrameworks>
-		<PackageLicenseExpression>CDDL-1.0</PackageLicenseExpression>
-		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-		<Authors>xBIM Team</Authors>
-		<PackageProjectUrl>https://github.com/xBimTeam/XbimPropertySets</PackageProjectUrl>
-		<PackageIcon>xbim-toolkit-icon.png</PackageIcon>
-		<RepositoryUrl>https://github.com/xBimTeam/XbimPropertySets.git</RepositoryUrl>
-		<RepositoryType>git</RepositoryType>
-		<PackageTags>BIM, IFC, BuildingSmart, PropertySets, Property, IFD, bSDD</PackageTags>
-		<PackageReleaseNotes>Now supporting IFC4x3 schema</PackageReleaseNotes>
-		<AssemblyVersion>6.0.0</AssemblyVersion>
-		<FileVersion>6.0.0</FileVersion>
-    <Version>6.0.0</Version>
-		<SignAssembly>true</SignAssembly>
-		<AssemblyOriginatorKeyFile>XbimOpenSourceKeyFile.snk</AssemblyOriginatorKeyFile>
-		<Title>xbim.PropertySets</Title>
-		<Description>Programmatic access to BuildingSmart Properties and Psets for IFC schemas, and related Data Dictionaries</Description>
-	</PropertyGroup>
-	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netstandard2.0|AnyCPU'">
-	  <DefineConstants>DEBUG;TRACE</DefineConstants>
-	</PropertyGroup>
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <RestorePackages>true</RestorePackages>
+    <TargetFrameworks>net8.0</TargetFrameworks>
+    <PackageLicenseExpression>CDDL-1.0</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Authors>xBIM Team</Authors>
+    <PackageProjectUrl>https://github.com/xBimTeam/XbimPropertySets</PackageProjectUrl>
+    <PackageIcon>xbim-toolkit-icon.png</PackageIcon>
+    <RepositoryUrl>https://github.com/xBimTeam/XbimPropertySets.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>BIM, IFC, BuildingSmart, PropertySets, Property, IFD, bSDD</PackageTags>
+    <PackageReleaseNotes>Now supporting IFC4x3 schema
+Upgraded to .net8</PackageReleaseNotes>
+    <AssemblyVersion>8.0.0</AssemblyVersion>
+    <FileVersion>8.0.0</FileVersion>
+    <Version>8.0.0</Version>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>XbimOpenSourceKeyFile.snk</AssemblyOriginatorKeyFile>
+    <Title>xbim.PropertySets</Title>
+    <Description>Programmatic access to BuildingSmart Properties and Psets for IFC schemas, and related Data Dictionaries</Description>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netstandard2.0|AnyCPU'">
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netstandard2.1|AnyCPU'">
     <DefineConstants>DEBUG;TRACE</DefineConstants>
   </PropertyGroup>
-	<ItemGroup>
-		<None Include="..\xbim-toolkit-icon.png">
-			<Pack>True</Pack>
-			<PackagePath></PackagePath>
-		</None>
-	</ItemGroup>
-	<ItemGroup>
-		<Compile Update="Definitions\IFC2x3_Defitinion_files.Designer.cs">
-			<AutoGen>True</AutoGen>
-			<DesignTime>True</DesignTime>
-			<DependentUpon>IFC2x3_Defitinion_files.resx</DependentUpon>
-		</Compile>
-		<Compile Update="Definitions\Ifc4x3_Definition_files.Designer.cs">
-		  <DesignTime>True</DesignTime>
-		  <AutoGen>True</AutoGen>
-		  <DependentUpon>Ifc4x3_Definition_files.resx</DependentUpon>
-		</Compile>
-		<Compile Update="Definitions\IFC4x3_QTO_Definition_files.Designer.cs">
-		  <DesignTime>True</DesignTime>
-		  <AutoGen>True</AutoGen>
-		  <DependentUpon>IFC4x3_QTO_Definition_files.resx</DependentUpon>
-		</Compile>
-		<Compile Update="Definitions\IFC4_and_COBie_Definition_files.Designer.cs">
-			<AutoGen>True</AutoGen>
-			<DesignTime>True</DesignTime>
-			<DependentUpon>IFC4_and_COBie_Definition_files.resx</DependentUpon>
-		</Compile>
-		<Compile Update="Definitions\IFC4_COBie_Definition_files.Designer.cs">
-			<AutoGen>True</AutoGen>
-			<DesignTime>True</DesignTime>
-			<DependentUpon>IFC4_COBie_Definition_files.resx</DependentUpon>
-		</Compile>
-		<Compile Update="Definitions\IFC4_Definition_files.Designer.cs">
-			<AutoGen>True</AutoGen>
-			<DesignTime>True</DesignTime>
-			<DependentUpon>IFC4_Definition_files.resx</DependentUpon>
-		</Compile>
-		<Compile Update="Definitions\IFC4_QTO_Definition_files.Designer.cs">
-			<AutoGen>True</AutoGen>
-			<DesignTime>True</DesignTime>
-			<DependentUpon>IFC4_QTO_Definition_files.resx</DependentUpon>
-		</Compile>
-	</ItemGroup>
-	<ItemGroup>
-		<None Update="Schema\PSD_IFC4_TC1.xsd">
-			<SubType>Designer</SubType>
-		</None>
-		<None Update="Schema\QTO_IFC4.xsd">
-			<SubType>Designer</SubType>
-		</None>
-	</ItemGroup>
-	<ItemGroup>
-		<PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
-		<PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
-	</ItemGroup>
-	<ItemGroup>
-		<EmbeddedResource Update="Definitions\IFC2x3_Defitinion_files.resx">
-			<Generator>PublicResXFileCodeGenerator</Generator>
-			<LastGenOutput>IFC2x3_Defitinion_files.Designer.cs</LastGenOutput>
-		</EmbeddedResource>
-		<EmbeddedResource Update="Definitions\Ifc4x3_Definition_files.resx">
-		  <Generator>ResXFileCodeGenerator</Generator>
-		  <LastGenOutput>Ifc4x3_Definition_files.Designer.cs</LastGenOutput>
-		</EmbeddedResource>
-		<EmbeddedResource Update="Definitions\IFC4x3_QTO_Definition_files.resx">
-		  <Generator>ResXFileCodeGenerator</Generator>
-		  <LastGenOutput>IFC4x3_QTO_Definition_files.Designer.cs</LastGenOutput>
-		</EmbeddedResource>
-		<EmbeddedResource Update="Definitions\IFC4_and_COBie_Definition_files.resx">
-			<Generator>ResXFileCodeGenerator</Generator>
-			<LastGenOutput>IFC4_and_COBie_Definition_files.Designer.cs</LastGenOutput>
-		</EmbeddedResource>
-		<EmbeddedResource Update="Definitions\IFC4_COBie_Definition_files.resx">
-			<Generator>ResXFileCodeGenerator</Generator>
-			<LastGenOutput>IFC4_COBie_Definition_files.Designer.cs</LastGenOutput>
-		</EmbeddedResource>
-		<EmbeddedResource Update="Definitions\IFC4_Definition_files.resx">
-			<Generator>PublicResXFileCodeGenerator</Generator>
-			<LastGenOutput>IFC4_Definition_files.Designer.cs</LastGenOutput>
-		</EmbeddedResource>
-		<EmbeddedResource Update="Definitions\IFC4_QTO_Definition_files.resx">
-			<Generator>PublicResXFileCodeGenerator</Generator>
-			<LastGenOutput>IFC4_QTO_Definition_files.Designer.cs</LastGenOutput>
-		</EmbeddedResource>
-	</ItemGroup>
+  <ItemGroup>
+    <None Include="..\xbim-toolkit-icon.png">
+      <Pack>True</Pack>
+      <PackagePath>
+      </PackagePath>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Definitions\IFC2x3_Defitinion_files.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>IFC2x3_Defitinion_files.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Definitions\Ifc4x3_Definition_files.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Ifc4x3_Definition_files.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Definitions\IFC4x3_QTO_Definition_files.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>IFC4x3_QTO_Definition_files.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Definitions\IFC4_and_COBie_Definition_files.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>IFC4_and_COBie_Definition_files.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Definitions\IFC4_COBie_Definition_files.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>IFC4_COBie_Definition_files.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Definitions\IFC4_Definition_files.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>IFC4_Definition_files.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Definitions\IFC4_QTO_Definition_files.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>IFC4_QTO_Definition_files.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Schema\PSD_IFC4_TC1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Update="Schema\QTO_IFC4.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Definitions\IFC2x3_Defitinion_files.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>IFC2x3_Defitinion_files.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Definitions\Ifc4x3_Definition_files.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Ifc4x3_Definition_files.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Definitions\IFC4x3_QTO_Definition_files.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>IFC4x3_QTO_Definition_files.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Definitions\IFC4_and_COBie_Definition_files.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>IFC4_and_COBie_Definition_files.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Definitions\IFC4_COBie_Definition_files.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>IFC4_COBie_Definition_files.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Definitions\IFC4_Definition_files.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>IFC4_Definition_files.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Definitions\IFC4_QTO_Definition_files.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>IFC4_QTO_Definition_files.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+  </ItemGroup>
 </Project>
